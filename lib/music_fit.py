@@ -38,13 +38,22 @@ def best_start(x, seconds):
 
 
 def fit(track, out, seconds, offset=None, lufs=-14):
+    """Cut the best section, repair clipped peaks (Pixabay masters are often clipped), soften the
+    harsh top end and set loudness with a LINEAR gain (two-pass loudnorm), so nothing pumps or crackles."""
     x = decode(track)
     start = best_start(x, seconds) if offset is None else offset
     fade_out = min(1.2, seconds / 6)
-    af = (f"atrim=start={start}:duration={seconds},asetpts=PTS-STARTPTS,"
-          f"afade=t=in:d=0.04,afade=t=out:st={seconds - fade_out}:d={fade_out},"
-          f"loudnorm=I={lufs}:TP=-1.5:LRA=9")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", track, "-af", af, "-ar", str(SR), "-ac", "2", out], check=True)
+    pre = (f"atrim=start={start}:duration={seconds},asetpts=PTS-STARTPTS,volume=0.7,"
+           f"adeclip=window=55:overlap=75,lowpass=f=14500,"
+           f"afade=t=in:d=0.04,afade=t=out:st={seconds - fade_out}:d={fade_out}")
+    import json as _json
+    m = subprocess.run(["ffmpeg", "-v", "info", "-i", track, "-af", pre + f",loudnorm=I={lufs}:TP=-2:LRA=11:print_format=json",
+                        "-f", "null", "-"], capture_output=True, text=True).stderr
+    j = _json.loads(m[m.rindex("{"): m.rindex("}") + 1])
+    ln = (f"loudnorm=I={lufs}:TP=-2:LRA=11:linear=true:measured_I={j['input_i']}:measured_TP={j['input_tp']}:"
+          f"measured_LRA={j['input_lra']}:measured_thresh={j['input_thresh']}:offset={j['target_offset']}")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", track, "-af", pre + "," + ln, "-ar", str(SR), "-ac", "2",
+                    "-c:a", "pcm_f32le", out], check=True)
     return start
 
 

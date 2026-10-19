@@ -8,7 +8,15 @@
   "Glowi pulls up the full ingredient list,",
   "then checks it against your skin profile.",
   "Good fit, or not quite? You'll see why, before you spend.",
-  "Scan it first. Then decide. Your first scan in Glowi is free."
+  "Scan it first. Then decide. Glowi, link in bio."
  ],
- "offsets": []
+ "offsets": [
+  0.1,
+  2.12,
+  3.97,
+  6.1,
+  8.41,
+  11.65
+ ],
+ "model": "kokoro-v1.0.fp16.onnx"
 }

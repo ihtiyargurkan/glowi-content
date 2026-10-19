@@ -1,0 +1,130 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  #jar { left: 240px; top: 560px; width: 600px; height: 600px; }
+  #t1 { top: 220px; font-size: 112px; padding: 0 70px; }
+  #t1 .w:nth-last-child(-n+2) { color: var(--rose); }
+  #notdec { top: 1300px; left: 50%; font-size: 76px; padding: 26px 56px; background: var(--rose); }
+  #s2T { top: 230px; font-size: 104px; padding: 0 60px; line-height: 1; }
+  #jar2 { left: 90px; top: 520px; width: 300px; height: 300px; }
+  #eq { left: 420px; right: 80px; top: 560px; font-weight: 800; font-size: 64px; line-height: 1.12; }
+  .mcard { left: 90px; right: 90px; height: 230px; display: flex; align-items: center; gap: 46px; padding: 0 60px; }
+  .mcard .big { font-family: Fraunces; font-size: 150px; color: var(--rose); width: 260px; line-height: 1; }
+  .mcard .arr { font-size: 70px; font-weight: 800; color: var(--ink-soft); }
+  .mcard .lbl { font-weight: 850; font-size: 72px; letter-spacing: -.02em; }
+  #s3T { top: 220px; font-size: 110px; }
+  .chip3 { left: 50%; padding: 28px 54px; border-radius: 999px; background: var(--ivory); font-weight: 850; font-size: 60px; white-space: nowrap; box-shadow: 0 16px 40px rgba(75,46,57,.12); }
+  #vc { left: 340px; top: 760px; width: 400px; height: 700px; }
+  #vcL { top: 1500px; font-weight: 800; font-size: 56px; padding: 0 80px; line-height: 1.15; }
+  #vcL b { color: #B5541B; }
+  #darkbg { inset: 0; background: var(--plum-deep); }
+  #end { top: 300px; font-size: 120px; padding: 0 70px; color: var(--ivory); }
+  #end .w:nth-last-child(-n+2) { color: var(--gold); }
+  .ck { left: 130px; right: 130px; height: 150px; display: flex; align-items: center; gap: 34px; font-size: 54px; font-weight: 750; color: var(--ivory); border-bottom: 3px solid rgba(251,248,246,.12); }
+  .ck i { width: 70px; height: 70px; border-radius: 18px; border: 5px solid var(--gold); display: flex; align-items: center; justify-content: center; font-style: normal; font-size: 44px; color: var(--gold); }
+  #endHandle { top: 1620px; font-size: 48px; font-weight: 800; letter-spacing: .14em; color: var(--ivory); }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-250px;top:-200px;background:#fff"></div>
+  <div class="blob" style="width:760px;height:760px;right:-260px;top:1000px;background:#E9B9C6"></div>
+  <div class="blob" style="width:600px;height:600px;left:80px;top:1500px;background:#F7E3D3"></div>
+  <div class="handle" style="right:70px;top:90px">GLOWI</div>
+
+  <!-- the period-after-opening jar, drawn as an original line icon -->
+  <template id="jarT">
+    <svg viewBox="0 0 600 600" fill="none" stroke="#4B2E39" stroke-linecap="round" stroke-linejoin="round">
+      <g class="lid"><path d="M150 210 L450 210" stroke-width="26"/><path d="M190 210 L190 180 Q190 160 210 160 L390 160 Q410 160 410 180 L410 210" stroke-width="22"/></g>
+      <path d="M140 250 L460 250 L430 520 Q426 548 398 548 L202 548 Q174 548 170 520 Z" stroke-width="26" fill="rgba(251,248,246,.9)"/>
+      <text class="m" x="300" y="440" text-anchor="middle" font-family="Fraunces" font-size="150" fill="#D9708A" stroke="none">12M</text>
+    </svg>
+  </template>
+
+  <div id="b1">
+    <div id="t1" class="abs center hook">See this tiny jar on your skincare?</div>
+    <div id="jar" class="abs"></div>
+    <div id="notdec" class="abs pill">It's not decoration.</div>
+  </div>
+
+  <div id="b2">
+    <div id="s2T" class="abs center serif">Period after opening</div>
+    <div id="jar2" class="abs"></div>
+    <div id="eq" class="abs">= months it's good for <span style="color:var(--rose)">after you open it</span></div>
+    <div class="mcard abs card" style="top:960px"><div class="big">12M</div><div class="arr">→</div><div class="lbl">12 months</div></div>
+    <div class="mcard abs card" style="top:1240px"><div class="big">6M</div><div class="arr">→</div><div class="lbl">6 months</div></div>
+  </div>
+
+  <div id="b3">
+    <div id="s3T" class="abs center hook">Past that</div>
+    <div class="chip3 abs" style="top:420px">↓ Loses strength</div>
+    <div class="chip3 abs" style="top:580px">⚠ Can irritate skin</div>
+    <svg id="vc" class="abs" viewBox="0 0 400 700">
+      <rect x="150" y="20" width="100" height="120" rx="30" fill="#4B2E39"/>
+      <rect x="170" y="130" width="60" height="50" fill="#2E1A22"/>
+      <rect x="70" y="180" width="260" height="480" rx="60" fill="rgba(251,248,246,.55)" stroke="#4B2E39" stroke-width="10"/>
+      <rect id="serum" x="88" y="300" width="224" height="342" rx="46" fill="#F6D27A"/>
+      <text x="200" y="470" text-anchor="middle" font-family="Inter" font-weight="850" font-size="54" fill="#4B2E39">VIT C</text>
+    </svg>
+    <div id="vcL" class="abs center">Turned <b>dark orange</b>? It's oxidized. Replace it.</div>
+  </div>
+
+  <div id="b4">
+    <div id="darkbg" class="abs"></div>
+    <div id="end" class="abs center hook">Save this. Check your shelf.</div>
+    <div class="ck abs" style="top:780px"><i>✓</i>Find the jar symbol</div>
+    <div class="ck abs" style="top:950px"><i>✓</i>Note when you opened it</div>
+    <div class="ck abs" style="top:1120px"><i>✓</i>Vitamin C still light?</div>
+    <div id="endHandle" class="abs center">FOLLOW FOR SKIN, DECODED</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.HIT = 1.1; window.DURATION = 22.9; window.COVER = 1.5;
+const B = [0, 3.37, 9.75, 18.96];
+$("#jar").innerHTML = $("#jarT").innerHTML; $("#jar2").innerHTML = $("#jarT").innerHTML;
+const mix = (a, b, p) => a.map((v, i) => Math.round(v + (b[i] - v) * p));
+function scene(t) {
+  win($("#b1"), t, 0, B[1]); win($("#b2"), t, B[1], B[2]); win($("#b3"), t, B[2], B[3]); win($("#b4"), t, B[3], 99);
+  flash($("#flash"), t, B);
+  // 1: jar pops in from frame 0, lid flips open, the number races to 12M and locks
+  const jp = pr(t, 0, .45, E.back);
+  $("#jar").style.transform = `scale(${.55 + .45 * jp}) rotate(${(1 - jp) * -12 + Math.sin(t * 2) * 2}deg)`;
+  const lid = $("#jar .lid"); const lp = pr(t, .35, .5, E.back);
+  lid.setAttribute("transform", `rotate(${-38 * lp} 150 210) translate(0 ${-30 * lp})`);
+  const n = Math.round(12 * pr(t, .15, .95)); $("#jar .m").textContent = n + "M";
+  words($("#t1"), t, .1, .09);
+  const np_ = pr(t, 2.0, .3, E.back);
+  $("#notdec").style.opacity = clamp((t - 2.0) / .1);
+  $("#notdec").style.transform = `translateX(-50%) scale(${.6 + .4 * np_}) rotate(-3deg)`;
+  if (t >= B[1]) {
+    const lt = t - B[1];
+    words($("#s2T"), lt, 0, .1);
+    show($("#jar2"), lt, .1, .4, 60, E.back);
+    $("#jar2 .lid").setAttribute("transform", "rotate(-38 150 210) translate(0 -30)");
+    show($("#eq"), lt, .5, .4, 40);
+    $$(".mcard").forEach((c, i) => show(c, lt, [3.4, 4.85][i], .4, 120, E.back));
+  }
+  if (t >= B[2]) {
+    const lt = t - B[2];
+    words($("#s3T"), lt, 0, .1);
+    $$(".chip3").forEach((c, i) => { const p = show(c, lt, [.5, 1.6][i], .35, 40, E.back); c.style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px)`; });
+    show($("#vc"), lt, 2.4, .5, 120, E.back);
+    const ox = pr(lt, 3.9, 2.2, E.inOut);
+    const c = mix([246, 210, 122], [181, 84, 27], ox);
+    $("#serum").setAttribute("fill", `rgb(${c})`);
+    $("#vc").style.transform = `rotate(${Math.sin(lt * 1.6) * 3}deg)`;
+    show($("#vcL"), lt, 4.6, .4, 30);
+  }
+  if (t >= B[3]) {
+    const lt = t - B[3];
+    words($("#end"), lt, .05, .09);
+    $$(".ck").forEach((c, i) => show(c, lt, .8 + i * .45, .35, 40, E.back));
+    show($("#endHandle"), lt, 2.4, .4, 20);
+    $(".handle").style.color = "var(--ivory)";
+  } else $(".handle").style.color = "";
+}
+</script>
+</body></html>

@@ -11,5 +11,14 @@
   "And if your vitamin C serum turns dark orange, it has oxidized. Time to replace it.",
   "Save this, and go check your shelf. Follow for more."
  ],
- "offsets": []
+ "offsets": [
+  0.1,
+  2.02,
+  3.47,
+  6.81,
+  9.85,
+  13.54,
+  19.06
+ ],
+ "model": "kokoro-v1.0.fp16.onnx"
 }
