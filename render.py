@@ -22,7 +22,7 @@ def launch(p):
     return p.chromium.launch(args=["--font-render-hinting=none", "--disable-lcd-text"], **kw)
 
 
-def reel(html, music="auto", seed=1):
+def reel(html, music="auto", seed=1, bpm=0, style="house"):
     out_dir = os.path.dirname(os.path.abspath(html))
     out = os.path.join(out_dir, "reel.mp4")
     with sync_playwright() as p:
@@ -37,7 +37,12 @@ def reel(html, music="auto", seed=1):
         audio = []
         if music == "auto":
             wav = os.path.join(tempfile.mkdtemp(), "bed.wav")
-            subprocess.run([sys.executable, os.path.join(HERE, "lib", "music.py"), wav, str(dur), str(seed)], check=True)
+            beats = pg.evaluate("typeof B !== 'undefined' ? B : []")
+            hit = pg.evaluate("window.HIT ?? null")
+            cmd = [sys.executable, os.path.join(HERE, "lib", "music.py"), wav, str(dur), str(seed), str(bpm or 0), "--style", style,
+                   "--beats", ",".join(str(b) for b in beats)]
+            if hit is not None: cmd += ["--hit", str(hit)]
+            subprocess.run(cmd, check=True)
             audio = ["-i", wav]
         elif music not in ("none", None):
             audio = ["-i", music]
@@ -83,5 +88,7 @@ if __name__ == "__main__":
     ap.add_argument("html")
     ap.add_argument("--music", default="auto")
     ap.add_argument("--seed", type=int, default=1)
+    ap.add_argument("--bpm", type=int, default=0)
+    ap.add_argument("--style", default="house")
     a = ap.parse_args()
-    print(reel(a.html, a.music, a.seed) if a.kind == "reel" else "\n".join(carousel(a.html)))
+    print(reel(a.html, a.music, a.seed, a.bpm, a.style) if a.kind == "reel" else "\n".join(carousel(a.html)))
