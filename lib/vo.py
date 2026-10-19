@@ -11,7 +11,8 @@ import json, os, subprocess, sys
 import numpy as np, soundfile as sf
 
 BASE = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
-MODEL, VOICES = "kokoro-v1.0.int8.onnx", "voices-v1.0.bin"
+MODEL = os.environ.get("KOKORO_MODEL", "kokoro-v1.0.fp16.onnx")  # fp16: cleaner than int8, fits in 1 GB RAM
+VOICES = "voices-v1.0.bin"
 
 
 def ensure_models(d):

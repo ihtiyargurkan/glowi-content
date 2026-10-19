@@ -1,0 +1,14 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "duck": 0.5,
+ "lines": [
+  "Before you buy another serum, scan it.",
+  "Point your camera at the barcode.",
+  "Glowi pulls up the full ingredient list,",
+  "then checks it against your skin profile.",
+  "Good fit, or not quite? You'll see why, before you spend.",
+  "Scan it first. Then decide. Your first scan in Glowi is free."
+ ],
+ "offsets": []
+}
