@@ -15,19 +15,19 @@ MODEL = os.environ.get("KOKORO_MODEL", "kokoro-v1.0.fp16.onnx")  # fp16: cleaner
 VOICES = "voices-v1.0.bin"
 
 
-def ensure_models(d):
+def ensure_models(d, model=MODEL):
     os.makedirs(d, exist_ok=True)
-    for f in (MODEL, VOICES):
+    for f in (model, VOICES):
         p = os.path.join(d, f)
         if not os.path.exists(p) or os.path.getsize(p) < 1_000_000:
             subprocess.run(["curl", "-sSL", "-o", p, BASE + f], check=True)
-    return os.path.join(d, MODEL), os.path.join(d, VOICES)
+    return os.path.join(d, model), os.path.join(d, VOICES)
 
 
 def main(post_dir):
     spec = json.load(open(os.path.join(post_dir, "vo.json")))
     from kokoro_onnx import Kokoro
-    m, v = ensure_models(os.environ.get("KOKORO_DIR", os.path.expanduser("~/.kokoro")))
+    m, v = ensure_models(os.environ.get("KOKORO_DIR", os.path.expanduser("~/.kokoro")), spec.get("model", MODEL))
     k = Kokoro(m, v)
     durs = []
     for i, line in enumerate(spec["lines"]):
