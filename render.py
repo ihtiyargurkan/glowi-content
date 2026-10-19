@@ -44,8 +44,10 @@ def reel(html, music="auto", seed=1, bpm=0, style="house"):
             if hit is not None: cmd += ["--hit", str(hit)]
             subprocess.run(cmd, check=True)
             audio = ["-i", wav]
-        elif music not in ("none", None):
-            audio = ["-i", music]
+        elif music not in ("none", None):  # a real track: fit its best section to this reel
+            wav = os.path.join(tempfile.mkdtemp(), "fit.wav")
+            subprocess.run([sys.executable, os.path.join(HERE, "lib", "music_fit.py"), music, wav, str(dur)], check=True)
+            audio = ["-i", wav]
         if not audio:
             audio = ["-f", "lavfi", "-t", str(dur), "-i", "anullsrc=r=44100:cl=stereo"]
         enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "image2pipe", "-framerate", str(FPS),
