@@ -1,0 +1,14 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "duck": 0.45,
+ "lines": [
+  "This is what a skin scan actually sees.",
+  "First, a skin score.",
+  "Then the concerns behind it, like uneven tone or an oily T-zone.",
+  "Then it builds your routine around them.",
+  "Plus a twenty-eight day skin cycle to follow it.",
+  "Stop guessing. Start scanning. Your first scan in Glowi is free."
+ ],
+ "offsets": []
+}
