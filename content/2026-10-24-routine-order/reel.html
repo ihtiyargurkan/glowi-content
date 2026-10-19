@@ -65,8 +65,9 @@
 </div>
 <script src="../../lib/anim.js"></script>
 <script>
-window.HIT = 2.4; window.DURATION = 13.5; window.COVER = 1.9;
-const B = [0, 3.0, 6.4, 10.8];
+window.HIT = 2.4; window.DURATION = 16.4; window.COVER = 1.9;
+const B = [0, 3.2, 6.25, 11.53];
+const STEPS = [0.1, 1.61, 2.34, 3.44];
 // 1: bottles tumble in from frame 0 in the wrong order, then shuffle into the right one
 const wrong = [[110, 520, -14], [330, 590, 9], [570, 480, -6], [800, 560, 12]];
 const right = [[800, 600, 0], [570, 640, 0], [330, 600, 0], [110, 630, 0]]; // SPF, cream, serum, wash → reversed
@@ -86,15 +87,15 @@ function scene(t) {
     const lt = t - B[1];
     words($("#ruleT"), lt, 0, .09);
     show($("#rule"), lt, .3, .4, 40);
-    const dx = lerp(110, 800, pr(lt, .8, 1.6, E.inOut));
+    const dx = lerp(110, 800, pr(lt, 1.75, 1.1, E.inOut));
     $("#dot").style.left = dx + "px"; $("#dot").style.opacity = clamp((lt - .6) / .2);
-    show($("#ruleL"), lt, .6, .3, 20); show($("#ruleR"), lt, .8, .3, 20);
-    show($("#ruleSub"), lt, 1.7, .4, 30);
+    show($("#ruleL"), lt, 1.7, .3, 20); show($("#ruleR"), lt, 2.3, .3, 20);
+    show($("#ruleSub"), lt, 2.5, .3, 30);
   }
   if (t >= B[2]) {
     const lt = t - B[2];
     words($("#listT"), lt, 0, .1);
-    $$(".step").forEach((s, i) => show(s, lt, .45 + i * .55, .45, 120, E.back));
+    $$(".step").forEach((s, i) => show(s, lt, STEPS[i], .4, 120, E.back));
   }
   if (t >= B[3]) {
     const lt = t - B[3];

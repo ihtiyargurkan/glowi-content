@@ -73,8 +73,8 @@
 </div>
 <script src="../../lib/anim.js"></script>
 <script>
-window.HIT = 4.4; window.DURATION = 14; window.COVER = 1.8;
-const B = [0, 3.2, 7.6, 10.8];
+window.HIT = 3.37; window.DURATION = 16.9; window.COVER = 1.8;
+const B = [0, 2.17, 7.71, 12.28];
 const pts = [[250,250],[450,250],[200,420],[500,420],[350,300],[300,560],[400,560],[350,720],[180,560],[520,560],[350,170],[260,690],[440,690]];
 pts.forEach(([x,y]) => $("#dots").innerHTML += `<circle cx="${x}" cy="${y}" r="0"/>`);
 function scene(t) {
@@ -85,7 +85,7 @@ function scene(t) {
   $("#scan").setAttribute("y", sy);
   $$("#dots circle").forEach((c, i) => { const y = pts[i][1]; const hit = t * 520 > y - 60; c.setAttribute("r", hit ? 10 + 3 * Math.sin(t * 6 + i) : 0); });
   $("#face").style.transform = `scale(${1 + .03 * t})`;
-  words($("#t1"), t, 1.2, .1);
+  words($("#t1"), t, .3, .08);
   if (t >= B[1]) {
     const lt = t - B[1];
     show($("#ex"), lt, 0, .2, 10);
@@ -94,14 +94,14 @@ function scene(t) {
     $("#score").textContent = Math.round(72 * p);
     $("#score").style.transform = `scale(${1 + .08 * Math.sin(clamp((lt - 1.2) / .22) * Math.PI)})`;
     show($("#scoreL"), lt, .3, .3, 10);
-    words($("#t2"), lt, 1.6, .08);
-    $$(".chip2").forEach((c, i) => { show(c, lt, 2.4 + i * .4, .4, 80, E.back); const b = c.querySelector("i"); b.style.width = (+b.dataset.v * pr(lt, 2.6 + i * .4, .7)) + "%"; });
+    words($("#t2"), lt, 1.5, .08);
+    $$(".chip2").forEach((c, i) => { show(c, lt, 2.7 + i * 1.0, .4, 80, E.back); const b = c.querySelector("i"); b.style.width = (+b.dataset.v * pr(lt, 2.9 + i * 1.0, .7)) + "%"; });
   }
   if (t >= B[2]) {
     const lt = t - B[2];
     words($("#rtT"), lt, 0, .1);
     $$(".rt").forEach((r, i) => show(r, lt, .4 + i * .4, .35, 60, E.back));
-    show($("#cyc"), lt, 2.2, .4, 20);
+    show($("#cyc"), lt, 2.0, .4, 20);
   }
   if (t >= B[3]) {
     const lt = t - B[3];

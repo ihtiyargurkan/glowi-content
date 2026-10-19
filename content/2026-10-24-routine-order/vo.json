@@ -12,5 +12,14 @@
   "and SPF. Always last.",
   "Save this. And let Glowi build your morning and evening order from a scan."
  ],
- "offsets": []
+ "offsets": [
+  0.1,
+  3.3,
+  4.99,
+  6.35,
+  7.86,
+  8.59,
+  9.69,
+  11.63
+ ]
 }

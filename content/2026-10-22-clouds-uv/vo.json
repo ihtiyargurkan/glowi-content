@@ -10,5 +10,12 @@
   "Not the UV you don't.",
   "So check the UV, not the sky. Glowi shows today's UV right next to your routine. Follow for more."
  ],
- "offsets": []
+ "offsets": [
+  0.1,
+  2.77,
+  3.51,
+  6.72,
+  8.39,
+  9.77
+ ]
 }

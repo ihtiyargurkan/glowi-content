@@ -1,0 +1,135 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  #wall { left: 140px; top: 640px; width: 800px; height: 620px; }
+  .brick { position: absolute; width: 124px; height: 62px; border-radius: 14px; background: linear-gradient(180deg, #E58AA2, #C45F7C); box-shadow: inset 0 6px 0 rgba(255,255,255,.25), inset 0 -8px 0 rgba(75,46,57,.18), 0 10px 22px rgba(75,46,57,.18); }
+  #t1 { top: 230px; font-size: 112px; padding: 0 70px; }
+  #t1 .w:last-child { color: var(--rose); }
+  #signs { top: 1420px; left: 50%; transform: translateX(-50%); font-size: 64px; padding: 22px 50px; }
+  #s2T { top: 230px; font-size: 100px; }
+  .sign { left: 90px; right: 90px; height: 300px; display: flex; align-items: center; gap: 44px; padding: 0 56px; }
+  .sign .num { font-family: Fraunces; font-size: 180px; color: var(--rose); width: 120px; line-height: 1; }
+  .sign .nm { font-weight: 850; font-size: 70px; letter-spacing: -.02em; line-height: 1.02; }
+  .sign .why { font-weight: 600; font-size: 40px; color: var(--ink-soft); margin-top: 10px; }
+  #fixT { top: 220px; font-size: 120px; }
+  #fixT .w:last-child { color: var(--rose); }
+  .fix { left: 100px; right: 100px; height: 280px; display: flex; flex-direction: column; justify-content: center; padding: 0 60px; }
+  .fix b { font-size: 34px; letter-spacing: .16em; color: var(--rose); }
+  .fix div { font-weight: 850; font-size: 66px; letter-spacing: -.02em; line-height: 1.06; margin-top: 10px; }
+  #wall2 { left: 290px; top: 1330px; width: 500px; height: 330px; }
+  #darkbg { inset: 0; background: var(--plum-deep); }
+  #end { top: 300px; font-size: 116px; padding: 0 70px; color: var(--ivory); }
+  #end .w:nth-last-child(-n+2) { color: var(--gold); }
+  .cc { left: 50%; transform: translateX(-50%); padding: 26px 50px; border-radius: 999px; background: rgba(251,248,246,.1); border: 3px solid rgba(251,248,246,.2); color: var(--ivory); font-weight: 800; font-size: 54px; white-space: nowrap; }
+  #endSub { top: 1420px; font-size: 54px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.22; }
+  #endHandle { top: 1660px; font-size: 48px; font-weight: 800; letter-spacing: .14em; color: var(--ivory); }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-250px;top:-200px;background:#fff"></div>
+  <div class="blob" style="width:760px;height:760px;right:-260px;top:1000px;background:#E9B9C6"></div>
+  <div class="blob" style="width:600px;height:600px;left:80px;top:1500px;background:#F7E3D3"></div>
+  <div class="handle" style="right:70px;top:90px">GLOWI</div>
+
+  <div id="b1">
+    <div id="t1" class="abs center hook">Your skin barrier might be damaged</div>
+    <div id="wall" class="abs"></div>
+    <div id="signs" class="abs pill">3 signs ↓</div>
+  </div>
+
+  <div id="b2">
+    <div id="s2T" class="abs center serif">The signs</div>
+    <div class="sign abs card" style="top:480px"><div class="num">1</div><div><div class="nm">Your moisturizer stings</div><div class="why">Even the gentle one</div></div></div>
+    <div class="sign abs card" style="top:820px"><div class="num">2</div><div><div class="nm">Tight after washing</div><div class="why">Like it shrank a size</div></div></div>
+    <div class="sign abs card" style="top:1160px"><div class="num">3</div><div><div class="nm">Oily and flaky at once</div><div class="why">Shine on top, dry patches under</div></div></div>
+  </div>
+
+  <div id="b3">
+    <div id="fixT" class="abs center hook">The fix</div>
+    <div class="fix abs card" style="top:470px"><b>STEP 1</b><div>Pause strong actives for 1–2 weeks</div></div>
+    <div class="fix abs card" style="top:800px"><b>STEP 2</b><div>Gentle cleanser + ceramide moisturizer</div></div>
+    <div id="wall2" class="abs"></div>
+  </div>
+
+  <div id="b4">
+    <div id="darkbg" class="abs"></div>
+    <div id="end" class="abs center hook">Glowi spots your skin concerns</div>
+    <div class="cc abs" style="top:760px">💧 Dryness</div>
+    <div class="cc abs" style="top:920px">✦ Uneven tone</div>
+    <div class="cc abs" style="top:1080px">● Oily T-zone</div>
+    <div id="endSub" class="abs center">and builds your routine around them.</div>
+    <div id="endHandle" class="abs center">FOLLOW FOR SKIN, DECODED</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.HIT = 2.0; window.DURATION = 23.14; window.COVER = 1.6;
+const B = [0, 3.16, 10.17, 16.43];
+const SIGNS = [0.1, 1.99, 4.58], FIXES = [0.3, 2.86];
+// build two brick walls (staggered rows)
+function build(el, cols, rows, w, h, gap) {
+  const out = [];
+  for (let r = 0; r < rows; r++) for (let c = 0; c < cols + (r % 2 ? 0 : 0); c++) {
+    const b = document.createElement("div"); b.className = "brick";
+    b.style.width = w + "px"; b.style.height = h + "px";
+    const x = c * (w + gap) + (r % 2 ? (w + gap) / 2 : 0), y = r * (h + gap);
+    if (x + w > cols * (w + gap) + (w + gap) / 2) continue;
+    b.dataset.x = x; b.dataset.y = y; b.style.left = x + "px"; b.style.top = y + "px";
+    el.appendChild(b); out.push(b);
+  }
+  return out;
+}
+const W1 = build($("#wall"), 5, 8, 124, 62, 14), W2 = build($("#wall2"), 4, 6, 92, 40, 10);
+// deterministic pseudo-random order of falling / returning bricks
+const rnd = i => (Math.sin(i * 12.9898) * 43758.5453) % 1;
+const fallers = W1.map((b, i) => i).filter(i => Math.abs(rnd(i)) > .55);
+function scene(t) {
+  win($("#b1"), t, 0, B[1]); win($("#b2"), t, B[1], B[2]); win($("#b3"), t, B[2], B[3]); win($("#b4"), t, B[3], 99);
+  flash($("#flash"), t, B);
+  // 1: bricks start dropping out of the wall from frame 0
+  W1.forEach((b, i) => {
+    const k = fallers.indexOf(i);
+    let y = 0, r = 0, o = 1;
+    if (k >= 0) { const t0 = .05 + k * .12, d = Math.max(0, t - t0); y = 900 * d * d; r = 90 * d * (rnd(i) > 0 ? 1 : -1); o = 1 - clamp(d / 1.1); }
+    b.style.transform = `translate(${Math.sin(t * 2 + i) * 2}px, ${y}px) rotate(${r}deg)`; b.style.opacity = o;
+  });
+  words($("#t1"), t, .1, .1);
+  const sp = show($("#signs"), t, 1.9, .3, 30, E.back);
+  $("#signs").style.transform = `translateX(-50%) translateY(${(1 - sp) * 30}px) scale(${1 + .04 * Math.sin(t * 6)})`;
+  if (t >= B[1]) {
+    const lt = t - B[1];
+    words($("#s2T"), lt, 0, .1);
+    $$(".sign").forEach((s, i) => {
+      show(s, lt, SIGNS[i], .35, 120, E.back);
+      const active = lt >= SIGNS[i] && (i === 2 || lt < SIGNS[i + 1]);
+      s.style.boxShadow = active ? "0 30px 80px rgba(217,112,138,.35)" : "";
+      s.style.outline = active ? "6px solid rgba(217,112,138,.55)" : "none";
+    });
+  }
+  if (t >= B[2]) {
+    const lt = t - B[2];
+    words($("#fixT"), lt, 0, .1);
+    $$(".fix").forEach((f, i) => show(f, lt, FIXES[i], .4, 120, E.back));
+    // the small wall rebuilds itself brick by brick
+    W2.forEach((b, i) => {
+      const p = pr(lt, .4 + i * .18, .35, E.back);
+      b.style.transform = `translateY(${(1 - p) * -400}px)`; b.style.opacity = clamp((lt - .4 - i * .18) / .1);
+    });
+  }
+  if (t >= B[3]) {
+    const lt = t - B[3];
+    words($("#end"), lt, .05, .09);
+    $$(".cc").forEach((c, i) => {
+      const p = show(c, lt, 1.0 + i * .35, .35, 40, E.back);
+      c.style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px)`;
+    });
+    show($("#endSub"), lt, 3.2, .4, 30);
+    show($("#endHandle"), lt, 4.6, .4, 20);
+    $(".handle").style.color = "var(--ivory)";
+  } else $(".handle").style.color = "";
+}
+</script>
+</body></html>
