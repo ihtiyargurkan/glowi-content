@@ -61,11 +61,24 @@
       "series": "Skin Math",
       "goal": "share",
       "seed": 5,
-      "status": "draft",
+      "status": "superseded",
       "caption": "Clouds block the heat you feel. Not the UV you don't. ☁️\n\nUp to 80% of UV rays can get through clouds (Skin Cancer Foundation), so a grey morning isn't a skip-SPF morning.\n\nGlowi reads today's UV, humidity and air and adds it to your routine, so you check the UV, not the sky.\n\nSend this to someone who only wears SPF in summer ☀️\n\n#sunscreen #spf #uvindex #skincare #glowi",
       "first_comment": "Be honest: did you skip SPF the last time it was cloudy?",
       "music": "atlasaudio-upbeat-electronic-617615.mp3 (Pixabay)",
-      "cover_ms": 1800
+      "cover_ms": 1800,
+      "note": "replaced by a new post on the same date"
+    },
+    {
+      "date": "2026-10-22",
+      "id": "2026-10-22-pao-symbol",
+      "type": "reel",
+      "series": "Skin Basics",
+      "goal": "save + share",
+      "status": "draft",
+      "cover_ms": 1500,
+      "music": "sub_clair-commercial-584915.mp3 (Pixabay)",
+      "caption": "That tiny open jar on your skincare isn't decoration. 🫙\n\nIt's the Period After Opening symbol: the number tells you how many months a product stays good once it's opened. 12M = 12 months, 6M = 6 months. Past that, it can lose strength or start to irritate.\n\nBonus: if your vitamin C serum has turned dark orange, it has oxidized. Replace it.\n\nSave this and go check your shelf 👀\n\n#skincaretips #skincare #vitaminc #skincareroutine #glowi",
+      "first_comment": "What's the oldest open product on your shelf right now? 👇"
     },
     {
       "date": "2026-10-23",
@@ -79,16 +92,29 @@
     },
     {
       "date": "2026-10-24",
+      "id": "2026-10-24-product-scan",
+      "type": "reel",
+      "series": "Inside Glowi",
+      "goal": "download",
+      "status": "draft",
+      "cover_ms": 1300,
+      "music": "nastelbom-happy-upbeat-513438.mp3 (Pixabay)",
+      "caption": "Before you buy another serum, scan it. 🔍\n\nPoint Glowi at the barcode: it pulls up the full ingredient list and checks it against your skin profile, so you can see if it's a good fit before you spend.\n\nScan it first. Then decide. Glowi is on the App Store, link in bio 📲\n\n#skincareapp #skincareproducts #ingredients #skincaretips #glowi",
+      "first_comment": "Which product would you scan first? 👇"
+    },
+    {
+      "date": "2026-10-24",
       "id": "2026-10-24-routine-order",
       "type": "reel",
       "series": "Skin Basics",
       "goal": "save",
       "seed": 7,
-      "status": "draft",
+      "status": "superseded",
       "caption": "Same products, wrong order, and your serum does less. 🧴\n\nThe only rule you need: thinnest to thickest. Morning order: cleanser → serum → moisturizer → SPF, and SPF always goes last.\n\nSave this for tomorrow morning.\n\nGlowi builds your morning and evening order from a scan of your skin. Link in bio.\n\n#skincareroutine #morningroutine #skincaretips #skincare #glowi",
       "first_comment": "What's step 2 in your routine right now?",
       "music": "the_mountain-upbeat-upbeat-music-567445.mp3 (Pixabay)",
-      "cover_ms": 1800
+      "cover_ms": 1800,
+      "note": "replaced by a new post on the same date"
     },
     {
       "date": "2026-10-25",
@@ -97,7 +123,7 @@
       "series": "Inside Glowi",
       "goal": "download",
       "seed": 11,
-      "status": "draft",
+      "status": "approved",
       "caption": "What a skin scan actually sees. 🔍\n\nGlowi takes 3 angles of your face and returns a skin score, the concerns behind it, and a morning + evening routine built from them, plus a 28-day skin cycle to follow it.\n\nYour photos are used for the analysis you ask for and aren't stored on our servers afterwards. Cosmetic guidance, not a diagnosis.\n\nYour first scan is free; the full routine and 28-day cycle come with Premium. Link in bio 📲\n\n#skinanalysis #skincareapp #skincareroutine #aiskincare #glowi",
       "first_comment": "What score do you think your skin would get? 👀",
       "music": "lnplusmusic-commercial-commercial-music-610967.mp3 (Pixabay)",
