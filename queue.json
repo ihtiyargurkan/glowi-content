@@ -1,7 +1,7 @@
 {
   "account": "@glowi.ai.app",
   "publish_time_utc": "15:00",
-  "note": "status: draft -> approved (by Gurkan) -> published. Only approved items are published. publish_time is 15:00 UTC = 18:00 Istanbul = 11:00 New York.",
+  "note": "status: draft -> approved (by Gurkan) -> published. Only approved items are published. publish_time is 15:00 UTC = 18:00 Istanbul = 11:00 New York. Reels with vo.json get a Kokoro voiceover mixed in at publish time.",
   "posts": [
     {
       "date": "2026-10-19",
@@ -10,11 +10,15 @@
       "series": "Skin Math",
       "goal": "share + save",
       "seed": 3,
-      "status": "approved",
+      "status": "published",
       "caption": "SPF 100 isn't twice as strong as SPF 50. 🧴\n\nSPF 15 blocks about 93% of UVB, SPF 30 about 97%, SPF 50 about 98%, SPF 100 about 99%. Past 30, the real difference is how much you put on and how often you reapply.\n\nThe two-finger rule: two finger-lengths for face and neck, again every 2 hours outdoors.\n\nSend this to the friend who uses a pea-sized drop 👀\n\n#spf #sunscreen #skincaretips #skincare #glowi",
       "first_comment": "Which SPF are you wearing today? 15, 30, 50 or 100?",
       "voiceover": "kokoro af_heart",
-      "music": "nastelbom-happy-upbeat-513438.mp3 (Pixabay)"
+      "music": "nastelbom-happy-upbeat-513438.mp3 (Pixabay)",
+      "media_id": "17945217213349533",
+      "permalink": "https://www.instagram.com/reel/DesAhtcCl3X/",
+      "published_at": "2026-10-19T19:28:10Z",
+      "cover_ms": 1900
     },
     {
       "date": "2026-10-20",
