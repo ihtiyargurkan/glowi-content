@@ -1,0 +1,108 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  #t1 { top: 1120px; font-size: 120px; padding: 0 70px; }
+  #t1 .w:nth-last-child(-n+2) { color: var(--rose); }
+  .bottle { position: absolute; border-radius: 40px 40px 56px 56px; box-shadow: 0 30px 60px rgba(75,46,57,.18); display: flex; align-items: flex-end; justify-content: center; padding-bottom: 30px; font-weight: 850; font-size: 30px; letter-spacing: .08em; color: rgba(46,26,34,.75); }
+  .bottle::before { content: ""; position: absolute; top: -56px; left: 50%; width: 46%; height: 64px; margin-left: -23%; border-radius: 16px 16px 6px 6px; background: var(--plum); }
+  #ruleT { top: 260px; font-size: 104px; padding: 0 70px; }
+  #rule { top: 700px; left: 110px; right: 110px; height: 150px; border-radius: 75px; background: linear-gradient(90deg, #FFFFFF, #F3D9E0 40%, #D9708A 75%, #4B2E39); box-shadow: 0 20px 60px rgba(75,46,57,.15); }
+  #ruleL, #ruleR { top: 900px; font-size: 54px; font-weight: 800; }
+  #ruleL { left: 110px; } #ruleR { right: 110px; }
+  #dot { top: 690px; width: 170px; height: 170px; border-radius: 50%; background: var(--ivory); border: 10px solid var(--plum); }
+  #ruleSub { top: 1100px; font-size: 64px; font-weight: 650; padding: 0 100px; color: var(--ink-soft); line-height: 1.2; }
+  #listT { top: 220px; font-size: 96px; }
+  .step { left: 90px; right: 90px; height: 230px; display: flex; align-items: center; gap: 40px; padding: 0 48px; }
+  .step .num { font-family: Fraunces; font-size: 120px; color: var(--rose); width: 100px; }
+  .step .nm { font-weight: 850; font-size: 68px; letter-spacing: -.02em; }
+  .step .why { font-weight: 600; font-size: 40px; color: var(--ink-soft); margin-top: 6px; }
+  .step .sw { margin-left: auto; width: 90px; height: 90px; border-radius: 26px; }
+  #darkbg { inset: 0; background: var(--plum-deep); }
+  #end { top: 520px; font-size: 128px; padding: 0 70px; color: var(--ivory); }
+  #end .w:nth-child(1), #end .w:nth-child(2) { color: var(--gold); }
+  #endSub { top: 1160px; font-size: 58px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.22; }
+  #endHandle { top: 1560px; font-size: 48px; font-weight: 800; letter-spacing: .14em; color: var(--ivory); }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-250px;top:-200px;background:#fff"></div>
+  <div class="blob" style="width:760px;height:760px;right:-260px;top:1000px;background:#E9B9C6"></div>
+  <div class="blob" style="width:600px;height:600px;left:80px;top:1500px;background:#F7E3D3"></div>
+  <div class="handle" style="right:70px;top:90px">GLOWI</div>
+
+  <div id="b1">
+    <div class="bottle" id="p1" style="width:200px;height:400px;background:#FFFFFF">SPF</div>
+    <div class="bottle" id="p2" style="width:230px;height:330px;background:#F3D9E0">CREAM</div>
+    <div class="bottle" id="p3" style="width:170px;height:440px;background:#FBEFE6">SERUM</div>
+    <div class="bottle" id="p4" style="width:210px;height:370px;background:#E7C9D2">WASH</div>
+    <div id="t1" class="abs center hook">Same products. Wrong order.</div>
+  </div>
+
+  <div id="b2">
+    <div id="ruleT" class="abs center hook">The only rule you need</div>
+    <div id="rule" class="abs"></div><div id="dot" class="abs"></div>
+    <div id="ruleL" class="abs">Thinnest</div><div id="ruleR" class="abs">Thickest</div>
+    <div id="ruleSub" class="abs center">Water-light textures first, rich creams after. SPF seals the morning.</div>
+  </div>
+
+  <div id="b3">
+    <div id="listT" class="abs center serif">Morning order</div>
+    <div class="step abs card" style="top:430px"><div class="num">1</div><div><div class="nm">Cleanser</div><div class="why">Clean base</div></div><div class="sw" style="background:#E7C9D2"></div></div>
+    <div class="step abs card" style="top:690px"><div class="num">2</div><div><div class="nm">Serum</div><div class="why">Thinnest goes first</div></div><div class="sw" style="background:#FBEFE6"></div></div>
+    <div class="step abs card" style="top:950px"><div class="num">3</div><div><div class="nm">Moisturizer</div><div class="why">Locks the serum in</div></div><div class="sw" style="background:#F3D9E0"></div></div>
+    <div class="step abs card" style="top:1210px"><div class="num">4</div><div><div class="nm">SPF</div><div class="why">Always last, every morning</div></div><div class="sw" style="background:#FFFFFF;border:4px solid #EEDDE2"></div></div>
+  </div>
+
+  <div id="b4">
+    <div id="darkbg" class="abs"></div>
+    <div id="end" class="abs center hook">Save this. Your morning self will thank you.</div>
+    <div id="endSub" class="abs center">Glowi builds your morning and evening order from a scan of your skin.</div>
+    <div id="endHandle" class="abs center">FOLLOW FOR SKIN, DECODED</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.DURATION = 13.5; window.COVER = 1.9;
+const B = [0, 3.0, 6.4, 10.8];
+// 1: bottles tumble in from frame 0 in the wrong order, then shuffle into the right one
+const wrong = [[110, 520, -14], [330, 590, 9], [570, 480, -6], [800, 560, 12]];
+const right = [[800, 600, 0], [570, 640, 0], [330, 600, 0], [110, 630, 0]]; // SPF, cream, serum, wash → reversed
+function scene(t) {
+  win($("#b1"), t, 0, B[1]); win($("#b2"), t, B[1], B[2]); win($("#b3"), t, B[2], B[3]); win($("#b4"), t, B[3], 99);
+  flash($("#flash"), t, B);
+  ["#p1", "#p2", "#p3", "#p4"].forEach((id, i) => {
+    const drop = pr(t, i * .12, .55, E.back);
+    const sw = pr(t, 1.7, .7, E.inOut);
+    const [x0, y0, r0] = wrong[i], [x1, y1] = right[i];
+    const x = lerp(x0, x1, sw), y = lerp(-600, y0, drop) + (y1 - y0) * sw;
+    const r = lerp(r0, 0, sw) + 2 * Math.sin(t * 3 + i);
+    $(id).style.transform = `translate(${x}px, ${y}px) rotate(${r}deg)`;
+  });
+  words($("#t1"), t, .25, .12);
+  if (t >= B[1]) {
+    const lt = t - B[1];
+    words($("#ruleT"), lt, 0, .09);
+    show($("#rule"), lt, .3, .4, 40);
+    const dx = lerp(110, 800, pr(lt, .8, 1.6, E.inOut));
+    $("#dot").style.left = dx + "px"; $("#dot").style.opacity = clamp((lt - .6) / .2);
+    show($("#ruleL"), lt, .6, .3, 20); show($("#ruleR"), lt, .8, .3, 20);
+    show($("#ruleSub"), lt, 1.7, .4, 30);
+  }
+  if (t >= B[2]) {
+    const lt = t - B[2];
+    words($("#listT"), lt, 0, .1);
+    $$(".step").forEach((s, i) => show(s, lt, .45 + i * .55, .45, 120, E.back));
+  }
+  if (t >= B[3]) {
+    const lt = t - B[3];
+    words($("#end"), lt, .05, .08);
+    show($("#endSub"), lt, 1.0, .4, 30);
+    show($("#endHandle"), lt, 1.5, .4, 20);
+    $(".handle").style.color = "var(--ivory)";
+  } else $(".handle").style.color = "";
+}
+</script>
+</body></html>

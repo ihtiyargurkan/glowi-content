@@ -1,0 +1,11 @@
+{"slides":[
+ {"kind":"cover","title":"Find your *real* skin type in 30 minutes","sub":"No products, no quiz. Just your bare face and a clock.","kicker":"COMMENT YOUR RESULT AT THE END"},
+ {"kind":"item","n":"01","title":"Wash, pat dry, apply nothing","body":"Use a gentle cleanser. No toner, no serum, no moisturizer. You want your skin *as it is*.","fix":"Do it in the morning, before makeup or SPF.","fix_label":"TIP"},
+ {"kind":"big","big":"30:00","title":"Now wait","body":"Give your skin 30 minutes to settle. Don't touch your face.","fix":"Then look closely in daylight, by a window.","fix_label":"THEN"},
+ {"kind":"item","n":"A","title":"Shiny all over","body":"Forehead, nose, chin *and* cheeks look glossy, and pores look bigger.","fix":"You're likely *oily*. Light gel moisturizer, don't skip it.","fix_label":"RESULT"},
+ {"kind":"item","n":"B","title":"Tight, dull or flaky","body":"Skin feels like it needs moisturizer right now. Maybe a few rough patches.","fix":"You're likely *dry*. Creamy cleanser, richer moisturizer.","fix_label":"RESULT"},
+ {"kind":"item","n":"C","title":"Shiny T-zone, normal cheeks","body":"Forehead and nose catch the light. Cheeks feel comfortable or a little dry.","fix":"You're likely *combination*. Treat zones differently.","fix_label":"RESULT"},
+ {"kind":"item","n":"D","title":"Comfortable, barely any shine","body":"No tightness, no grease. Lucky you.","fix":"You're likely *normal*. Keep it simple and protect it with SPF.","fix_label":"RESULT"},
+ {"kind":"item","verdict":"+ SENSITIVE?","title":"Stings or turns red easily?","body":"Sensitivity isn't a type of its own. It sits *on top* of any of the four, so add it to your result.","fix":"Fewer actives, patch test everything new.","fix_label":"IF SO"},
+ {"kind":"cta","title":"Want the *full* picture?","body":"Glowi's 3-angle scan builds your skin profile in seconds: score, concerns and a routine.","action":"Comment your type 👇"}
+]}

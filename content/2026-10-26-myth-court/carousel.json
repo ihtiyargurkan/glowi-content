@@ -1,0 +1,11 @@
+{"slides":[
+ {"kind":"cover","title":"6 skin myths, on *trial*","sub":"Most of us still believe at least two of them.","kicker":"SWIPE FOR THE VERDICTS"},
+ {"kind":"item","verdict":"MYTH","title":"\"Oily skin doesn't need moisturizer\"","body":"Skipping it can leave skin *dehydrated*, and dehydrated skin often looks shinier, not less.","fix":"Use a light, oil-free gel moisturizer.","fix_label":"INSTEAD"},
+ {"kind":"item","verdict":"MYTH","title":"\"No SPF needed indoors\"","body":"UVA rays pass through window glass. Desk by a window? *Your skin is outside.*","fix":"Wear SPF if you sit near windows or drive a lot.","fix_label":"INSTEAD"},
+ {"kind":"item","verdict":"MYTH","title":"\"Hot water opens pores, cold closes them\"","body":"Pores don't have muscles. Very hot water mostly *dries skin out*.","fix":"Wash with lukewarm water.","fix_label":"INSTEAD"},
+ {"kind":"item","verdict":"MYTH","title":"\"SPF 50 means fewer reapplies\"","body":"Every SPF breaks down with sun, sweat and touch. The number doesn't extend the clock.","fix":"Reapply about every 2 hours outdoors.","fix_label":"INSTEAD"},
+ {"kind":"item","verdict":"MYTH","title":"\"Expensive means it works better\"","body":"Price buys packaging and branding too. *Ingredients and fit* decide results.","fix":"Judge the formula against your skin, not the price tag.","fix_label":"INSTEAD"},
+ {"kind":"item","verdict":"HALF TRUE","title":"\"Drinking water fixes dry skin\"","body":"Hydration helps your whole body, but dry skin also needs moisture *from the outside*.","fix":"Water plus a moisturizer that fits your skin type.","fix_label":"INSTEAD"},
+ {"kind":"steps","title":"The verdicts","items":["Oily skin still needs moisturizer","Windows let UVA through","Pores don't open or close","SPF 50 still needs reapplying","Price ≠ results","Water helps, moisturizer finishes the job"]},
+ {"kind":"cta","title":"Which one did *you* believe?","body":"Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.","action":"Glowi · link in bio"}
+]}

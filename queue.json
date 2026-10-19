@@ -1,0 +1,81 @@
+{
+  "account": "@glowi.ai.app",
+  "publish_time_utc": "15:00",
+  "note": "status: draft -> approved (by Gurkan) -> published. Only approved items are published. publish_time is 15:00 UTC = 18:00 Istanbul = 11:00 New York.",
+  "posts": [
+    {
+      "date": "2026-10-20",
+      "id": "2026-10-20-spf-math",
+      "type": "reel",
+      "series": "Skin Math",
+      "goal": "share + save",
+      "seed": 3,
+      "status": "draft",
+      "caption": "SPF 100 isn't twice as strong as SPF 50. 🧴\n\nSPF 15 blocks about 93% of UVB, SPF 30 about 97%, SPF 50 about 98%, SPF 100 about 99%. Past 30, the real difference is how much you put on and how often you reapply.\n\nThe two-finger rule: two finger-lengths for face and neck, again every 2 hours outdoors.\n\nSend this to the friend who uses a pea-sized drop 👀\n\n#spf #sunscreen #skincaretips #skincare #glowi",
+      "first_comment": "Which SPF are you wearing today? 15, 30, 50 or 100?"
+    },
+    {
+      "date": "2026-10-21",
+      "id": "2026-10-21-dont-mix",
+      "type": "carousel",
+      "series": "Don't Mix",
+      "goal": "save",
+      "status": "draft",
+      "caption": "5 pairs that fight on your face, and one \"don't mix\" rule that's actually wrong. 🧪\n\nRetinol + acids on the same night, vitamin C + benzoyl peroxide, two exfoliants at once, scrubs on retinol nights, and actives without SPF.\n\nSave this before your next routine. Patch test anything new, and if your skin is reactive, check with a dermatologist.\n\n#skincareroutine #retinol #vitaminc #skincaretips #glowi",
+      "first_comment": "Which pair have you been using together? Be honest 👇"
+    },
+    {
+      "date": "2026-10-22",
+      "id": "2026-10-22-clouds-uv",
+      "type": "reel",
+      "series": "Skin Math",
+      "goal": "share",
+      "seed": 5,
+      "status": "draft",
+      "caption": "Clouds block the heat you feel. Not the UV you don't. ☁️\n\nUp to 80% of UV rays can get through clouds (Skin Cancer Foundation), so a grey morning isn't a skip-SPF morning.\n\nGlowi reads today's UV, humidity and air and adds it to your routine, so you check the UV, not the sky.\n\nSend this to someone who only wears SPF in summer ☀️\n\n#sunscreen #spf #uvindex #skincare #glowi",
+      "first_comment": "Be honest: did you skip SPF the last time it was cloudy?"
+    },
+    {
+      "date": "2026-10-23",
+      "id": "2026-10-23-skin-type",
+      "type": "carousel",
+      "series": "Skin Basics",
+      "goal": "comments + follow",
+      "status": "draft",
+      "caption": "Your real skin type, in 30 minutes, with no products. ⏱\n\nWash, pat dry, apply nothing, wait 30 minutes, then check your skin in daylight. Shiny all over, tight and flaky, shiny T-zone only, or comfortable all day?\n\nComment your result: oily, dry, combination or normal (+ sensitive?) 👇\n\nWant the full picture? Glowi's 3-angle scan builds your skin profile in seconds. Link in bio.\n\n#skintype #oilyskin #dryskin #combinationskin #glowi",
+      "first_comment": "Mine: combination + sensitive. Yours? 👇"
+    },
+    {
+      "date": "2026-10-24",
+      "id": "2026-10-24-routine-order",
+      "type": "reel",
+      "series": "Skin Basics",
+      "goal": "save",
+      "seed": 7,
+      "status": "draft",
+      "caption": "Same products, wrong order, and your serum does less. 🧴\n\nThe only rule you need: thinnest to thickest. Morning order: cleanser → serum → moisturizer → SPF, and SPF always goes last.\n\nSave this for tomorrow morning.\n\nGlowi builds your morning and evening order from a scan of your skin. Link in bio.\n\n#skincareroutine #morningroutine #skincaretips #skincare #glowi",
+      "first_comment": "What's step 2 in your routine right now?"
+    },
+    {
+      "date": "2026-10-25",
+      "id": "2026-10-25-skin-score",
+      "type": "reel",
+      "series": "Inside Glowi",
+      "goal": "download",
+      "seed": 11,
+      "status": "draft",
+      "caption": "What a skin scan actually sees. 🔍\n\nGlowi takes 3 angles of your face and returns a skin score, the concerns behind it, and a morning + evening routine built from them, plus a 28-day skin cycle to follow it.\n\nYour photos are used for the analysis you ask for and aren't stored on our servers afterwards. Cosmetic guidance, not a diagnosis.\n\nYour first scan is free; the full routine and 28-day cycle come with Premium. Link in bio 📲\n\n#skinanalysis #skincareapp #skincareroutine #aiskincare #glowi",
+      "first_comment": "What score do you think your skin would get? 👀"
+    },
+    {
+      "date": "2026-10-26",
+      "id": "2026-10-26-myth-court",
+      "type": "carousel",
+      "series": "Myth Court",
+      "goal": "share",
+      "status": "draft",
+      "caption": "6 skin myths on trial. ⚖️ Most of us still believe at least two.\n\nOily skin still needs moisturizer. UVA comes through windows. Pores don't open or close. SPF 50 still needs reapplying. Price doesn't decide results. Water helps, but dry skin needs moisture from the outside too.\n\nWhich one did you believe? 👇 Send this to the friend who's still team \"no moisturizer\".\n\n#skincaremyths #skincaretips #skincare #skincarecommunity #glowi",
+      "first_comment": "Next week's trial: drop a myth you want us to judge 👇"
+    }
+  ]
+}

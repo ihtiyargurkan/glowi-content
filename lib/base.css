@@ -1,0 +1,38 @@
+/* Glowi Studio — shared tokens for Reels (1080x1920) and carousels (1080x1350) */
+@font-face { font-family: "Fraunces"; src: url("fonts/fraunces-latin-full-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+@font-face { font-family: "Fraunces"; src: url("fonts/fraunces-latin-full-italic.woff2") format("woff2"); font-weight: 100 900; font-style: italic; }
+@font-face { font-family: "Inter"; src: url("fonts/inter-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; }
+
+:root {
+  --plum: #4B2E39;
+  --plum-deep: #2E1A22;
+  --blush: #EEDDE2;
+  --blush-2: #F6ECEF;
+  --ivory: #FBF8F6;
+  --gold: #E8A93A;
+  --rose: #D9708A;
+  --sage: #7FA88B;
+  --alert: #D94F3D;
+  --ink-soft: rgba(75, 46, 57, .72);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { background: var(--blush); }
+body { font-family: "Inter", sans-serif; color: var(--plum); -webkit-font-smoothing: antialiased; overflow: hidden; }
+
+.stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--blush); }
+.stage.dark { background: var(--plum-deep); color: var(--ivory); }
+.slide { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: var(--blush); }
+
+/* drifting light blobs: never a static frame */
+.blob { position: absolute; border-radius: 50%; filter: blur(90px); opacity: .75; will-change: transform; }
+
+.serif { font-family: "Fraunces", serif; font-variation-settings: "SOFT" 50, "WONK" 0; }
+.hook { font-family: "Inter", sans-serif; font-weight: 850; letter-spacing: -0.035em; line-height: .98; }
+.eyebrow { font-weight: 700; font-size: 34px; letter-spacing: .18em; text-transform: uppercase; }
+.pill { display: inline-block; padding: 14px 30px; border-radius: 999px; background: var(--plum); color: var(--ivory); font-weight: 750; }
+.card { background: rgba(251, 248, 246, .92); border-radius: 48px; box-shadow: 0 30px 80px rgba(75, 46, 57, .16); }
+.handle { position: absolute; font-weight: 750; font-size: 32px; letter-spacing: .14em; opacity: .85; }
+.w { display: inline-block; will-change: transform, opacity; }
+.abs { position: absolute; }
+.center { left: 0; right: 0; text-align: center; }

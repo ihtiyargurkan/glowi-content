@@ -1,0 +1,11 @@
+{"slides":[
+ {"kind":"cover","title":"5 skincare pairs that *fight* on your face","sub":"And one famous \"don't mix\" rule that's actually wrong.","kicker":"SAVE BEFORE YOUR NEXT ROUTINE"},
+ {"kind":"item","n":"01","title":"Retinol + exfoliating acids","chips":["Retinol","AHA / BHA"],"body":"Both speed up cell turnover. Stacked on the same night, they often mean *redness, peeling and stinging*.","fix":"Alternate nights. Acids one night, retinol the next."},
+ {"kind":"item","n":"02","title":"Vitamin C + benzoyl peroxide","chips":["Vitamin C","Benzoyl peroxide"],"body":"Benzoyl peroxide can oxidize vitamin C, so the serum you paid for *does less*.","fix":"Vitamin C in the morning. Benzoyl peroxide at night."},
+ {"kind":"item","n":"03","title":"Two acids in one routine","chips":["Glycolic","Salicylic"],"body":"Layering exfoliants is the fastest way to a *tight, shiny, irritated* barrier.","fix":"One exfoliant per routine. Two or three times a week is plenty."},
+ {"kind":"item","n":"04","title":"Retinol + face scrub","chips":["Retinol","Scrub"],"body":"Retinoid nights leave skin more sensitive. Grains on top add *friction it doesn't need*.","fix":"Skip scrubs entirely on retinol nights."},
+ {"kind":"item","n":"05","title":"Actives + skipping SPF","join":"−","chips":["Retinol / acids","SPF"],"body":"Retinoids and AHAs can make skin *more sensitive to the sun*. This is the pair most people forget.","fix":"SPF 30+ every morning you use them, even when it's cloudy."},
+ {"kind":"item","verdict":"MYTH","title":"\"Never mix niacinamide and vitamin C\"","chips":["Niacinamide","Vitamin C"],"join":"✓","body":"The rule came from old lab tests run under heat. In today's formulas, most people use them together *without issues*.","fix":"Fine together. Patch test if your skin is reactive.","fix_label":"VERDICT"},
+ {"kind":"steps","title":"Screenshot this","items":["Retinol and acids: *alternate nights*","Vitamin C AM, benzoyl peroxide PM","One exfoliant per routine","No scrubs on retinol nights","SPF 30+ whenever you use actives","Niacinamide + vitamin C: fine"]},
+ {"kind":"cta","title":"Not sure what *your* skin can handle?","body":"Glowi scans your skin in seconds and builds a morning and evening routine around it.","action":"Free scan · link in bio"}
+]}

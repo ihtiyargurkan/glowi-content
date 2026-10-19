@@ -1,0 +1,143 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  #big { top: 430px; font-size: 400px; font-weight: 400; letter-spacing: -0.04em; line-height: 1; color: var(--plum); }
+  #big small { font-family: Inter; font-weight: 850; font-size: 120px; letter-spacing: -.02em; vertical-align: top; position: relative; top: 70px; margin-right: 18px; }
+  #q { top: 1000px; font-size: 112px; padding: 0 80px; }
+  #q .w:nth-child(n+5) { color: var(--rose); }
+  .bars { top: 470px; left: 80px; right: 80px; }
+  .row { display: flex; align-items: center; height: 250px; }
+  .row .lbl { width: 250px; font-weight: 850; font-size: 64px; letter-spacing: -.02em; }
+  .row .track { flex: 1; height: 120px; border-radius: 60px; background: rgba(75,46,57,.08); overflow: hidden; position: relative; }
+  .row .fill { position: absolute; inset: 0 auto 0 0; border-radius: 60px; background: linear-gradient(90deg, var(--rose), var(--plum)); }
+  .row .pct { position: absolute; right: 36px; top: 0; line-height: 120px; font-weight: 850; font-size: 56px; color: var(--ivory); }
+  #barsTitle { top: 250px; font-size: 92px; }
+  #barsFoot { top: 1520px; font-size: 64px; font-weight: 650; color: var(--ink-soft); padding: 0 90px; line-height: 1.15; }
+  #barsFoot b { color: var(--plum); }
+  #turn { top: 640px; font-size: 128px; padding: 0 70px; }
+  #turn .w:nth-last-child(-n+3) { color: var(--rose); }
+  .hand { top: 560px; left: 50%; width: 520px; margin-left: -260px; height: 900px; }
+  #ruleTitle { top: 230px; font-size: 100px; padding: 0 60px; }
+  #ruleFoot { top: 1520px; font-size: 62px; font-weight: 650; padding: 0 80px; line-height: 1.18; color: var(--ink-soft); }
+  #ruleFoot b { color: var(--plum); }
+  #end { top: 330px; font-size: 112px; padding: 0 70px; color: var(--ivory); }
+  #end .w:last-child, #end .w:nth-last-child(2) { color: var(--gold); }
+  #endSub { top: 1420px; font-size: 56px; font-weight: 650; color: var(--blush); padding: 0 100px; line-height: 1.2; }
+  #endHandle { top: 1650px; font-size: 48px; font-weight: 800; letter-spacing: .14em; color: var(--ivory); }
+  #darkbg { inset: 0; background: var(--plum-deep); }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+</style></head>
+<body>
+<div class="stage" id="stage">
+  <div class="blob" style="width:900px;height:900px;left:-200px;top:-150px;background:#fff"></div>
+  <div class="blob" style="width:800px;height:800px;right:-260px;top:900px;background:#E9B9C6"></div>
+  <div class="blob" style="width:700px;height:700px;left:120px;top:1500px;background:#F7E3D3"></div>
+  <div class="handle" style="right:70px;top:90px">GLOWI</div>
+
+  <!-- beat 1: hook -->
+  <div id="b1">
+    <div id="big" class="abs center serif"><small>SPF</small><span id="bigNum">0</span></div>
+    <div id="q" class="abs center hook">Twice as strong as SPF 50?</div>
+  </div>
+
+  <!-- beat 2: the real numbers -->
+  <div id="b2">
+    <div id="barsTitle" class="abs center hook">UVB blocked</div>
+    <div class="bars abs">
+      <div class="row" data-v="93"><div class="lbl">SPF 15</div><div class="track"><div class="fill"></div><div class="pct">0%</div></div></div>
+      <div class="row" data-v="97"><div class="lbl">SPF 30</div><div class="track"><div class="fill"></div><div class="pct">0%</div></div></div>
+      <div class="row" data-v="98"><div class="lbl">SPF 50</div><div class="track"><div class="fill"></div><div class="pct">0%</div></div></div>
+      <div class="row" data-v="99"><div class="lbl">SPF 100</div><div class="track"><div class="fill"></div><div class="pct">0%</div></div></div>
+    </div>
+    <div id="barsFoot" class="abs center">50 → 100 adds about <b>1%</b>.</div>
+  </div>
+
+  <!-- beat 3: re-hook -->
+  <div id="b3"><div id="turn" class="abs center hook">The number that matters is how much you use</div></div>
+
+  <!-- beat 4: two-finger rule -->
+  <div id="b4">
+    <div id="ruleTitle" class="abs center hook">The two-finger rule</div>
+    <svg class="hand abs" viewBox="0 0 520 900">
+      <defs>
+        <linearGradient id="skin" x1="0" x2="1"><stop offset="0" stop-color="#E3B8A6"/><stop offset="1" stop-color="#EFCDBE"/></linearGradient>
+        <linearGradient id="cream" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".6" stop-color="#FBF6F7"/><stop offset="1" stop-color="#EBDDE1"/></linearGradient>
+      </defs>
+      <!-- palm + two raised fingers, folded fingers as a soft fist -->
+      <path d="M70 900 L70 560 Q70 470 150 470 L150 120 Q150 40 230 40 Q310 40 310 120 L310 470 L330 470 L330 90 Q330 10 410 10 Q490 10 490 90 L490 640 Q490 900 300 900 Z" fill="url(#skin)"/>
+      <path d="M70 600 Q70 540 130 540 L470 540" stroke="#D9A894" stroke-width="6" fill="none" opacity=".5"/>
+      <ellipse cx="230" cy="95" rx="52" ry="40" fill="#F6DDD3"/>
+      <ellipse cx="410" cy="65" rx="52" ry="40" fill="#F8E2DA"/>
+      <path d="M160 300 h140 M340 270 h140" stroke="#D9A894" stroke-width="5" opacity=".45"/>
+      <rect id="c1" x="182" y="150" width="96" height="0" rx="48" fill="url(#cream)" stroke="#E4CED4" stroke-width="3"/>
+      <rect id="c2" x="362" y="120" width="96" height="0" rx="48" fill="url(#cream)" stroke="#E4CED4" stroke-width="3"/>
+    </svg>
+    <div id="ruleFoot" class="abs center">Two finger-lengths for face and neck. <b>Reapply every 2 hours</b> outside.</div>
+  </div>
+
+  <!-- beat 5: end card -->
+  <div id="b5">
+    <div id="darkbg" class="abs"></div>
+    <div id="end" class="abs center hook">Then match it to today's UV</div>
+    <div id="uvcard" class="abs card" style="left:140px;right:140px;top:660px;height:640px;color:var(--plum);padding:56px 64px">
+      <div class="eyebrow" style="opacity:.6">Today · Skin environment</div>
+      <div style="display:flex;align-items:flex-end;gap:28px;margin-top:30px"><div class="serif" id="uvNum" style="font-size:250px;line-height:.9">0</div><div style="font-weight:800;font-size:56px;padding-bottom:26px">UV<br><span style="color:var(--rose)">High</span></div></div>
+      <div id="uvNote" style="margin-top:46px;font-weight:700;font-size:50px;line-height:1.2;background:var(--blush-2);border-radius:28px;padding:30px 36px">☀︎ Use SPF 30+. Reapply at 2&nbsp;pm.</div>
+    </div>
+    <div id="endSub" class="abs center">Glowi reads UV, humidity and air for your morning routine.</div>
+    <div id="endHandle" class="abs center">FOLLOW FOR SKIN, DECODED</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.DURATION = 14;
+window.COVER = 1.9;
+const B = [0, 3.0, 6.6, 8.4, 11.2];
+function scene(t) {
+  win($("#b1"), t, 0, B[1]); win($("#b2"), t, B[1], B[2]); win($("#b3"), t, B[2], B[3]);
+  win($("#b4"), t, B[3], B[4]); win($("#b5"), t, B[4], 99);
+  flash($("#flash"), t, B);
+  // 1 — number races 0 → 100 and locks with a punch; claim lands ~1.25s
+  const p = count($("#bigNum"), t, 0, 1.05, 100);
+  const punch = 1 + .1 * Math.sin(clamp((t - 1.05) / .22) * Math.PI);
+  $("#big").style.transform = `scale(${punch * (1 + .03 * t)})`;
+  words($("#q"), t, 1.2, .1);
+  // 2 — bars grow with counters
+  if (t >= B[1]) {
+    const lt = t - B[1];
+    words($("#barsTitle"), lt, 0, .1);
+    $$(".row").forEach((r, i) => {
+      const v = +r.dataset.v, q = pr(lt, .25 + i * .32, .7);
+      r.querySelector(".fill").style.width = (v * q) + "%";
+      r.querySelector(".pct").textContent = Math.round(v * q) + "%";
+      r.style.opacity = clamp((lt - .2 - i * .32) / .15);
+    });
+    show($("#barsFoot"), lt, 2.0, .4, 40);
+  }
+  // 3 — re-hook
+  if (t >= B[2]) { const lt = t - B[2]; words($("#turn"), lt, 0, .09); $("#turn").style.transform = `scale(${1 + .03 * lt})`; }
+  // 4 — cream lines draw along the fingers
+  if (t >= B[3]) {
+    const lt = t - B[3];
+    words($("#ruleTitle"), lt, 0, .1);
+    $("#c1").setAttribute("height", 330 * pr(lt, .3, .8, E.inOut));
+    $("#c2").setAttribute("height", 340 * pr(lt, .7, .8, E.inOut));
+    $(".hand").style.transform = `rotate(${-4 + 2 * Math.sin(lt * 1.4)}deg)`;
+    show($("#ruleFoot"), lt, 1.5, .4, 40);
+  }
+  // 5 — end card
+  if (t >= B[4]) {
+    const lt = t - B[4];
+    words($("#end"), lt, .05, .09);
+    show($("#uvcard"), lt, .35, .45, 160);
+    const n = count($("#uvNum"), lt, .5, .9, 6);
+    show($("#uvNote"), lt, 1.4, .35, 30);
+    show($("#endSub"), lt, 1.6, .4, 30);
+    show($("#endHandle"), lt, 1.9, .4, 20);
+    $(".handle").style.color = "var(--ivory)";
+  } else $(".handle").style.color = "";
+}
+</script>
+</body></html>

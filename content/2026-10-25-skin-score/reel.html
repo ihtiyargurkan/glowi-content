@@ -1,0 +1,115 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  .stage { background: var(--plum-deep); color: var(--ivory); }
+  #face { left: 190px; top: 300px; width: 700px; height: 900px; }
+  #t1 { top: 1260px; font-size: 116px; padding: 0 70px; color: var(--ivory); }
+  #t1 .w:nth-last-child(-n+2) { color: var(--gold); }
+  #ex { top: 210px; font-size: 30px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .7; }
+  #ring { left: 240px; top: 330px; width: 600px; height: 600px; }
+  #score { top: 470px; font-size: 250px; line-height: 1; color: var(--ivory); }
+  #scoreL { top: 760px; font-size: 44px; font-weight: 800; letter-spacing: .2em; color: var(--blush); }
+  #t2 { top: 1080px; font-size: 96px; padding: 0 80px; color: var(--ivory); }
+  .chip2 { left: 120px; right: 120px; height: 190px; border-radius: 40px; background: rgba(251,248,246,.08); border: 3px solid rgba(251,248,246,.14); display: flex; align-items: center; padding: 0 50px; gap: 30px; }
+  .chip2 .k { font-weight: 850; font-size: 60px; }
+  .chip2 .bar { margin-left: auto; width: 260px; height: 26px; border-radius: 13px; background: rgba(251,248,246,.15); overflow: hidden; }
+  .chip2 .bar i { display: block; height: 100%; border-radius: 13px; background: linear-gradient(90deg, var(--rose), var(--gold)); }
+  #t3 { top: 300px; font-size: 100px; padding: 0 80px; }
+  .rt { left: 120px; right: 120px; height: 150px; display: flex; align-items: center; gap: 34px; font-size: 54px; font-weight: 750; border-bottom: 3px solid rgba(251,248,246,.12); }
+  .rt b { width: 76px; height: 76px; border-radius: 50%; background: var(--gold); color: var(--plum-deep); display: flex; align-items: center; justify-content: center; font-size: 40px; }
+  #rtT { top: 260px; font-size: 84px; }
+  #end { top: 430px; font-size: 128px; padding: 0 70px; }
+  #end .w:nth-child(3), #end .w:nth-child(4) { color: var(--gold); }
+  #endSub { top: 1060px; font-size: 56px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.22; }
+  #endCta { top: 1400px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
+  <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
+
+  <div id="b1">
+    <svg id="face" class="abs" viewBox="0 0 700 900" fill="none" stroke="#EEDDE2" stroke-width="5" stroke-linecap="round">
+      <path id="outline" d="M350 60 C170 60 110 200 110 360 C110 560 210 760 350 820 C490 760 590 560 590 360 C590 200 530 60 350 60 Z"/>
+      <path d="M240 360 Q270 340 300 360 M400 360 Q430 340 460 360" />
+      <path d="M350 400 L340 520 Q350 535 368 525"/>
+      <path d="M290 640 Q350 675 410 640"/>
+      <g id="dots" fill="#E8A93A" stroke="none"></g>
+      <rect id="scan" x="60" y="60" width="580" height="10" rx="5" fill="#E8A93A" stroke="none" opacity=".9"/>
+    </svg>
+    <div id="t1" class="abs center hook">What a skin scan actually sees</div>
+  </div>
+
+  <div id="b2">
+    <div id="ex" class="abs center">EXAMPLE SCAN</div>
+    <svg id="ring" class="abs" viewBox="0 0 600 600"><circle cx="300" cy="300" r="260" stroke="rgba(251,248,246,.12)" stroke-width="34" fill="none"/>
+      <circle id="arc" cx="300" cy="300" r="260" stroke="url(#g)" stroke-width="34" fill="none" stroke-linecap="round" transform="rotate(-90 300 300)" stroke-dasharray="1634" stroke-dashoffset="1634"/>
+      <defs><linearGradient id="g"><stop offset="0" stop-color="#D9708A"/><stop offset="1" stop-color="#E8A93A"/></linearGradient></defs></svg>
+    <div id="score" class="abs center serif">0</div>
+    <div id="scoreL" class="abs center">SKIN SCORE</div>
+    <div id="t2" class="abs center hook">Then it names what's behind it</div>
+    <div class="chip2 abs" style="top:1300px"><div class="k">Uneven tone</div><div class="bar"><i data-v="64"></i></div></div>
+    <div class="chip2 abs" style="top:1520px"><div class="k">Oily T-zone</div><div class="bar"><i data-v="78"></i></div></div>
+  </div>
+
+  <div id="b3">
+    <div id="rtT" class="abs center serif">Then it builds your routine</div>
+    <div class="rt abs" style="top:560px"><b>1</b>Gentle cleanser</div>
+    <div class="rt abs" style="top:730px"><b>2</b>Niacinamide serum</div>
+    <div class="rt abs" style="top:900px"><b>3</b>Light gel moisturizer</div>
+    <div class="rt abs" style="top:1070px"><b>4</b>SPF 30+</div>
+    <div id="cyc" class="abs center" style="top:1330px;font-size:50px;font-weight:700;color:var(--blush)">+ a 28-day skin cycle to follow it</div>
+  </div>
+
+  <div id="b4">
+    <div id="end" class="abs center hook">Stop guessing. Start scanning.</div>
+    <div id="endSub" class="abs center">Glowi: 3-angle scan, skin score, concerns and a routine. Cosmetic guidance, not a diagnosis.</div>
+    <div id="endCta" class="abs">Free scan · link in bio</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.DURATION = 14; window.COVER = 1.8;
+const B = [0, 3.2, 7.6, 10.8];
+const pts = [[250,250],[450,250],[200,420],[500,420],[350,300],[300,560],[400,560],[350,720],[180,560],[520,560],[350,170],[260,690],[440,690]];
+pts.forEach(([x,y]) => $("#dots").innerHTML += `<circle cx="${x}" cy="${y}" r="0"/>`);
+function scene(t) {
+  win($("#b1"), t, 0, B[1]); win($("#b2"), t, B[1], B[2]); win($("#b3"), t, B[2], B[3]); win($("#b4"), t, B[3], 99);
+  flash($("#flash"), t, B);
+  // 1: scan line sweeps from frame 0, landmarks pop as it passes
+  const sy = 60 + ((t * 520) % 760);
+  $("#scan").setAttribute("y", sy);
+  $$("#dots circle").forEach((c, i) => { const y = pts[i][1]; const hit = t * 520 > y - 60; c.setAttribute("r", hit ? 10 + 3 * Math.sin(t * 6 + i) : 0); });
+  $("#face").style.transform = `scale(${1 + .03 * t})`;
+  words($("#t1"), t, 1.2, .1);
+  if (t >= B[1]) {
+    const lt = t - B[1];
+    show($("#ex"), lt, 0, .2, 10);
+    const p = pr(lt, 0, 1.2);
+    $("#arc").setAttribute("stroke-dashoffset", 1634 * (1 - .72 * p));
+    $("#score").textContent = Math.round(72 * p);
+    $("#score").style.transform = `scale(${1 + .08 * Math.sin(clamp((lt - 1.2) / .22) * Math.PI)})`;
+    show($("#scoreL"), lt, .3, .3, 10);
+    words($("#t2"), lt, 1.6, .08);
+    $$(".chip2").forEach((c, i) => { show(c, lt, 2.4 + i * .4, .4, 80, E.back); const b = c.querySelector("i"); b.style.width = (+b.dataset.v * pr(lt, 2.6 + i * .4, .7)) + "%"; });
+  }
+  if (t >= B[2]) {
+    const lt = t - B[2];
+    words($("#rtT"), lt, 0, .1);
+    $$(".rt").forEach((r, i) => show(r, lt, .4 + i * .4, .35, 60, E.back));
+    show($("#cyc"), lt, 2.2, .4, 20);
+  }
+  if (t >= B[3]) {
+    const lt = t - B[3];
+    words($("#end"), lt, .05, .1);
+    show($("#endSub"), lt, 1.0, .4, 30);
+    const p = show($("#endCta"), lt, 1.6, .4, 40, E.back);
+    $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`;
+  }
+}
+</script>
+</body></html>
