@@ -4,12 +4,25 @@
   "note": "status: draft -> approved (by Gurkan) -> published. Only approved items are published. publish_time is 15:00 UTC = 18:00 Istanbul = 11:00 New York.",
   "posts": [
     {
+      "date": "2026-10-19",
+      "id": "2026-10-19-spf-voiced",
+      "type": "reel",
+      "series": "Skin Math",
+      "goal": "share + save",
+      "seed": 3,
+      "status": "approved",
+      "caption": "SPF 100 isn't twice as strong as SPF 50. 🧴\n\nSPF 15 blocks about 93% of UVB, SPF 30 about 97%, SPF 50 about 98%, SPF 100 about 99%. Past 30, the real difference is how much you put on and how often you reapply.\n\nThe two-finger rule: two finger-lengths for face and neck, again every 2 hours outdoors.\n\nSend this to the friend who uses a pea-sized drop 👀\n\n#spf #sunscreen #skincaretips #skincare #glowi",
+      "first_comment": "Which SPF are you wearing today? 15, 30, 50 or 100?",
+      "voiceover": "kokoro af_heart",
+      "music": "nastelbom-happy-upbeat-513438.mp3 (Pixabay)"
+    },
+    {
       "date": "2026-10-20",
       "id": "2026-10-21-dont-mix",
       "type": "carousel",
       "series": "Don't Mix",
       "goal": "save",
-      "status": "draft",
+      "status": "approved",
       "caption": "5 pairs that fight on your face, and one \"don't mix\" rule that's actually wrong. 🧪\n\nRetinol + acids on the same night, vitamin C + benzoyl peroxide, two exfoliants at once, scrubs on retinol nights, and actives without SPF.\n\nSave this before your next routine. Patch test anything new, and if your skin is reactive, check with a dermatologist.\n\n#skincareroutine #retinol #vitaminc #skincaretips #glowi",
       "first_comment": "Which pair have you been using together? Be honest 👇"
     },
@@ -20,9 +33,10 @@
       "series": "Skin Math",
       "goal": "share + save",
       "seed": 3,
-      "status": "draft",
+      "status": "superseded",
       "caption": "SPF 100 isn't twice as strong as SPF 50. 🧴\n\nSPF 15 blocks about 93% of UVB, SPF 30 about 97%, SPF 50 about 98%, SPF 100 about 99%. Past 30, the real difference is how much you put on and how often you reapply.\n\nThe two-finger rule: two finger-lengths for face and neck, again every 2 hours outdoors.\n\nSend this to the friend who uses a pea-sized drop 👀\n\n#spf #sunscreen #skincaretips #skincare #glowi",
-      "first_comment": "Which SPF are you wearing today? 15, 30, 50 or 100?"
+      "first_comment": "Which SPF are you wearing today? 15, 30, 50 or 100?",
+      "note": "replaced by the voiced version posted 19 Oct"
     },
     {
       "date": "2026-10-22",
@@ -41,7 +55,7 @@
       "type": "carousel",
       "series": "Skin Basics",
       "goal": "comments + follow",
-      "status": "draft",
+      "status": "approved",
       "caption": "Your real skin type, in 30 minutes, with no products. ⏱\n\nWash, pat dry, apply nothing, wait 30 minutes, then check your skin in daylight. Shiny all over, tight and flaky, shiny T-zone only, or comfortable all day?\n\nComment your result: oily, dry, combination or normal (+ sensitive?) 👇\n\nWant the full picture? Glowi's 3-angle scan builds your skin profile in seconds. Link in bio.\n\n#skintype #oilyskin #dryskin #combinationskin #glowi",
       "first_comment": "Mine: combination + sensitive. Yours? 👇"
     },
@@ -73,7 +87,7 @@
       "type": "carousel",
       "series": "Myth Court",
       "goal": "share",
-      "status": "draft",
+      "status": "approved",
       "caption": "6 skin myths on trial. ⚖️ Most of us still believe at least two.\n\nOily skin still needs moisturizer. UVA comes through windows. Pores don't open or close. SPF 50 still needs reapplying. Price doesn't decide results. Water helps, but dry skin needs moisture from the outside too.\n\nWhich one did you believe? 👇 Send this to the friend who's still team \"no moisturizer\".\n\n#skincaremyths #skincaretips #skincare #skincarecommunity #glowi",
       "first_comment": "Next week's trial: drop a myth you want us to judge 👇"
     }

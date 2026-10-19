@@ -37,13 +37,13 @@ def best_start(x, seconds):
     return round(t, 3)
 
 
-def fit(track, out, seconds, offset=None):
+def fit(track, out, seconds, offset=None, lufs=-14):
     x = decode(track)
     start = best_start(x, seconds) if offset is None else offset
     fade_out = min(1.2, seconds / 6)
     af = (f"atrim=start={start}:duration={seconds},asetpts=PTS-STARTPTS,"
           f"afade=t=in:d=0.04,afade=t=out:st={seconds - fade_out}:d={fade_out},"
-          f"loudnorm=I=-14:TP=-1.5:LRA=9")
+          f"loudnorm=I={lufs}:TP=-1.5:LRA=9")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", track, "-af", af, "-ar", str(SR), "-ac", "2", out], check=True)
     return start
 
@@ -52,5 +52,6 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("track"); ap.add_argument("out"); ap.add_argument("seconds", type=float)
     ap.add_argument("--offset", type=float, default=None)
+    ap.add_argument("--lufs", type=float, default=-14)
     a = ap.parse_args()
-    print(fit(a.track, a.out, a.seconds, a.offset))
+    print(fit(a.track, a.out, a.seconds, a.offset, a.lufs))
