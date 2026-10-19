@@ -43,7 +43,7 @@ def main(post_dir, out=None):
     mix = bed * env[:, None] + vox[:, None]
     mix *= 0.70 / np.abs(mix).max()
     tmp = out + ".premix.wav"; sf.write(tmp, mix.astype(np.float32), SR)
-    g = min(10 ** ((-15 - lufs(tmp)) / 20), 0.84 / np.abs(mix).max())
+    g = min(10 ** ((-15 - lufs(tmp)) / 20), 0.78 / np.abs(mix).max())  # ≤ -1 dBTP after AAC
     sf.write(tmp, (mix * g).astype(np.float32), SR)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", video, "-i", tmp, "-map", "0:v", "-map", "1:a", "-c:v", "copy",
                     "-c:a", "aac", "-b:a", "256k", "-ar", "44100", "-movflags", "+faststart", "-t", str(dur), out], check=True)
