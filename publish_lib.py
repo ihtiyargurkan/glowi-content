@@ -33,10 +33,30 @@ def _sh(cmd):
     subprocess.run(cmd, shell=True, check=True, cwd=ROOT)
 
 
+def source_hash(d):
+    """Hash of the inputs a voiced reel is rendered from (vo.json + reel.mp4)."""
+    import hashlib
+    h = hashlib.sha256()
+    for f in ("vo.json", "reel.mp4"):
+        h.update(open(os.path.join(d, f), "rb").read())
+    return h.hexdigest()
+
+
+def prerendered(d):
+    """final.mp4 committed ahead of time, still matching its sources → no TTS at publish time."""
+    final, stamp = os.path.join(d, "final.mp4"), os.path.join(d, "final.sha256")
+    if os.path.exists(final) and os.path.exists(stamp) and open(stamp).read().strip() == source_hash(d):
+        return final
+    return None
+
+
 def prepare(post):
     d = os.path.join(ROOT, "content", post["id"])
     if post["type"] == "reel":
         if os.path.exists(os.path.join(d, "vo.json")):
+            pre = prerendered(d)
+            if pre:
+                return [pre]
             _sh(f"{sys.executable} -c 'import kokoro_onnx' 2>/dev/null || pip install -q kokoro-onnx soundfile")
             _sh(f"{sys.executable} lib/vo.py {d} && {sys.executable} lib/vo_mix.py {d}")
             return [os.path.join(d, "final.mp4")]
