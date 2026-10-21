@@ -1,0 +1,9 @@
+{"slides":[
+ {"kind":"cover","title":"4 things your skincare should *never* meet","sub":"Not ingredient pairs this time. Everyday stuff.","kicker":"SAVE BEFORE YOU NEED IT"},
+ {"kind":"item","n":"01","title":"Retinol + face waxing","chips":["Retinol","Wax"],"body":"Retinoids make skin more fragile, so wax can lift *skin along with the hair*.","fix":"Stop retinol 2–5 days before waxing your face.","fix_label":"INSTEAD"},
+ {"kind":"item","n":"02","title":"Benzoyl peroxide + colored fabric","chips":["Benzoyl peroxide","Colored fabric"],"body":"It can *bleach* colored towels, pillowcases and hair.","fix":"Use white towels and pillowcases, and let it dry first.","fix_label":"INSTEAD"},
+ {"kind":"item","n":"03","title":"Lime juice + sunshine","chips":["Lime / lemon","Sun"],"body":"Citrus juice on skin plus UV can cause a rash, blisters and *dark marks that last for months*.","fix":"Wash it off with soap and water as soon as you can.","fix_label":"INSTEAD"},
+ {"kind":"item","n":"04","title":"SPF 30 + SPF 30","chips":["SPF 30 moisturizer","SPF 30 foundation"],"join":"≠","body":"Layering SPF products doesn't add up to 60. You get roughly the *highest one* you used.","fix":"One proper sunscreen layer, SPF 30+, applied generously.","fix_label":"INSTEAD"},
+ {"kind":"steps","title":"Screenshot this","items":["No retinol 2–5 days before a face wax","Benzoyl peroxide: white towels only","Citrus on skin? Wash before the sun","SPF 30 + SPF 30 is still about 30"]},
+ {"kind":"cta","title":"Know what *your* skin can handle","body":"Glowi scans your skin and builds a morning and evening routine around it. Cosmetic guidance, not a diagnosis.","action":"Free scan · link in bio"}
+]}

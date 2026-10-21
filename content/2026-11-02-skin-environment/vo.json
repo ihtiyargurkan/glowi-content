@@ -1,0 +1,22 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "duck": 0.45,
+ "lines": [
+  "Your routine ignores the weather. Your skin doesn't.",
+  "Glowi reads the UV, humidity and air where you are.",
+  "UV at seven? SPF thirty, and reapply outdoors.",
+  "Humidity down at twenty percent? Reach for a richer moisturizer.",
+  "One read, one note for your skin today.",
+  "Skin environment comes with Glowi Premium. Link in bio."
+ ],
+ "offsets": [
+  0.1,
+  3.14,
+  6.34,
+  10.01,
+  13.88,
+  16.33
+ ],
+ "model": "kokoro-v1.0.fp16.onnx"
+}

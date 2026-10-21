@@ -1,0 +1,24 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "duck": 0.45,
+ "lines": [
+  "One day is not a patch test.",
+  "Dermatologists say seven to ten days.",
+  "Put a small dab on the inside of your elbow.",
+  "Use your normal amount, twice a day.",
+  "Redness, itching or swelling? Wash it off and stop.",
+  "Nothing after ten days? Now it can go on your face.",
+  "Save this before you open your next product."
+ ],
+ "offsets": [
+  0.1,
+  1.93,
+  4.31,
+  6.74,
+  8.86,
+  12.08,
+  15.06
+ ],
+ "model": "kokoro-v1.0.fp16.onnx"
+}

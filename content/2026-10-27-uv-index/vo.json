@@ -1,0 +1,24 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "duck": 0.45,
+ "lines": [
+  "At UV three, your skin already needs sunscreen.",
+  "Zero to two is low, unless you burn easily.",
+  "Three to five? SPF thirty, and shade around midday.",
+  "Six and up, cut your sun time between ten and four.",
+  "Eight and up, unprotected skin can burn quickly.",
+  "So check the UV, not the temperature.",
+  "Save this, and check today's number. Follow for more."
+ ],
+ "offsets": [
+  0.1,
+  3.08,
+  5.85,
+  9.03,
+  11.95,
+  14.79,
+  17.15
+ ],
+ "model": "kokoro-v1.0.fp16.onnx"
+}

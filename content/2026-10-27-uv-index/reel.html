@@ -1,0 +1,125 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  .stage { background: var(--plum-deep); color: var(--ivory); }
+  #dial { left: 60px; top: 250px; width: 960px; height: 560px; }
+  #uvL { top: 790px; font-size: 44px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .8; }
+  #uvN { top: 840px; font-size: 260px; line-height: 1; color: var(--ivory); }
+  #t1 { top: 1140px; font-size: 112px; padding: 0 70px; }
+  #t1 .w:nth-last-child(-n+2) { color: var(--gold); }
+  #mini { left: 290px; top: 230px; width: 500px; height: 292px; }
+  #scT { top: 560px; font-size: 76px; }
+  .row { left: 90px; right: 90px; height: 200px; border-radius: 40px; background: rgba(251,248,246,.07); border: 3px solid rgba(251,248,246,.12); display: flex; align-items: center; padding: 0 44px; gap: 40px; }
+  .row .n { flex: none; width: 210px; font-family: "Fraunces", serif; font-size: 92px; line-height: 1; }
+  .row .k { font-weight: 850; font-size: 46px; letter-spacing: .06em; }
+  .row .d { font-size: 40px; font-weight: 600; color: var(--blush); margin-top: 8px; line-height: 1.15; }
+  #temp { top: 330px; font-size: 300px; line-height: 1; color: rgba(251,248,246,.35); }
+  #strike { left: 250px; top: 480px; width: 0; height: 18px; border-radius: 9px; background: var(--alert); transform: rotate(-12deg); transform-origin: left center; }
+  #uvBig { top: 690px; font-size: 220px; line-height: 1; color: var(--gold); }
+  #t3 { top: 1080px; font-size: 104px; padding: 0 80px; }
+  #t3 .w:nth-child(2), #t3 .w:nth-child(3) { color: var(--gold); }
+  #end { top: 420px; font-size: 124px; padding: 0 70px; }
+  #end .w:nth-last-child(-n+2) { color: var(--gold); }
+  #endSub { top: 1000px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
+  #endSrc { top: 1290px; font-size: 34px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; }
+  #endCta { top: 1420px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
+  <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
+
+  <svg width="0" height="0" style="position:absolute"><defs>
+    <linearGradient id="uvg" x1="0" x2="1"><stop offset="0" stop-color="#7FA88B"/><stop offset=".3" stop-color="#E8C23A"/><stop offset=".55" stop-color="#E8A93A"/><stop offset=".78" stop-color="#D94F3D"/><stop offset="1" stop-color="#9B4FB0"/></linearGradient>
+  </defs></svg>
+
+  <div id="b1">
+    <svg id="dial" class="abs" viewBox="0 0 960 560" fill="none">
+      <path d="M80 500 A400 400 0 0 1 880 500" stroke="rgba(251,248,246,.10)" stroke-width="64" stroke-linecap="round"/>
+      <path id="arc1" d="M80 500 A400 400 0 0 1 880 500" stroke="url(#uvg)" stroke-width="64" stroke-linecap="round" pathLength="1000" stroke-dasharray="1000" stroke-dashoffset="1000"/>
+      <g id="needle1"><line x1="480" y1="500" x2="480" y2="170" stroke="#FBF8F6" stroke-width="16" stroke-linecap="round"/><circle cx="480" cy="500" r="30" fill="#FBF8F6"/></g>
+    </svg>
+    <div id="uvL" class="abs center">UV INDEX</div>
+    <div id="uvN" class="abs center serif">0</div>
+    <div id="t1" class="abs center hook">At UV 3, your skin already needs SPF</div>
+  </div>
+
+  <div id="b2">
+    <svg id="mini" class="abs" viewBox="0 0 960 560" fill="none">
+      <path d="M80 500 A400 400 0 0 1 880 500" stroke="url(#uvg)" stroke-width="64" stroke-linecap="round"/>
+      <g id="needle2"><line x1="480" y1="500" x2="480" y2="150" stroke="#FBF8F6" stroke-width="18" stroke-linecap="round"/><circle cx="480" cy="500" r="36" fill="#FBF8F6"/></g>
+    </svg>
+    <div id="scT" class="abs center serif">The UV scale, decoded</div>
+    <div class="row abs" style="top:700px"><div class="n" style="color:#7FA88B">0–2</div><div><div class="k">LOW</div><div class="d">Unless you burn easily</div></div></div>
+    <div class="row abs" style="top:930px"><div class="n" style="color:#E8C23A">3–5</div><div><div class="k">MODERATE</div><div class="d">SPF 30+, shade at midday</div></div></div>
+    <div class="row abs" style="top:1160px"><div class="n" style="color:#E8A93A">6–7</div><div><div class="k">HIGH</div><div class="d">Less sun, 10 am – 4 pm</div></div></div>
+    <div class="row abs" style="top:1390px"><div class="n" style="color:#D94F3D">8+</div><div><div class="k">VERY HIGH</div><div class="d">Bare skin burns quickly</div></div></div>
+  </div>
+
+  <div id="b3">
+    <div id="temp" class="abs center serif">24°</div>
+    <div id="strike" class="abs"></div>
+    <div id="uvBig" class="abs center serif">UV 6</div>
+    <div id="t3" class="abs center hook">Check the UV, not the temperature</div>
+  </div>
+
+  <div id="b4">
+    <div id="end" class="abs center hook">Save this. Check today's UV.</div>
+    <div id="endSub" class="abs center">From 3 up: SPF 30+, reapplied every 2 hours outdoors.</div>
+    <div id="endSrc" class="abs center">SOURCE: US EPA UV INDEX SCALE</div>
+    <div id="endCta" class="abs">Follow for skin, decoded</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.HIT = 0.9; window.DURATION = 21.3; window.COVER = 1.6;
+const B = [0, 2.98, 14.69, 17.05];
+const ang = v => -90 + 180 * clamp(v / 11);   // UV 0..11 across the arc
+const setN = (el, v) => el.setAttribute("transform", `rotate(${ang(v)} 480 500)`);
+function scene(t) {
+  win($("#b1"), t, 0, B[1]); win($("#b2"), t, B[1], B[2]); win($("#b3"), t, B[2], B[3]); win($("#b4"), t, B[3], 99);
+  flash($("#flash"), t, B);
+  // 1: needle already sweeping at frame 0, overshoots and settles on 3
+  const p = pr(t, 0, .9, E.back);
+  const v = 3 * p + (t > .9 ? .12 * Math.sin(t * 7) * Math.exp(-(t - .9) * 2) : 0);
+  setN($("#needle1"), v);
+  $("#arc1").setAttribute("stroke-dashoffset", 1000 * (1 - clamp(v / 11)));
+  $("#uvN").textContent = Math.round(3 * pr(t, 0, .8));
+  $("#uvN").style.transform = `scale(${1 + .1 * Math.sin(clamp((t - .8) / .25) * Math.PI)})`;
+  $("#dial").style.transform = `scale(${1 + .02 * t})`;
+  words($("#t1"), t, .15, .1);
+  if (t >= B[1]) {
+    const lt = t - B[1];
+    words($("#scT"), lt, 0, .08);
+    const at = [.1, 2.87, 6.05, 8.97], lv = [1, 4, 6.5, 9.5];
+    let nv = 0;
+    $$(".row").forEach((r, i) => { show(r, lt, at[i], .4, 70, E.back); if (lt >= at[i]) nv = lv[i]; });
+    let prev = 0; at.forEach((a, i) => { if (lt >= a) prev = i ? lv[i - 1] : 0; });
+    const k = at.findIndex((a, i) => lt >= a && (i == 3 || lt < at[i + 1]));
+    const target = k < 0 ? 0 : lerp(k ? lv[k - 1] : 0, lv[k], pr(lt, at[k], .6, E.back));
+    setN($("#needle2"), target + .1 * Math.sin(lt * 3));
+    $$(".row").forEach((r, i) => { r.style.borderColor = i === k ? "rgba(232,169,58,.8)" : "rgba(251,248,246,.12)"; });
+  }
+  if (t >= B[2]) {
+    const lt = t - B[2];
+    show($("#temp"), lt, 0, .3, 30);
+    $("#strike").style.width = (620 * pr(lt, .35, .35)) + "px";
+    const p2 = show($("#uvBig"), lt, .6, .4, 50, E.back);
+    $("#uvBig").style.transform = `scale(${.6 + .4 * p2 + .03 * Math.sin(lt * 5)})`;
+    words($("#t3"), lt, .2, .1);
+  }
+  if (t >= B[3]) {
+    const lt = t - B[3];
+    words($("#end"), lt, .05, .1);
+    show($("#endSub"), lt, .9, .4, 30);
+    show($("#endSrc"), lt, 1.3, .4, 20);
+    const p3 = show($("#endCta"), lt, 1.6, .4, 40, E.back);
+    $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p3) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`;
+  }
+}
+</script>
+</body></html>

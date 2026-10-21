@@ -1,0 +1,24 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "duck": 0.45,
+ "lines": [
+  "Your shower might be drying out your skin.",
+  "Rule one: five to ten minutes. Not twenty.",
+  "Rule two: warm water, not hot.",
+  "Rule three: pat dry. Don't rub.",
+  "Rule four: moisturize while your skin is still damp.",
+  "Creams and ointments hold in more moisture than lotions.",
+  "Save this for dry skin season. Follow for more."
+ ],
+ "offsets": [
+  0.1,
+  2.41,
+  5.29,
+  7.53,
+  9.79,
+  12.83,
+  16.28
+ ],
+ "model": "kokoro-v1.0.fp16.onnx"
+}

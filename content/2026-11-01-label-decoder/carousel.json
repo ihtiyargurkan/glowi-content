@@ -1,0 +1,9 @@
+{"slides":[
+ {"kind":"cover","title":"4 label words, *decoded*","sub":"Some are strictly regulated. One means whatever the brand wants.","kicker":"SAVE FOR YOUR NEXT SHOP"},
+ {"kind":"item","n":"01","title":"\"Hypoallergenic\"","body":"There's *no federal standard* for it in the US. Each brand decides what it means, and doesn't have to prove it to the FDA.","fix":"Patch test anyway.","fix_label":"SO"},
+ {"kind":"item","n":"02","title":"\"Broad spectrum\"","body":"SPF mostly measures UVB. Broad spectrum means it was tested to protect against *UVA too*.","fix":"Look for both: SPF 30+ and broad spectrum.","fix_label":"SO"},
+ {"kind":"item","n":"03","title":"\"Water resistant\"","body":"US labels can only say *40 or 80 minutes*. There's no such thing as a waterproof sunscreen.","fix":"Reapply after that time when you swim or sweat.","fix_label":"SO"},
+ {"kind":"big","big":"3","title":"years","body":"No expiration date on your sunscreen? The FDA says treat it as *expired 3 years after purchase*. Don't know when you bought it? Replace it."},
+ {"kind":"steps","title":"Screenshot this","items":["Hypoallergenic: no standard, patch test","Broad spectrum: UVA + UVB","Water resistant: 40 or 80 min, then reapply","No date on sunscreen: 3 years max"]},
+ {"kind":"cta","title":"Does it fit *your* skin?","body":"Scan a product's barcode in Glowi and check its ingredients against your skin profile.","action":"Glowi · link in bio"}
+]}

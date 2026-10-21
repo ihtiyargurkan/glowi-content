@@ -1,0 +1,10 @@
+{"slides":[
+ {"kind":"cover","title":"Myth Court, *part two*","sub":"5 routine habits on trial. One gets a surprise verdict.","kicker":"SWIPE FOR THE VERDICTS"},
+ {"kind":"item","verdict":"MYTH","title":"\"Toothpaste dries out pimples\"","body":"It's made for teeth. On skin it can leave a *redder, more irritated* spot than you started with.","fix":"A spot product made for skin, like salicylic acid.","fix_label":"INSTEAD"},
+ {"kind":"item","verdict":"MYTH","title":"\"Natural means gentle\"","body":"Plant oils and fragrances can still cause reactions. *Poison ivy is natural too.*","fix":"Judge the ingredient list, not the leaf on the label.","fix_label":"INSTEAD"},
+ {"kind":"item","verdict":"MYTH","title":"\"Scrub harder, get cleaner\"","body":"Washcloths, sponges and hard scrubbing *irritate skin*. Clean isn't the same as squeaky.","fix":"Fingertips and a gentle cleanser.","fix_label":"INSTEAD"},
+ {"kind":"item","verdict":"MYTH","title":"\"It should work in a week\"","body":"Most products need *several weeks to a few months* before you see a difference.","fix":"Give one product time before you swap it out.","fix_label":"INSTEAD"},
+ {"kind":"item","verdict":"HALF TRUE","title":"\"If it tingles, it's working\"","body":"Retinol and glycolic acid can sting at first, and that's often temporary. Redness, itching or swelling *isn't progress*.","fix":"Mild and fading: fine. Red, itchy, swollen: stop.","fix_label":"VERDICT"},
+ {"kind":"steps","title":"The verdicts","items":["Toothpaste stays in your mouth","Natural can still irritate","Gentle beats scrubbing","Give it weeks, not days","Tingle that fades: OK. Redness: stop"]},
+ {"kind":"cta","title":"Which one did *you* believe?","body":"Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.","action":"Glowi · link in bio"}
+]}

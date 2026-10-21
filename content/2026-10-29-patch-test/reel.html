@@ -1,0 +1,142 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  .stage { background: var(--plum-deep); color: var(--ivory); }
+  #one { top: 250px; font-size: 520px; line-height: 1; color: var(--ivory); }
+  #oneL { top: 800px; font-size: 64px; font-weight: 850; letter-spacing: .3em; color: var(--blush); }
+  #x1 { left: 140px; top: 560px; width: 0; height: 30px; border-radius: 15px; background: var(--alert); transform: rotate(-14deg); transform-origin: left center; }
+  #t1 { top: 1060px; font-size: 118px; padding: 0 70px; }
+  #t1 .w:nth-last-child(-n+2) { color: var(--gold); }
+  #grid { left: 110px; top: 320px; width: 860px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 26px; }
+  .day { height: 150px; border-radius: 30px; background: rgba(251,248,246,.07); border: 3px solid rgba(251,248,246,.12); display: flex; align-items: center; justify-content: center; font-family: "Fraunces", serif; font-size: 70px; color: rgba(251,248,246,.4); }
+  .day.on { background: var(--gold); color: var(--plum-deep); border-color: var(--gold); }
+  #days { top: 780px; font-size: 200px; line-height: 1; color: var(--gold); }
+  #t2 { top: 1050px; font-size: 92px; padding: 0 80px; }
+  #arm { left: 140px; top: 240px; width: 800px; height: 760px; }
+  #t3 { top: 1040px; font-size: 92px; padding: 0 80px; }
+  .chip3 { left: 140px; right: 140px; height: 150px; border-radius: 36px; background: rgba(251,248,246,.08); border: 3px solid rgba(251,248,246,.14); display: flex; align-items: center; padding: 0 44px; gap: 30px; font-size: 54px; font-weight: 800; }
+  .chip3 b { color: var(--gold); font-weight: 850; }
+  #t4 { top: 300px; font-size: 104px; padding: 0 80px; }
+  .warn { left: 160px; right: 160px; height: 170px; border-radius: 40px; background: rgba(217,79,61,.14); border: 4px solid rgba(217,79,61,.7); display: flex; align-items: center; justify-content: center; font-size: 72px; font-weight: 850; }
+  #stop { top: 1330px; left: 50%; transform: translateX(-50%); font-size: 60px; font-weight: 850; background: var(--alert); color: var(--ivory); padding: 30px 60px; border-radius: 999px; white-space: nowrap; }
+  #check { left: 290px; top: 260px; width: 500px; height: 500px; }
+  #t5 { top: 880px; font-size: 112px; padding: 0 80px; }
+  #t5 .w:nth-last-child(-n+2) { color: var(--gold); }
+  #end { top: 420px; font-size: 120px; padding: 0 70px; }
+  #end .w:nth-last-child(-n+2) { color: var(--gold); }
+  #endSub { top: 1010px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
+  #endSrc { top: 1290px; font-size: 34px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; }
+  #endCta { top: 1420px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
+  <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
+
+  <div id="b1">
+    <div id="one" class="abs center serif">1</div>
+    <div id="x1" class="abs"></div>
+    <div id="oneL" class="abs center">DAY</div>
+    <div id="t1" class="abs center hook">1 day is not a patch test</div>
+  </div>
+
+  <div id="b2">
+    <div id="grid" class="abs"></div>
+    <div id="days" class="abs center serif">7–10 days</div>
+    <div id="t2" class="abs center hook">That's what dermatologists recommend</div>
+  </div>
+
+  <div id="b3">
+    <svg id="arm" class="abs" viewBox="0 0 800 760" fill="none" stroke="#EEDDE2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M60 120 C200 150 330 220 400 330 C430 380 470 420 540 450 L760 540"/>
+      <path d="M60 300 C170 310 260 350 320 420 C360 470 420 540 520 590 L740 680"/>
+      <circle id="dab" cx="390" cy="420" r="0" fill="#E8A93A" stroke="none"/>
+      <text id="lbl" x="470" y="380" fill="#E8A93A" stroke="none" font-family="Inter" font-weight="800" font-size="40" letter-spacing="6" opacity="0">INNER ELBOW</text>
+      <circle id="ring" cx="390" cy="420" r="40" stroke="#E8A93A" stroke-width="5" opacity="0"/>
+    </svg>
+    <div id="t3" class="abs center hook">A small dab, inside your elbow</div>
+    <div class="chip3 abs" style="top:1300px"><b>✓</b>Your normal amount</div>
+    <div class="chip3 abs" style="top:1480px"><b>✓</b>Twice a day</div>
+  </div>
+
+  <div id="b4">
+    <div id="t4" class="abs center hook">See any of these?</div>
+    <div class="warn abs" style="top:620px">Redness</div>
+    <div class="warn abs" style="top:830px">Itching</div>
+    <div class="warn abs" style="top:1040px">Swelling</div>
+    <div id="stop" class="abs">Wash it off. Stop.</div>
+  </div>
+
+  <div id="b5">
+    <svg id="check" class="abs" viewBox="0 0 500 500" fill="none">
+      <circle cx="250" cy="250" r="220" stroke="rgba(127,168,139,.3)" stroke-width="24"/>
+      <circle id="cArc" cx="250" cy="250" r="220" stroke="#7FA88B" stroke-width="24" stroke-linecap="round" transform="rotate(-90 250 250)" pathLength="1000" stroke-dasharray="1000" stroke-dashoffset="1000"/>
+      <path id="tick" d="M150 260 L225 330 L360 180" stroke="#7FA88B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" pathLength="1000" stroke-dasharray="1000" stroke-dashoffset="1000"/>
+    </svg>
+    <div id="t5" class="abs center hook">Day 10, all clear? Now your face</div>
+  </div>
+
+  <div id="b6">
+    <div id="end" class="abs center hook">Save this before your next product</div>
+    <div id="endSub" class="abs center">Glowi checks a product against your skin profile. Cosmetic guidance, not a diagnosis.</div>
+    <div id="endSrc" class="abs center">SOURCE: AMERICAN ACADEMY OF DERMATOLOGY</div>
+    <div id="endCta" class="abs">Glowi · link in bio</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.HIT = 0.7; window.DURATION = 18.6; window.COVER = 1.4;
+const B = [0, 1.83, 4.21, 8.76, 11.98, 14.96];
+for (let i = 1; i <= 10; i++) $("#grid").innerHTML += `<div class="day">${i}</div>`;
+function scene(t) {
+  B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
+  flash($("#flash"), t, B);
+  // 1: the giant "1" is already pulsing at frame 0, a red strike slashes through it
+  $("#one").style.transform = `scale(${1.04 + .04 * Math.sin(t * 7)})`;
+  $("#x1").style.width = (820 * pr(t, .2, .45)) + "px";
+  words($("#t1"), t, .1, .12);
+  if (t >= B[1]) {
+    const lt = t - B[1];
+    $$(".day").forEach((d, i) => d.classList.toggle("on", lt > .1 + i * .12));
+    $$(".day").forEach((d, i) => { const p = pr(lt, .1 + i * .12, .3, E.back); d.style.transform = `scale(${lt > .1 + i * .12 ? .85 + .15 * p : 1})`; });
+    const p = show($("#days"), lt, .3, .4, 40, E.back);
+    words($("#t2"), lt, .7, .08);
+  }
+  if (t >= B[2]) {
+    const lt = t - B[2];
+    $("#dab").setAttribute("r", 34 * pr(lt, .2, .5, E.back));
+    const rp = (lt * .9) % 1; $("#ring").setAttribute("r", 40 + 70 * rp); $("#ring").setAttribute("opacity", lt > .5 ? .8 * (1 - rp) : 0);
+    $("#lbl").setAttribute("opacity", clamp((lt - .5) / .3)); $("#arm").style.transform = `scale(${1 + .01 * lt})`;
+    words($("#t3"), lt, 0, .1);
+    show($$(".chip3")[0], lt, 2.53, .35, 60, E.back);
+    show($$(".chip3")[1], lt, 3.4, .35, 60, E.back);
+  }
+  if (t >= B[3]) {
+    const lt = t - B[3];
+    words($("#t4"), lt, 0, .1);
+    $$(".warn").forEach((w, i) => { const p = show(w, lt, .2 + i * .35, .35, 50, E.back); w.style.transform += ` translateX(${lt > 1.5 ? 6 * Math.sin(lt * 30) * Math.exp(-(lt - 1.5) * 6) : 0}px)`; });
+    const p = show($("#stop"), lt, 1.6, .4, 40, E.back);
+    $("#stop").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px)`;
+  }
+  if (t >= B[4]) {
+    const lt = t - B[4];
+    $("#cArc").setAttribute("stroke-dashoffset", 1000 * (1 - pr(lt, 0, .7)));
+    $("#tick").setAttribute("stroke-dashoffset", 1000 * (1 - pr(lt, .5, .4)));
+    $("#check").style.transform = `scale(${1 + .03 * Math.sin(lt * 4)})`;
+    words($("#t5"), lt, .1, .1);
+  }
+  if (t >= B[5]) {
+    const lt = t - B[5];
+    words($("#end"), lt, .05, .1);
+    show($("#endSub"), lt, .9, .4, 30);
+    show($("#endSrc"), lt, 1.3, .4, 20);
+    const p = show($("#endCta"), lt, 1.6, .4, 40, E.back);
+    $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`;
+  }
+}
+</script>
+</body></html>
