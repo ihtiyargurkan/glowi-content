@@ -21,10 +21,12 @@ def queue():
     return json.load(open(os.path.join(ROOT, "queue.json")))
 
 
-def today_post_id(day=None):
+def today_post_id(day=None, slot=1):
+    """Today's approved post for a slot. Slot 1 is the daily post; slot 2 is an optional extra
+    (e.g. a French test version), published by its own scheduled run, never by the daily one."""
     day = day or datetime.datetime.now(IST).date().isoformat()
     for p in queue()["posts"]:
-        if p["date"] == day and p.get("status") == "approved":
+        if p["date"] == day and p.get("status") == "approved" and p.get("slot", 1) == slot:
             return p["id"]
     return None
 

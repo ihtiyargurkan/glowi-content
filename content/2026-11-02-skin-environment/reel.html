@@ -99,7 +99,7 @@ function scene(t) {
   $("#rays").setAttribute("transform", `rotate(${t * 40} 450 400)`);
   $("#sun").setAttribute("transform", `translate(450 400) scale(${1 + .05 * Math.sin(t * 4)}) translate(-450 -400)`);
   $("#cloud").setAttribute("transform", `translate(${lerp(1100, 330, E.out(t / 2.4))} ${560 + 10 * Math.sin(t * 2)})`);
-  words($("#t1"), t, .1, .1);
+  words($("#t1"), t, -.3, .06);
   if (t >= B[1]) {
     const lt = t - B[1];
     show($("#ex"), lt, 0, .2, 10);

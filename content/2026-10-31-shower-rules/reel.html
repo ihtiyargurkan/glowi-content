@@ -106,7 +106,7 @@ function scene(t) {
   // 1: water already falling at frame 0
   $$("#rain rect").forEach((r, i) => { const [x, o] = rain[i]; const y = 245 + ((o + t * 700) % 360); r.setAttribute("x", x); r.setAttribute("y", y); r.setAttribute("opacity", 1 - (y - 245) / 420); });
   $("#head").style.transform = `scale(${1 + .02 * t})`;
-  words($("#t1"), t, .1, .09);
+  words($("#t1"), t, -.3, .06);
   $$(".rule").forEach(r => r.style.opacity = .75);
   if (t >= B[1]) {
     const lt = t - B[1];

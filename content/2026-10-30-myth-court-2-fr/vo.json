@@ -1,0 +1,25 @@
+{
+ "voice": "ff_siwis",
+ "speed": 1.1,
+ "lang": "fr-fr",
+ "lines": [
+  "Du dentifrice sur un bouton ? Stop.",
+  "Il est fait pour les dents. Sur la peau, il peut rendre le bouton plus rouge.",
+  "Naturel veut dire doux ? Faux. L'ortie aussi est naturelle.",
+  "Frotter plus fort ? Faux. Ça irrite la peau.",
+  "Des résultats en une semaine ? Faux. Il faut des semaines, voire des mois.",
+  "Ça picote, donc ça marche ? À moitié vrai. Si ça rougit, on arrête.",
+  "Tu y croyais, à laquelle ?"
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  2.22,
+  5.89,
+  8.95,
+  11.24,
+  14.86,
+  18.64
+ ]
+}

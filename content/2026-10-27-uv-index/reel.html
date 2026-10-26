@@ -91,7 +91,7 @@ function scene(t) {
   $("#uvN").textContent = Math.round(3 * pr(t, 0, .8));
   $("#uvN").style.transform = `scale(${1 + .1 * Math.sin(clamp((t - .8) / .25) * Math.PI)})`;
   $("#dial").style.transform = `scale(${1 + .02 * t})`;
-  words($("#t1"), t, .15, .1);
+  words($("#t1"), t, -.3, .06);
   if (t >= B[1]) {
     const lt = t - B[1];
     words($("#scT"), lt, 0, .08);

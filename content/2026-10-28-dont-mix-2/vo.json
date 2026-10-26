@@ -1,0 +1,24 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lines": [
+  "Your acne cream can bleach your pillowcase.",
+  "Benzoyl peroxide bleaches towels, pillowcases, even hair.",
+  "Three more things your skincare should never meet.",
+  "Retinol before a face wax? It can lift skin with the hair.",
+  "Lime juice in the sun can leave dark marks for months.",
+  "SPF thirty plus thirty? Still about thirty.",
+  "Save this before you need it."
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  2.57,
+  6.5,
+  8.83,
+  12.25,
+  15.44,
+  18.22
+ ]
+}

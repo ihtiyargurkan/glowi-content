@@ -98,7 +98,7 @@ function scene(t) {
   // 1: the giant "1" is already pulsing at frame 0, a red strike slashes through it
   $("#one").style.transform = `scale(${1.04 + .04 * Math.sin(t * 7)})`;
   $("#x1").style.width = (820 * pr(t, .2, .45)) + "px";
-  words($("#t1"), t, .1, .12);
+  words($("#t1"), t, -.3, .06);
   if (t >= B[1]) {
     const lt = t - B[1];
     $$(".day").forEach((d, i) => d.classList.toggle("on", lt > .1 + i * .12));

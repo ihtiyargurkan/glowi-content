@@ -1,0 +1,22 @@
+{
+ "voice": "af_heart",
+ "speed": 1.15,
+ "lines": [
+  "Hypoallergenic means whatever the brand wants.",
+  "There's no federal standard. Patch test anyway.",
+  "Broad spectrum means UVA protection too.",
+  "Water resistant? Only forty or eighty minutes.",
+  "No date on your sunscreen? Toss it after three years.",
+  "Save this for your next shop."
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  2.94,
+  5.66,
+  8.3,
+  10.97,
+  13.91
+ ]
+}

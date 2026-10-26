@@ -1,0 +1,24 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lines": [
+  "Toothpaste on a pimple? Stop.",
+  "It's made for teeth. On skin, it can make the spot redder.",
+  "Natural means gentle? Myth. Poison ivy is natural too.",
+  "Scrub harder? Myth. It irritates your skin.",
+  "Results in a week? Myth. It takes weeks, even months.",
+  "Tingling means it's working? Half true. Redness means stop.",
+  "Which one did you believe?"
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  2.18,
+  5.69,
+  9.57,
+  12.51,
+  15.88,
+  19.41
+ ]
+}

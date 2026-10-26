@@ -3,7 +3,7 @@
 
   python3 lib/vo.py content/<post>        # reads content/<post>/vo.json, writes vo_00.wav …
 
-vo.json: {"voice": "af_heart", "speed": 1.1, "lines": [...], "offsets": [...]}
+vo.json: {"voice": "af_heart", "speed": 1.1, "lang": "en-us", "lines": [...], "offsets": [...]}  (lang: en-us | fr-fr | it …)
 Model files are downloaded once into $KOKORO_DIR (default ~/.kokoro). Needs `pip install kokoro-onnx soundfile`.
 Prints the duration of each line so a reel's timeline (B / offsets) can be set from real speech.
 """
@@ -31,7 +31,7 @@ def main(post_dir):
     k = Kokoro(m, v)
     durs = []
     for i, line in enumerate(spec["lines"]):
-        a, sr = k.create(line, voice=spec.get("voice", "af_heart"), speed=spec.get("speed", 1.1), lang="en-us")
+        a, sr = k.create(line, voice=spec.get("voice", "af_heart"), speed=spec.get("speed", 1.1), lang=spec.get("lang", "en-us"))
         a = np.asarray(a, dtype=np.float32)
         thr = 0.01 * np.abs(a).max(); idx = np.where(np.abs(a) > thr)[0]
         a = a[max(0, idx[0] - int(.03 * sr)): idx[-1] + int(.08 * sr)]  # trim silence
