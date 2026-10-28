@@ -3,89 +3,95 @@
 <link rel="stylesheet" href="../../lib/base.css">
 <style>
   .stage { background: var(--plum-deep); color: var(--ivory); }
-  #head { left: 90px; top: 150px; width: 900px; height: 920px; }
-  #t1 { top: 1110px; font-size: 112px; padding: 0 70px; }
-  #t1 .w:nth-last-child(-n+3) { color: var(--gold); }
-  .rule { top: 250px; font-size: 40px; font-weight: 850; letter-spacing: .3em; color: var(--blush); opacity: .75; }
-  #ring { left: 190px; top: 340px; width: 700px; height: 700px; }
-  #clock { top: 560px; font-size: 200px; line-height: 1; }
-  #clockL { top: 790px; font-size: 44px; font-weight: 800; letter-spacing: .2em; color: var(--blush); }
-  #t2 { top: 1130px; font-size: 104px; padding: 0 80px; }
-  #t2 .w:nth-child(-n+4) { color: var(--gold); }
-  .duo { left: 90px; right: 90px; top: 380px; height: 640px; display: flex; gap: 40px; }
-  .duo > div { flex: 1; border-radius: 48px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px; }
-  .duo .yes { background: rgba(127,168,139,.16); border: 4px solid rgba(127,168,139,.7); }
-  .duo .no { background: rgba(217,79,61,.12); border: 4px solid rgba(217,79,61,.6); }
-  .duo .big { font-family: "Fraunces", serif; font-size: 150px; line-height: 1; }
-  .duo .lab { font-size: 84px; font-weight: 850; }
-  .duo .mk { font-size: 170px; line-height: 1; font-weight: 900; }
-  .yes .mk { color: var(--sage); } .no .mk { color: var(--alert); }
-  #t3, #t4 { top: 1130px; font-size: 104px; padding: 0 80px; }
-  #drops { left: 140px; top: 280px; width: 800px; height: 520px; }
-  #t5 { top: 830px; font-size: 92px; padding: 0 80px; }
-  #t5 .w:nth-last-child(-n+2) { color: var(--gold); }
-  .bar { left: 130px; right: 130px; height: 120px; display: flex; align-items: center; gap: 30px; font-size: 50px; font-weight: 800; }
-  .bar .nm { width: 280px; }
-  .bar .tr { flex: 1; height: 34px; border-radius: 17px; background: rgba(251,248,246,.12); overflow: hidden; }
-  .bar .tr i { display: block; height: 100%; border-radius: 17px; background: linear-gradient(90deg, var(--rose), var(--gold)); width: 0; }
-  #more { top: 1580px; font-size: 38px; font-weight: 800; letter-spacing: .14em; color: var(--blush); opacity: .7; }
-  #end { top: 420px; font-size: 120px; padding: 0 70px; }
-  #end .w:nth-last-child(-n+3) { color: var(--gold); }
-  #endSub { top: 1010px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
-  #endSrc { top: 1290px; font-size: 34px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; }
-  #endCta { top: 1420px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  .ttl { left: 0; right: 0; text-align: center; padding: 0 70px; }
+  .gold { color: var(--gold); }
+  .red { color: #FF7A66; }
+  .sage { color: #A9D3B5; }
+  .chipx { display: inline-flex; align-items: center; height: 120px; padding: 0 46px; border-radius: 60px; background: rgba(251,248,246,.09); border: 3px solid rgba(251,248,246,.18); font-size: 52px; font-weight: 800; white-space: nowrap; }
+  .fix { left: 110px; right: 110px; border-radius: 40px; background: rgba(127,168,139,.30); border: 4px solid #7FA88B; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .fix small { display: block; font-size: 30px; letter-spacing: .2em; color: #A9D3B5; margin-bottom: 12px; font-weight: 800; }
+  .warn { left: 110px; right: 110px; border-radius: 40px; background: rgba(255,90,69,.16); border: 4px solid #FF5A45; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .warn small { display: block; font-size: 30px; letter-spacing: .2em; color: #FF9A8A; margin-bottom: 12px; font-weight: 800; }
+  .stamp { left: 50%; font-weight: 900; letter-spacing: .08em; border: 12px solid currentColor; border-radius: 28px; padding: 6px 40px; white-space: nowrap; transform-origin: center; }
+  .stamp.myth { color: #FF5A45; }
+  .stamp.half { color: var(--gold); }
+  .stamp.ok { color: #7FA88B; }
+  .counter { top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--blush); opacity: .8; }
+  .kick { left: 0; right: 0; text-align: center; font-weight: 800; font-size: 40px; letter-spacing: .2em; color: var(--blush); opacity: .75; }
+  .li2 { left: 170px; right: 170px; height: 140px; display: flex; align-items: center; gap: 34px; font-size: 66px; font-weight: 800; border-bottom: 3px solid rgba(251,248,246,.12); }
+  .li2 b { flex: none; width: 76px; height: 76px; border-radius: 50%; background: #FF5A45; color: var(--ivory); display: flex; align-items: center; justify-content: center; font-size: 42px; }
+  .li2 b.ok { background: #7FA88B; }
+  .li2 b.mid { background: var(--gold); color: var(--plum-deep); }
+  .pair { left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 26px; }
+  .pair .x { font-size: 90px; font-weight: 900; color: #FF5A45; }
+  .num { top: 250px; font-size: 40px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .7; }
+  .bign { left: 0; right: 0; text-align: center; font-family: "Fraunces", serif; font-weight: 700; line-height: 1; color: var(--gold); }
+  .mq { top: 380px; font-size: 104px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; }
+  .mv { top: 820px; font-size: 120px; }
+  .mb { top: 1130px; font-size: 76px; }
+  .dots { top: 1560px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.2); }
+  .dots i.on { background: var(--gold); }
+  #end { top: 380px; font-size: 124px; }
+  #endSub { top: 1000px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
+  #endSrc { top: 1290px; font-size: 32px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; padding: 0 90px; line-height: 1.3; }
+  #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
   #flash { inset: 0; background: #fff; pointer-events: none; }
+
+  html, body { background: transparent !important; }
+  .stage { background: transparent !important; }
+  .blob { display: none; }
+  .handle { text-shadow: 0 2px 12px rgba(0,0,0,.6); }
+  #shade { left: 0; right: 0; top: 860px; height: 1060px; background: linear-gradient(rgba(20,10,14,0), rgba(20,10,14,.8) 36%, rgba(20,10,14,.93)); }
+  .shadeEnd { inset: 0; background: rgba(36,20,27,.55); }
+  .hook { text-shadow: 0 4px 24px rgba(0,0,0,.45); }
+  .tx { top: 1330px; font-size: 100px; }
+  .tx.hi { top: 1240px; }
+  .tag { position: absolute; left: 50%; transform: translateX(-50%); top: 170px; font-size: 40px; font-weight: 850; letter-spacing: .12em; color: var(--ivory); background: rgba(20,10,14,.72); padding: 14px 28px; border-radius: 18px; white-space: nowrap; }
+  .ctr { position: absolute; top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--ivory); text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+  .stp { top: 1110px; font-size: 84px; }
+  .chips { top: 1500px; left: 0; right: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 22px; padding: 0 50px; }
+  .chips .chipx { height: 116px; font-size: 52px; background: rgba(20,10,14,.62); }
+  .chips.red .chipx { border-color: #FF5A45; }
+  .chips.sage .chipx { border-color: #7FA88B; }
+  .card { top: 1560px; }
+  .fix, .warn { left: 110px; right: 110px; }
+  .sub2 { top: 1650px; left: 0; right: 0; text-align: center; font-size: 36px; font-weight: 700; letter-spacing: .12em; color: var(--blush); opacity: .8; }
+  .mq2 { top: 1010px; font-size: 84px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; text-shadow: 0 4px 20px rgba(0,0,0,.5); }
+  .stp2 { top: 1230px; font-size: 96px; }
+  .mb2 { top: 1450px; font-size: 72px; }
+  .dots2 { top: 1760px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots2 i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.3); }
+  .dots2 i.on { background: var(--gold); }
+
 </style></head>
 <body>
 <div class="stage">
   <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
   <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div id="shade" class="abs"></div>
   <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
-
   <div id="b1">
-    <svg id="head" class="abs" viewBox="260 20 480 600" fill="none" stroke="#EEDDE2" stroke-width="12" stroke-linecap="round">
-      <path d="M700 40 L700 120 Q700 170 650 170 L520 170"/>
-      <path d="M300 230 Q450 120 600 230 Z" fill="#EEDDE2" stroke="none"/>
-      <path d="M520 170 L450 170 L450 190"/>
-      <g id="rain" stroke="none" fill="#8FC3E0"></g>
-    </svg>
-    <div id="t1" class="abs center hook">Your shower might be drying out your skin</div>
+    <div id="w27" class="abs ttl hook tx" data-split="1"><span class="w">Your</span> <span class="w">shower</span> <span class="w">might</span> <span class="w">be</span> <span class="w gold">drying</span> <span class="w gold">out</span> <span class="w">your</span> <span class="w">skin</span></div>
   </div>
-
   <div id="b2">
-    <div class="rule abs center">RULE 1</div>
-    <svg id="ring" class="abs" viewBox="0 0 700 700"><circle cx="350" cy="350" r="300" stroke="rgba(251,248,246,.12)" stroke-width="40" fill="none"/>
-      <circle id="arc" cx="350" cy="350" r="300" stroke="url(#g2)" stroke-width="40" fill="none" stroke-linecap="round" transform="rotate(-90 350 350)" pathLength="1000" stroke-dasharray="1000" stroke-dashoffset="1000"/>
-      <defs><linearGradient id="g2"><stop offset="0" stop-color="#D9708A"/><stop offset="1" stop-color="#E8A93A"/></linearGradient></defs></svg>
-    <div id="clock" class="abs center serif">0:00</div>
-    <div id="clockL" class="abs center">MINUTES, MAX</div>
-    <div id="t2" class="abs center hook">5 to 10 minutes. Not 20.</div>
+    <div class="tag">RULE 1</div><div id="w28" class="abs ttl hook tx" data-split="1"><span class="w gold">5–10</span> <span class="w gold">minutes.</span> <span class="w">Not</span> <span class="w">20.</span></div>
   </div>
-
   <div id="b3">
-    <div class="rule abs center">RULE 2</div>
-    <div class="duo abs"><div class="yes"><div class="mk">✓</div><div class="lab">Warm</div></div><div class="no"><div class="mk">✕</div><div class="lab">Hot</div></div></div>
-    <div id="t3" class="abs center hook">Warm water, not hot</div>
+    <div class="tag">RULE 2</div><div id="w29" class="abs ttl hook tx" data-split="1"><span class="w gold">Warm</span> <span class="w">water,</span> <span class="w red">not</span> <span class="w red">hot</span></div>
   </div>
-
   <div id="b4">
-    <div class="rule abs center">RULE 3</div>
-    <div class="duo abs"><div class="yes"><div class="mk">✓</div><div class="lab">Pat dry</div></div><div class="no"><div class="mk">✕</div><div class="lab">Rub</div></div></div>
-    <div id="t4" class="abs center hook">Pat dry. Don't rub.</div>
+    <div class="tag">RULE 3</div><div id="w30" class="abs ttl hook tx" data-split="1"><span class="w gold">Pat</span> <span class="w gold">dry.</span> <span class="w">Don't</span> <span class="w">rub.</span></div>
   </div>
-
   <div id="b5">
-    <div class="rule abs center">RULE 4</div>
-    <svg id="drops" class="abs" viewBox="0 0 800 520"></svg>
-    <div id="t5" class="abs center hook">Moisturize while skin is still damp</div>
-    <div class="bar abs" style="top:1180px"><div class="nm">Ointment</div><div class="tr"><i data-v="92"></i></div></div>
-    <div class="bar abs" style="top:1320px"><div class="nm">Cream</div><div class="tr"><i data-v="92"></i></div></div>
-    <div class="bar abs" style="top:1460px"><div class="nm">Lotion</div><div class="tr"><i data-v="45"></i></div></div>
-    <div id="more" class="abs center">MORE MOISTURE →</div>
+    <div class="tag">RULE 4</div><div id="w31" class="abs ttl hook tx" data-split="1"><span class="w">Moisturize</span> <span class="w">while</span> <span class="w">skin</span> <span class="w">is</span> <span class="w">still</span> <span class="w gold">damp</span></div>
   </div>
-
   <div id="b6">
-    <div id="end" class="abs center hook">Save this for dry skin season</div>
+    <div id="w32" class="abs ttl hook tx hi" data-split="1"><span class="w">Creams</span> <span class="w">and</span> <span class="w">ointments</span> <span class="w">hold</span> <span class="w">in</span> <span class="w gold">more</span> <span class="w gold">moisture</span> <span class="w">than</span> <span class="w">lotions</span></div><div class="sub2 abs">OINTMENT › CREAM › LOTION</div>
+  </div>
+  <div id="b7">
+    <div class="shadeEnd abs"></div>
+    <div id="end" class="abs ttl hook" data-split="1"><span class="w">Save</span> <span class="w">this</span> <span class="w">for</span> <span class="w gold">dry</span> <span class="w gold">skin</span> <span class="w">season</span></div>
     <div id="endSub" class="abs center">Glowi reads your skin and the humidity around you, then builds your routine.</div>
     <div id="endSrc" class="abs center">SOURCE: AMERICAN ACADEMY OF DERMATOLOGY</div>
     <div id="endCta" class="abs">Follow for skin, decoded</div>
@@ -94,51 +100,37 @@
 </div>
 <script src="../../lib/anim.js"></script>
 <script>
-window.HIT = 2.31; window.DURATION = 20.5; window.COVER = 1.5;
-const B = [0, 2.31, 5.19, 7.43, 9.69, 16.18];
-const NS = "http://www.w3.org/2000/svg";
-const rain = []; for (let i = 0; i < 26; i++) { const r = document.createElementNS(NS, "rect"); r.setAttribute("width", 12); r.setAttribute("height", 52); r.setAttribute("rx", 6); $("#rain").appendChild(r); rain.push([310 + (i * 37) % 280, (i * 131) % 560]); }
-const dps = []; for (let i = 0; i < 9; i++) { const c = document.createElementNS(NS, "path"); c.setAttribute("fill", "#8FC3E0"); $("#drops").appendChild(c); dps.push([100 + (i % 3) * 300 + (i % 2) * 40, 90 + Math.floor(i / 3) * 150]); }
-const drop = (x, y, s) => `M${x} ${y - 60 * s} C${x + 40 * s} ${y - 5 * s} ${x + 40 * s} ${y + 40 * s} ${x} ${y + 40 * s} C${x - 40 * s} ${y + 40 * s} ${x - 40 * s} ${y - 5 * s} ${x} ${y - 60 * s} Z`;
+window.HIT = 0.55; window.DURATION = 21.46; window.COVER = 1.0;
+const B = [0, 2.31, 5.19, 7.43, 9.69, 12.73, 16.18];
+const D = [2.06, 2.63, 1.99, 2.01, 2.89, 3.2, 2.88];
+
 function scene(t) {
   B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
   flash($("#flash"), t, B);
-  // 1: water already falling at frame 0
-  $$("#rain rect").forEach((r, i) => { const [x, o] = rain[i]; const y = 245 + ((o + t * 700) % 360); r.setAttribute("x", x); r.setAttribute("y", y); r.setAttribute("opacity", 1 - (y - 245) / 420); });
-  $("#head").style.transform = `scale(${1 + .02 * t})`;
-  words($("#t1"), t, -.3, .06);
-  $$(".rule").forEach(r => r.style.opacity = .75);
-  if (t >= B[1]) {
-    const lt = t - B[1];
-    const p = pr(lt, .1, 1.4, E.inOut);
-    $("#arc").setAttribute("stroke-dashoffset", 1000 * (1 - p));
-    const m = 10 * p; $("#clock").textContent = `${Math.floor(m)}:${String(Math.floor((m % 1) * 60)).padStart(2, "0")}`;
-    $("#clock").style.transform = `scale(${1 + .08 * Math.sin(clamp((lt - 1.5) / .25) * Math.PI)})`;
-    show($("#clockL"), lt, .3, .3, 10);
-    words($("#t2"), lt, .1, .1);
+  if (t >= B[0]) { const lt = t - B[0], d = D[0];
+    words($("#w27"), lt, -(.12 + splitWords($("#w27")).length * .04), .04);
   }
-  [[3, B[2]], [4, B[3]]].forEach(([n, b]) => {
-    if (t < b) return;
-    const lt = t - b, d = $(`#b${n} .duo`);
-    show(d.children[0], lt, .05, .35, 60, E.back);
-    show(d.children[1], lt, .35, .35, 60, E.back);
-    d.children[1].style.opacity = lt > .35 ? clamp((lt - .35) / .2) * (lt > 1.1 ? .45 : 1) : 0;
-    words($(`#t${n}`), lt, 0, .1);
-  });
-  if (t >= B[4]) {
-    const lt = t - B[4];
-    $$("#drops path").forEach((c, i) => { const s = .9 * pr(lt, i * .08, .4, E.back); const [x, y] = dps[i]; c.setAttribute("d", drop(x, y + 8 * Math.sin(lt * 3 + i), s)); });
-    words($("#t5"), lt, 0, .09);
-    $$(".bar").forEach((b, i) => { show(b, lt, 3.1 + i * .3, .35, 40); const f = b.querySelector("i"); f.style.width = (+f.dataset.v * pr(lt, 3.3 + i * .3, .7)) + "%"; });
-    show($("#more"), lt, 4.4, .4, 10);
+  if (t >= B[1]) { const lt = t - B[1], d = D[1];
+    { const p = show($("#b2 .tag"), lt, .15, .3, 0); $("#b2 .tag").style.transform = `translateX(-50%) translateY(${(1 - p) * 20}px)`; } words($("#w28"), lt, 0, 0.07);
   }
-  if (t >= B[5]) {
-    const lt = t - B[5];
-    words($("#end"), lt, .05, .1);
-    show($("#endSub"), lt, .9, .4, 30);
-    show($("#endSrc"), lt, 1.3, .4, 20);
-    const p = show($("#endCta"), lt, 1.6, .4, 40, E.back);
-    $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`;
+  if (t >= B[2]) { const lt = t - B[2], d = D[2];
+    { const p = show($("#b3 .tag"), lt, .15, .3, 0); $("#b3 .tag").style.transform = `translateX(-50%) translateY(${(1 - p) * 20}px)`; } words($("#w29"), lt, 0, 0.07);
+  }
+  if (t >= B[3]) { const lt = t - B[3], d = D[3];
+    { const p = show($("#b4 .tag"), lt, .15, .3, 0); $("#b4 .tag").style.transform = `translateX(-50%) translateY(${(1 - p) * 20}px)`; } words($("#w30"), lt, 0, 0.07);
+  }
+  if (t >= B[4]) { const lt = t - B[4], d = D[4];
+    { const p = show($("#b5 .tag"), lt, .15, .3, 0); $("#b5 .tag").style.transform = `translateX(-50%) translateY(${(1 - p) * 20}px)`; } words($("#w31"), lt, 0, 0.07);
+  }
+  if (t >= B[5]) { const lt = t - B[5], d = D[5];
+    words($("#w32"), lt, 0, 0.07); show($("#b6 .sub2"), lt, .9, .3, 10);
+  }
+  if (t >= B[6]) { const lt = t - B[6], d = D[6];
+    words($("#end"), lt, .05, .09);
+    show($("#endSub"), lt, .8, .4, 30);
+    show($("#endSrc"), lt, 1.1, .4, 20);
+    { const p = show($("#endCta"), lt, 1.3, .4, 40, E.back);
+      $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`; }
   }
 }
 </script>

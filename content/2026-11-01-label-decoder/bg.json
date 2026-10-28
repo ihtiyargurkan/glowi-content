@@ -1,0 +1,97 @@
+{
+ "scenes": [
+  {
+   "clip": "7754395",
+   "dur": 2.84,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7754395/",
+   "by": "RDNE Stock project"
+  },
+  {
+   "clip": "7250704",
+   "dur": 2.72,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7250704/",
+   "by": "Sarah  Chai"
+  },
+  {
+   "clip": "7250655",
+   "dur": 2.64,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7250655/",
+   "by": "Sarah  Chai"
+  },
+  {
+   "clip": "9617292",
+   "dur": 2.67,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/9617292/",
+   "by": "cottonbro studio"
+  },
+  {
+   "clip": "7551214",
+   "dur": 2.94,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7551214/",
+   "by": "SHVETS production"
+  },
+  {
+   "clip": "32178066",
+   "dur": 3.78,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "b": -0.35,
+   "sat": 0.6,
+   "pexels": "https://www.pexels.com/video/32178066/",
+   "by": "Josué Rodríguez"
+  }
+ ],
+ "source": "Pexels videos (Pexels license, free commercial use); render: python3 lib/stock_bg.py bg.json <clips_dir> bg.mp4 && python3 lib/composite.py $PWD/reel.html bg.mp4 out.mp4"
+}

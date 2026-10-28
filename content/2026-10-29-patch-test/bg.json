@@ -1,0 +1,112 @@
+{
+ "scenes": [
+  {
+   "clip": "7802453",
+   "dur": 1.83,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7802453/",
+   "by": "Ron Lach"
+  },
+  {
+   "clip": "8830592",
+   "dur": 2.38,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/8830592/",
+   "by": "Nataliya Vaitkevich"
+  },
+  {
+   "clip": "7876587",
+   "dur": 2.43,
+   "ss": 0.3,
+   "z": [
+    1.25,
+    1.35
+   ],
+   "c": [
+    540,
+    1150
+   ],
+   "pexels": "https://www.pexels.com/video/7876587/",
+   "by": "MART  PRODUCTION"
+  },
+  {
+   "clip": "7305583",
+   "dur": 2.12,
+   "ss": 0.3,
+   "z": [
+    2.0,
+    2.1
+   ],
+   "c": [
+    560,
+    1820
+   ],
+   "pexels": "https://www.pexels.com/video/7305583/",
+   "by": "https://kaboompics.com/"
+  },
+  {
+   "clip": "9187824",
+   "dur": 3.22,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/9187824/",
+   "by": "Darina Belonogova"
+  },
+  {
+   "clip": "9474154",
+   "dur": 2.98,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/9474154/",
+   "by": "Greta Hoffman"
+  },
+  {
+   "clip": "7477108",
+   "dur": 4.67,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "b": -0.35,
+   "sat": 0.6,
+   "pexels": "https://www.pexels.com/video/7477108/",
+   "by": "Angela Roma"
+  }
+ ],
+ "source": "Pexels videos (Pexels license, free commercial use); render: python3 lib/stock_bg.py bg.json <clips_dir> bg.mp4 && python3 lib/composite.py $PWD/reel.html bg.mp4 out.mp4"
+}

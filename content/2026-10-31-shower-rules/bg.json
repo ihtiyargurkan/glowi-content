@@ -1,0 +1,112 @@
+{
+ "scenes": [
+  {
+   "clip": "9155288",
+   "dur": 2.31,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/9155288/",
+   "by": "Ron Lach"
+  },
+  {
+   "clip": "6666900",
+   "dur": 2.88,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6666900/",
+   "by": "ROMAN ODINTSOV"
+  },
+  {
+   "clip": "6801321",
+   "dur": 2.24,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6801321/",
+   "by": "Michelle Leman"
+  },
+  {
+   "clip": "5422161",
+   "dur": 2.26,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/5422161/",
+   "by": "https://kaboompics.com/"
+  },
+  {
+   "clip": "4665320",
+   "dur": 3.04,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/4665320/",
+   "by": "KATRIN  BOLOVTSOVA"
+  },
+  {
+   "clip": "6973464",
+   "dur": 3.45,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6973464/",
+   "by": "olia danilevich"
+  },
+  {
+   "clip": "9166287",
+   "dur": 5.28,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "b": -0.35,
+   "sat": 0.6,
+   "pexels": "https://www.pexels.com/video/9166287/",
+   "by": "Ron Lach"
+  }
+ ],
+ "source": "Pexels videos (Pexels license, free commercial use); render: python3 lib/stock_bg.py bg.json <clips_dir> bg.mp4 && python3 lib/composite.py $PWD/reel.html bg.mp4 out.mp4"
+}

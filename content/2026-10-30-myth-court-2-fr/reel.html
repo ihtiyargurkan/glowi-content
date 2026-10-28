@@ -6,88 +6,92 @@
   .ttl { left: 0; right: 0; text-align: center; padding: 0 70px; }
   .gold { color: var(--gold); }
   .red { color: #FF7A66; }
+  .sage { color: #A9D3B5; }
   .chipx { display: inline-flex; align-items: center; height: 120px; padding: 0 46px; border-radius: 60px; background: rgba(251,248,246,.09); border: 3px solid rgba(251,248,246,.18); font-size: 52px; font-weight: 800; white-space: nowrap; }
   .fix { left: 110px; right: 110px; border-radius: 40px; background: rgba(127,168,139,.30); border: 4px solid #7FA88B; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
   .fix small { display: block; font-size: 30px; letter-spacing: .2em; color: #A9D3B5; margin-bottom: 12px; font-weight: 800; }
+  .warn { left: 110px; right: 110px; border-radius: 40px; background: rgba(255,90,69,.16); border: 4px solid #FF5A45; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .warn small { display: block; font-size: 30px; letter-spacing: .2em; color: #FF9A8A; margin-bottom: 12px; font-weight: 800; }
   .stamp { left: 50%; font-weight: 900; letter-spacing: .08em; border: 12px solid currentColor; border-radius: 28px; padding: 6px 40px; white-space: nowrap; transform-origin: center; }
   .stamp.myth { color: #FF5A45; }
   .stamp.half { color: var(--gold); }
+  .stamp.ok { color: #7FA88B; }
   .counter { top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--blush); opacity: .8; }
-  #end { top: 380px; font-size: 124px; }
-  #endSub { top: 1000px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
-  #endSrc { top: 1290px; font-size: 32px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; padding: 0 90px; line-height: 1.3; }
-  #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
-  #flash { inset: 0; background: #fff; pointer-events: none; }
-
-  #tube { left: 20px; top: 190px; width: 1040px; height: 676px; }
-  #t1 { top: 950px; font-size: 124px; }
-  #stop1 { top: 1270px; font-size: 150px; }
-  #t2 { top: 420px; font-size: 96px; }
-  #fix2 { top: 1080px; }
+  .kick { left: 0; right: 0; text-align: center; font-weight: 800; font-size: 40px; letter-spacing: .2em; color: var(--blush); opacity: .75; }
+  .li2 { left: 170px; right: 170px; height: 140px; display: flex; align-items: center; gap: 34px; font-size: 66px; font-weight: 800; border-bottom: 3px solid rgba(251,248,246,.12); }
+  .li2 b { flex: none; width: 76px; height: 76px; border-radius: 50%; background: #FF5A45; color: var(--ivory); display: flex; align-items: center; justify-content: center; font-size: 42px; }
+  .li2 b.ok { background: #7FA88B; }
+  .li2 b.mid { background: var(--gold); color: var(--plum-deep); }
+  .pair { left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 26px; }
+  .pair .x { font-size: 90px; font-weight: 900; color: #FF5A45; }
+  .num { top: 250px; font-size: 40px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .7; }
+  .bign { left: 0; right: 0; text-align: center; font-family: "Fraunces", serif; font-weight: 700; line-height: 1; color: var(--gold); }
   .mq { top: 380px; font-size: 104px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; }
   .mv { top: 820px; font-size: 120px; }
   .mb { top: 1130px; font-size: 76px; }
   .dots { top: 1560px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
   .dots i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.2); }
   .dots i.on { background: var(--gold); }
+  #end { top: 380px; font-size: 124px; }
+  #endSub { top: 1000px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
+  #endSrc { top: 1290px; font-size: 32px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; padding: 0 90px; line-height: 1.3; }
+  #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+
+  html, body { background: transparent !important; }
+  .stage { background: transparent !important; }
+  .blob { display: none; }
+  .handle { text-shadow: 0 2px 12px rgba(0,0,0,.6); }
+  #shade { left: 0; right: 0; top: 860px; height: 1060px; background: linear-gradient(rgba(20,10,14,0), rgba(20,10,14,.8) 36%, rgba(20,10,14,.93)); }
+  .shadeEnd { inset: 0; background: rgba(36,20,27,.55); }
+  .hook { text-shadow: 0 4px 24px rgba(0,0,0,.45); }
+  .tx { top: 1330px; font-size: 100px; }
+  .tx.hi { top: 1240px; }
+  .tag { position: absolute; left: 50%; transform: translateX(-50%); top: 170px; font-size: 40px; font-weight: 850; letter-spacing: .12em; color: var(--ivory); background: rgba(20,10,14,.72); padding: 14px 28px; border-radius: 18px; white-space: nowrap; }
+  .ctr { position: absolute; top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--ivory); text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+  .stp { top: 1110px; font-size: 84px; }
+  .chips { top: 1500px; left: 0; right: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 22px; padding: 0 50px; }
+  .chips .chipx { height: 116px; font-size: 52px; background: rgba(20,10,14,.62); }
+  .chips.red .chipx { border-color: #FF5A45; }
+  .chips.sage .chipx { border-color: #7FA88B; }
+  .card { top: 1560px; }
+  .fix, .warn { left: 110px; right: 110px; }
+  .sub2 { top: 1650px; left: 0; right: 0; text-align: center; font-size: 36px; font-weight: 700; letter-spacing: .12em; color: var(--blush); opacity: .8; }
+  .mq2 { top: 1010px; font-size: 84px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; text-shadow: 0 4px 20px rgba(0,0,0,.5); }
+  .stp2 { top: 1230px; font-size: 96px; }
+  .mb2 { top: 1450px; font-size: 72px; }
+  .dots2 { top: 1760px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots2 i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.3); }
+  .dots2 i.on { background: var(--gold); }
+
 </style></head>
 <body>
 <div class="stage">
   <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
   <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div id="shade" class="abs"></div>
   <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
-
   <div id="b1">
-    <div class="counter abs">LE TRIBUNAL DES MYTHES · 1/5</div>
-    <svg id="tube" class="abs" viewBox="0 0 800 520">
-      <g id="tubeG">
-        <path d="M120 170 L560 130 Q600 130 600 170 L600 350 Q600 390 560 390 L120 350 Z" fill="#EEDDE2"/>
-        <rect x="600" y="200" width="90" height="120" rx="18" fill="#7FA88B"/>
-        <path d="M120 170 L120 350" stroke="#C9B4BB" stroke-width="14"/>
-        <rect x="230" y="215" width="250" height="18" rx="9" fill="#7FA88B" opacity=".6"/>
-        <rect x="230" y="255" width="180" height="18" rx="9" fill="#7FA88B" opacity=".4"/>
-      </g>
-      <path id="paste" d="M690 260 C740 260 760 300 740 330" stroke="#FBF8F6" stroke-width="40" stroke-linecap="round" fill="none" pathLength="1000" stroke-dasharray="1000" stroke-dashoffset="1000"/>
-    </svg>
-    <div id="t1" class="abs ttl hook" data-split="1"><span class="w">Du</span> <span class="w">dentifrice</span> <span class="w">sur</span> <span class="w">un</span> <span class="w">bouton</span> <span class="w">?</span></div>
-    <div id="stop1" class="stamp myth abs">STOP</div>
+    <div class="ctr">LE TRIBUNAL DES MYTHES · 1/5</div><div id="w7" class="abs ttl hook tx" data-split="1"><span class="w">Du</span> <span class="w">dentifrice</span> <span class="w">sur</span> <span class="w">un</span> <span class="w gold">bouton</span> <span class="w gold">?</span></div><div class="stamp myth stp abs">STOP</div>
   </div>
-
   <div id="b2">
-    <div id="t2" class="abs ttl hook" data-split="1"><span class="w">Fait</span> <span class="w">pour</span> <span class="w">les</span> <span class="w">dents.</span> <span class="w">Sur</span> <span class="w">la</span> <span class="w">peau</span> <span class="w">:</span> <span class="w">un</span> <span class="w">bouton</span> <span class="w red">plus</span> <span class="w red">rouge,</span> <span class="w red">plus</span> <span class="w red">irrité</span></div>
-    <div id="fix2" class="fix abs"><small>À LA PLACE</small>Un soin fait pour la peau, comme l'acide salicylique</div>
+    <div id="w8" class="abs ttl hook tx hi" data-split="1"><span class="w">Fait</span> <span class="w">pour</span> <span class="w">les</span> <span class="w">dents.</span> <span class="w">Sur</span> <span class="w">la</span> <span class="w">peau</span> <span class="w">:</span> <span class="w">un</span> <span class="w">bouton</span> <span class="w red">plus</span> <span class="w red">rouge</span></div><div class="fix card abs"><small>À LA PLACE</small>Un soin fait pour la peau, comme l'acide salicylique</div>
   </div>
-
   <div id="b3">
-    <div class="counter abs">LE TRIBUNAL DES MYTHES · 2/5</div>
-    <div id="w9" class="mq abs ttl" data-split="1"><span class="w">«</span> <span class="w">Naturel</span> <span class="w">=</span> <span class="w">doux</span> <span class="w">»</span></div>
-    <div class="stamp myth mv abs">FAUX</div>
-    <div id="w10" class="mb abs ttl hook" data-split="1"><span class="w">L’ortie</span> <span class="w">aussi</span> <span class="w">est</span> <span class="w gold">naturelle</span></div>
-    <div class="dots abs"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div>
+    <div class="ctr">LE TRIBUNAL DES MYTHES · 2/5</div><div id="w9" class="abs ttl mq2" data-split="1"><span class="w">«</span> <span class="w">Naturel</span> <span class="w">=</span> <span class="w">doux</span> <span class="w">»</span></div><div class="stamp myth stp2 abs">FAUX</div><div id="w10" class="abs ttl mb2 hook" data-split="1"><span class="w">L’ortie</span> <span class="w">aussi</span> <span class="w">est</span> <span class="w gold">naturelle</span></div><div class="dots2 abs"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div>
   </div>
   <div id="b4">
-    <div class="counter abs">LE TRIBUNAL DES MYTHES · 3/5</div>
-    <div id="w11" class="mq abs ttl" data-split="1"><span class="w">«</span> <span class="w">Frotter</span> <span class="w">plus</span> <span class="w">fort,</span> <span class="w">c’est</span> <span class="w">plus</span> <span class="w">propre</span> <span class="w">»</span></div>
-    <div class="stamp myth mv abs">FAUX</div>
-    <div id="w12" class="mb abs ttl hook" data-split="1"><span class="w">Frotter</span> <span class="w">fort</span> <span class="w gold">irrite</span> <span class="w gold">la</span> <span class="w gold">peau</span></div>
-    <div class="dots abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div>
+    <div class="ctr">LE TRIBUNAL DES MYTHES · 3/5</div><div id="w11" class="abs ttl mq2" data-split="1"><span class="w">«</span> <span class="w">Frotter</span> <span class="w">plus</span> <span class="w">fort,</span> <span class="w">c’est</span> <span class="w">plus</span> <span class="w">propre</span> <span class="w">»</span></div><div class="stamp myth stp2 abs">FAUX</div><div id="w12" class="abs ttl mb2 hook" data-split="1"><span class="w">Frotter</span> <span class="w">fort</span> <span class="w gold">irrite</span> <span class="w gold">la</span> <span class="w gold">peau</span></div><div class="dots2 abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div>
   </div>
   <div id="b5">
-    <div class="counter abs">LE TRIBUNAL DES MYTHES · 4/5</div>
-    <div id="w13" class="mq abs ttl" data-split="1"><span class="w">«</span> <span class="w">Ça</span> <span class="w">doit</span> <span class="w">marcher</span> <span class="w">en</span> <span class="w">une</span> <span class="w">semaine</span> <span class="w">»</span></div>
-    <div class="stamp myth mv abs">FAUX</div>
-    <div id="w14" class="mb abs ttl hook" data-split="1"><span class="w">Il</span> <span class="w">faut</span> <span class="w">des</span> <span class="w gold">semaines,</span> <span class="w gold">voire</span> <span class="w gold">des</span> <span class="w gold">mois</span></div>
-    <div class="dots abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></div>
+    <div class="ctr">LE TRIBUNAL DES MYTHES · 4/5</div><div id="w13" class="abs ttl mq2" data-split="1"><span class="w">«</span> <span class="w">Ça</span> <span class="w">doit</span> <span class="w">marcher</span> <span class="w">en</span> <span class="w">une</span> <span class="w">semaine</span> <span class="w">»</span></div><div class="stamp myth stp2 abs">FAUX</div><div id="w14" class="abs ttl mb2 hook" data-split="1"><span class="w">Il</span> <span class="w">faut</span> <span class="w">des</span> <span class="w gold">semaines,</span> <span class="w gold">voire</span> <span class="w gold">des</span> <span class="w gold">mois</span></div><div class="dots2 abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></div>
   </div>
   <div id="b6">
-    <div class="counter abs">LE TRIBUNAL DES MYTHES · 5/5</div>
-    <div id="w15" class="mq abs ttl" data-split="1"><span class="w">«</span> <span class="w">Ça</span> <span class="w">picote,</span> <span class="w">donc</span> <span class="w">ça</span> <span class="w">marche</span> <span class="w">»</span></div>
-    <div class="stamp half mv abs" style="font-size:84px">À MOITIÉ VRAI</div>
-    <div id="w16" class="mb abs ttl hook" data-split="1"><span class="w">Ça</span> <span class="w">passe</span> <span class="w">:</span> <span class="w">OK.</span> <span class="w red">Rougeur,</span> <span class="w red">démangeaison,</span> <span class="w red">gonflement</span> <span class="w red">:</span> <span class="w red">stop</span></div>
-    <div class="dots abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+    <div class="ctr">LE TRIBUNAL DES MYTHES · 5/5</div><div id="w15" class="abs ttl mq2" data-split="1"><span class="w">«</span> <span class="w">Ça</span> <span class="w">picote,</span> <span class="w">donc</span> <span class="w">ça</span> <span class="w">marche</span> <span class="w">»</span></div><div class="stamp half stp2 abs">À MOITIÉ VRAI</div><div id="w16" class="abs ttl mb2 hook" data-split="1"><span class="w">Ça</span> <span class="w">passe</span> <span class="w">:</span> <span class="w">OK.</span> <span class="w red">Rougeur,</span> <span class="w red">démangeaison,</span> <span class="w red">gonflement</span> <span class="w">:</span> <span class="w">stop</span></div><div class="dots2 abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
   </div>
   <div id="b7">
-    <div id="end" class="abs ttl hook" data-split="1"><span class="w">Tu</span> <span class="w">y</span> <span class="w">croyais,</span> <span class="w gold">à</span> <span class="w gold">laquelle</span> <span class="w">?</span></div>
+    <div class="shadeEnd abs"></div>
+    <div id="end" class="abs ttl hook" data-split="1"><span class="w">Tu</span> <span class="w">y</span> <span class="w">croyais,</span> <span class="w">à</span> <span class="w gold">laquelle</span> <span class="w">?</span></div>
     <div id="endSub" class="abs center">Abonne-toi pour décoder ta peau. Glowi transforme un scan rapide en routine pour ta peau.</div>
     <div id="endSrc" class="abs center">SOURCES : CLEVELAND CLINIC · AMERICAN ACADEMY OF DERMATOLOGY</div>
     <div id="endCta" class="abs">Glowi · lien en bio</div>
@@ -96,42 +100,37 @@
 </div>
 <script src="../../lib/anim.js"></script>
 <script>
-window.HIT = 0.55; window.DURATION = 21.5; window.COVER = 1.2;
+window.HIT = 0.55; window.DURATION = 22.15; window.COVER = 1.0;
 const B = [0, 2.12, 5.79, 8.85, 11.14, 14.76, 18.54];
+const D = [1.92, 3.47, 2.86, 2.09, 3.42, 3.58, 1.21];
 
 function scene(t) {
   B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
   flash($("#flash"), t, B);
-  // 1: tube is on screen and squeezing at frame 0; STOP stamp slams at .55s
-  $("#tubeG").style.transform = `translateX(${4 * Math.sin(t * 9)}px) scaleY(${1 - .04 * clamp(t / .5)})`;
-  $("#tubeG").style.transformOrigin = "360px 260px";
-  $("#paste").setAttribute("stroke-dashoffset", 1000 * (1 - pr(t, 0, .6)));
-  $("#tube").style.transform = `scale(${1.03 + .02 * Math.sin(t * 4)})`;
-  words($("#t1"), t, -.3, .06);
-  { const lt = t; { const p = pr(lt, 0.55, .22, E.out), el = $("#stop1");
-      el.style.opacity = lt >= 0.55 ? 1 : 0;
-      el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.55 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.55 - .22) * 8) : 0}px)`; } }
-  if (t >= B[1]) {
-    const lt = t - B[1];
-    words($("#t2"), lt, 0, .07);
-    show($("#fix2"), lt, 1.5, .4, 50, E.back);
+  if (t >= B[0]) { const lt = t - B[0], d = D[0];
+    words($("#w7"), lt, -(.12 + splitWords($("#w7")).length * .04), .04); { const el = $("#b1 .stamp"), p = pr(lt, 0.9, .22, E.out); el.style.opacity = lt >= 0.9 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.9 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.9 - .22) * 8) : 0}px)`; }
   }
-  for (let k = 3; k <= 6; k++) if (t >= B[k - 1]) {
-    const lt = t - B[k - 1], s = $("#b" + k), st = s.querySelector(".stamp");
-    show(s.querySelector(".counter"), lt, 0, .2, 0);
-    words(s.querySelector(".mq"), lt, 0, .07);
-    const p = pr(lt, .75, .22, E.out);
-    st.style.opacity = lt >= .75 ? 1 : 0;
-    st.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > .97 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - .97) * 8) : 0}px)`;
-    words(s.querySelector(".mb"), lt, 1.1, .07);
+  if (t >= B[1]) { const lt = t - B[1], d = D[1];
+    words($("#w8"), lt, 0, 0.07); show($("#b2 .card"), lt, d * .5, .4, 50, E.back);
   }
-  if (t >= B[6]) {
-    const lt = t - B[6];
+  if (t >= B[2]) { const lt = t - B[2], d = D[2];
+    words($("#w9"), lt, 0, 0.07); { const el = $("#b3 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; } words($("#w10"), lt, 1.1, 0.07);
+  }
+  if (t >= B[3]) { const lt = t - B[3], d = D[3];
+    words($("#w11"), lt, 0, 0.07); { const el = $("#b4 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; } words($("#w12"), lt, 1.1, 0.07);
+  }
+  if (t >= B[4]) { const lt = t - B[4], d = D[4];
+    words($("#w13"), lt, 0, 0.07); { const el = $("#b5 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; } words($("#w14"), lt, 1.1, 0.07);
+  }
+  if (t >= B[5]) { const lt = t - B[5], d = D[5];
+    words($("#w15"), lt, 0, 0.07); { const el = $("#b6 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; } words($("#w16"), lt, 1.1, 0.07);
+  }
+  if (t >= B[6]) { const lt = t - B[6], d = D[6];
     words($("#end"), lt, .05, .09);
     show($("#endSub"), lt, .8, .4, 30);
     show($("#endSrc"), lt, 1.1, .4, 20);
-    const p = show($("#endCta"), lt, 1.3, .4, 40, E.back);
-    $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`;
+    { const p = show($("#endCta"), lt, 1.3, .4, 40, E.back);
+      $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`; }
   }
 }
 </script>
