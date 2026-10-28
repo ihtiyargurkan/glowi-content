@@ -203,107 +203,11 @@
     },
     {
       "date": "2026-10-29",
-      "id": "2026-10-29-patch-test",
-      "type": "reel",
-      "series": "Skin Basics",
-      "goal": "save",
-      "status": "approved",
-      "cover_ms": 1400,
-      "music": "sub_clair-commercial-584915.mp3 (Pixabay)",
-      "caption": "One day is not a patch test. 🧪\n\nDermatologists recommend 7 to 10 days: a small dab on the inside of your elbow, your normal amount, twice a day. Redness, itching or swelling? Wash it off and stop. Nothing after 10 days? Now it can go on your face.\n\nSource: American Academy of Dermatology. Save this before you open your next product.\n\n#patchtest #skincaretips #sensitiveskin #skincare #glowi",
-      "first_comment": "Be honest: how long do you usually patch test? 0 days counts 😅",
-      "sources": [
-        "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "id": "2026-10-30-myth-court-2",
-      "type": "reel",
-      "series": "Myth Court",
-      "goal": "comments + share",
-      "status": "approved",
-      "caption": "Toothpaste on a pimple? Myth. ⚖️\n\nMyth Court, part two: 5 routine habits on trial. Toothpaste on pimples, \"natural means gentle\", scrubbing harder, expecting results in a week, and \"if it tingles, it's working\". One of them gets a surprise verdict.\n\nWhich one did you believe? 👇\n\nSources: Cleveland Clinic, American Academy of Dermatology.\n\n#acne #pimples #skincaremyths #skincaretips #glowi",
-      "first_comment": "Next trial: drop the myth you want judged 👇",
-      "sources": [
-        "https://health.clevelandclinic.org/toothpaste-on-pimples",
-        "https://health.clevelandclinic.org/natural-skin-care",
-        "https://www.aad.org/public/diseases/acne/skin-care/tips",
-        "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products"
-      ],
-      "cover_ms": 1800,
-      "note": "Converted from carousel to voiced reel on 2026-10-26 (hook on screen from frame 0)."
-    },
-    {
-      "date": "2026-10-30",
-      "id": "2026-10-30-myth-court-2-fr",
-      "type": "reel",
-      "series": "Myth Court",
-      "goal": "comments + share",
-      "lang": "fr",
-      "slot": 2,
-      "status": "approved",
-      "cover_ms": 1800,
-      "caption": "Du dentifrice sur un bouton ? Faux. ⚖️\n\nLe tribunal des mythes : 5 habitudes beauté jugées. Le dentifrice sur les boutons, « naturel = doux », frotter plus fort, des résultats en une semaine, et « ça picote, donc ça marche ». L'une d'elles reçoit un verdict surprise.\n\nTu y croyais, à laquelle ? 👇\n\nSources : Cleveland Clinic, American Academy of Dermatology.\n\n#acne #boutons #soinduvisage #skincare #glowi",
-      "first_comment": "Prochain procès : dis-nous quel mythe juger 👇",
-      "sources": [
-        "https://health.clevelandclinic.org/toothpaste-on-pimples",
-        "https://health.clevelandclinic.org/natural-skin-care",
-        "https://www.aad.org/public/diseases/acne/skin-care/tips",
-        "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products"
-      ],
-      "note": "French test version of the English Myth Court 2 reel; second post of the day (evening, French audience)."
-    },
-    {
-      "date": "2026-10-31",
-      "id": "2026-10-31-shower-rules",
-      "type": "reel",
-      "series": "Skin Basics",
-      "goal": "save",
-      "status": "approved",
-      "cover_ms": 1500,
-      "music": "nastelbom-happy-upbeat-513438.mp3 (Pixabay)",
-      "caption": "Your shower might be drying out your skin. 🚿\n\n4 rules for dry skin season: 5 to 10 minutes, warm water not hot, pat dry instead of rubbing, and moisturize while your skin is still damp. Creams and ointments hold in more moisture than lotions.\n\nSource: American Academy of Dermatology. Save this for the cold months.\n\n#dryskin #skincaretips #skincareroutine #skinbarrier #glowi",
-      "first_comment": "How long are your showers, really? ⏱👇",
-      "sources": [
-        "https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "2026-11-01-label-decoder",
-      "type": "reel",
-      "series": "Skin Basics",
-      "goal": "save",
-      "status": "approved",
-      "caption": "\"Hypoallergenic\" means whatever the brand wants. 🏷️\n\nThere's no federal standard for it in the US, so patch test anyway. 3 more label words, decoded: \"broad spectrum\" means UVA and UVB, \"water resistant\" can only mean 40 or 80 minutes, and a sunscreen with no date? Treat it as expired 3 years after purchase.\n\nSave this for your next shop.\n\nSources: US FDA.\n\n#skincaretips #sunscreen #skincareingredients #skincare #glowi",
-      "first_comment": "Which label word do you trust the most? 👇",
-      "sources": [
-        "https://www.fda.gov/cosmetics/cosmetics-labeling-claims/hypoallergenic-cosmetics",
-        "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun"
-      ],
-      "cover_ms": 1800,
-      "note": "Converted from carousel to voiced reel on 2026-10-26 (hook on screen from frame 0)."
-    },
-    {
-      "date": "2026-11-02",
-      "id": "2026-11-02-skin-environment",
-      "type": "reel",
-      "series": "Inside Glowi",
-      "goal": "download",
-      "status": "approved",
-      "cover_ms": 1800,
-      "music": "lnplusmusic-commercial-commercial-music-610967.mp3 (Pixabay)",
-      "caption": "Your routine ignores the weather. Your skin doesn't. 🌤\n\nGlowi's skin environment reads the UV, humidity and air where you are, and turns it into one note for your skin today: SPF and reapplying when the UV is high, a richer moisturizer when the air is dry.\n\nSkin environment is part of Glowi Premium. Cosmetic guidance, not a diagnosis. Link in bio 📲\n\n#skincareapp #uvindex #dryskin #skincareroutine #glowi",
-      "first_comment": "What's the weather doing to your skin this week? 👇"
-    },
-    {
-      "date": "2026-11-03",
       "id": "2026-11-03-popping",
       "type": "reel",
       "series": "Skin Basics",
       "goal": "save + share",
-      "status": "draft",
+      "status": "approved",
       "cover_ms": 1000,
       "music": "sub_clair-upbeat-587078.mp3 (Pixabay)",
       "caption": "Popping a pimple can make it last longer. 🚫\n\nSqueezing can push it deeper into your skin, and that can mean more pain, a more noticeable spot, a slower clear-up and even a scar. Your fingers can add bacteria too.\n\nInstead: hands off, and a spot product with salicylic acid. Deep, painful ones are a job for a dermatologist.\n\nSource: American Academy of Dermatology. Save this for your next breakout.\n\n#acne #pimples #acnetips #skincaretips #glowi",
@@ -316,7 +220,7 @@
       "note": "Re-cut on real Pexels footage (see bg.json) under a text overlay, same voiceover/script; back to draft for Gurkan's re-approval."
     },
     {
-      "date": "2026-11-04",
+      "date": "2026-10-30",
       "id": "2026-11-04-dark-spots",
       "type": "reel",
       "series": "Skin Basics",
@@ -334,12 +238,12 @@
       "note": "Real stock footage (Pexels, see bg.json) under a text overlay; rendered with lib/stock_bg.py + lib/composite.py."
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-10-31",
       "id": "2026-11-05-myth-court-3",
       "type": "reel",
       "series": "Myth Court",
       "goal": "comments + share",
-      "status": "draft",
+      "status": "approved",
       "cover_ms": 1000,
       "music": "nastelbom-happy-upbeat-513438.mp3 (Pixabay)",
       "caption": "Washing more can mean more breakouts. ⚖️\n\nMyth Court, part three: 5 acne beliefs on trial. Washing several times a day, \"only teens get acne\", tanning to dry out pimples, treating only the spot, and \"makeup causes acne\". One gets a half-true verdict.\n\nWhich one did you believe? 👇\n\nSource: American Academy of Dermatology.\n\n#acne #acnemyths #skincaremyths #skincaretips #glowi",
@@ -352,12 +256,12 @@
       "note": "Re-cut on real Pexels footage (see bg.json) under a text overlay, same voiceover/script; back to draft for Gurkan's re-approval."
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-01",
       "id": "2026-11-06-skin-cycle",
       "type": "reel",
       "series": "Inside Glowi",
       "goal": "download",
-      "status": "draft",
+      "status": "approved",
       "cover_ms": 1000,
       "music": "sub_clair-commercial-584915.mp3 (Pixabay)",
       "caption": "Switching acne products every week can cause breakouts. 🔁\n\nDermatologists say to give a product 6 to 8 weeks. Your mirror can't tell you if it's working, so Glowi gives your skin a skin score from a quick 3-angle scan, and with Premium, the 28-day skin cycle shows how it changes.\n\nFree plan: 1 face analysis every 5 days. Cosmetic guidance, not a diagnosis. Link in bio 📲\n\nSource (6–8 weeks): American Academy of Dermatology.\n\n#acne #skincareapp #skincareroutine #acnetips #glowi",
@@ -369,12 +273,12 @@
       "note": "Re-cut on real Pexels footage (see bg.json) under a text overlay, same voiceover/script; back to draft for Gurkan's re-approval."
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-02",
       "id": "2026-11-07-dont-mix-3",
       "type": "reel",
       "series": "Don't Mix",
       "goal": "save + share",
-      "status": "draft",
+      "status": "approved",
       "cover_ms": 1000,
       "music": "vaitsez-trap-latino-trap-beat-590148.mp3 (Pixabay)",
       "caption": "Your hair oil can break out your forehead. 🚫\n\nKeep oily hair products off your face and look for \"non-comedogenic\". Plus 3 more things your breakouts should never meet: a sweaty helmet or chin strap, a rough towel after the gym (pat, don't rub), and last night's makeup.\n\nSave this, and send it to your gym friend 💪\n\nSource: American Academy of Dermatology.\n\n#acne #foreheadacne #acnetips #skincaretips #glowi",
@@ -387,12 +291,12 @@
       "note": "Re-cut on real Pexels footage (see bg.json) under a text overlay, same voiceover/script; back to draft for Gurkan's re-approval."
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-03",
       "id": "2026-11-08-pimple-patches",
       "type": "reel",
       "series": "Skin Basics",
       "goal": "save",
-      "status": "draft",
+      "status": "approved",
       "cover_ms": 1000,
       "music": "lnplusmusic-cuban-latin-trap-beat-469610.mp3 (Pixabay)",
       "caption": "Pimple patches don't work on every pimple. 🩹\n\nThey work best on open, oozing spots: they soak up fluid and cover the spot so you can't pick it. On closed pimples they work less well, and on blackheads they barely help. Sensitive skin? Patches with salicylic acid or tea tree oil can irritate.\n\nSource: Cleveland Clinic. Save this for your next breakout.\n\n#acne #pimplepatch #pimples #acnetips #glowi",
@@ -403,12 +307,12 @@
       "note": "Re-cut on real Pexels footage (see bg.json) under a text overlay, same voiceover/script; back to draft for Gurkan's re-approval."
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-04",
       "id": "2026-11-09-sunscreen-amount",
       "type": "reel",
       "series": "Skin Math",
       "goal": "save + share",
-      "status": "draft",
+      "status": "approved",
       "cover_ms": 1000,
       "music": "vaitsez-cuban-latin-trap-beat-620130.mp3 (Pixabay)",
       "caption": "Most people use only ¼ to ½ of the sunscreen they need. ☀️\n\nFace: at least 1 teaspoon. Body: about 1 ounce, a full shot glass. The SPF on the label is tested with the full amount (2 mg per cm² of skin). Acne-prone? Look for \"non-comedogenic\". Outside? Reapply every 2 hours.\n\nSources: American Academy of Dermatology, Skin Cancer Foundation. Save this and check your bottle tomorrow.\n\n#sunscreen #spf #acne #skincaretips #glowi",
@@ -419,6 +323,105 @@
         "https://www.skincancer.org/blog/how-much-sunscreen-in-enough/"
       ],
       "note": "Re-cut on real Pexels footage (see bg.json) under a text overlay, same voiceover/script; back to draft for Gurkan's re-approval."
+    },
+    {
+      "date": "2026-11-05",
+      "id": "2026-10-29-patch-test",
+      "type": "reel",
+      "series": "Skin Basics",
+      "goal": "save",
+      "status": "draft",
+      "cover_ms": 1400,
+      "music": "sub_clair-commercial-584915.mp3 (Pixabay)",
+      "caption": "One day is not a patch test. 🧪\n\nDermatologists recommend 7 to 10 days: a small dab on the inside of your elbow, your normal amount, twice a day. Redness, itching or swelling? Wash it off and stop. Nothing after 10 days? Now it can go on your face.\n\nSource: American Academy of Dermatology. Save this before you open your next product.\n\n#patchtest #skincaretips #sensitiveskin #skincare #glowi",
+      "first_comment": "Be honest: how long do you usually patch test? 0 days counts 😅",
+      "sources": [
+        "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products"
+      ],
+      "note": "Held by Gurkan on 28 Oct: re-cut on Pexels footage (same content) before publishing; he pre-approved publishing after the re-cut."
+    },
+    {
+      "date": "2026-11-06",
+      "id": "2026-10-30-myth-court-2",
+      "type": "reel",
+      "series": "Myth Court",
+      "goal": "comments + share",
+      "status": "draft",
+      "caption": "Toothpaste on a pimple? Myth. ⚖️\n\nMyth Court, part two: 5 routine habits on trial. Toothpaste on pimples, \"natural means gentle\", scrubbing harder, expecting results in a week, and \"if it tingles, it's working\". One of them gets a surprise verdict.\n\nWhich one did you believe? 👇\n\nSources: Cleveland Clinic, American Academy of Dermatology.\n\n#acne #pimples #skincaremyths #skincaretips #glowi",
+      "first_comment": "Next trial: drop the myth you want judged 👇",
+      "sources": [
+        "https://health.clevelandclinic.org/toothpaste-on-pimples",
+        "https://health.clevelandclinic.org/natural-skin-care",
+        "https://www.aad.org/public/diseases/acne/skin-care/tips",
+        "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products"
+      ],
+      "cover_ms": 1800,
+      "note": "Held by Gurkan on 28 Oct: re-cut on Pexels footage (same content) before publishing; he pre-approved publishing after the re-cut."
+    },
+    {
+      "date": "2026-11-06",
+      "id": "2026-10-30-myth-court-2-fr",
+      "type": "reel",
+      "series": "Myth Court",
+      "goal": "comments + share",
+      "lang": "fr",
+      "slot": 2,
+      "status": "draft",
+      "cover_ms": 1800,
+      "caption": "Du dentifrice sur un bouton ? Faux. ⚖️\n\nLe tribunal des mythes : 5 habitudes beauté jugées. Le dentifrice sur les boutons, « naturel = doux », frotter plus fort, des résultats en une semaine, et « ça picote, donc ça marche ». L'une d'elles reçoit un verdict surprise.\n\nTu y croyais, à laquelle ? 👇\n\nSources : Cleveland Clinic, American Academy of Dermatology.\n\n#acne #boutons #soinduvisage #skincare #glowi",
+      "first_comment": "Prochain procès : dis-nous quel mythe juger 👇",
+      "sources": [
+        "https://health.clevelandclinic.org/toothpaste-on-pimples",
+        "https://health.clevelandclinic.org/natural-skin-care",
+        "https://www.aad.org/public/diseases/acne/skin-care/tips",
+        "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products"
+      ],
+      "note": "Held by Gurkan on 28 Oct: re-cut on Pexels footage (same content) before publishing; he pre-approved publishing after the re-cut."
+    },
+    {
+      "date": "2026-11-07",
+      "id": "2026-10-31-shower-rules",
+      "type": "reel",
+      "series": "Skin Basics",
+      "goal": "save",
+      "status": "draft",
+      "cover_ms": 1500,
+      "music": "nastelbom-happy-upbeat-513438.mp3 (Pixabay)",
+      "caption": "Your shower might be drying out your skin. 🚿\n\n4 rules for dry skin season: 5 to 10 minutes, warm water not hot, pat dry instead of rubbing, and moisturize while your skin is still damp. Creams and ointments hold in more moisture than lotions.\n\nSource: American Academy of Dermatology. Save this for the cold months.\n\n#dryskin #skincaretips #skincareroutine #skinbarrier #glowi",
+      "first_comment": "How long are your showers, really? ⏱👇",
+      "sources": [
+        "https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin"
+      ],
+      "note": "Held by Gurkan on 28 Oct: re-cut on Pexels footage (same content) before publishing; he pre-approved publishing after the re-cut."
+    },
+    {
+      "date": "2026-11-08",
+      "id": "2026-11-01-label-decoder",
+      "type": "reel",
+      "series": "Skin Basics",
+      "goal": "save",
+      "status": "draft",
+      "caption": "\"Hypoallergenic\" means whatever the brand wants. 🏷️\n\nThere's no federal standard for it in the US, so patch test anyway. 3 more label words, decoded: \"broad spectrum\" means UVA and UVB, \"water resistant\" can only mean 40 or 80 minutes, and a sunscreen with no date? Treat it as expired 3 years after purchase.\n\nSave this for your next shop.\n\nSources: US FDA.\n\n#skincaretips #sunscreen #skincareingredients #skincare #glowi",
+      "first_comment": "Which label word do you trust the most? 👇",
+      "sources": [
+        "https://www.fda.gov/cosmetics/cosmetics-labeling-claims/hypoallergenic-cosmetics",
+        "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun"
+      ],
+      "cover_ms": 1800,
+      "note": "Held by Gurkan on 28 Oct: re-cut on Pexels footage (same content) before publishing; he pre-approved publishing after the re-cut."
+    },
+    {
+      "date": "2026-11-09",
+      "id": "2026-11-02-skin-environment",
+      "type": "reel",
+      "series": "Inside Glowi",
+      "goal": "download",
+      "status": "draft",
+      "cover_ms": 1800,
+      "music": "lnplusmusic-commercial-commercial-music-610967.mp3 (Pixabay)",
+      "caption": "Your routine ignores the weather. Your skin doesn't. 🌤\n\nGlowi's skin environment reads the UV, humidity and air where you are, and turns it into one note for your skin today: SPF and reapplying when the UV is high, a richer moisturizer when the air is dry.\n\nSkin environment is part of Glowi Premium. Cosmetic guidance, not a diagnosis. Link in bio 📲\n\n#skincareapp #uvindex #dryskin #skincareroutine #glowi",
+      "first_comment": "What's the weather doing to your skin this week? 👇",
+      "note": "Held by Gurkan on 28 Oct: re-cut on Pexels footage (same content) before publishing; he pre-approved publishing after the re-cut."
     }
   ]
 }
