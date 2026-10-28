@@ -1,0 +1,25 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lines": [
+  "Popping a pimple can make it last longer.",
+  "Squeezing can push it deeper into your skin.",
+  "It can get more painful, more noticeable, and even scar.",
+  "And your fingers can add bacteria.",
+  "Hands off. Try a spot product with salicylic acid instead.",
+  "Deep, painful ones? That's a job for a dermatologist.",
+  "Save this, and keep your hands off."
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  2.47,
+  4.76,
+  8.03,
+  10.02,
+  13.88,
+  17.52
+ ]
+}

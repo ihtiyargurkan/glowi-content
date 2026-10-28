@@ -1,0 +1,25 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lines": [
+  "Pimple patches don't work on every pimple.",
+  "They work best on open, oozing spots.",
+  "They soak up fluid and cover it, so you can't pick.",
+  "On closed pimples, they work less well.",
+  "On blackheads, they barely help.",
+  "Sensitive skin? Patches with salicylic acid or tea tree can irritate.",
+  "Which pimples do you patch? Tell us below."
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  2.7,
+  5.17,
+  7.98,
+  10.27,
+  12.13,
+  16.65
+ ]
+}

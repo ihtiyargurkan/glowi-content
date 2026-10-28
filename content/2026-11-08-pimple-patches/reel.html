@@ -1,0 +1,136 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  .stage { background: var(--plum-deep); color: var(--ivory); }
+  .ttl { left: 0; right: 0; text-align: center; padding: 0 70px; }
+  .gold { color: var(--gold); }
+  .red { color: #FF7A66; }
+  .sage { color: #A9D3B5; }
+  .chipx { display: inline-flex; align-items: center; height: 120px; padding: 0 46px; border-radius: 60px; background: rgba(251,248,246,.09); border: 3px solid rgba(251,248,246,.18); font-size: 52px; font-weight: 800; white-space: nowrap; }
+  .fix { left: 110px; right: 110px; border-radius: 40px; background: rgba(127,168,139,.30); border: 4px solid #7FA88B; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .fix small { display: block; font-size: 30px; letter-spacing: .2em; color: #A9D3B5; margin-bottom: 12px; font-weight: 800; }
+  .warn { left: 110px; right: 110px; border-radius: 40px; background: rgba(255,90,69,.16); border: 4px solid #FF5A45; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .warn small { display: block; font-size: 30px; letter-spacing: .2em; color: #FF9A8A; margin-bottom: 12px; font-weight: 800; }
+  .stamp { left: 50%; font-weight: 900; letter-spacing: .08em; border: 12px solid currentColor; border-radius: 28px; padding: 6px 40px; white-space: nowrap; transform-origin: center; }
+  .stamp.myth { color: #FF5A45; }
+  .stamp.half { color: var(--gold); }
+  .stamp.ok { color: #7FA88B; }
+  .counter { top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--blush); opacity: .8; }
+  .kick { left: 0; right: 0; text-align: center; font-weight: 800; font-size: 40px; letter-spacing: .2em; color: var(--blush); opacity: .75; }
+  .li2 { left: 170px; right: 170px; height: 140px; display: flex; align-items: center; gap: 34px; font-size: 66px; font-weight: 800; border-bottom: 3px solid rgba(251,248,246,.12); }
+  .li2 b { flex: none; width: 76px; height: 76px; border-radius: 50%; background: #FF5A45; color: var(--ivory); display: flex; align-items: center; justify-content: center; font-size: 42px; }
+  .li2 b.ok { background: #7FA88B; }
+  .li2 b.mid { background: var(--gold); color: var(--plum-deep); }
+  .pair { left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 26px; }
+  .pair .x { font-size: 90px; font-weight: 900; color: #FF5A45; }
+  .num { top: 250px; font-size: 40px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .7; }
+  .bign { left: 0; right: 0; text-align: center; font-family: "Fraunces", serif; font-weight: 700; line-height: 1; color: var(--gold); }
+  .mq { top: 380px; font-size: 104px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; }
+  .mv { top: 820px; font-size: 120px; }
+  .mb { top: 1130px; font-size: 76px; }
+  .dots { top: 1560px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.2); }
+  .dots i.on { background: var(--gold); }
+  #end { top: 380px; font-size: 124px; }
+  #endSub { top: 1000px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
+  #endSrc { top: 1290px; font-size: 32px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; padding: 0 90px; line-height: 1.3; }
+  #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+
+  #patch { left: 140px; top: 190px; width: 800px; height: 800px; }
+  #w37 { top: 1060px; font-size: 116px; }
+  .rate { left: 0; right: 0; top: 260px; display: flex; justify-content: center; }
+  .pv { left: 240px; top: 470px; width: 600px; height: 600px; }
+  .rate .stamp { position: relative; left: 0; font-size: 110px; }
+  #b2 .hook, #b4 .hook, #b5 .hook { top: 1140px; font-size: 108px; }
+  #w39 { top: 1140px; font-size: 100px; }
+  #warn6 { top: 800px; font-size: 64px; }
+  #b6 .hook { top: 420px; font-size: 130px; }
+
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
+  <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
+  <div id="b1">
+    <svg id="patch" class="abs" viewBox="0 0 800 800">
+      <circle cx="400" cy="400" r="330" fill="rgba(251,248,246,.07)"/>
+      <circle cx="400" cy="400" r="250" fill="#F3E6D8" opacity=".9"/>
+      <circle id="dot" cx="400" cy="400" r="90" fill="#E06A5C" opacity=".75"/>
+      <circle cx="400" cy="400" r="250" fill="none" stroke="#FBF8F6" stroke-width="10" stroke-dasharray="20 18" id="edge"/>
+    </svg>
+    <div id="w37" class="abs ttl hook" data-split="1"><span class="w">Pimple</span> <span class="w">patches</span> <span class="w">don't</span> <span class="w">work</span> <span class="w">on</span> <span class="w gold">every</span> <span class="w gold">pimple</span></div>
+  </div>
+  <div id="b2">
+    <div class="rate abs"><div class="stamp ok">BEST</div></div><svg class="pv abs" viewBox="0 0 600 600"><rect x="0" y="330" width="600" height="270" fill="#C98E7E"/><g class="pul" style="transform-origin:300px 330px"><ellipse cx="300" cy="330" rx="120" ry="80" fill="#E06A5C"/><ellipse cx="300" cy="300" rx="50" ry="36" fill="#F7E7C9"/><circle cx="300" cy="280" r="14" fill="#FBF8F6"/></g></svg><div id="w38" class="abs ttl hook" data-split="1"><span class="w">Best</span> <span class="w">on</span> <span class="w gold">open,</span> <span class="w gold">oozing</span> <span class="w">spots</span></div>
+  </div>
+  <div id="b3">
+    <svg id="soak" class="pv abs" viewBox="0 0 600 600"><rect x="0" y="330" width="600" height="270" fill="#C98E7E"/>
+      <ellipse cx="300" cy="330" rx="120" ry="80" fill="#E06A5C"/><rect id="pad" x="120" y="180" width="360" height="150" rx="40" fill="#F3E6D8" opacity=".95"/><rect id="wet" x="200" y="300" width="200" height="0" rx="20" fill="#E8D7A8"/></svg>
+    <div id="w39" class="abs ttl hook" data-split="1"><span class="w">They</span> <span class="w">soak</span> <span class="w">up</span> <span class="w">fluid</span> <span class="w">and</span> <span class="w gold">stop</span> <span class="w gold">the</span> <span class="w gold">picking</span></div>
+  </div>
+  <div id="b4">
+    <div class="rate abs"><div class="stamp half">SO-SO</div></div><svg class="pv abs" viewBox="0 0 600 600"><rect x="0" y="330" width="600" height="270" fill="#C98E7E"/><g class="pul" style="transform-origin:300px 330px"><ellipse cx="300" cy="335" rx="130" ry="70" fill="#E06A5C"/></g></svg><div id="w40" class="abs ttl hook" data-split="1"><span class="w">Closed</span> <span class="w">pimples:</span> <span class="w gold">less</span> <span class="w gold">well</span></div>
+  </div>
+  <div id="b5">
+    <div class="rate abs"><div class="stamp myth">NOPE</div></div><svg class="pv abs" viewBox="0 0 600 600"><rect x="0" y="330" width="600" height="270" fill="#C98E7E"/><g class="pul" style="transform-origin:300px 330px"><circle cx="230" cy="325" r="16" fill="#2E1A22"/><circle cx="310" cy="335" r="12" fill="#2E1A22"/><circle cx="380" cy="320" r="14" fill="#2E1A22"/></g></svg><div id="w41" class="abs ttl hook" data-split="1"><span class="w">Blackheads:</span> <span class="w red">barely</span> <span class="w red">helps</span></div>
+  </div>
+  <div id="b6">
+    <div id="w42" class="abs ttl hook" data-split="1"><span class="w">Sensitive</span> <span class="w">skin?</span></div><div id="warn6" class="warn abs"><small>CAREFUL</small>Patches with salicylic acid or tea tree oil can irritate</div>
+  </div>
+  <div id="b7">
+    <div id="end" class="abs ttl hook" data-split="1"><span class="w">Which</span> <span class="w">pimples</span> <span class="w">do</span> <span class="w gold">you</span> <span class="w">patch?</span></div>
+    <div id="endSub" class="abs center">Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.</div>
+    <div id="endSrc" class="abs center">SOURCE: CLEVELAND CLINIC</div>
+    <div id="endCta" class="abs">Glowi · link in bio</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.HIT = 0.55; window.DURATION = 21.17; window.COVER = 1.0;
+const B = [0, 2.6, 5.07, 7.88, 10.17, 12.03, 16.55];
+const D = [2.35, 2.22, 2.56, 2.04, 1.61, 4.27, 2.22];
+
+function scene(t) {
+  B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
+  flash($("#flash"), t, B);
+  if (t >= B[0]) { const lt = t - B[0], d = D[0];
+    $("#patch").style.transform = `rotate(${lt * 25}deg) scale(${1 + .03 * Math.sin(lt * 5)})`;
+    $("#dot").setAttribute("r", 90 - 30 * (.5 + .5 * Math.sin(lt * 3)));
+    words($("#w37"), lt, -(.12 + splitWords($("#w37")).length * .04), .04);
+  }
+  if (t >= B[1]) { const lt = t - B[1], d = D[1];
+    { const el = $("#b2 .stamp"), p = pr(lt, 0.05, .22, E.out); el.style.opacity = lt >= 0.05 ? 1 : 0; el.style.transform = `rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.05 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.05 - .22) * 8) : 0}px)`; }
+    words($("#w38"), lt, 0.45, 0.07);
+    $$("#b2 .pv .pul").forEach(e => e.setAttribute("transform", `scale(${1 + .05 * Math.sin(lt * 6)})`));
+  }
+  if (t >= B[2]) { const lt = t - B[2], d = D[2];
+    { const p = pr(lt, 0, .5, E.out); $("#pad").setAttribute("y", 40 + 140 * p); const w = pr(lt, .6, 1.4); $("#wet").setAttribute("y", 300 - 90 * w); $("#wet").setAttribute("height", 90 * w); }
+    words($("#w39"), lt, 0.3, 0.07);
+  }
+  if (t >= B[3]) { const lt = t - B[3], d = D[3];
+    { const el = $("#b4 .stamp"), p = pr(lt, 0.05, .22, E.out); el.style.opacity = lt >= 0.05 ? 1 : 0; el.style.transform = `rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.05 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.05 - .22) * 8) : 0}px)`; }
+    words($("#w40"), lt, 0.45, 0.07);
+    $$("#b4 .pv .pul").forEach(e => e.setAttribute("transform", `scale(${1 + .05 * Math.sin(lt * 6)})`));
+  }
+  if (t >= B[4]) { const lt = t - B[4], d = D[4];
+    { const el = $("#b5 .stamp"), p = pr(lt, 0.05, .22, E.out); el.style.opacity = lt >= 0.05 ? 1 : 0; el.style.transform = `rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.05 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.05 - .22) * 8) : 0}px)`; }
+    words($("#w41"), lt, 0.45, 0.07);
+    $$("#b5 .pv .pul").forEach(e => e.setAttribute("transform", `scale(${1 + .05 * Math.sin(lt * 6)})`));
+  }
+  if (t >= B[5]) { const lt = t - B[5], d = D[5];
+    words($("#w42"), lt, 0, 0.07); show($("#warn6"), lt, .5, .4, 60, E.back); $("#warn6").style.transform += ` scale(${1 + .015 * Math.sin(lt * 5)})`;
+  }
+  if (t >= B[6]) { const lt = t - B[6], d = D[6];
+    words($("#end"), lt, .05, .09);
+    show($("#endSub"), lt, .8, .4, 30);
+    show($("#endSrc"), lt, 1.1, .4, 20);
+    { const p = show($("#endCta"), lt, 1.3, .4, 40, E.back);
+      $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`; }
+  }
+}
+</script>
+</body></html>

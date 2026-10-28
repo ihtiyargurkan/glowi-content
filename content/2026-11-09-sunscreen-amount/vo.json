@@ -1,0 +1,25 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lines": [
+  "Most people use only a quarter to half the sunscreen they need.",
+  "For your face, use at least one teaspoon.",
+  "For your body, about one ounce. A full shot glass.",
+  "The SPF on the label is tested with the full amount.",
+  "Acne-prone? Pick one labeled non-comedogenic.",
+  "Reapply every two hours when you're outside.",
+  "Save this, and check your bottle tomorrow."
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  3.49,
+  5.99,
+  9.07,
+  12.41,
+  15.54,
+  17.92
+ ]
+}

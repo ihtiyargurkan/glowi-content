@@ -1,0 +1,144 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  .stage { background: var(--plum-deep); color: var(--ivory); }
+  .ttl { left: 0; right: 0; text-align: center; padding: 0 70px; }
+  .gold { color: var(--gold); }
+  .red { color: #FF7A66; }
+  .sage { color: #A9D3B5; }
+  .chipx { display: inline-flex; align-items: center; height: 120px; padding: 0 46px; border-radius: 60px; background: rgba(251,248,246,.09); border: 3px solid rgba(251,248,246,.18); font-size: 52px; font-weight: 800; white-space: nowrap; }
+  .fix { left: 110px; right: 110px; border-radius: 40px; background: rgba(127,168,139,.30); border: 4px solid #7FA88B; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .fix small { display: block; font-size: 30px; letter-spacing: .2em; color: #A9D3B5; margin-bottom: 12px; font-weight: 800; }
+  .warn { left: 110px; right: 110px; border-radius: 40px; background: rgba(255,90,69,.16); border: 4px solid #FF5A45; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .warn small { display: block; font-size: 30px; letter-spacing: .2em; color: #FF9A8A; margin-bottom: 12px; font-weight: 800; }
+  .stamp { left: 50%; font-weight: 900; letter-spacing: .08em; border: 12px solid currentColor; border-radius: 28px; padding: 6px 40px; white-space: nowrap; transform-origin: center; }
+  .stamp.myth { color: #FF5A45; }
+  .stamp.half { color: var(--gold); }
+  .stamp.ok { color: #7FA88B; }
+  .counter { top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--blush); opacity: .8; }
+  .kick { left: 0; right: 0; text-align: center; font-weight: 800; font-size: 40px; letter-spacing: .2em; color: var(--blush); opacity: .75; }
+  .li2 { left: 170px; right: 170px; height: 140px; display: flex; align-items: center; gap: 34px; font-size: 66px; font-weight: 800; border-bottom: 3px solid rgba(251,248,246,.12); }
+  .li2 b { flex: none; width: 76px; height: 76px; border-radius: 50%; background: #FF5A45; color: var(--ivory); display: flex; align-items: center; justify-content: center; font-size: 42px; }
+  .li2 b.ok { background: #7FA88B; }
+  .li2 b.mid { background: var(--gold); color: var(--plum-deep); }
+  .pair { left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 26px; }
+  .pair .x { font-size: 90px; font-weight: 900; color: #FF5A45; }
+  .num { top: 250px; font-size: 40px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .7; }
+  .bign { left: 0; right: 0; text-align: center; font-family: "Fraunces", serif; font-weight: 700; line-height: 1; color: var(--gold); }
+  .mq { top: 380px; font-size: 104px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; }
+  .mv { top: 820px; font-size: 120px; }
+  .mb { top: 1130px; font-size: 76px; }
+  .dots { top: 1560px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.2); }
+  .dots i.on { background: var(--gold); }
+  #end { top: 380px; font-size: 124px; }
+  #endSub { top: 1000px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
+  #endSrc { top: 1290px; font-size: 32px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; padding: 0 90px; line-height: 1.3; }
+  #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+
+  #ten { top: 210px; font-size: 560px; }
+  #ne { top: 790px; font-size: 96px; font-weight: 900; color: var(--blush); left: 0; right: 0; text-align: center; }
+  #w8 { top: 1080px; font-size: 112px; }
+  #w9 { top: 250px; font-size: 96px; }
+  .bar { left: 110px; right: 110px; height: 150px; display: flex; align-items: center; gap: 30px; }
+  .bar .lab { width: 210px; font-size: 64px; font-weight: 900; text-align: right; }
+  .bar .tr { flex: 1; height: 70px; border-radius: 35px; background: rgba(251,248,246,.12); overflow: hidden; }
+  .bar .tr i { display: block; height: 100%; border-radius: 35px; width: 0; }
+  #b2 .tr i { background: linear-gradient(90deg, #7FA88B, #A9D3B5); }
+  #b3 .tr i { background: linear-gradient(90deg, #E8A93A, #FF5A45); }
+  .barT { left: 0; right: 0; text-align: center; font-size: 40px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .75; }
+  #w10 { top: 300px; font-size: 104px; }
+  #w11 { top: 330px; font-size: 130px; }
+  #c4 { top: 640px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 60px; }
+  #c4 .chipx { height: 170px; font-size: 84px; padding: 0 80px; border-color: #FF5A45; background: rgba(255,90,69,.14); }
+  #w12 { top: 330px; font-size: 140px; }
+  #two { top: 620px; font-size: 420px; }
+  #at { top: 1160px; font-size: 56px; font-weight: 700; color: var(--blush); left: 0; right: 0; text-align: center; }
+  #towel { left: 140px; top: 220px; width: 800px; height: 640px; }
+  #w13 { top: 960px; font-size: 108px; }
+  #fix6 { top: 1330px; }
+
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
+  <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
+  <div id="b1">
+    <div id="ten" class="abs bign">10%</div><div id="ne" class="abs">vs 2.5%</div>
+    <div id="w8" class="abs ttl hook" data-split="1"><span class="w">10%</span> <span class="w">benzoyl</span> <span class="w">peroxide</span> <span class="w">isn't</span> <span class="w gold">4×</span> <span class="w gold">stronger</span></div>
+  </div>
+  <div id="b2">
+    <div id="w9" class="abs ttl hook" data-split="1"><span class="w">On</span> <span class="w">inflamed</span> <span class="w">pimples,</span> <span class="w">they</span> <span class="w">work</span> <span class="w gold">about</span> <span class="w gold">the</span> <span class="w gold">same</span></div><div class="barT abs" style="top:620px">EFFECT ON INFLAMED PIMPLES</div><div class="bar abs" style="top:720px"><div class="lab">2.5%</div><div class="tr"><i data-v="82"></i></div></div><div class="bar abs" style="top:910px"><div class="lab">5%</div><div class="tr"><i data-v="84"></i></div></div><div class="bar abs" style="top:1100px"><div class="lab">10%</div><div class="tr"><i data-v="85"></i></div></div><div class="barT abs" style="top:1330px;font-size:28px;letter-spacing:.12em;opacity:.5">ILLUSTRATION · FAKHOURI ET AL., J DRUGS DERMATOL 2009</div>
+  </div>
+  <div id="b3">
+    <div id="w10" class="abs ttl hook" data-split="1"><span class="w">Higher</span> <span class="w">strength,</span> <span class="w">more</span> <span class="w red">irritation</span></div><div class="barT abs" style="top:620px">RISK OF IRRITATION</div><div class="bar abs" style="top:720px"><div class="lab">2.5%</div><div class="tr"><i data-v="25"></i></div></div><div class="bar abs" style="top:910px"><div class="lab">5%</div><div class="tr"><i data-v="52"></i></div></div><div class="bar abs" style="top:1100px"><div class="lab">10%</div><div class="tr"><i data-v="92"></i></div></div><div class="barT abs" style="top:1330px;font-size:28px;letter-spacing:.12em;opacity:.5">ILLUSTRATION · FAKHOURI ET AL., J DRUGS DERMATOL 2009</div>
+  </div>
+  <div id="b4">
+    <div id="w11" class="abs ttl hook" data-split="1"><span class="w">Think:</span></div><div id="c4" class="abs"><div class="chipx">Redness</div><div class="chipx">Itching</div><div class="chipx">Peeling</div></div>
+  </div>
+  <div id="b5">
+    <div id="w12" class="abs ttl hook" data-split="1"><span class="w">Start</span> <span class="w gold">low</span></div><div id="two" class="abs bign">2.5%</div><div id="at" class="abs">benzoyl peroxide</div>
+  </div>
+  <div id="b6">
+    <svg id="towel" class="abs" viewBox="0 0 800 640"><rect x="60" y="40" width="680" height="560" rx="40" fill="#5B7FB8"/>
+      <rect x="60" y="480" width="680" height="40" fill="#4A6CA3"/><rect x="60" y="120" width="680" height="40" fill="#4A6CA3"/><g id="bl" fill="#F3E6D8"></g></svg>
+    <div id="w13" class="abs ttl hook" data-split="1"><span class="w">Any</span> <span class="w">strength</span> <span class="w">can</span> <span class="w red">bleach</span> <span class="w">towels</span></div>
+    <div id="fix6" class="fix abs"><small>INSTEAD</small>Use white towels and pillowcases</div>
+  </div>
+  <div id="b7">
+    <div id="end" class="abs ttl hook" data-split="1"><span class="w">Save</span> <span class="w">this</span> <span class="w">before</span> <span class="w">your</span> <span class="w">next</span> <span class="w gold">tube</span></div>
+    <div id="endSub" class="abs center">Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.</div>
+    <div id="endSrc" class="abs center">SOURCES: BRITISH ASSOCIATION OF DERMATOLOGISTS · FAKHOURI ET AL., J DRUGS DERMATOL 2009</div>
+    <div id="endCta" class="abs">Glowi · link in bio</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.HIT = 0.55; window.DURATION = 22.17; window.COVER = 1.0;
+const B = [0, 3.67, 8.08, 10.32, 12.37, 14.77, 17.79];
+const D = [3.42, 4.16, 1.99, 1.8, 2.15, 2.77, 1.98];
+[[250,240,70],[520,330,95],[330,420,55],[600,170,50],[180,470,40]].forEach(([x,y,r]) => document.querySelector("#bl").innerHTML += `<ellipse cx="${x}" cy="${y}" rx="0" ry="0" data-r="${r}"/>`);
+function scene(t) {
+  B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
+  flash($("#flash"), t, B);
+  if (t >= B[0]) { const lt = t - B[0], d = D[0];
+    $("#ten").style.transform = `scale(${1 + .04 * Math.sin(lt * 6)}) rotate(${2 * Math.sin(lt * 3)}deg)`;
+    { const p = pr(lt, .45, .25, E.back); $("#ne").style.opacity = clamp((lt - .45) / .1); $("#ne").style.transform = `scale(${1.6 - .6 * p})`; }
+    words($("#w8"), lt, -(.12 + splitWords($("#w8")).length * .04), .04);
+  }
+  if (t >= B[1]) { const lt = t - B[1], d = D[1];
+    words($("#w9"), lt, 0, 0.07);
+    document.querySelectorAll("#b2 .bar").forEach((r, i) => { show(r, lt, .9 + i * .25, .3, 30); const b = r.querySelector("i"); b.style.width = (+b.dataset.v * pr(lt, 1.1 + i * .25, .9)) + "%"; });
+  }
+  if (t >= B[2]) { const lt = t - B[2], d = D[2];
+    words($("#w10"), lt, 0, 0.07);
+    document.querySelectorAll("#b3 .bar").forEach((r, i) => { show(r, lt, 0, .2, 0); const b = r.querySelector("i"); b.style.width = (+b.dataset.v * pr(lt, .3 + i * .3, .7)) + "%"; });
+  }
+  if (t >= B[3]) { const lt = t - B[3], d = D[3];
+    words($("#w11"), lt, 0, 0.07);
+    document.querySelectorAll("#c4 .chipx").forEach((c, i) => show(c, lt, .25 + i * d * .22, .3, 60, E.back));
+  }
+  if (t >= B[4]) { const lt = t - B[4], d = D[4];
+    words($("#w12"), lt, 0, 0.12);
+    { const p = pr(lt, .3, .5, E.back); $("#two").style.opacity = clamp((lt - .3) / .15); $("#two").style.transform = `scale(${.6 + .4 * p + .02 * Math.sin(lt * 5)})`; }
+    show($("#at"), lt, .7, .3, 20);
+  }
+  if (t >= B[5]) { const lt = t - B[5], d = D[5];
+    words($("#w13"), lt, 0, 0.07);
+    $$("#bl ellipse").forEach((e, i) => { const p = pr(lt, .2 + i * .18, .5, E.out); e.setAttribute("rx", e.dataset.r * p); e.setAttribute("ry", e.dataset.r * .8 * p); });
+    show($("#fix6"), lt, d * .55, .4, 50, E.back);
+  }
+  if (t >= B[6]) { const lt = t - B[6], d = D[6];
+    words($("#end"), lt, .05, .09);
+    show($("#endSub"), lt, .8, .4, 30);
+    show($("#endSrc"), lt, 1.1, .4, 20);
+    { const p = show($("#endCta"), lt, 1.3, .4, 40, E.back);
+      $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`; }
+  }
+}
+</script>
+</body></html>

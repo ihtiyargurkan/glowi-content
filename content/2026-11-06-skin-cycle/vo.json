@@ -1,0 +1,25 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lines": [
+  "Switching acne products every week can cause breakouts.",
+  "Dermatologists say give a product six to eight weeks.",
+  "But your mirror can't tell you if it's working.",
+  "Glowi scans your skin and gives it a skin score.",
+  "With Premium, a twenty-eight day skin cycle shows how it changes.",
+  "So you judge your routine on scans, not on a bad mirror day.",
+  "Your first scan is free. Link in bio."
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  3.33,
+  6.57,
+  8.84,
+  11.67,
+  15.58,
+  19.2
+ ]
+}

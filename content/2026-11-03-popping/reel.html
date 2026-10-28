@@ -1,0 +1,153 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  .stage { background: var(--plum-deep); color: var(--ivory); }
+  .ttl { left: 0; right: 0; text-align: center; padding: 0 70px; }
+  .gold { color: var(--gold); }
+  .red { color: #FF7A66; }
+  .sage { color: #A9D3B5; }
+  .chipx { display: inline-flex; align-items: center; height: 120px; padding: 0 46px; border-radius: 60px; background: rgba(251,248,246,.09); border: 3px solid rgba(251,248,246,.18); font-size: 52px; font-weight: 800; white-space: nowrap; }
+  .fix { left: 110px; right: 110px; border-radius: 40px; background: rgba(127,168,139,.30); border: 4px solid #7FA88B; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .fix small { display: block; font-size: 30px; letter-spacing: .2em; color: #A9D3B5; margin-bottom: 12px; font-weight: 800; }
+  .warn { left: 110px; right: 110px; border-radius: 40px; background: rgba(255,90,69,.16); border: 4px solid #FF5A45; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .warn small { display: block; font-size: 30px; letter-spacing: .2em; color: #FF9A8A; margin-bottom: 12px; font-weight: 800; }
+  .stamp { left: 50%; font-weight: 900; letter-spacing: .08em; border: 12px solid currentColor; border-radius: 28px; padding: 6px 40px; white-space: nowrap; transform-origin: center; }
+  .stamp.myth { color: #FF5A45; }
+  .stamp.half { color: var(--gold); }
+  .stamp.ok { color: #7FA88B; }
+  .counter { top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--blush); opacity: .8; }
+  .kick { left: 0; right: 0; text-align: center; font-weight: 800; font-size: 40px; letter-spacing: .2em; color: var(--blush); opacity: .75; }
+  .li2 { left: 170px; right: 170px; height: 140px; display: flex; align-items: center; gap: 34px; font-size: 66px; font-weight: 800; border-bottom: 3px solid rgba(251,248,246,.12); }
+  .li2 b { flex: none; width: 76px; height: 76px; border-radius: 50%; background: #FF5A45; color: var(--ivory); display: flex; align-items: center; justify-content: center; font-size: 42px; }
+  .li2 b.ok { background: #7FA88B; }
+  .li2 b.mid { background: var(--gold); color: var(--plum-deep); }
+  .pair { left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 26px; }
+  .pair .x { font-size: 90px; font-weight: 900; color: #FF5A45; }
+  .num { top: 250px; font-size: 40px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .7; }
+  .bign { left: 0; right: 0; text-align: center; font-family: "Fraunces", serif; font-weight: 700; line-height: 1; color: var(--gold); }
+  .mq { top: 380px; font-size: 104px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; }
+  .mv { top: 820px; font-size: 120px; }
+  .mb { top: 1130px; font-size: 76px; }
+  .dots { top: 1560px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.2); }
+  .dots i.on { background: var(--gold); }
+  #end { top: 380px; font-size: 124px; }
+  #endSub { top: 1000px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
+  #endSrc { top: 1290px; font-size: 32px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; padding: 0 90px; line-height: 1.3; }
+  #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+
+  #skin1 { left: 40px; top: 200px; width: 1000px; height: 760px; }
+  #w1 { top: 1060px; font-size: 120px; }
+  #sec { left: 90px; top: 760px; width: 900px; height: 820px; }
+  #w2 { top: 270px; font-size: 100px; }
+  #w3 { top: 380px; font-size: 130px; }
+  #b3 .li2 { font-size: 78px; height: 170px; left: 130px; right: 130px; }
+  #bac { left: 140px; top: 260px; width: 800px; height: 800px; }
+  #w4 { top: 1150px; font-size: 118px; }
+  #w5 { top: 300px; font-size: 190px; }
+  #chipSA { top: 760px; }
+  #fix5 { top: 1060px; }
+  #w6 { top: 420px; font-size: 120px; }
+  #w7 { top: 800px; font-size: 104px; }
+  #derm { top: 1330px; left: 50%; width: 220px; height: 220px; margin-left: -110px; }
+
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
+  <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
+  <div id="b1">
+    <svg id="skin1" class="abs" viewBox="0 0 1000 760">
+      <path d="M0 520 Q250 500 500 470 Q750 500 1000 520 L1000 760 L0 760 Z" fill="#C98E7E"/>
+      <g id="pim"><ellipse cx="500" cy="470" rx="130" ry="95" fill="#E06A5C"/><ellipse cx="500" cy="430" rx="52" ry="42" fill="#F7E7C9"/></g>
+      <g id="fl"><path d="M-40 300 Q180 260 330 380 Q380 430 340 470 Q250 470 160 420 L-40 420 Z" fill="#EEDDE2"/><ellipse cx="340" cy="420" rx="34" ry="48" fill="#F6ECEF" transform="rotate(-30 340 420)"/></g>
+      <g id="fr"><path d="M1040 300 Q820 260 670 380 Q620 430 660 470 Q750 470 840 420 L1040 420 Z" fill="#EEDDE2"/><ellipse cx="660" cy="420" rx="34" ry="48" fill="#F6ECEF" transform="rotate(30 660 420)"/></g>
+    </svg>
+    <div id="w1" class="abs ttl hook" data-split="1"><span class="w">Popping</span> <span class="w">a</span> <span class="w">pimple</span> <span class="w">can</span> <span class="w">make</span> <span class="w">it</span> <span class="w gold">last</span> <span class="w gold">longer</span></div>
+  </div>
+  <div id="b2">
+    <div id="w2" class="abs ttl hook" data-split="1"><span class="w">Squeezing</span> <span class="w">can</span> <span class="w">push</span> <span class="w">it</span> <span class="w gold">deeper</span> <span class="w">into</span> <span class="w">your</span> <span class="w">skin</span></div>
+    <svg id="sec" class="abs" viewBox="0 0 900 820">
+      <rect x="0" y="120" width="900" height="140" fill="#E6B3A8"/><rect x="0" y="260" width="900" height="300" fill="#C98E7E"/><rect x="0" y="560" width="900" height="260" fill="#A86F63"/>
+      <text x="30" y="200" font-size="34" font-weight="800" fill="#2E1A22" opacity=".6" font-family="Inter">SURFACE</text>
+      <circle id="gunk" cx="450" cy="230" r="70" fill="#F7E7C9"/>
+      <g id="arr" fill="#FF5A45"><rect x="430" y="-40" width="40" height="120"/><path d="M390 80 L510 80 L450 150 Z"/></g>
+    </svg>
+  </div>
+  <div id="b3">
+    <div id="w3" class="abs ttl hook" data-split="1"><span class="w">It</span> <span class="w">can</span> <span class="w">get:</span></div>
+    <div class="li2 abs" style="top:700px"><b>✕</b>More painful</div>
+    <div class="li2 abs" style="top:920px"><b>✕</b>More noticeable</div>
+    <div class="li2 abs" style="top:1140px"><b>✕</b>Can leave a scar</div>
+  </div>
+  <div id="b4">
+    <svg id="bac" class="abs" viewBox="0 0 800 800"><circle cx="400" cy="400" r="330" fill="rgba(251,248,246,.06)" stroke="rgba(251,248,246,.2)" stroke-width="6"/><g id="bugs"></g></svg>
+    <div id="w4" class="abs ttl hook" data-split="1"><span class="w">Your</span> <span class="w">fingers</span> <span class="w">add</span> <span class="w red">bacteria</span></div>
+  </div>
+  <div id="b5">
+    <div id="w5" class="abs ttl hook" data-split="1"><span class="w sage">Hands</span> <span class="w sage">off.</span></div>
+    <div id="chipSA" class="pair abs"><div class="chipx">Salicylic acid spot product</div></div>
+    <div id="fix5" class="fix abs"><small>INSTEAD</small>Leave it alone and let the product work</div>
+  </div>
+  <div id="b6">
+    <div id="w6" class="abs ttl hook" data-split="1"><span class="w">Deep,</span> <span class="w">painful</span> <span class="w">ones?</span></div><div id="w7" class="abs ttl hook" data-split="1"><span class="w">That's</span> <span class="w">a</span> <span class="w">job</span> <span class="w">for</span> <span class="w">a</span> <span class="w gold">dermatologist</span></div>
+    <svg id="derm" class="abs" viewBox="0 0 220 220"><circle cx="110" cy="110" r="100" fill="#7FA88B"/><rect x="92" y="50" width="36" height="120" rx="8" fill="#FBF8F6"/><rect x="50" y="92" width="120" height="36" rx="8" fill="#FBF8F6"/></svg>
+  </div>
+  <div id="b7">
+    <div id="end" class="abs ttl hook" data-split="1"><span class="w">Save</span> <span class="w">this,</span> <span class="w">and</span> <span class="w">keep</span> <span class="w">your</span> <span class="w gold">hands</span> <span class="w gold">off</span></div>
+    <div id="endSub" class="abs center">Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.</div>
+    <div id="endSrc" class="abs center">SOURCE: AMERICAN ACADEMY OF DERMATOLOGY</div>
+    <div id="endCta" class="abs">Glowi · link in bio</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.HIT = 0.55; window.DURATION = 21.57; window.COVER = 1.0;
+const B = [0, 2.37, 4.66, 7.93, 9.92, 13.78, 17.42];
+const D = [2.12, 2.04, 3.02, 1.74, 3.61, 3.39, 1.75];
+for (let i = 0; i < 14; i++) document.querySelector("#bugs").innerHTML += `<ellipse rx="34" ry="18" fill="${i % 2 ? "#FF7A66" : "#E8A93A"}"/>`;
+function scene(t) {
+  B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
+  flash($("#flash"), t, B);
+  if (t >= B[0]) { const lt = t - B[0], d = D[0];
+    { const sq = .5 + .5 * Math.sin(lt * 7); $("#fl").style.transform = `translateX(${30 * sq}px)`; $("#fr").style.transform = `translateX(${-30 * sq}px)`;
+      $("#pim").style.transform = `scale(${1 + .06 * sq}, ${1 - .04 * sq})`; $("#pim").style.transformOrigin = "500px 470px"; }
+    $("#skin1").style.transform = `scale(${1.02 + .02 * Math.sin(lt * 3)})`;
+    words($("#w1"), lt, -(.12 + splitWords($("#w1")).length * .04), .04);
+  }
+  if (t >= B[1]) { const lt = t - B[1], d = D[1];
+    words($("#w2"), lt, 0, 0.07);
+    { const p = pr(lt, .5, 1.3, E.inOut); $("#gunk").setAttribute("cy", 230 + 330 * p); $("#gunk").setAttribute("r", 70 + 25 * p); $("#arr").style.transform = `translateY(${330 * p}px)`; }
+  }
+  if (t >= B[2]) { const lt = t - B[2], d = D[2];
+    words($("#w3"), lt, 0, 0.07);
+    document.querySelectorAll("#b3 .li2").forEach((r, i) => show(r, lt, .25 + i * d * .27, .35, 60, E.back));
+  }
+  if (t >= B[3]) { const lt = t - B[3], d = D[3];
+    words($("#w4"), lt, 0, 0.07);
+    $$("#bugs ellipse").forEach((e, i) => { const a = i * 2.1 + lt * (0.6 + (i % 3) * .25), r = 90 + (i * 37) % 210; e.setAttribute("cx", 400 + r * Math.cos(a)); e.setAttribute("cy", 400 + r * Math.sin(a)); e.setAttribute("transform", `rotate(${(a * 57) % 360} ${400 + r * Math.cos(a)} ${400 + r * Math.sin(a)})`); e.style.opacity = clamp((lt - i * .06) / .2); });
+  }
+  if (t >= B[4]) { const lt = t - B[4], d = D[4];
+    words($("#w5"), lt, 0, 0.12);
+    show($("#chipSA"), lt, d * .35, .35, 50, E.back);
+    show($("#fix5"), lt, d * .6, .4, 50, E.back);
+  }
+  if (t >= B[5]) { const lt = t - B[5], d = D[5];
+    words($("#w6"), lt, 0, 0.07);
+    words($("#w7"), lt, d * .4, 0.07);
+    { const p = show($("#derm"), lt, d * .55, .4, 40, E.back); $("#derm").style.transform = `translateY(${(1 - p) * 40}px) scale(${.6 + .4 * p})`; }
+  }
+  if (t >= B[6]) { const lt = t - B[6], d = D[6];
+    words($("#end"), lt, .05, .09);
+    show($("#endSub"), lt, .8, .4, 30);
+    show($("#endSrc"), lt, 1.1, .4, 20);
+    { const p = show($("#endCta"), lt, 1.3, .4, 40, E.back);
+      $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`; }
+  }
+}
+</script>
+</body></html>

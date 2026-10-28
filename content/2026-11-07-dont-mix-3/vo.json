@@ -1,0 +1,25 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lines": [
+  "Your hair oil can break out your forehead.",
+  "Keep oily hair products off your face.",
+  "Three more things your breakouts should never meet.",
+  "A sweaty helmet or chin strap. Heat and rubbing can cause acne.",
+  "A rough towel after the gym. Pat sweat away, don't rub.",
+  "Last night's makeup. Sleeping in it can break you out.",
+  "Save this, and send it to your gym friend."
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  2.23,
+  4.49,
+  6.93,
+  10.87,
+  14.3,
+  17.45
+ ]
+}

@@ -1,0 +1,144 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  .stage { background: var(--plum-deep); color: var(--ivory); }
+  .ttl { left: 0; right: 0; text-align: center; padding: 0 70px; }
+  .gold { color: var(--gold); }
+  .red { color: #FF7A66; }
+  .sage { color: #A9D3B5; }
+  .chipx { display: inline-flex; align-items: center; height: 120px; padding: 0 46px; border-radius: 60px; background: rgba(251,248,246,.09); border: 3px solid rgba(251,248,246,.18); font-size: 52px; font-weight: 800; white-space: nowrap; }
+  .fix { left: 110px; right: 110px; border-radius: 40px; background: rgba(127,168,139,.30); border: 4px solid #7FA88B; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .fix small { display: block; font-size: 30px; letter-spacing: .2em; color: #A9D3B5; margin-bottom: 12px; font-weight: 800; }
+  .warn { left: 110px; right: 110px; border-radius: 40px; background: rgba(255,90,69,.16); border: 4px solid #FF5A45; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .warn small { display: block; font-size: 30px; letter-spacing: .2em; color: #FF9A8A; margin-bottom: 12px; font-weight: 800; }
+  .stamp { left: 50%; font-weight: 900; letter-spacing: .08em; border: 12px solid currentColor; border-radius: 28px; padding: 6px 40px; white-space: nowrap; transform-origin: center; }
+  .stamp.myth { color: #FF5A45; }
+  .stamp.half { color: var(--gold); }
+  .stamp.ok { color: #7FA88B; }
+  .counter { top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--blush); opacity: .8; }
+  .kick { left: 0; right: 0; text-align: center; font-weight: 800; font-size: 40px; letter-spacing: .2em; color: var(--blush); opacity: .75; }
+  .li2 { left: 170px; right: 170px; height: 140px; display: flex; align-items: center; gap: 34px; font-size: 66px; font-weight: 800; border-bottom: 3px solid rgba(251,248,246,.12); }
+  .li2 b { flex: none; width: 76px; height: 76px; border-radius: 50%; background: #FF5A45; color: var(--ivory); display: flex; align-items: center; justify-content: center; font-size: 42px; }
+  .li2 b.ok { background: #7FA88B; }
+  .li2 b.mid { background: var(--gold); color: var(--plum-deep); }
+  .pair { left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 26px; }
+  .pair .x { font-size: 90px; font-weight: 900; color: #FF5A45; }
+  .num { top: 250px; font-size: 40px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .7; }
+  .bign { left: 0; right: 0; text-align: center; font-family: "Fraunces", serif; font-weight: 700; line-height: 1; color: var(--gold); }
+  .mq { top: 380px; font-size: 104px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; }
+  .mv { top: 820px; font-size: 120px; }
+  .mb { top: 1130px; font-size: 76px; }
+  .dots { top: 1560px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.2); }
+  .dots i.on { background: var(--gold); }
+  #end { top: 380px; font-size: 124px; }
+  #endSub { top: 1000px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
+  #endSrc { top: 1290px; font-size: 32px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; padding: 0 90px; line-height: 1.3; }
+  #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+
+  #head { left: 90px; top: 170px; width: 900px; height: 860px; }
+  #w31 { top: 1100px; font-size: 116px; }
+  #pair2 { top: 420px; }
+  #w32 { top: 720px; font-size: 104px; }
+  #plus3 { top: 300px; font-size: 520px; }
+  #w33 { top: 960px; font-size: 100px; }
+  .itT { top: 640px; font-size: 104px; }
+  .pr { top: 400px; }
+  .pr .chipx { font-size: 44px; padding: 0 34px; height: 104px; }
+  .num { left: 0; right: 0; text-align: center; }
+  .ico { left: 290px; top: 980px; width: 500px; height: 500px; }
+
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
+  <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
+  <div id="b1">
+    <svg id="head" class="abs" viewBox="0 0 900 860">
+      <path d="M180 860 L180 520 Q180 230 450 230 Q720 230 720 520 L720 860 Z" fill="#C98E7E"/>
+      <path d="M150 470 Q150 120 450 110 Q750 120 750 470 Q700 330 450 320 Q200 330 150 470 Z" fill="#4B2E39"/>
+      <g id="spots" fill="#E06A5C"><circle cx="360" cy="430" r="0"/><circle cx="470" cy="410" r="0"/><circle cx="560" cy="445" r="0"/><circle cx="410" cy="470" r="0"/></g>
+      <g id="drop"><rect x="560" y="-10" width="110" height="80" rx="16" fill="#E8A93A"/><path d="M590 70 L640 70 L630 120 L600 120 Z" fill="#C9B4BB"/></g>
+      <g id="oil" fill="#E8A93A"></g>
+    </svg>
+    <div id="w31" class="abs ttl hook" data-split="1"><span class="w">Your</span> <span class="w">hair</span> <span class="w">oil</span> <span class="w">can</span> <span class="w">break</span> <span class="w">out</span> <span class="w">your</span> <span class="w gold">forehead</span></div>
+  </div>
+  <div id="b2">
+    <div id="pair2" class="pair abs"><div class="chipx">Hair oil</div><div class="x">✕</div><div class="chipx">Forehead</div></div>
+    <div id="w32" class="abs ttl hook" data-split="1"><span class="w">Keep</span> <span class="w">oily</span> <span class="w">hair</span> <span class="w">products</span> <span class="w gold">off</span> <span class="w gold">your</span> <span class="w gold">face</span></div>
+    <div id="fix2" class="fix abs" style="top:1150px"><small>INSTEAD</small>Look for “non-comedogenic” on hair &amp; skin products</div>
+  </div>
+  <div id="b3">
+    <div id="plus3" class="abs bign">+3</div><div id="w33" class="abs ttl hook" data-split="1"><span class="w">more</span> <span class="w">things</span> <span class="w">your</span> <span class="w">breakouts</span> <span class="w">should</span> <span class="w">never</span> <span class="w">meet</span></div>
+  </div>
+  <div id="b4">
+    <div class="num abs">01 / 03</div>
+    <div class="pair pr abs"><div class="chipx">Helmet strap</div><div class="x">✕</div><div class="chipx">Sweaty skin</div></div>
+    <div id="w34" class="abs ttl itT hook" data-split="1"><span class="w">Heat</span> <span class="w">and</span> <span class="w">rubbing</span> <span class="w">can</span> <span class="w">cause</span> <span class="w red">acne</span></div>
+    <svg class="ico abs" viewBox="0 0 300 300"><path d="M40 170 Q40 40 150 40 Q260 40 260 170 Z" fill="#7FA88B"/><path id="strap" d="M60 170 Q150 290 240 170" stroke="#C9B4BB" stroke-width="18" fill="none"/></svg>
+  </div>
+  <div id="b5">
+    <div class="num abs">02 / 03</div>
+    <div class="pair pr abs"><div class="chipx">Rough towel</div><div class="x">✕</div><div class="chipx">Post-gym skin</div></div>
+    <div id="w35" class="abs ttl itT hook" data-split="1"><span class="w">Pat</span> <span class="w">sweat</span> <span class="w">away.</span> <span class="w gold">Don't</span> <span class="w gold">rub.</span></div>
+    <svg class="ico abs" viewBox="0 0 300 300"><rect x="40" y="60" width="220" height="180" rx="24" fill="#9CC9E8"/><rect x="40" y="200" width="220" height="16" fill="#7FA8C8"/></svg>
+  </div>
+  <div id="b6">
+    <div class="num abs">03 / 03</div>
+    <div class="pair pr abs"><div class="chipx">Last night's makeup</div><div class="x">✕</div><div class="chipx">Your pillow</div></div>
+    <div id="w36" class="abs ttl itT hook" data-split="1"><span class="w">Sleeping</span> <span class="w">in</span> <span class="w">it</span> <span class="w">can</span> <span class="w red">break</span> <span class="w red">you</span> <span class="w red">out</span></div>
+    <svg class="ico abs" viewBox="0 0 300 300"><rect x="20" y="90" width="260" height="140" rx="60" fill="#EEDDE2"/><path d="M170 60 A50 50 0 1 0 230 130 A40 40 0 1 1 170 60 Z" fill="#E8A93A"/></svg>
+  </div>
+  <div id="b7">
+    <div id="end" class="abs ttl hook" data-split="1"><span class="w">Send</span> <span class="w">this</span> <span class="w">to</span> <span class="w">your</span> <span class="w gold">gym</span> <span class="w gold">friend</span></div>
+    <div id="endSub" class="abs center">Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.</div>
+    <div id="endSrc" class="abs center">SOURCE: AMERICAN ACADEMY OF DERMATOLOGY</div>
+    <div id="endCta" class="abs">Glowi · link in bio</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.HIT = 0.55; window.DURATION = 21.8; window.COVER = 1.0;
+const B = [0, 2.13, 4.39, 6.83, 10.77, 14.2, 17.35];
+const D = [1.88, 2.01, 2.19, 3.69, 3.18, 2.9, 2.05];
+for (let i = 0; i < 3; i++) document.querySelector("#oil").innerHTML += `<ellipse cx="615" cy="130" rx="18" ry="26"/>`;
+function scene(t) {
+  B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
+  flash($("#flash"), t, B);
+  if (t >= B[0]) { const lt = t - B[0], d = D[0];
+    $$("#oil ellipse").forEach((e, i) => { const y = 130 + ((lt * 420 + i * 95) % 300); e.setAttribute("cy", y); e.style.opacity = y > 380 ? .3 : 1; });
+    $$("#spots circle").forEach((c, i) => c.setAttribute("r", 22 * clamp((lt - .3 - i * .25) / .2) * (1 + .1 * Math.sin(lt * 6 + i))));
+    words($("#w31"), lt, -(.12 + splitWords($("#w31")).length * .04), .04);
+  }
+  if (t >= B[1]) { const lt = t - B[1], d = D[1];
+    show($("#pair2"), lt, 0, .3, 40, E.back);
+    words($("#w32"), lt, 0.2, 0.07);
+    show($("#fix2"), lt, d * .55, .4, 50, E.back);
+  }
+  if (t >= B[2]) { const lt = t - B[2], d = D[2];
+    { const p = pr(lt, 0, .45, E.back); $("#plus3").style.transform = `scale(${.5 + .5 * p + .02 * Math.sin(lt * 6)})`; }
+    words($("#w33"), lt, 0.3, 0.07);
+  }
+  if (t >= B[3]) { const lt = t - B[3], d = D[3];
+    show($("#b4 .pair"), lt, 0, .3, 40, E.back); words($("#w34"), lt, 0.5, 0.07); show($("#b4 .ico"), lt, 1.0, .3, 30, E.back); $("#b4 .ico").style.transform += ` rotate(${6 * Math.sin(lt * 8)}deg)`;
+  }
+  if (t >= B[4]) { const lt = t - B[4], d = D[4];
+    show($("#b5 .pair"), lt, 0, .3, 40, E.back); words($("#w35"), lt, 0.5, 0.07); show($("#b5 .ico"), lt, 1.0, .3, 30, E.back); $("#b5 .ico").style.transform += ` translateY(${14 * Math.abs(Math.sin(lt * 5))}px)`;
+  }
+  if (t >= B[5]) { const lt = t - B[5], d = D[5];
+    show($("#b6 .pair"), lt, 0, .3, 40, E.back); words($("#w36"), lt, 0.5, 0.07); show($("#b6 .ico"), lt, 1.0, .3, 30, E.back);
+  }
+  if (t >= B[6]) { const lt = t - B[6], d = D[6];
+    words($("#end"), lt, .05, .09);
+    show($("#endSub"), lt, .8, .4, 30);
+    show($("#endSrc"), lt, 1.1, .4, 20);
+    { const p = show($("#endCta"), lt, 1.3, .4, 40, E.back);
+      $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`; }
+  }
+}
+</script>
+</body></html>

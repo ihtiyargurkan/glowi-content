@@ -1,0 +1,25 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lines": [
+  "Washing more can mean more breakouts.",
+  "Washing several times a day irritates skin. Twice a day is enough.",
+  "Only teens get acne? Myth. Adults can get it into their fifties.",
+  "Tanning dries out pimples? Myth. Tanning can make acne worse.",
+  "Dab it only on the pimple? Myth. Cover the whole area.",
+  "Makeup causes acne? Half true. Sleeping in it can.",
+  "Which one did you believe?"
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  2.18,
+  6.27,
+  10.42,
+  14.42,
+  17.71,
+  20.88
+ ]
+}
