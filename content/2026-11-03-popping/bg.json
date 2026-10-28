@@ -1,0 +1,113 @@
+{
+ "scenes": [
+  {
+   "clip": "5588090",
+   "dur": 2.37,
+   "ss": 0,
+   "z": [
+    1.05,
+    1.2
+   ],
+   "c": [
+    540,
+    1000
+   ],
+   "speed": 0.75,
+   "pexels": "https://www.pexels.com/video/5588090/",
+   "by": "Polina Tankilevitch"
+  },
+  {
+   "clip": "6278848",
+   "dur": 2.29,
+   "ss": 0.3,
+   "z": [
+    1.15,
+    1.25
+   ],
+   "c": [
+    540,
+    820
+   ],
+   "pexels": "https://www.pexels.com/video/6278848/",
+   "by": "ShotPot"
+  },
+  {
+   "clip": "4812673",
+   "dur": 3.27,
+   "ss": 0.3,
+   "z": [
+    1.2,
+    1.3
+   ],
+   "c": [
+    540,
+    1150
+   ],
+   "pexels": "https://www.pexels.com/video/4812673/",
+   "by": "cottonbro studio"
+  },
+  {
+   "clip": "6767559",
+   "dur": 1.99,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6767559/",
+   "by": "Michelle Leman"
+  },
+  {
+   "clip": "8802295",
+   "dur": 3.86,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/8802295/",
+   "by": "Mike Jones"
+  },
+  {
+   "clip": "7350053",
+   "dur": 3.64,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    820
+   ],
+   "pexels": "https://www.pexels.com/video/7350053/",
+   "by": "Norma Mortenson"
+  },
+  {
+   "clip": "7299418",
+   "dur": 4.15,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "b": -0.35,
+   "sat": 0.6,
+   "pexels": "https://www.pexels.com/video/7299418/",
+   "by": "Kindel Media"
+  }
+ ],
+ "source": "Pexels videos (Pexels license, free commercial use); render: python3 lib/stock_bg.py bg.json <clips_dir> bg.mp4 && python3 lib/composite.py $PWD/reel.html bg.mp4 out.mp4"
+}

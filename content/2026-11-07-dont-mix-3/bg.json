@@ -1,0 +1,112 @@
+{
+ "scenes": [
+  {
+   "clip": "6649686",
+   "dur": 2.13,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    900
+   ],
+   "pexels": "https://www.pexels.com/video/6649686/",
+   "by": "https://kaboompics.com/"
+  },
+  {
+   "clip": "6925815",
+   "dur": 2.26,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6925815/",
+   "by": "Mike Murray"
+  },
+  {
+   "clip": "6455081",
+   "dur": 2.44,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6455081/",
+   "by": "Julia Larson"
+  },
+  {
+   "clip": "15689197",
+   "dur": 3.94,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/15689197/",
+   "by": "Ali  Alcántara"
+  },
+  {
+   "clip": "6455088",
+   "dur": 3.43,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6455088/",
+   "by": "Julia Larson"
+  },
+  {
+   "clip": "7597959",
+   "dur": 3.15,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7597959/",
+   "by": "Miriam Alonso"
+  },
+  {
+   "clip": "7440092",
+   "dur": 4.45,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "b": -0.35,
+   "sat": 0.6,
+   "pexels": "https://www.pexels.com/video/7440092/",
+   "by": "cottonbro studio"
+  }
+ ],
+ "source": "Pexels videos (Pexels license, free commercial use); render: python3 lib/stock_bg.py bg.json <clips_dir> bg.mp4 && python3 lib/composite.py $PWD/reel.html bg.mp4 out.mp4"
+}

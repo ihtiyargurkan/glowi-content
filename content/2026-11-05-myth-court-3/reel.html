@@ -38,62 +38,59 @@
   #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
   #flash { inset: 0; background: #fff; pointer-events: none; }
 
-  #sink { left: 90px; top: 180px; width: 900px; height: 820px; }
-  #w14 { top: 1090px; font-size: 118px; }
+  html, body { background: transparent !important; }
+  .stage { background: transparent !important; }
+  .blob { display: none; }
+  .handle { text-shadow: 0 2px 12px rgba(0,0,0,.6); }
+  #shade { left: 0; right: 0; top: 860px; height: 1060px; background: linear-gradient(rgba(20,10,14,0), rgba(20,10,14,.8) 36%, rgba(20,10,14,.93)); }
+  .shadeEnd { inset: 0; background: rgba(36,20,27,.55); }
+  .hook { text-shadow: 0 4px 24px rgba(0,0,0,.45); }
+  .tx { top: 1330px; font-size: 100px; }
+  .tx.hi { top: 1240px; }
+  .tag { position: absolute; left: 50%; transform: translateX(-50%); top: 170px; font-size: 40px; font-weight: 850; letter-spacing: .12em; color: var(--ivory); background: rgba(20,10,14,.72); padding: 14px 28px; border-radius: 18px; white-space: nowrap; }
+  .ctr { position: absolute; top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--ivory); text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+  .stp { top: 1110px; font-size: 84px; }
+  .chips { top: 1500px; left: 0; right: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 22px; padding: 0 50px; }
+  .chips .chipx { height: 116px; font-size: 52px; background: rgba(20,10,14,.62); }
+  .chips.red .chipx { border-color: #FF5A45; }
+  .chips.sage .chipx { border-color: #7FA88B; }
+  .card { top: 1560px; }
+  .fix, .warn { left: 110px; right: 110px; }
+  .sub2 { top: 1650px; left: 0; right: 0; text-align: center; font-size: 36px; font-weight: 700; letter-spacing: .12em; color: var(--blush); opacity: .8; }
+  .mq2 { top: 1010px; font-size: 84px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; text-shadow: 0 4px 20px rgba(0,0,0,.5); }
+  .stp2 { top: 1230px; font-size: 96px; }
+  .mb2 { top: 1450px; font-size: 72px; }
+  .dots2 { top: 1760px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots2 i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.3); }
+  .dots2 i.on { background: var(--gold); }
 
 </style></head>
 <body>
 <div class="stage">
   <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
   <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div id="shade" class="abs"></div>
   <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
   <div id="b1">
-    <div class="counter abs">MYTH COURT · PART 3</div>
-    <svg id="sink" class="abs" viewBox="0 0 900 820">
-      <path d="M330 60 L330 160 Q330 200 370 200 L560 200" stroke="#C9B4BB" stroke-width="44" fill="none" stroke-linecap="round"/>
-      <rect x="520" y="185" width="80" height="50" rx="12" fill="#C9B4BB"/>
-      <g id="drops" fill="#9CC9E8"></g>
-      <path d="M120 560 Q450 860 780 560 Z" fill="#EEDDE2"/><rect x="90" y="530" width="720" height="44" rx="22" fill="#F6ECEF"/>
-      <g id="foam" fill="#FBF8F6" opacity=".9"></g>
-    </svg>
-    <div id="w14" class="abs ttl hook" data-split="1"><span class="w">Washing</span> <span class="w">more</span> <span class="w">can</span> <span class="w">mean</span> <span class="w gold">more</span> <span class="w gold">breakouts</span></div>
+    <div class="ctr">MYTH COURT · PART 3</div><div id="w7" class="abs ttl hook tx" data-split="1"><span class="w">Washing</span> <span class="w">more</span> <span class="w">can</span> <span class="w">mean</span> <span class="w gold">more</span> <span class="w gold">breakouts</span></div>
   </div>
   <div id="b2">
-    <div class="counter abs">MYTH COURT · 1/5</div>
-    <div id="w15" class="abs ttl mq" data-split="1"><span class="w">“Wash</span> <span class="w">more,</span> <span class="w">get</span> <span class="w">clearer”</span></div>
-    <div class="stamp myth mv abs">MYTH</div>
-    <div id="w16" class="abs ttl mb hook" data-split="1"><span class="w">Several</span> <span class="w">times</span> <span class="w">a</span> <span class="w">day</span> <span class="w red">irritates.</span> <span class="w gold">Twice</span> <span class="w gold">a</span> <span class="w gold">day</span> <span class="w">is</span> <span class="w">enough</span></div>
-    <div class="dots abs"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+    <div class="ctr">MYTH COURT · 1/5</div><div id="w8" class="abs ttl mq2" data-split="1"><span class="w">“Wash</span> <span class="w">more,</span> <span class="w">get</span> <span class="w">clearer”</span></div><div class="stamp myth stp2 abs">MYTH</div><div id="w9" class="abs ttl mb2 hook" data-split="1"><span class="w">Several</span> <span class="w">times</span> <span class="w">a</span> <span class="w">day</span> <span class="w red">irritates.</span> <span class="w gold">Twice</span> <span class="w gold">a</span> <span class="w gold">day</span> <span class="w">is</span> <span class="w">enough</span></div><div class="dots2 abs"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
   </div>
   <div id="b3">
-    <div class="counter abs">MYTH COURT · 2/5</div>
-    <div id="w17" class="abs ttl mq" data-split="1"><span class="w">“Only</span> <span class="w">teens</span> <span class="w">get</span> <span class="w">acne”</span></div>
-    <div class="stamp myth mv abs">MYTH</div>
-    <div id="w18" class="abs ttl mb hook" data-split="1"><span class="w">Adults</span> <span class="w">can</span> <span class="w">get</span> <span class="w">it</span> <span class="w">into</span> <span class="w">their</span> <span class="w gold">50s</span></div>
-    <div class="dots abs"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div>
+    <div class="ctr">MYTH COURT · 2/5</div><div id="w10" class="abs ttl mq2" data-split="1"><span class="w">“Only</span> <span class="w">teens</span> <span class="w">get</span> <span class="w">acne”</span></div><div class="stamp myth stp2 abs">MYTH</div><div id="w11" class="abs ttl mb2 hook" data-split="1"><span class="w">Adults</span> <span class="w">can</span> <span class="w">get</span> <span class="w">it</span> <span class="w">into</span> <span class="w">their</span> <span class="w gold">50s</span></div><div class="dots2 abs"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div>
   </div>
   <div id="b4">
-    <div class="counter abs">MYTH COURT · 3/5</div>
-    <div id="w19" class="abs ttl mq" data-split="1"><span class="w">“Tanning</span> <span class="w">dries</span> <span class="w">out</span> <span class="w">pimples”</span></div>
-    <div class="stamp myth mv abs">MYTH</div>
-    <div id="w20" class="abs ttl mb hook" data-split="1"><span class="w">Tanning</span> <span class="w">can</span> <span class="w">make</span> <span class="w">acne</span> <span class="w red">worse</span></div>
-    <div class="dots abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div>
+    <div class="ctr">MYTH COURT · 3/5</div><div id="w12" class="abs ttl mq2" data-split="1"><span class="w">“Tanning</span> <span class="w">dries</span> <span class="w">out</span> <span class="w">pimples”</span></div><div class="stamp myth stp2 abs">MYTH</div><div id="w13" class="abs ttl mb2 hook" data-split="1"><span class="w">Tanning</span> <span class="w">can</span> <span class="w">make</span> <span class="w">acne</span> <span class="w red">worse</span></div><div class="dots2 abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div>
   </div>
   <div id="b5">
-    <div class="counter abs">MYTH COURT · 4/5</div>
-    <div id="w21" class="abs ttl mq" data-split="1"><span class="w">“Treat</span> <span class="w">only</span> <span class="w">the</span> <span class="w">pimple”</span></div>
-    <div class="stamp myth mv abs">MYTH</div>
-    <div id="w22" class="abs ttl mb hook" data-split="1"><span class="w">Cover</span> <span class="w">the</span> <span class="w gold">whole</span> <span class="w gold">area</span></div>
-    <div class="dots abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></div>
+    <div class="ctr">MYTH COURT · 4/5</div><div id="w14" class="abs ttl mq2" data-split="1"><span class="w">“Treat</span> <span class="w">only</span> <span class="w">the</span> <span class="w">pimple”</span></div><div class="stamp myth stp2 abs">MYTH</div><div id="w15" class="abs ttl mb2 hook" data-split="1"><span class="w">Cover</span> <span class="w">the</span> <span class="w gold">whole</span> <span class="w gold">area</span></div><div class="dots2 abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></div>
   </div>
   <div id="b6">
-    <div class="counter abs">MYTH COURT · 5/5</div>
-    <div id="w23" class="abs ttl mq" data-split="1"><span class="w">“Makeup</span> <span class="w">causes</span> <span class="w">acne”</span></div>
-    <div class="stamp half mv abs">HALF TRUE</div>
-    <div id="w24" class="abs ttl mb hook" data-split="1"><span class="w red">Sleeping</span> <span class="w red">in</span> <span class="w red">it</span> <span class="w">can</span></div>
-    <div class="dots abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+    <div class="ctr">MYTH COURT · 5/5</div><div id="w16" class="abs ttl mq2" data-split="1"><span class="w">“Makeup</span> <span class="w">causes</span> <span class="w">acne”</span></div><div class="stamp half stp2 abs">HALF TRUE</div><div id="w17" class="abs ttl mb2 hook" data-split="1"><span class="w red">Sleeping</span> <span class="w red">in</span> <span class="w red">it</span> <span class="w">can</span></div><div class="dots2 abs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
   </div>
   <div id="b7">
+    <div class="shadeEnd abs"></div>
     <div id="end" class="abs ttl hook" data-split="1"><span class="w">Which</span> <span class="w">one</span> <span class="w">did</span> <span class="w gold">you</span> <span class="w">believe?</span></div>
     <div id="endSub" class="abs center">Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.</div>
     <div id="endSrc" class="abs center">SOURCE: AMERICAN ACADEMY OF DERMATOLOGY</div>
@@ -106,44 +103,27 @@
 window.HIT = 0.55; window.DURATION = 24.38; window.COVER = 1.0;
 const B = [0, 2.08, 6.17, 10.32, 14.32, 17.61, 20.78];
 const D = [1.83, 3.84, 3.9, 3.75, 3.04, 2.92, 1.2];
-for (let i = 0; i < 4; i++) document.querySelector("#drops").innerHTML += `<ellipse cx="${540 + (i % 2) * 30}" cy="240" rx="16" ry="26"/>`;[[300,520],[380,505],[460,515],[540,500],[620,520],[420,490]].forEach(([x,y]) => document.querySelector("#foam").innerHTML += `<circle cx="${x}" cy="${y}" r="24"/>`);
+
 function scene(t) {
   B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
   flash($("#flash"), t, B);
   if (t >= B[0]) { const lt = t - B[0], d = D[0];
-    $$("#drops ellipse").forEach((e, i) => { const y = 240 + ((lt * 620 + i * 75) % 300); e.setAttribute("cy", y); });
-    $$("#foam circle").forEach((c, i) => c.setAttribute("r", 22 + 8 * Math.sin(lt * 5 + i)));
-    words($("#w14"), lt, -(.12 + splitWords($("#w14")).length * .04), .04);
+    words($("#w7"), lt, -(.12 + splitWords($("#w7")).length * .04), .04);
   }
   if (t >= B[1]) { const lt = t - B[1], d = D[1];
-    show($("#b2 .counter"), lt, 0, .2, 0);
-    words($("#w15"), lt, 0, 0.07);
-    { const el = $("#b2 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; }
-    words($("#w16"), lt, 1.1, 0.07);
+    words($("#w8"), lt, 0, 0.07); { const el = $("#b2 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; } words($("#w9"), lt, 1.1, 0.07);
   }
   if (t >= B[2]) { const lt = t - B[2], d = D[2];
-    show($("#b3 .counter"), lt, 0, .2, 0);
-    words($("#w17"), lt, 0, 0.07);
-    { const el = $("#b3 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; }
-    words($("#w18"), lt, 1.1, 0.07);
+    words($("#w10"), lt, 0, 0.07); { const el = $("#b3 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; } words($("#w11"), lt, 1.1, 0.07);
   }
   if (t >= B[3]) { const lt = t - B[3], d = D[3];
-    show($("#b4 .counter"), lt, 0, .2, 0);
-    words($("#w19"), lt, 0, 0.07);
-    { const el = $("#b4 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; }
-    words($("#w20"), lt, 1.1, 0.07);
+    words($("#w12"), lt, 0, 0.07); { const el = $("#b4 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; } words($("#w13"), lt, 1.1, 0.07);
   }
   if (t >= B[4]) { const lt = t - B[4], d = D[4];
-    show($("#b5 .counter"), lt, 0, .2, 0);
-    words($("#w21"), lt, 0, 0.07);
-    { const el = $("#b5 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; }
-    words($("#w22"), lt, 1.1, 0.07);
+    words($("#w14"), lt, 0, 0.07); { const el = $("#b5 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; } words($("#w15"), lt, 1.1, 0.07);
   }
   if (t >= B[5]) { const lt = t - B[5], d = D[5];
-    show($("#b6 .counter"), lt, 0, .2, 0);
-    words($("#w23"), lt, 0, 0.07);
-    { const el = $("#b6 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; }
-    words($("#w24"), lt, 1.1, 0.07);
+    words($("#w16"), lt, 0, 0.07); { const el = $("#b6 .stamp"), p = pr(lt, 0.75, .22, E.out); el.style.opacity = lt >= 0.75 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.75 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.75 - .22) * 8) : 0}px)`; } words($("#w17"), lt, 1.1, 0.07);
   }
   if (t >= B[6]) { const lt = t - B[6], d = D[6];
     words($("#end"), lt, .05, .09);

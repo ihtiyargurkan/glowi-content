@@ -38,66 +38,59 @@
   #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
   #flash { inset: 0; background: #fff; pointer-events: none; }
 
-  #shelf { left: 0; top: 190px; width: 1080px; height: 760px; overflow: hidden; }
-  .bt { position: absolute; top: 120px; width: 260px; height: 520px; }
-  .wk { position: absolute; top: 40px; width: 260px; text-align: center; font-size: 34px; font-weight: 800; letter-spacing: .14em; color: var(--blush); opacity: .8; }
-  #w25 { top: 1000px; font-size: 104px; }
-  #w26 { top: 300px; font-size: 110px; }
-  #wks { top: 520px; font-size: 400px; }
-  #wksL { top: 960px; left: 0; right: 0; text-align: center; font-size: 80px; font-weight: 900; letter-spacing: .14em; }
-  #src2 { top: 1150px; left: 0; right: 0; text-align: center; font-size: 34px; font-weight: 700; letter-spacing: .12em; color: var(--blush); opacity: .6; }
-  #mirror { left: 240px; top: 230px; width: 600px; height: 800px; }
-  #w27 { top: 1130px; font-size: 108px; }
-  #ex { top: 230px; font-size: 30px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .7; left: 0; right: 0; text-align: center; }
-  #ring { left: 240px; top: 330px; width: 600px; height: 600px; }
-  #score { top: 470px; font-size: 250px; line-height: 1; color: var(--ivory); }
-  #scoreL { top: 760px; font-size: 44px; font-weight: 800; letter-spacing: .2em; color: var(--blush); }
-  #w28 { top: 1080px; font-size: 104px; }
-  #w29 { top: 260px; font-size: 100px; }
-  #grid { left: 140px; top: 640px; width: 800px; display: grid; grid-template-columns: repeat(7, 1fr); gap: 26px; }
-  #grid i { width: 86px; height: 86px; border-radius: 50%; background: rgba(251,248,246,.12); display: flex; align-items: center; justify-content: center; font-style: normal; font-size: 30px; font-weight: 800; color: var(--plum-deep); }
-  #grid i.on { background: rgba(232,169,58,.55); }
-  #grid i.sc { background: var(--gold); }
-  #prem { top: 1300px; left: 50%; transform: translateX(-50%); font-size: 40px; font-weight: 850; letter-spacing: .14em; border: 4px solid var(--gold); color: var(--gold); padding: 18px 40px; border-radius: 999px; white-space: nowrap; }
-  #w30 { top: 560px; font-size: 112px; }
+  html, body { background: transparent !important; }
+  .stage { background: transparent !important; }
+  .blob { display: none; }
+  .handle { text-shadow: 0 2px 12px rgba(0,0,0,.6); }
+  #shade { left: 0; right: 0; top: 860px; height: 1060px; background: linear-gradient(rgba(20,10,14,0), rgba(20,10,14,.8) 36%, rgba(20,10,14,.93)); }
+  .shadeEnd { inset: 0; background: rgba(36,20,27,.55); }
+  .hook { text-shadow: 0 4px 24px rgba(0,0,0,.45); }
+  .tx { top: 1330px; font-size: 100px; }
+  .tx.hi { top: 1240px; }
+  .tag { position: absolute; left: 50%; transform: translateX(-50%); top: 170px; font-size: 40px; font-weight: 850; letter-spacing: .12em; color: var(--ivory); background: rgba(20,10,14,.72); padding: 14px 28px; border-radius: 18px; white-space: nowrap; }
+  .ctr { position: absolute; top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--ivory); text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+  .stp { top: 1110px; font-size: 84px; }
+  .chips { top: 1500px; left: 0; right: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 22px; padding: 0 50px; }
+  .chips .chipx { height: 116px; font-size: 52px; background: rgba(20,10,14,.62); }
+  .chips.red .chipx { border-color: #FF5A45; }
+  .chips.sage .chipx { border-color: #7FA88B; }
+  .card { top: 1560px; }
+  .fix, .warn { left: 110px; right: 110px; }
+  .sub2 { top: 1650px; left: 0; right: 0; text-align: center; font-size: 36px; font-weight: 700; letter-spacing: .12em; color: var(--blush); opacity: .8; }
+  .mq2 { top: 1010px; font-size: 84px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; text-shadow: 0 4px 20px rgba(0,0,0,.5); }
+  .stp2 { top: 1230px; font-size: 96px; }
+  .mb2 { top: 1450px; font-size: 72px; }
+  .dots2 { top: 1760px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots2 i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.3); }
+  .dots2 i.on { background: var(--gold); }
 
 </style></head>
 <body>
 <div class="stage">
   <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
   <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div id="shade" class="abs"></div>
   <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
   <div id="b1">
-    <div id="shelf" class="abs"><div id="belt" class="abs" style="left:0;top:0;width:3000px;height:760px">
-      <div class="wk" style="left:60px">WEEK 1</div><svg class="bt" style="left:60px" viewBox="0 0 260 520"><rect x="95" y="0" width="70" height="80" rx="12" fill="#C9B4BB"/><rect x="20" y="80" width="220" height="430" rx="50" fill="#D9708A"/><rect x="60" y="230" width="140" height="18" rx="9" fill="rgba(46,26,34,.3)"/><rect x="60" y="270" width="100" height="18" rx="9" fill="rgba(46,26,34,.2)"/></svg><div class="wk" style="left:400px">WEEK 2</div><svg class="bt" style="left:400px" viewBox="0 0 260 520"><rect x="95" y="0" width="70" height="80" rx="12" fill="#C9B4BB"/><rect x="20" y="80" width="220" height="430" rx="50" fill="#7FA88B"/><rect x="60" y="230" width="140" height="18" rx="9" fill="rgba(46,26,34,.3)"/><rect x="60" y="270" width="100" height="18" rx="9" fill="rgba(46,26,34,.2)"/></svg><div class="wk" style="left:740px">WEEK 3</div><svg class="bt" style="left:740px" viewBox="0 0 260 520"><rect x="95" y="0" width="70" height="80" rx="12" fill="#C9B4BB"/><rect x="20" y="80" width="220" height="430" rx="50" fill="#E8A93A"/><rect x="60" y="230" width="140" height="18" rx="9" fill="rgba(46,26,34,.3)"/><rect x="60" y="270" width="100" height="18" rx="9" fill="rgba(46,26,34,.2)"/></svg><div class="wk" style="left:1080px">WEEK 4</div><svg class="bt" style="left:1080px" viewBox="0 0 260 520"><rect x="95" y="0" width="70" height="80" rx="12" fill="#C9B4BB"/><rect x="20" y="80" width="220" height="430" rx="50" fill="#9CC9E8"/><rect x="60" y="230" width="140" height="18" rx="9" fill="rgba(46,26,34,.3)"/><rect x="60" y="270" width="100" height="18" rx="9" fill="rgba(46,26,34,.2)"/></svg><div class="wk" style="left:1420px">WEEK 5</div><svg class="bt" style="left:1420px" viewBox="0 0 260 520"><rect x="95" y="0" width="70" height="80" rx="12" fill="#C9B4BB"/><rect x="20" y="80" width="220" height="430" rx="50" fill="#C98E7E"/><rect x="60" y="230" width="140" height="18" rx="9" fill="rgba(46,26,34,.3)"/><rect x="60" y="270" width="100" height="18" rx="9" fill="rgba(46,26,34,.2)"/></svg><div class="wk" style="left:1760px">WEEK 6</div><svg class="bt" style="left:1760px" viewBox="0 0 260 520"><rect x="95" y="0" width="70" height="80" rx="12" fill="#C9B4BB"/><rect x="20" y="80" width="220" height="430" rx="50" fill="#D9708A"/><rect x="60" y="230" width="140" height="18" rx="9" fill="rgba(46,26,34,.3)"/><rect x="60" y="270" width="100" height="18" rx="9" fill="rgba(46,26,34,.2)"/></svg><div class="wk" style="left:2100px">WEEK 7</div><svg class="bt" style="left:2100px" viewBox="0 0 260 520"><rect x="95" y="0" width="70" height="80" rx="12" fill="#C9B4BB"/><rect x="20" y="80" width="220" height="430" rx="50" fill="#7FA88B"/><rect x="60" y="230" width="140" height="18" rx="9" fill="rgba(46,26,34,.3)"/><rect x="60" y="270" width="100" height="18" rx="9" fill="rgba(46,26,34,.2)"/></svg><div class="wk" style="left:2440px">WEEK 8</div><svg class="bt" style="left:2440px" viewBox="0 0 260 520"><rect x="95" y="0" width="70" height="80" rx="12" fill="#C9B4BB"/><rect x="20" y="80" width="220" height="430" rx="50" fill="#E8A93A"/><rect x="60" y="230" width="140" height="18" rx="9" fill="rgba(46,26,34,.3)"/><rect x="60" y="270" width="100" height="18" rx="9" fill="rgba(46,26,34,.2)"/></svg>
-    </div></div>
-    <div id="w25" class="abs ttl hook" data-split="1"><span class="w">Switching</span> <span class="w">acne</span> <span class="w">products</span> <span class="w">every</span> <span class="w">week</span> <span class="w">can</span> <span class="w gold">cause</span> <span class="w gold">breakouts</span></div>
+    <div id="w18" class="abs ttl hook tx" data-split="1"><span class="w">Switching</span> <span class="w">acne</span> <span class="w">products</span> <span class="w">every</span> <span class="w">week</span> <span class="w">can</span> <span class="w gold">cause</span> <span class="w gold">breakouts</span></div>
   </div>
   <div id="b2">
-    <div id="w26" class="abs ttl hook" data-split="1"><span class="w">Give</span> <span class="w">a</span> <span class="w">product</span></div><div id="wks" class="abs bign">6–8</div><div id="wksL" class="abs">WEEKS</div><div id="src2" class="abs">AMERICAN ACADEMY OF DERMATOLOGY</div>
+    <div id="w19" class="abs ttl hook tx" data-split="1"><span class="w">Give</span> <span class="w">a</span> <span class="w">product</span> <span class="w gold">6–8</span> <span class="w gold">weeks</span></div><div class="sub2 abs">AMERICAN ACADEMY OF DERMATOLOGY</div>
   </div>
   <div id="b3">
-    <svg id="mirror" class="abs" viewBox="0 0 600 800"><ellipse cx="300" cy="400" rx="270" ry="370" fill="rgba(156,201,232,.14)" stroke="#C9B4BB" stroke-width="16"/>
-      <path id="glare" d="M150 250 L230 170 M170 330 L300 200" stroke="rgba(251,248,246,.35)" stroke-width="14" stroke-linecap="round"/>
-      <text id="q" x="300" y="500" font-size="300" font-weight="900" text-anchor="middle" fill="#E8A93A" font-family="Inter">?</text></svg>
-    <div id="w27" class="abs ttl hook" data-split="1"><span class="w">Your</span> <span class="w">mirror</span> <span class="w">can't</span> <span class="w">tell</span> <span class="w">you</span> <span class="w">if</span> <span class="w">it's</span> <span class="w gold">working</span></div>
+    <div id="w20" class="abs ttl hook tx" data-split="1"><span class="w">Your</span> <span class="w">mirror</span> <span class="w">can't</span> <span class="w">tell</span> <span class="w">you</span> <span class="w">if</span> <span class="w">it's</span> <span class="w gold">working</span></div>
   </div>
   <div id="b4">
-    <div id="ex" class="abs">EXAMPLE SCAN</div>
-    <svg id="ring" class="abs" viewBox="0 0 600 600"><circle cx="300" cy="300" r="260" stroke="rgba(251,248,246,.12)" stroke-width="34" fill="none"/>
-      <circle id="arc" cx="300" cy="300" r="260" stroke="url(#g)" stroke-width="34" fill="none" stroke-linecap="round" transform="rotate(-90 300 300)" stroke-dasharray="1634" stroke-dashoffset="1634"/>
-      <defs><linearGradient id="g"><stop offset="0" stop-color="#D9708A"/><stop offset="1" stop-color="#E8A93A"/></linearGradient></defs></svg>
-    <div id="score" class="abs center serif">0</div>
-    <div id="scoreL" class="abs center">SKIN SCORE</div>
-    <div id="w28" class="abs ttl hook" data-split="1"><span class="w">Glowi</span> <span class="w">gives</span> <span class="w">your</span> <span class="w">skin</span> <span class="w">a</span> <span class="w gold">skin</span> <span class="w gold">score</span></div>
+    <div id="w21" class="abs ttl hook tx" data-split="1"><span class="w">Glowi</span> <span class="w">gives</span> <span class="w">your</span> <span class="w">skin</span> <span class="w">a</span> <span class="w gold">skin</span> <span class="w gold">score</span></div><div class="abs" style="left:0;right:0;top:240px;text-align:center;font-size:30px;font-weight:800;letter-spacing:.2em;color:var(--ivory);text-shadow:0 2px 10px rgba(0,0,0,.6)">EXAMPLE SCAN</div><svg id="ring" class="abs" style="left:290px;top:300px;width:500px;height:500px" viewBox="0 0 600 600"><circle cx="300" cy="300" r="260" fill="rgba(20,10,14,.55)" stroke="rgba(251,248,246,.2)" stroke-width="34"/><circle id="arc" cx="300" cy="300" r="260" stroke="url(#g)" stroke-width="34" fill="none" stroke-linecap="round" transform="rotate(-90 300 300)" stroke-dasharray="1634" stroke-dashoffset="1634"/><defs><linearGradient id="g"><stop offset="0" stop-color="#D9708A"/><stop offset="1" stop-color="#E8A93A"/></linearGradient></defs><text id="score" x="300" y="345" text-anchor="middle" font-family="Fraunces" font-size="170" fill="#FBF8F6">0</text></svg>
   </div>
   <div id="b5">
-    <div id="w29" class="abs ttl hook" data-split="1"><span class="w">Then</span> <span class="w">it</span> <span class="w">follows</span> <span class="w">your</span> <span class="w gold">28-day</span> <span class="w gold">skin</span> <span class="w gold">cycle</span></div><div id="grid" class="abs"></div><div id="prem" class="abs">GLOWI PREMIUM</div>
+    <div id="w22" class="abs ttl hook tx" data-split="1"><span class="w">Then</span> <span class="w">it</span> <span class="w">follows</span> <span class="w">your</span> <span class="w gold">28-day</span> <span class="w gold">skin</span> <span class="w gold">cycle</span></div><div id="grid" class="abs" style="left:150px;top:300px;width:780px;display:grid;grid-template-columns:repeat(7,1fr);gap:24px"></div><div id="prem" class="abs" style="top:960px;left:50%;transform:translateX(-50%);font-size:40px;font-weight:850;letter-spacing:.14em;border:4px solid var(--gold);color:var(--gold);padding:18px 40px;border-radius:999px;white-space:nowrap;background:rgba(20,10,14,.6)">GLOWI PREMIUM</div><style>#grid i{width:84px;height:84px;border-radius:50%;background:rgba(251,248,246,.16);display:flex;align-items:center;justify-content:center;font-style:normal;font-size:30px;font-weight:800;color:var(--plum-deep)} #grid i.on{background:rgba(232,169,58,.6)} #grid i.sc{background:var(--gold)}</style>
   </div>
   <div id="b6">
-    <div id="w30" class="abs ttl hook" data-split="1"><span class="w">Judge</span> <span class="w">your</span> <span class="w">routine</span> <span class="w">on</span> <span class="w gold">scans,</span> <span class="w">not</span> <span class="w">on</span> <span class="w">a</span> <span class="w">bad</span> <span class="w">mirror</span> <span class="w">day</span></div>
+    <div id="w23" class="abs ttl hook tx hi" data-split="1"><span class="w">Judge</span> <span class="w">your</span> <span class="w">routine</span> <span class="w">on</span> <span class="w gold">scans,</span> <span class="w">not</span> <span class="w">on</span> <span class="w">a</span> <span class="w">bad</span> <span class="w">mirror</span> <span class="w">day</span></div>
   </div>
   <div id="b7">
+    <div class="shadeEnd abs"></div>
     <div id="end" class="abs ttl hook" data-split="1"><span class="w">Your</span> <span class="w">first</span> <span class="w">scan</span> <span class="w">is</span> <span class="w gold">free</span></div>
     <div id="endSub" class="abs center">Free plan: 1 face analysis every 5 days. Routine and 28-day skin cycle with Premium. Cosmetic guidance, not a diagnosis.</div>
     <div id="endSrc" class="abs center">SOURCE (6–8 WEEKS): AMERICAN ACADEMY OF DERMATOLOGY</div>
@@ -110,37 +103,27 @@
 window.HIT = 0.55; window.DURATION = 23.81; window.COVER = 1.0;
 const B = [0, 3.23, 6.47, 8.74, 11.57, 15.48, 19.1];
 const D = [2.98, 2.99, 2.02, 2.58, 3.66, 3.37, 2.31];
-for (let i = 0; i < 28; i++) document.querySelector("#grid").innerHTML += `<i>${i + 1}</i>`;
+
 function scene(t) {
   B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
   flash($("#flash"), t, B);
   if (t >= B[0]) { const lt = t - B[0], d = D[0];
-    $("#belt").style.transform = `translateX(${-((lt * 300) % 1360)}px)`;
-    words($("#w25"), lt, -(.12 + splitWords($("#w25")).length * .04), .04);
+    words($("#w18"), lt, -(.12 + splitWords($("#w18")).length * .04), .04);
   }
   if (t >= B[1]) { const lt = t - B[1], d = D[1];
-    words($("#w26"), lt, 0, 0.07);
-    { const p = pr(lt, .4, .5, E.back); $("#wks").style.opacity = clamp((lt - .4) / .15); $("#wks").style.transform = `scale(${.6 + .4 * p + .02 * Math.sin(lt * 5)})`; }
-    show($("#wksL"), lt, .8, .3, 30); show($("#src2"), lt, 1.2, .3, 10);
+    words($("#w19"), lt, 0, 0.07); show($("#b2 .sub2"), lt, .9, .3, 10);
   }
   if (t >= B[2]) { const lt = t - B[2], d = D[2];
-    words($("#w27"), lt, 0, 0.07);
-    { const p = pr(lt, .2, .4, E.back); $("#q").style.opacity = clamp(lt / .2); $("#q").setAttribute("transform", `rotate(${8 * Math.sin(lt * 4)} 300 420)`); }
+    words($("#w20"), lt, 0, 0.07);
   }
   if (t >= B[3]) { const lt = t - B[3], d = D[3];
-    show($("#ex"), lt, 0, .2, 10);
-    { const p = pr(lt, 0, 1.2); $("#arc").setAttribute("stroke-dashoffset", 1634 * (1 - .68 * p)); $("#score").textContent = Math.round(68 * p);
-      $("#score").style.transform = `scale(${1 + .08 * Math.sin(clamp((lt - 1.2) / .22) * Math.PI)})`; }
-    show($("#scoreL"), lt, .3, .3, 10);
-    words($("#w28"), lt, 0.5, 0.07);
+    words($("#w21"), lt, 0, 0.07); { const p = pr(lt, .1, 1.2); $("#arc").setAttribute("stroke-dashoffset", 1634 * (1 - .68 * p)); $("#score").textContent = Math.round(68 * p); }
   }
   if (t >= B[4]) { const lt = t - B[4], d = D[4];
-    words($("#w29"), lt, 0, 0.07);
-    $$("#grid i").forEach((c, i) => { const on = lt > .5 + i * .07; c.className = on ? (i % 5 === 0 ? "sc" : "on") : ""; c.style.transform = `scale(${on ? 1 + .25 * Math.max(0, 1 - (lt - .5 - i * .07) / .2) : .85})`; });
-    { const p = show($("#prem"), lt, d * .6, .35, 30, E.back); $("#prem").style.transform = `translateX(-50%) translateY(${(1 - p) * 30}px)`; }
+    words($("#w22"), lt, 0, 0.07); if (!$("#grid i")) for (let i = 0; i < 28; i++) $("#grid").innerHTML += `<i>${i + 1}</i>`; $$("#grid i").forEach((c, i) => { const on = lt > .4 + i * .07; c.className = on ? (i % 5 === 0 ? "sc" : "on") : ""; }); show($("#prem"), lt, d * .6, .35, 0);
   }
   if (t >= B[5]) { const lt = t - B[5], d = D[5];
-    words($("#w30"), lt, 0, 0.07);
+    words($("#w23"), lt, 0, 0.07);
   }
   if (t >= B[6]) { const lt = t - B[6], d = D[6];
     words($("#end"), lt, .05, .09);

@@ -38,61 +38,59 @@
   #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
   #flash { inset: 0; background: #fff; pointer-events: none; }
 
-  #head { left: 90px; top: 170px; width: 900px; height: 860px; }
-  #w31 { top: 1100px; font-size: 116px; }
-  #pair2 { top: 420px; }
-  #w32 { top: 720px; font-size: 104px; }
-  #plus3 { top: 300px; font-size: 520px; }
-  #w33 { top: 960px; font-size: 100px; }
-  .itT { top: 640px; font-size: 104px; }
-  .pr { top: 400px; }
-  .pr .chipx { font-size: 44px; padding: 0 34px; height: 104px; }
-  .num { left: 0; right: 0; text-align: center; }
-  .ico { left: 290px; top: 980px; width: 500px; height: 500px; }
+  html, body { background: transparent !important; }
+  .stage { background: transparent !important; }
+  .blob { display: none; }
+  .handle { text-shadow: 0 2px 12px rgba(0,0,0,.6); }
+  #shade { left: 0; right: 0; top: 860px; height: 1060px; background: linear-gradient(rgba(20,10,14,0), rgba(20,10,14,.8) 36%, rgba(20,10,14,.93)); }
+  .shadeEnd { inset: 0; background: rgba(36,20,27,.55); }
+  .hook { text-shadow: 0 4px 24px rgba(0,0,0,.45); }
+  .tx { top: 1330px; font-size: 100px; }
+  .tx.hi { top: 1240px; }
+  .tag { position: absolute; left: 50%; transform: translateX(-50%); top: 170px; font-size: 40px; font-weight: 850; letter-spacing: .12em; color: var(--ivory); background: rgba(20,10,14,.72); padding: 14px 28px; border-radius: 18px; white-space: nowrap; }
+  .ctr { position: absolute; top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--ivory); text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+  .stp { top: 1110px; font-size: 84px; }
+  .chips { top: 1500px; left: 0; right: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 22px; padding: 0 50px; }
+  .chips .chipx { height: 116px; font-size: 52px; background: rgba(20,10,14,.62); }
+  .chips.red .chipx { border-color: #FF5A45; }
+  .chips.sage .chipx { border-color: #7FA88B; }
+  .card { top: 1560px; }
+  .fix, .warn { left: 110px; right: 110px; }
+  .sub2 { top: 1650px; left: 0; right: 0; text-align: center; font-size: 36px; font-weight: 700; letter-spacing: .12em; color: var(--blush); opacity: .8; }
+  .mq2 { top: 1010px; font-size: 84px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; text-shadow: 0 4px 20px rgba(0,0,0,.5); }
+  .stp2 { top: 1230px; font-size: 96px; }
+  .mb2 { top: 1450px; font-size: 72px; }
+  .dots2 { top: 1760px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots2 i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.3); }
+  .dots2 i.on { background: var(--gold); }
 
 </style></head>
 <body>
 <div class="stage">
   <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
   <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div id="shade" class="abs"></div>
   <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
   <div id="b1">
-    <svg id="head" class="abs" viewBox="0 0 900 860">
-      <path d="M180 860 L180 520 Q180 230 450 230 Q720 230 720 520 L720 860 Z" fill="#C98E7E"/>
-      <path d="M150 470 Q150 120 450 110 Q750 120 750 470 Q700 330 450 320 Q200 330 150 470 Z" fill="#4B2E39"/>
-      <g id="spots" fill="#E06A5C"><circle cx="360" cy="430" r="0"/><circle cx="470" cy="410" r="0"/><circle cx="560" cy="445" r="0"/><circle cx="410" cy="470" r="0"/></g>
-      <g id="drop"><rect x="560" y="-10" width="110" height="80" rx="16" fill="#E8A93A"/><path d="M590 70 L640 70 L630 120 L600 120 Z" fill="#C9B4BB"/></g>
-      <g id="oil" fill="#E8A93A"></g>
-    </svg>
-    <div id="w31" class="abs ttl hook" data-split="1"><span class="w">Your</span> <span class="w">hair</span> <span class="w">oil</span> <span class="w">can</span> <span class="w">break</span> <span class="w">out</span> <span class="w">your</span> <span class="w gold">forehead</span></div>
+    <div id="w24" class="abs ttl hook tx" data-split="1"><span class="w">Your</span> <span class="w">hair</span> <span class="w">oil</span> <span class="w">can</span> <span class="w">break</span> <span class="w">out</span> <span class="w">your</span> <span class="w gold">forehead</span></div>
   </div>
   <div id="b2">
-    <div id="pair2" class="pair abs"><div class="chipx">Hair oil</div><div class="x">✕</div><div class="chipx">Forehead</div></div>
-    <div id="w32" class="abs ttl hook" data-split="1"><span class="w">Keep</span> <span class="w">oily</span> <span class="w">hair</span> <span class="w">products</span> <span class="w gold">off</span> <span class="w gold">your</span> <span class="w gold">face</span></div>
-    <div id="fix2" class="fix abs" style="top:1150px"><small>INSTEAD</small>Look for “non-comedogenic” on hair &amp; skin products</div>
+    <div class="tag">HAIR OIL ✕ FOREHEAD</div><div id="w25" class="abs ttl hook tx hi" data-split="1"><span class="w">Keep</span> <span class="w">oily</span> <span class="w">hair</span> <span class="w">products</span> <span class="w gold">off</span> <span class="w gold">your</span> <span class="w gold">face</span></div><div class="fix card abs"><small>INSTEAD</small>Look for “non-comedogenic”</div>
   </div>
   <div id="b3">
-    <div id="plus3" class="abs bign">+3</div><div id="w33" class="abs ttl hook" data-split="1"><span class="w">more</span> <span class="w">things</span> <span class="w">your</span> <span class="w">breakouts</span> <span class="w">should</span> <span class="w">never</span> <span class="w">meet</span></div>
+    <div id="w26" class="abs ttl hook tx" data-split="1"><span class="w gold">+3</span> <span class="w">more</span> <span class="w">things</span> <span class="w">your</span> <span class="w">breakouts</span> <span class="w">should</span> <span class="w">never</span> <span class="w">meet</span></div>
   </div>
   <div id="b4">
-    <div class="num abs">01 / 03</div>
-    <div class="pair pr abs"><div class="chipx">Helmet strap</div><div class="x">✕</div><div class="chipx">Sweaty skin</div></div>
-    <div id="w34" class="abs ttl itT hook" data-split="1"><span class="w">Heat</span> <span class="w">and</span> <span class="w">rubbing</span> <span class="w">can</span> <span class="w">cause</span> <span class="w red">acne</span></div>
-    <svg class="ico abs" viewBox="0 0 300 300"><path d="M40 170 Q40 40 150 40 Q260 40 260 170 Z" fill="#7FA88B"/><path id="strap" d="M60 170 Q150 290 240 170" stroke="#C9B4BB" stroke-width="18" fill="none"/></svg>
+    <div class="tag">01 · HELMET STRAP ✕ SWEATY SKIN</div><div id="w27" class="abs ttl hook tx" data-split="1"><span class="w">Heat</span> <span class="w">and</span> <span class="w">rubbing</span> <span class="w">can</span> <span class="w">cause</span> <span class="w red">acne</span></div>
   </div>
   <div id="b5">
-    <div class="num abs">02 / 03</div>
-    <div class="pair pr abs"><div class="chipx">Rough towel</div><div class="x">✕</div><div class="chipx">Post-gym skin</div></div>
-    <div id="w35" class="abs ttl itT hook" data-split="1"><span class="w">Pat</span> <span class="w">sweat</span> <span class="w">away.</span> <span class="w gold">Don't</span> <span class="w gold">rub.</span></div>
-    <svg class="ico abs" viewBox="0 0 300 300"><rect x="40" y="60" width="220" height="180" rx="24" fill="#9CC9E8"/><rect x="40" y="200" width="220" height="16" fill="#7FA8C8"/></svg>
+    <div class="tag">02 · ROUGH TOWEL ✕ POST-GYM SKIN</div><div id="w28" class="abs ttl hook tx" data-split="1"><span class="w">Pat</span> <span class="w">sweat</span> <span class="w">away.</span> <span class="w gold">Don't</span> <span class="w gold">rub.</span></div>
   </div>
   <div id="b6">
-    <div class="num abs">03 / 03</div>
-    <div class="pair pr abs"><div class="chipx">Last night's makeup</div><div class="x">✕</div><div class="chipx">Your pillow</div></div>
-    <div id="w36" class="abs ttl itT hook" data-split="1"><span class="w">Sleeping</span> <span class="w">in</span> <span class="w">it</span> <span class="w">can</span> <span class="w red">break</span> <span class="w red">you</span> <span class="w red">out</span></div>
-    <svg class="ico abs" viewBox="0 0 300 300"><rect x="20" y="90" width="260" height="140" rx="60" fill="#EEDDE2"/><path d="M170 60 A50 50 0 1 0 230 130 A40 40 0 1 1 170 60 Z" fill="#E8A93A"/></svg>
+    <div class="tag">03 · LAST NIGHT'S MAKEUP ✕ PILLOW</div><div id="w29" class="abs ttl hook tx" data-split="1"><span class="w">Sleeping</span> <span class="w">in</span> <span class="w">it</span> <span class="w">can</span> <span class="w red">break</span> <span class="w red">you</span> <span class="w red">out</span></div>
   </div>
   <div id="b7">
+    <div class="shadeEnd abs"></div>
     <div id="end" class="abs ttl hook" data-split="1"><span class="w">Send</span> <span class="w">this</span> <span class="w">to</span> <span class="w">your</span> <span class="w gold">gym</span> <span class="w gold">friend</span></div>
     <div id="endSub" class="abs center">Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.</div>
     <div id="endSrc" class="abs center">SOURCE: AMERICAN ACADEMY OF DERMATOLOGY</div>
@@ -105,32 +103,27 @@
 window.HIT = 0.55; window.DURATION = 21.8; window.COVER = 1.0;
 const B = [0, 2.13, 4.39, 6.83, 10.77, 14.2, 17.35];
 const D = [1.88, 2.01, 2.19, 3.69, 3.18, 2.9, 2.05];
-for (let i = 0; i < 3; i++) document.querySelector("#oil").innerHTML += `<ellipse cx="615" cy="130" rx="18" ry="26"/>`;
+
 function scene(t) {
   B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
   flash($("#flash"), t, B);
   if (t >= B[0]) { const lt = t - B[0], d = D[0];
-    $$("#oil ellipse").forEach((e, i) => { const y = 130 + ((lt * 420 + i * 95) % 300); e.setAttribute("cy", y); e.style.opacity = y > 380 ? .3 : 1; });
-    $$("#spots circle").forEach((c, i) => c.setAttribute("r", 22 * clamp((lt - .3 - i * .25) / .2) * (1 + .1 * Math.sin(lt * 6 + i))));
-    words($("#w31"), lt, -(.12 + splitWords($("#w31")).length * .04), .04);
+    words($("#w24"), lt, -(.12 + splitWords($("#w24")).length * .04), .04);
   }
   if (t >= B[1]) { const lt = t - B[1], d = D[1];
-    show($("#pair2"), lt, 0, .3, 40, E.back);
-    words($("#w32"), lt, 0.2, 0.07);
-    show($("#fix2"), lt, d * .55, .4, 50, E.back);
+    { const p = show($("#b2 .tag"), lt, .15, .3, 0); $("#b2 .tag").style.transform = `translateX(-50%) translateY(${(1 - p) * 20}px)`; } words($("#w25"), lt, 0, 0.07); show($("#b2 .card"), lt, d * .5, .4, 50, E.back);
   }
   if (t >= B[2]) { const lt = t - B[2], d = D[2];
-    { const p = pr(lt, 0, .45, E.back); $("#plus3").style.transform = `scale(${.5 + .5 * p + .02 * Math.sin(lt * 6)})`; }
-    words($("#w33"), lt, 0.3, 0.07);
+    words($("#w26"), lt, 0, 0.07);
   }
   if (t >= B[3]) { const lt = t - B[3], d = D[3];
-    show($("#b4 .pair"), lt, 0, .3, 40, E.back); words($("#w34"), lt, 0.5, 0.07); show($("#b4 .ico"), lt, 1.0, .3, 30, E.back); $("#b4 .ico").style.transform += ` rotate(${6 * Math.sin(lt * 8)}deg)`;
+    { const p = show($("#b4 .tag"), lt, .15, .3, 0); $("#b4 .tag").style.transform = `translateX(-50%) translateY(${(1 - p) * 20}px)`; } words($("#w27"), lt, 0, 0.07);
   }
   if (t >= B[4]) { const lt = t - B[4], d = D[4];
-    show($("#b5 .pair"), lt, 0, .3, 40, E.back); words($("#w35"), lt, 0.5, 0.07); show($("#b5 .ico"), lt, 1.0, .3, 30, E.back); $("#b5 .ico").style.transform += ` translateY(${14 * Math.abs(Math.sin(lt * 5))}px)`;
+    { const p = show($("#b5 .tag"), lt, .15, .3, 0); $("#b5 .tag").style.transform = `translateX(-50%) translateY(${(1 - p) * 20}px)`; } words($("#w28"), lt, 0, 0.07);
   }
   if (t >= B[5]) { const lt = t - B[5], d = D[5];
-    show($("#b6 .pair"), lt, 0, .3, 40, E.back); words($("#w36"), lt, 0.5, 0.07); show($("#b6 .ico"), lt, 1.0, .3, 30, E.back);
+    { const p = show($("#b6 .tag"), lt, .15, .3, 0); $("#b6 .tag").style.transform = `translateX(-50%) translateY(${(1 - p) * 20}px)`; } words($("#w29"), lt, 0, 0.07);
   }
   if (t >= B[6]) { const lt = t - B[6], d = D[6];
     words($("#end"), lt, .05, .09);

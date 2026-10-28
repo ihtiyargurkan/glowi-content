@@ -1,0 +1,114 @@
+{
+ "scenes": [
+  {
+   "clip": "4612266",
+   "dur": 3.23,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/4612266/",
+   "by": "cottonbro studio"
+  },
+  {
+   "clip": "7356018",
+   "dur": 3.24,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7356018/",
+   "by": "Monstera Production"
+  },
+  {
+   "clip": "7614200",
+   "dur": 2.27,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7614200/",
+   "by": "Tima Miroshnichenko"
+  },
+  {
+   "clip": "6140553",
+   "dur": 2.83,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6140553/",
+   "by": "cottonbro studio"
+  },
+  {
+   "clip": "4612266",
+   "dur": 3.91,
+   "ss": 4.0,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "b": -0.3,
+   "sat": 0.5,
+   "pexels": "https://www.pexels.com/video/4612266/",
+   "by": "cottonbro studio"
+  },
+  {
+   "clip": "6919219",
+   "dur": 3.62,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6919219/",
+   "by": "KATRIN  BOLOVTSOVA"
+  },
+  {
+   "clip": "6140553",
+   "dur": 4.71,
+   "ss": 3.0,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "b": -0.35,
+   "sat": 0.6,
+   "pexels": "https://www.pexels.com/video/6140553/",
+   "by": "cottonbro studio"
+  }
+ ],
+ "source": "Pexels videos (Pexels license, free commercial use); render: python3 lib/stock_bg.py bg.json <clips_dir> bg.mp4 && python3 lib/composite.py $PWD/reel.html bg.mp4 out.mp4"
+}

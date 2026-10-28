@@ -1,0 +1,112 @@
+{
+ "scenes": [
+  {
+   "clip": "9335887",
+   "dur": 3.39,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/9335887/",
+   "by": "olia danilevich"
+  },
+  {
+   "clip": "6663996",
+   "dur": 2.5,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/6663996/",
+   "by": "ROMAN ODINTSOV"
+  },
+  {
+   "clip": "5937411",
+   "dur": 3.08,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/5937411/",
+   "by": "Sora Shimazaki"
+  },
+  {
+   "clip": "4058087",
+   "dur": 3.34,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/4058087/",
+   "by": "Edward Jenner"
+  },
+  {
+   "clip": "8995586",
+   "dur": 3.13,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/8995586/",
+   "by": "Alena Darmel"
+  },
+  {
+   "clip": "7467137",
+   "dur": 2.38,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7467137/",
+   "by": "Anna Tarazevich"
+  },
+  {
+   "clip": "8055992",
+   "dur": 4.45,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "b": -0.35,
+   "sat": 0.6,
+   "pexels": "https://www.pexels.com/video/8055992/",
+   "by": "Hanna Pad"
+  }
+ ],
+ "source": "Pexels videos (Pexels license, free commercial use); render: python3 lib/stock_bg.py bg.json <clips_dir> bg.mp4 && python3 lib/composite.py $PWD/reel.html bg.mp4 out.mp4"
+}

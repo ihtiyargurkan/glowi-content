@@ -1,0 +1,112 @@
+{
+ "scenes": [
+  {
+   "clip": "12322696",
+   "dur": 2.08,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/12322696/",
+   "by": "RDNE Stock project"
+  },
+  {
+   "clip": "5891311",
+   "dur": 4.09,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    800
+   ],
+   "pexels": "https://www.pexels.com/video/5891311/",
+   "by": "cottonbro studio"
+  },
+  {
+   "clip": "7477917",
+   "dur": 4.15,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7477917/",
+   "by": "Angela Roma"
+  },
+  {
+   "clip": "9750562",
+   "dur": 4.0,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    800
+   ],
+   "pexels": "https://www.pexels.com/video/9750562/",
+   "by": "cottonbro studio"
+  },
+  {
+   "clip": "7191199",
+   "dur": 3.29,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/7191199/",
+   "by": "Ivan S"
+  },
+  {
+   "clip": "8479085",
+   "dur": 3.17,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "pexels": "https://www.pexels.com/video/8479085/",
+   "by": "Los Muertos Crew"
+  },
+  {
+   "clip": "13770928",
+   "dur": 3.6,
+   "ss": 0.3,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    960
+   ],
+   "b": -0.35,
+   "sat": 0.6,
+   "pexels": "https://www.pexels.com/video/13770928/",
+   "by": "Mizuno K"
+  }
+ ],
+ "source": "Pexels videos (Pexels license, free commercial use); render: python3 lib/stock_bg.py bg.json <clips_dir> bg.mp4 && python3 lib/composite.py $PWD/reel.html bg.mp4 out.mp4"
+}

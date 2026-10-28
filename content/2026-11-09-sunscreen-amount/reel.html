@@ -38,60 +38,59 @@
   #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
   #flash { inset: 0; background: #fff; pointer-events: none; }
 
-  #tube { left: 290px; top: 170px; width: 500px; height: 860px; }
-  #w43 { top: 1080px; font-size: 104px; }
-  #spoon { left: 140px; top: 250px; width: 800px; height: 700px; }
-  #w44 { top: 1080px; font-size: 116px; }
-  #glass { left: 290px; top: 220px; width: 500px; height: 740px; }
-  #w45 { top: 1040px; font-size: 116px; }
-  #shot { top: 1330px; left: 0; right: 0; text-align: center; font-size: 56px; font-weight: 700; color: var(--blush); }
-  #spf { top: 260px; font-size: 330px; }
-  #mg { top: 640px; left: 0; right: 0; text-align: center; font-size: 46px; font-weight: 800; letter-spacing: .14em; color: var(--blush); opacity: .75; }
-  #w46 { top: 860px; font-size: 104px; }
-  #w47 { top: 380px; font-size: 116px; }
-  #nc { top: 760px; left: 50%; transform: translateX(-50%); font-size: 64px; font-weight: 900; letter-spacing: .1em; border: 8px solid #7FA88B; color: #A9D3B5; padding: 30px 50px; border-radius: 30px; white-space: nowrap; }
-  #ncs { top: 1000px; left: 0; right: 0; text-align: center; font-size: 52px; font-weight: 700; color: var(--blush); }
-  #clock { left: 290px; top: 230px; width: 500px; height: 500px; }
-  #w48 { top: 860px; font-size: 116px; }
+  html, body { background: transparent !important; }
+  .stage { background: transparent !important; }
+  .blob { display: none; }
+  .handle { text-shadow: 0 2px 12px rgba(0,0,0,.6); }
+  #shade { left: 0; right: 0; top: 860px; height: 1060px; background: linear-gradient(rgba(20,10,14,0), rgba(20,10,14,.8) 36%, rgba(20,10,14,.93)); }
+  .shadeEnd { inset: 0; background: rgba(36,20,27,.55); }
+  .hook { text-shadow: 0 4px 24px rgba(0,0,0,.45); }
+  .tx { top: 1330px; font-size: 100px; }
+  .tx.hi { top: 1240px; }
+  .tag { position: absolute; left: 50%; transform: translateX(-50%); top: 170px; font-size: 40px; font-weight: 850; letter-spacing: .12em; color: var(--ivory); background: rgba(20,10,14,.72); padding: 14px 28px; border-radius: 18px; white-space: nowrap; }
+  .ctr { position: absolute; top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--ivory); text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+  .stp { top: 1110px; font-size: 84px; }
+  .chips { top: 1500px; left: 0; right: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 22px; padding: 0 50px; }
+  .chips .chipx { height: 116px; font-size: 52px; background: rgba(20,10,14,.62); }
+  .chips.red .chipx { border-color: #FF5A45; }
+  .chips.sage .chipx { border-color: #7FA88B; }
+  .card { top: 1560px; }
+  .fix, .warn { left: 110px; right: 110px; }
+  .sub2 { top: 1650px; left: 0; right: 0; text-align: center; font-size: 36px; font-weight: 700; letter-spacing: .12em; color: var(--blush); opacity: .8; }
+  .mq2 { top: 1010px; font-size: 84px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; text-shadow: 0 4px 20px rgba(0,0,0,.5); }
+  .stp2 { top: 1230px; font-size: 96px; }
+  .mb2 { top: 1450px; font-size: 72px; }
+  .dots2 { top: 1760px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots2 i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.3); }
+  .dots2 i.on { background: var(--gold); }
 
 </style></head>
 <body>
 <div class="stage">
   <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
   <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div id="shade" class="abs"></div>
   <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
   <div id="b1">
-    <svg id="tube" class="abs" viewBox="0 0 500 860">
-      <rect x="40" y="60" width="420" height="760" rx="70" fill="rgba(251,248,246,.10)" stroke="#EEDDE2" stroke-width="10"/>
-      <rect id="lvl" x="50" y="440" width="400" height="370" rx="60" fill="#E8A93A"/>
-      <line x1="40" y1="250" x2="460" y2="250" stroke="#FF5A45" stroke-width="8" stroke-dasharray="24 16"/>
-      <text x="250" y="230" text-anchor="middle" font-size="44" font-weight="800" fill="#FF7A66" font-family="Inter">NEEDED</text>
-      <text id="pct" x="250" y="660" text-anchor="middle" font-size="84" font-weight="900" fill="#2E1A22" font-family="Inter">25–50%</text>
-    </svg>
-    <div id="w43" class="abs ttl hook" data-split="1"><span class="w">Most</span> <span class="w">people</span> <span class="w">use</span> <span class="w">only</span> <span class="w gold">¼</span> <span class="w gold">to</span> <span class="w gold">½</span> <span class="w">of</span> <span class="w">the</span> <span class="w">sunscreen</span> <span class="w">they</span> <span class="w">need</span></div>
+    <div id="w36" class="abs ttl hook tx hi" data-split="1"><span class="w">Most</span> <span class="w">people</span> <span class="w">use</span> <span class="w">only</span> <span class="w gold">¼</span> <span class="w gold">to</span> <span class="w gold">½</span> <span class="w">of</span> <span class="w">the</span> <span class="w">sunscreen</span> <span class="w">they</span> <span class="w">need</span></div>
   </div>
   <div id="b2">
-    <svg id="spoon" class="abs" viewBox="0 0 800 700"><ellipse cx="260" cy="350" rx="210" ry="150" fill="#C9B4BB"/><ellipse id="cream" cx="260" cy="345" rx="0" ry="0" fill="#FBF8F6"/>
-      <rect x="440" y="320" width="340" height="56" rx="28" fill="#C9B4BB"/></svg>
-    <div id="w44" class="abs ttl hook" data-split="1"><span class="w">Face:</span> <span class="w">at</span> <span class="w">least</span> <span class="w gold">1</span> <span class="w gold">teaspoon</span></div>
+    <div id="w37" class="abs ttl hook tx" data-split="1"><span class="w">Face:</span> <span class="w">at</span> <span class="w">least</span> <span class="w gold">1</span> <span class="w gold">teaspoon</span></div>
   </div>
   <div id="b3">
-    <svg id="glass" class="abs" viewBox="0 0 500 740"><path d="M60 40 L440 40 L390 700 L110 700 Z" fill="rgba(251,248,246,.10)" stroke="#EEDDE2" stroke-width="10"/>
-      <clipPath id="gc"><path d="M60 40 L440 40 L390 700 L110 700 Z"/></clipPath><rect id="fill" clip-path="url(#gc)" x="0" y="700" width="500" height="0" fill="#E8A93A"/></svg>
-    <div id="w45" class="abs ttl hook" data-split="1"><span class="w">Body:</span> <span class="w">about</span> <span class="w gold">1</span> <span class="w gold">ounce</span></div><div id="shot" class="abs">a full shot glass</div>
+    <div id="w38" class="abs ttl hook tx" data-split="1"><span class="w">Body:</span> <span class="w">about</span> <span class="w gold">1</span> <span class="w gold">ounce</span></div><div class="sub2 abs">A FULL SHOT GLASS</div>
   </div>
   <div id="b4">
-    <div id="spf" class="abs bign">SPF 50</div><div id="mg" class="abs">LAB TEST: 2 MG PER CM² OF SKIN</div><div id="w46" class="abs ttl hook" data-split="1"><span class="w">The</span> <span class="w">SPF</span> <span class="w">on</span> <span class="w">the</span> <span class="w">label</span> <span class="w">is</span> <span class="w">tested</span> <span class="w">with</span> <span class="w">the</span> <span class="w gold">full</span> <span class="w gold">amount</span></div>
+    <div class="tag">LAB TEST: 2 MG PER CM²</div><div id="w39" class="abs ttl hook tx hi" data-split="1"><span class="w">The</span> <span class="w">SPF</span> <span class="w">on</span> <span class="w">the</span> <span class="w">label</span> <span class="w">is</span> <span class="w">tested</span> <span class="w">with</span> <span class="w">the</span> <span class="w gold">full</span> <span class="w gold">amount</span></div>
   </div>
   <div id="b5">
-    <div id="w47" class="abs ttl hook" data-split="1"><span class="w">Acne-prone?</span> <span class="w">Look</span> <span class="w">for</span></div><div id="nc" class="abs">NON-COMEDOGENIC</div><div id="ncs" class="abs">“won't clog pores”</div>
+    <div id="w40" class="abs ttl hook tx" data-split="1"><span class="w">Acne-prone?</span> <span class="w">Look</span> <span class="w">for</span> <span class="w gold">non-comedogenic</span></div>
   </div>
   <div id="b6">
-    <svg id="clock" class="abs" viewBox="0 0 500 500"><circle cx="250" cy="250" r="220" fill="rgba(251,248,246,.08)" stroke="#EEDDE2" stroke-width="14"/>
-      <path id="sweep" fill="rgba(232,169,58,.45)"/><line id="hand" x1="250" y1="250" x2="250" y2="70" stroke="#E8A93A" stroke-width="16" stroke-linecap="round"/><circle cx="250" cy="250" r="20" fill="#E8A93A"/></svg>
-    <div id="w48" class="abs ttl hook" data-split="1"><span class="w">Outside?</span> <span class="w">Reapply</span> <span class="w">every</span> <span class="w gold">2</span> <span class="w gold">hours</span></div>
+    <div id="w41" class="abs ttl hook tx" data-split="1"><span class="w">Outside?</span> <span class="w">Reapply</span> <span class="w">every</span> <span class="w gold">2</span> <span class="w gold">hours</span></div>
   </div>
   <div id="b7">
+    <div class="shadeEnd abs"></div>
     <div id="end" class="abs ttl hook" data-split="1"><span class="w">Save</span> <span class="w">this,</span> <span class="w">and</span> <span class="w">check</span> <span class="w">your</span> <span class="w gold">bottle</span> <span class="w">tomorrow</span></div>
     <div id="endSub" class="abs center">Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.</div>
     <div id="endSrc" class="abs center">SOURCES: AMERICAN ACADEMY OF DERMATOLOGY · SKIN CANCER FOUNDATION</div>
@@ -109,34 +108,22 @@ function scene(t) {
   B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
   flash($("#flash"), t, B);
   if (t >= B[0]) { const lt = t - B[0], d = D[0];
-    { const y = 440 + 120 * (.5 + .5 * Math.sin(lt * 2.4)); $("#lvl").setAttribute("y", y); $("#lvl").setAttribute("height", 810 - y); }
-    words($("#w43"), lt, -(.12 + splitWords($("#w43")).length * .04), .04);
+    words($("#w36"), lt, -(.12 + splitWords($("#w36")).length * .04), .04);
   }
   if (t >= B[1]) { const lt = t - B[1], d = D[1];
-    { const p = pr(lt, .2, .8, E.back); $("#cream").setAttribute("rx", 170 * p); $("#cream").setAttribute("ry", 115 * p); }
-    $("#spoon").style.transform = `rotate(${3 * Math.sin(lt * 3)}deg)`;
-    words($("#w44"), lt, 0, 0.07);
+    words($("#w37"), lt, 0, 0.07);
   }
   if (t >= B[2]) { const lt = t - B[2], d = D[2];
-    { const p = pr(lt, .1, 1.3, E.inOut); $("#fill").setAttribute("y", 700 - 640 * p); $("#fill").setAttribute("height", 640 * p); }
-    words($("#w45"), lt, 0, 0.07);
-    show($("#shot"), lt, d * .55, .35, 20);
+    words($("#w38"), lt, 0, 0.07); show($("#b3 .sub2"), lt, .9, .3, 10);
   }
   if (t >= B[3]) { const lt = t - B[3], d = D[3];
-    { const p = pr(lt, 0, .45, E.back); $("#spf").style.transform = `scale(${.6 + .4 * p + .02 * Math.sin(lt * 5)})`; }
-    show($("#mg"), lt, .4, .3, 20);
-    words($("#w46"), lt, 0.5, 0.07);
+    { const p = show($("#b4 .tag"), lt, .15, .3, 0); $("#b4 .tag").style.transform = `translateX(-50%) translateY(${(1 - p) * 20}px)`; } words($("#w39"), lt, 0, 0.07);
   }
   if (t >= B[4]) { const lt = t - B[4], d = D[4];
-    words($("#w47"), lt, 0, 0.07);
-    { const p = show($("#nc"), lt, .7, .35, 0, E.back); $("#nc").style.transform = `translateX(-50%) scale(${.6 + .4 * p})`; }
-    show($("#ncs"), lt, 1.2, .3, 20);
+    words($("#w40"), lt, 0, 0.07);
   }
   if (t >= B[5]) { const lt = t - B[5], d = D[5];
-    { const a = pr(lt, 0, 1.6, E.inOut) * Math.PI * 2 / 6, x = 250 + 200 * Math.sin(a), y = 250 - 200 * Math.cos(a);
-      $("#hand").setAttribute("x2", 250 + 180 * Math.sin(a)); $("#hand").setAttribute("y2", 250 - 180 * Math.cos(a));
-      $("#sweep").setAttribute("d", `M250 250 L250 50 A200 200 0 0 1 ${x} ${y} Z`); }
-    words($("#w48"), lt, 0, 0.07);
+    words($("#w41"), lt, 0, 0.07);
   }
   if (t >= B[6]) { const lt = t - B[6], d = D[6];
     words($("#end"), lt, .05, .09);
