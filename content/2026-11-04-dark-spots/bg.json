@@ -1,0 +1,124 @@
+{
+ "scenes": [
+  {
+   "clip": "29222876",
+   "dur": 3.23,
+   "ss": 0.1,
+   "z": [
+    1.0,
+    1.12
+   ],
+   "c": [
+    540,
+    900
+   ],
+   "pexels": "https://www.pexels.com/video/29222876/",
+   "by": "Залож Виктория"
+  },
+  {
+   "clip": "6278938",
+   "dur": 3.0,
+   "ss": 1.0,
+   "z": [
+    1.7,
+    1.85
+   ],
+   "c": [
+    400,
+    800
+   ],
+   "pexels": "https://www.pexels.com/video/6278938/",
+   "by": "ShotPot"
+  },
+  {
+   "clip": "7477535",
+   "dur": 1.94,
+   "ss": 0.5,
+   "z": [
+    1.15,
+    1.3
+   ],
+   "c": [
+    330,
+    1000
+   ],
+   "pexels": "https://www.pexels.com/video/7477535/",
+   "by": "Angela Roma"
+  },
+  {
+   "clip": "6278942",
+   "dur": 2.74,
+   "ss": 2.0,
+   "z": [
+    1.3,
+    1.4
+   ],
+   "c": [
+    420,
+    700
+   ],
+   "pexels": "https://www.pexels.com/video/6278942/",
+   "by": "ShotPot"
+  },
+  {
+   "clip": "7467138",
+   "dur": 1.84,
+   "ss": 1.0,
+   "z": [
+    1.0,
+    1.08
+   ],
+   "c": [
+    540,
+    900
+   ],
+   "pexels": "https://www.pexels.com/video/7467138/",
+   "by": "Anna Tarazevich"
+  },
+  {
+   "clip": "8996171",
+   "dur": 3.55,
+   "ss": 2.0,
+   "z": [
+    1.0,
+    1.1
+   ],
+   "c": [
+    540,
+    800
+   ],
+   "pexels": "https://www.pexels.com/video/8996171/",
+   "by": "Alena Darmel"
+  },
+  {
+   "clip": "5588091",
+   "dur": 2.17,
+   "ss": 0.0,
+   "z": [
+    1.3,
+    1.45
+   ],
+   "c": [
+    520,
+    1180
+   ],
+   "speed": 0.75,
+   "pexels": "https://www.pexels.com/video/5588091/",
+   "by": "Polina Tankilevitch"
+  },
+  {
+   "clip": "7477545",
+   "dur": 4.12,
+   "ss": 0.0,
+   "z": [
+    1.0,
+    1.05
+   ],
+   "b": -0.35,
+   "sat": 0.6,
+   "pexels": "https://www.pexels.com/video/7477545/",
+   "by": "Angela Roma"
+  }
+ ],
+ "source": "Pexels videos (Pexels license, free commercial use); download by id into a folder, then: python3 lib/stock_bg.py bg.json <clips_dir> bg.mp4 && python3 lib/composite.py $PWD/reel.html bg.mp4 out.mp4"
+}

@@ -326,7 +326,8 @@
         "https://www.aad.org/public/diseases/acne/derm-treat/scars",
         "https://www.aad.org/public/diseases/acne/derm-treat/scars/symptoms",
         "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/fade-dark-spots"
-      ]
+      ],
+      "note": "Real stock footage (Pexels, see bg.json) under a text overlay; rendered with lib/stock_bg.py + lib/composite.py."
     },
     {
       "date": "2026-11-05",
