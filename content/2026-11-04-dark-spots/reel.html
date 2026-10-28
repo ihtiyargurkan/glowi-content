@@ -1,0 +1,160 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../lib/base.css">
+<style>
+  .stage { background: var(--plum-deep); color: var(--ivory); }
+  .ttl { left: 0; right: 0; text-align: center; padding: 0 70px; }
+  .gold { color: var(--gold); }
+  .red { color: #FF7A66; }
+  .sage { color: #A9D3B5; }
+  .chipx { display: inline-flex; align-items: center; height: 120px; padding: 0 46px; border-radius: 60px; background: rgba(251,248,246,.09); border: 3px solid rgba(251,248,246,.18); font-size: 52px; font-weight: 800; white-space: nowrap; }
+  .fix { left: 110px; right: 110px; border-radius: 40px; background: rgba(127,168,139,.30); border: 4px solid #7FA88B; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .fix small { display: block; font-size: 30px; letter-spacing: .2em; color: #A9D3B5; margin-bottom: 12px; font-weight: 800; }
+  .warn { left: 110px; right: 110px; border-radius: 40px; background: rgba(255,90,69,.16); border: 4px solid #FF5A45; padding: 34px 44px; font-size: 52px; font-weight: 800; line-height: 1.15; text-align: center; }
+  .warn small { display: block; font-size: 30px; letter-spacing: .2em; color: #FF9A8A; margin-bottom: 12px; font-weight: 800; }
+  .stamp { left: 50%; font-weight: 900; letter-spacing: .08em; border: 12px solid currentColor; border-radius: 28px; padding: 6px 40px; white-space: nowrap; transform-origin: center; }
+  .stamp.myth { color: #FF5A45; }
+  .stamp.half { color: var(--gold); }
+  .stamp.ok { color: #7FA88B; }
+  .counter { top: 92px; left: 70px; font-weight: 800; font-size: 32px; letter-spacing: .16em; color: var(--blush); opacity: .8; }
+  .kick { left: 0; right: 0; text-align: center; font-weight: 800; font-size: 40px; letter-spacing: .2em; color: var(--blush); opacity: .75; }
+  .li2 { left: 170px; right: 170px; height: 140px; display: flex; align-items: center; gap: 34px; font-size: 66px; font-weight: 800; border-bottom: 3px solid rgba(251,248,246,.12); }
+  .li2 b { flex: none; width: 76px; height: 76px; border-radius: 50%; background: #FF5A45; color: var(--ivory); display: flex; align-items: center; justify-content: center; font-size: 42px; }
+  .li2 b.ok { background: #7FA88B; }
+  .li2 b.mid { background: var(--gold); color: var(--plum-deep); }
+  .pair { left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 26px; }
+  .pair .x { font-size: 90px; font-weight: 900; color: #FF5A45; }
+  .num { top: 250px; font-size: 40px; font-weight: 800; letter-spacing: .2em; color: var(--blush); opacity: .7; }
+  .bign { left: 0; right: 0; text-align: center; font-family: "Fraunces", serif; font-weight: 700; line-height: 1; color: var(--gold); }
+  .mq { top: 380px; font-size: 104px; font-family: "Fraunces", serif; font-weight: 600; line-height: 1.05; }
+  .mv { top: 820px; font-size: 120px; }
+  .mb { top: 1130px; font-size: 76px; }
+  .dots { top: 1560px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+  .dots i { width: 22px; height: 22px; border-radius: 50%; background: rgba(251,248,246,.2); }
+  .dots i.on { background: var(--gold); }
+  #end { top: 380px; font-size: 124px; }
+  #endSub { top: 1000px; font-size: 52px; font-weight: 650; color: var(--blush); padding: 0 110px; line-height: 1.24; }
+  #endSrc { top: 1290px; font-size: 32px; font-weight: 700; letter-spacing: .08em; color: var(--blush); opacity: .6; padding: 0 90px; line-height: 1.3; }
+  #endCta { top: 1430px; left: 50%; transform: translateX(-50%); font-size: 54px; font-weight: 850; background: var(--gold); color: var(--plum-deep); padding: 34px 60px; border-radius: 999px; white-space: nowrap; }
+  #flash { inset: 0; background: #fff; pointer-events: none; }
+
+  #skin1 { left: 90px; top: 190px; width: 900px; height: 820px; }
+  #w1 { top: 1080px; font-size: 108px; }
+  .prof { left: 90px; top: 520px; width: 900px; height: 420px; }
+  #b2 .stamp, #b3 .stamp { top: 1000px; font-size: 96px; }
+  #w2 { top: 250px; font-size: 104px; }
+  #w3 { top: 250px; font-size: 110px; }
+  #w4 { top: 280px; font-size: 104px; }
+  #mo { top: 560px; font-size: 360px; }
+  #moL { top: 960px; left: 0; right: 0; text-align: center; font-size: 80px; font-weight: 900; letter-spacing: .14em; }
+  #moS { top: 1110px; left: 0; right: 0; text-align: center; font-size: 40px; font-weight: 700; letter-spacing: .1em; color: var(--blush); opacity: .7; }
+  #sun { left: 240px; top: 200px; width: 600px; height: 600px; }
+  #w5 { top: 900px; font-size: 120px; }
+  #w6 { top: 330px; font-size: 120px; }
+  #c6 { top: 640px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 60px; }
+  #c6 .chipx { height: 170px; font-size: 80px; padding: 0 80px; border-color: #7FA88B; background: rgba(127,168,139,.2); }
+  #hand7 { left: 140px; top: 220px; width: 800px; height: 640px; }
+  #w7 { top: 960px; font-size: 112px; }
+
+</style></head>
+<body>
+<div class="stage">
+  <div class="blob" style="width:900px;height:900px;left:-300px;top:-200px;background:#6B3A4C;opacity:.6"></div>
+  <div class="blob" style="width:760px;height:760px;right:-300px;top:1100px;background:#8A4A62;opacity:.5"></div>
+  <div class="handle" style="right:70px;top:90px;color:var(--ivory)">GLOWI</div>
+  <div id="b1">
+    <svg id="skin1" class="abs" viewBox="0 0 900 820">
+      <circle cx="450" cy="410" r="390" fill="#C98E7E"/>
+      <circle id="sp" cx="450" cy="410" r="120" fill="#8A5A4C"/>
+      <g id="lens"><circle cx="0" cy="0" r="170" fill="rgba(251,248,246,.12)" stroke="#FBF8F6" stroke-width="16"/><rect x="110" y="110" width="40" height="170" rx="20" fill="#FBF8F6" transform="rotate(-45 130 195)"/></g>
+    </svg>
+    <div id="w1" class="abs ttl hook" data-split="1"><span class="w">That</span> <span class="w">dark</span> <span class="w">spot</span> <span class="w">after</span> <span class="w">a</span> <span class="w">pimple</span> <span class="w">usually</span> <span class="w gold">isn't</span> <span class="w gold">a</span> <span class="w gold">scar</span></div>
+  </div>
+  <div id="b2">
+    <div id="w2" class="abs ttl hook" data-split="1"><span class="w">Flat</span> <span class="w">and</span> <span class="w">darker?</span> <span class="w">Usually</span> <span class="w">a</span> <span class="w gold">mark</span></div>
+    <svg class="prof abs" viewBox="0 0 900 420"><rect x="0" y="200" width="900" height="220" fill="#C98E7E"/><rect x="330" y="200" width="240" height="34" rx="6" fill="#6E4034" id="flat"/>
+      <text x="450" y="160" text-anchor="middle" font-size="44" font-weight="800" fill="#EEDDE2" font-family="Inter">FLAT · COLOR ONLY</text></svg>
+    <div class="stamp ok abs">FADES</div>
+  </div>
+  <div id="b3">
+    <div id="w3" class="abs ttl hook" data-split="1"><span class="w">A</span> <span class="w">scar</span> <span class="w">is</span> <span class="w">a</span> <span class="w red">dent</span> <span class="w">or</span> <span class="w">a</span> <span class="w red">bump</span></div>
+    <svg class="prof abs" viewBox="0 0 900 420"><path d="M0 200 L200 200 Q270 200 290 260 Q320 320 350 260 Q370 200 440 200 L560 200 Q600 200 620 150 Q660 90 700 150 Q720 200 760 200 L900 200 L900 420 L0 420 Z" fill="#C98E7E"/>
+      <text x="320" y="380" text-anchor="middle" font-size="40" font-weight="800" fill="#2E1A22" font-family="Inter">DENT</text><text x="660" y="380" text-anchor="middle" font-size="40" font-weight="800" fill="#2E1A22" font-family="Inter">BUMP</text></svg>
+    <div class="stamp myth abs">SCAR</div>
+  </div>
+  <div id="b4">
+    <div id="w4" class="abs ttl hook" data-split="1"><span class="w">A</span> <span class="w">few</span> <span class="w">shades</span> <span class="w">darker?</span></div><div id="mo" class="abs bign">6–12</div><div id="moL" class="abs">MONTHS</div><div id="moS" class="abs">TO FADE, USUALLY · AAD</div>
+  </div>
+  <div id="b5">
+    <svg id="sun" class="abs" viewBox="0 0 600 600"><g id="rays" stroke="#E8A93A" stroke-width="26" stroke-linecap="round"></g><circle cx="300" cy="300" r="140" fill="#E8A93A"/>
+      <text x="300" y="325" text-anchor="middle" font-size="72" font-weight="900" fill="#2E1A22" font-family="Inter">SPF</text></svg>
+    <div id="w5" class="abs ttl hook" data-split="1"><span class="w">Fading</span> <span class="w">starts</span> <span class="w">with</span> <span class="w gold">sunscreen</span></div>
+  </div>
+  <div id="b6">
+    <div id="w6" class="abs ttl hook" data-split="1"><span class="w">Can</span> <span class="w">help</span> <span class="w">it</span> <span class="w">fade:</span></div><div id="c6" class="abs"><div class="chipx">Azelaic acid</div><div class="chipx">Retinoids</div><div class="chipx">Vitamin C</div></div>
+  </div>
+  <div id="b7">
+    <svg id="hand7" class="abs" viewBox="0 0 800 640"><circle cx="400" cy="320" r="290" fill="rgba(255,90,69,.12)" stroke="#FF5A45" stroke-width="22"/>
+      <g id="fing"><ellipse cx="300" cy="320" rx="60" ry="110" fill="#EEDDE2" transform="rotate(-25 300 320)"/><ellipse cx="500" cy="320" rx="60" ry="110" fill="#EEDDE2" transform="rotate(25 500 320)"/></g>
+      <circle cx="400" cy="330" r="40" fill="#8A5A4C"/><line x1="195" y1="525" x2="605" y2="115" stroke="#FF5A45" stroke-width="26" stroke-linecap="round"/></svg>
+    <div id="w7" class="abs ttl hook" data-split="1"><span class="w red">Don't</span> <span class="w red">pick.</span> <span class="w">It</span> <span class="w">can</span> <span class="w">leave</span> <span class="w">new</span> <span class="w">marks</span></div>
+  </div>
+  <div id="b8">
+    <div id="end" class="abs ttl hook" data-split="1"><span class="w">Save</span> <span class="w">this</span> <span class="w">for</span> <span class="w">your</span> <span class="w">next</span> <span class="w gold">dark</span> <span class="w gold">spot</span></div>
+    <div id="endSub" class="abs center">Follow for skin, decoded. Glowi turns a quick scan into a routine for your skin.</div>
+    <div id="endSrc" class="abs center">SOURCE: AMERICAN ACADEMY OF DERMATOLOGY</div>
+    <div id="endCta" class="abs">Glowi · link in bio</div>
+  </div>
+  <div id="flash" class="abs"></div>
+</div>
+<script src="../../lib/anim.js"></script>
+<script>
+window.HIT = 0.55; window.DURATION = 22.59; window.COVER = 1.0;
+const B = [0, 3.23, 6.23, 8.17, 10.91, 12.75, 16.3, 18.47];
+const D = [2.98, 2.75, 1.69, 2.49, 1.59, 3.3, 1.92, 1.72];
+for (let i = 0; i < 12; i++) { const a = i * Math.PI / 6; document.querySelector("#rays").innerHTML += `<line x1="${300 + 180 * Math.cos(a)}" y1="${300 + 180 * Math.sin(a)}" x2="${300 + 260 * Math.cos(a)}" y2="${300 + 260 * Math.sin(a)}"/>`; }
+function scene(t) {
+  B.forEach((b, i) => win($("#b" + (i + 1)), t, b, B[i + 1] ?? 99));
+  flash($("#flash"), t, B);
+  if (t >= B[0]) { const lt = t - B[0], d = D[0];
+    { const a = lt * 1.6; $("#lens").setAttribute("transform", `translate(${450 + 110 * Math.cos(a)} ${410 + 80 * Math.sin(a)})`); $("#sp").setAttribute("r", 120 + 6 * Math.sin(lt * 5)); }
+    words($("#w1"), lt, -(.12 + splitWords($("#w1")).length * .04), .04);
+  }
+  if (t >= B[1]) { const lt = t - B[1], d = D[1];
+    words($("#w2"), lt, 0, 0.07);
+    show($("#b2 .prof"), lt, .2, .35, 40);
+    { const o = 1 - .35 * pr(lt, 1.0, 1.5); $("#flat").setAttribute("opacity", o); }
+    { const el = $("#b2 .stamp"), p = pr(lt, 1.0, .22, E.out); el.style.opacity = lt >= 1.0 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 1.0 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 1.0 - .22) * 8) : 0}px)`; }
+  }
+  if (t >= B[2]) { const lt = t - B[2], d = D[2];
+    words($("#w3"), lt, 0, 0.07);
+    show($("#b3 .prof"), lt, .1, .35, 40);
+    { const el = $("#b3 .stamp"), p = pr(lt, 0.7, .22, E.out); el.style.opacity = lt >= 0.7 ? 1 : 0; el.style.transform = `translateX(-50%) rotate(-8deg) scale(${2.2 - 1.2 * p}) translateX(${lt > 0.7 + .22 ? 5 * Math.sin(lt * 40) * Math.exp(-(lt - 0.7 - .22) * 8) : 0}px)`; }
+  }
+  if (t >= B[3]) { const lt = t - B[3], d = D[3];
+    words($("#w4"), lt, 0, 0.07);
+    { const p = pr(lt, .3, .5, E.back); $("#mo").style.opacity = clamp((lt - .3) / .15); $("#mo").style.transform = `scale(${.6 + .4 * p + .02 * Math.sin(lt * 5)})`; }
+    show($("#moL"), lt, .7, .3, 30); show($("#moS"), lt, 1.0, .3, 10);
+  }
+  if (t >= B[4]) { const lt = t - B[4], d = D[4];
+    $("#rays").setAttribute("transform", `rotate(${lt * 40} 300 300)`);
+    words($("#w5"), lt, 0, 0.07);
+  }
+  if (t >= B[5]) { const lt = t - B[5], d = D[5];
+    words($("#w6"), lt, 0, 0.07);
+    document.querySelectorAll("#c6 .chipx").forEach((c, i) => show(c, lt, .3 + i * d * .2, .3, 60, E.back));
+  }
+  if (t >= B[6]) { const lt = t - B[6], d = D[6];
+    $("#fing").setAttribute("transform", `translate(0 ${8 * Math.sin(lt * 8)})`);
+    words($("#w7"), lt, 0, 0.07);
+  }
+  if (t >= B[7]) { const lt = t - B[7], d = D[7];
+    words($("#end"), lt, .05, .09);
+    show($("#endSub"), lt, .8, .4, 30);
+    show($("#endSrc"), lt, 1.1, .4, 20);
+    { const p = show($("#endCta"), lt, 1.3, .4, 40, E.back);
+      $("#endCta").style.transform = `translateX(-50%) translateY(${(1 - p) * 40}px) scale(${1 + .03 * Math.sin(lt * 5)})`; }
+  }
+}
+</script>
+</body></html>

@@ -1,0 +1,27 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lines": [
+  "That dark spot after a pimple usually isn't a scar.",
+  "Flat and darker? Usually a mark, and marks fade.",
+  "A scar is a dent or a bump.",
+  "A few shades darker? Six to twelve months.",
+  "Fading starts with sunscreen.",
+  "Azelaic acid, retinoids and vitamin C can help.",
+  "And don't pick. It can leave new marks.",
+  "Save this for your next dark spot."
+ ],
+ "duck": 0.45,
+ "model": "kokoro-v1.0.fp16.onnx",
+ "offsets": [
+  0.1,
+  3.33,
+  6.33,
+  8.27,
+  11.01,
+  12.85,
+  16.4,
+  18.57
+ ]
+}
