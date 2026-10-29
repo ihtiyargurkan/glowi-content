@@ -207,7 +207,7 @@
       "type": "reel",
       "series": "Skin Basics",
       "goal": "save + share",
-      "status": "approved",
+      "status": "published",
       "cover_ms": 1000,
       "music": "sub_clair-upbeat-587078.mp3 (Pixabay)",
       "caption": "Popping a pimple can make it last longer. 🚫\n\nSqueezing can push it deeper into your skin, and that can mean more pain, a more noticeable spot, a slower clear-up and even a scar. Your fingers can add bacteria too.\n\nInstead: hands off, and a spot product with salicylic acid. Deep, painful ones are a job for a dermatologist.\n\nSource: American Academy of Dermatology. Save this for your next breakout.\n\n#acne #pimples #acnetips #skincaretips #glowi",
@@ -217,7 +217,10 @@
         "https://www.aad.org/public/diseases/acne/skin-care/habits-stop",
         "https://www.aad.org/public/diseases/acne/diy/types-breakouts"
       ],
-      "note": "Re-cut on real Pexels footage (see bg.json) under a text overlay, same voiceover/script; back to draft for Gurkan's re-approval."
+      "note": "Re-cut on real Pexels footage (see bg.json) under a text overlay, same voiceover/script; back to draft for Gurkan's re-approval.",
+      "media_id": "18343503517273396",
+      "permalink": "https://www.instagram.com/reel/DfFS7xmjv28/",
+      "published_at": "2026-10-29T15:09:59+0000"
     },
     {
       "date": "2026-10-30",
