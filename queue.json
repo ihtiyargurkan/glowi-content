@@ -228,7 +228,7 @@
       "type": "reel",
       "series": "Skin Basics",
       "goal": "save + share",
-      "status": "approved",
+      "status": "published",
       "cover_ms": 1000,
       "music": "hitslab-latin-latino-mexican-music-398428.mp3 (Pixabay)",
       "caption": "That dark spot after a pimple usually isn't a scar. 🔍\n\nFlat and darker? That's usually a mark, and marks fade. A scar changes your skin's surface: a dent or a bump. A spot a few shades darker usually fades in 6 to 12 months. Fading starts with sunscreen, and azelaic acid, retinoids and vitamin C can help. Picking can leave new marks.\n\nSource: American Academy of Dermatology. Save this for your next dark spot.\n\n#acne #acnemarks #darkspots #skincaretips #glowi",
@@ -238,7 +238,10 @@
         "https://www.aad.org/public/diseases/acne/derm-treat/scars/symptoms",
         "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/fade-dark-spots"
       ],
-      "note": "Real stock footage (Pexels, see bg.json) under a text overlay; rendered with lib/stock_bg.py + lib/composite.py."
+      "note": "Real stock footage (Pexels, see bg.json) under a text overlay; rendered with lib/stock_bg.py + lib/composite.py.",
+      "media_id": "18198750394391733",
+      "permalink": "https://www.instagram.com/reel/DfH4Y38DaDN/",
+      "published_at": "2026-10-30T15:15:43+0000"
     },
     {
       "date": "2026-10-31",
