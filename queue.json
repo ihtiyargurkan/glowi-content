@@ -1,7 +1,7 @@
 {
   "account": "@glowi.ai.app",
   "publish_time_utc": "15:00",
-  "note": "status: draft -> approved (by Gurkan) -> published. Only approved items are published. publish_time is 15:00 UTC = 18:00 Istanbul = 11:00 New York. Reels with vo.json get a Kokoro voiceover mixed in at publish time.",
+  "note": "status: draft -> approved (by Gurkan) -> published. Only approved items are published. publish_time is 15:00 UTC = 18:00 Istanbul = 11:00 New York. Reels with vo.json get a Kokoro voiceover mixed in at publish time. Since 2026-11-03 the daily posts are finished videos from Gurkan's AI Video Editor (Desktop/AI Video Editor/Exports), committed as content/<id>/reel.mp4 with voiceover already mixed in.",
   "posts": [
     {
       "date": "2026-10-19",
@@ -448,6 +448,54 @@
       "first_comment": "What's the weather doing to your skin this week? 👇",
       "note": "Re-cut on real Pexels footage (bg.json), same script/voiceover; approved per Gurkan's 28 Oct instruction to publish after the re-cut. | Cancelled 2026-11-02 by Gurkan: daily IG plan replaced by AI Video Editor exports.",
       "status_before_cancel": "approved"
+    },
+    {
+      "date": "2026-11-03",
+      "id": "2026-11-03-water-myth",
+      "type": "reel",
+      "series": "Myth Court",
+      "goal": "comments + share",
+      "status": "approved",
+      "cover_ms": 4500,
+      "caption": "8 glasses a day and your skin is still dry? 💧\n\nWater doesn't go straight to your face. Your skin's outer layer holds water like bricks and mortar, and when that barrier cracks, water slips out into the air.\n\nDrinking enough still helps a little (most if you drink too little), but a review of 6 studies called the evidence weak. So seal it in: moisturize right after washing, look for glycerin or hyaluronic acid, keep showers short.\n\nSources: Palma et al. 2015; Akdeniz et al. 2018. Cosmetic guidance, not a diagnosis. Link in bio 📲\n\n#skincare #hydration #dryskin #skinbarrier #glowi",
+      "first_comment": "Be honest: how many glasses did you drink today? 👇",
+      "note": "AI Video Editor export (Remotion, Kokoro voiceover baked in; no vo.json, published as reel.mp4). Approved by Gurkan in chat 2026-11-02."
+    },
+    {
+      "date": "2026-11-04",
+      "id": "2026-11-04-sleep-skin",
+      "type": "reel",
+      "series": "Skin Basics",
+      "goal": "save + share",
+      "status": "approved",
+      "cover_ms": 10500,
+      "caption": "One bad night and your skin shows it. 🌙\n\nWhen researchers kept people awake for 31 hours, strangers rated their skin paler, their eyes puffier and their dark circles deeper. Night is your skin's repair shift, and good sleepers repaired a damaged skin barrier 30% better than poor sleepers.\n\nProtect the night shift: 7–9 hours, the same bedtime, screens down an hour before sleep.\n\nSources: Sundelin et al. 2013; Oyetakin-White et al. 2015. Cosmetic guidance, not a diagnosis. Link in bio 📲\n\n#skincare #beautysleep #darkcircles #skinbarrier #glowi",
+      "first_comment": "What time did you actually fall asleep last night? 👇",
+      "note": "AI Video Editor export (Remotion, Kokoro voiceover baked in; no vo.json, published as reel.mp4). Approved by Gurkan in chat 2026-11-02."
+    },
+    {
+      "date": "2026-11-05",
+      "id": "2026-11-05-oily-overwash",
+      "type": "reel",
+      "series": "Myth Court",
+      "goal": "comments + share",
+      "status": "approved",
+      "cover_ms": 7900,
+      "caption": "Washing more won't fix oily skin. 🫧\n\nThe idea that skin \"panics\" and makes more oil has thin evidence. Oil comes from glands deep in your skin, and hormones set their pace. What over-washing does is strip your barrier: tight, red, flaky skin, while oil comes back within hours anyway.\n\nIn one small acne trial, washing twice a day beat once a day, and four times added nothing. Wash twice with a gentle cleanser and lukewarm water, blot shine, and still moisturize.\n\nSource: Choi et al. 2006. Cosmetic guidance, not a diagnosis. Link in bio 📲\n\n#skincare #oilyskin #skinbarrier #skincaretips #glowi",
+      "first_comment": "How many times a day do you wash your face? 👇",
+      "note": "AI Video Editor export (Remotion, Kokoro voiceover baked in; no vo.json, published as reel.mp4). Approved by Gurkan in chat 2026-11-02."
+    },
+    {
+      "date": "2026-11-06",
+      "id": "2026-11-06-sugar-glycation",
+      "type": "reel",
+      "series": "Skin Basics",
+      "goal": "save + share",
+      "status": "approved",
+      "cover_ms": 27000,
+      "caption": "How sugar ages your skin. 🍬\n\nIt's called glycation: extra sugar in your blood sticks to collagen and glues the fibers together into AGEs. Springy collagen turns stiff, like caramel that's cooled, and sunlight speeds it up.\n\nIn a study of 602 adults, every extra unit (1 mmol/L) of blood sugar made people look about 5 months older to strangers.\n\nKeep it steady: fewer sweet drinks, pair carbs with fiber and protein, wear sunscreen every day.\n\nSources: Danby 2010; Noordam et al. 2013. Cosmetic guidance, not a diagnosis. Link in bio 📲\n\n#skincare #antiaging #collagen #glycation #glowi",
+      "first_comment": "Which sweet drink would be hardest for you to give up? 👇",
+      "note": "AI Video Editor export (Remotion, Kokoro voiceover baked in; no vo.json, published as reel.mp4). Approved by Gurkan in chat 2026-11-02."
     }
   ]
 }
