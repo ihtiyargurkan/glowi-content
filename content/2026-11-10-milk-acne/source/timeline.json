@@ -1,0 +1,1223 @@
+{
+ "words": [
+  {
+   "text": "Does",
+   "start": 0.017,
+   "end": 0.221,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "milk",
+   "start": 0.221,
+   "end": 0.425,
+   "key": true,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "really",
+   "start": 0.425,
+   "end": 0.787,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "give",
+   "start": 0.787,
+   "end": 1.148,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "you",
+   "start": 1.148,
+   "end": 1.352,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "breakouts?",
+   "start": 1.352,
+   "end": 1.713,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "The",
+   "start": 2.292,
+   "end": 2.472,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "honest",
+   "start": 2.472,
+   "end": 2.79,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "answer",
+   "start": 2.79,
+   "end": 3.108,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "is",
+   "start": 3.108,
+   "end": 3.288,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "maybe,",
+   "start": 3.288,
+   "end": 3.606,
+   "key": true,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "a",
+   "start": 3.606,
+   "end": 3.786,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "little.",
+   "start": 3.786,
+   "end": 4.104,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "A",
+   "start": 4.529,
+   "end": 4.84,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "review",
+   "start": 4.84,
+   "end": 5.389,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "of",
+   "start": 5.389,
+   "end": 5.7,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "14",
+   "start": 5.7,
+   "end": 6.417,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "studies",
+   "start": 6.417,
+   "end": 6.967,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "with",
+   "start": 6.967,
+   "end": 7.278,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "78,529",
+   "start": 7.278,
+   "end": 7.995,
+   "key": true,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "young",
+   "start": 7.995,
+   "end": 8.306,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "people",
+   "start": 8.306,
+   "end": 8.855,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "found",
+   "start": 8.855,
+   "end": 9.166,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "that",
+   "start": 9.166,
+   "end": 9.477,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "dairy",
+   "start": 9.477,
+   "end": 10.027,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "drinkers",
+   "start": 10.027,
+   "end": 10.576,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "had",
+   "start": 10.576,
+   "end": 10.887,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "about",
+   "start": 10.887,
+   "end": 11.437,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "25%",
+   "start": 11.437,
+   "end": 12.154,
+   "key": true,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "higher",
+   "start": 12.154,
+   "end": 12.704,
+   "key": false,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "odds",
+   "start": 12.704,
+   "end": 13.015,
+   "key": false,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "of",
+   "start": 13.015,
+   "end": 13.325,
+   "key": false,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "acne.",
+   "start": 13.325,
+   "end": 13.875,
+   "key": false,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "And",
+   "start": 14.465,
+   "end": 14.649,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "it",
+   "start": 14.649,
+   "end": 14.832,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "wasn't",
+   "start": 14.832,
+   "end": 15.016,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "only",
+   "start": 15.016,
+   "end": 15.341,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "whole",
+   "start": 15.341,
+   "end": 15.666,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "milk.",
+   "start": 15.666,
+   "end": 15.849,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "Skim",
+   "start": 16.266,
+   "end": 16.461,
+   "key": true,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "milk",
+   "start": 16.461,
+   "end": 16.656,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "and",
+   "start": 16.656,
+   "end": 16.85,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "yogurt",
+   "start": 16.85,
+   "end": 17.195,
+   "key": true,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "showed",
+   "start": 17.195,
+   "end": 17.539,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "the",
+   "start": 17.539,
+   "end": 17.734,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "link",
+   "start": 17.734,
+   "end": 17.929,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "too.",
+   "start": 17.929,
+   "end": 18.124,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "One",
+   "start": 18.716,
+   "end": 19.045,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "idea",
+   "start": 19.045,
+   "end": 19.374,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "is",
+   "start": 19.374,
+   "end": 19.56,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "hormones.",
+   "start": 19.56,
+   "end": 20.032,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "Milk",
+   "start": 20.435,
+   "end": 20.716,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "raises",
+   "start": 20.716,
+   "end": 21.214,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "insulin",
+   "start": 21.214,
+   "end": 21.929,
+   "key": true,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "and",
+   "start": 21.929,
+   "end": 22.211,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "a",
+   "start": 22.211,
+   "end": 22.492,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "growth",
+   "start": 22.492,
+   "end": 22.774,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "signal",
+   "start": 22.774,
+   "end": 23.272,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "called",
+   "start": 23.272,
+   "end": 23.77,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "IGF-1,",
+   "start": 23.77,
+   "end": 24.052,
+   "key": true,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "which",
+   "start": 24.052,
+   "end": 24.334,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "can",
+   "start": 24.334,
+   "end": 24.615,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "push",
+   "start": 24.615,
+   "end": 24.897,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "oil",
+   "start": 24.897,
+   "end": 25.179,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "glands",
+   "start": 25.179,
+   "end": 25.46,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "to",
+   "start": 25.46,
+   "end": 25.742,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "work",
+   "start": 25.742,
+   "end": 26.023,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "harder.",
+   "start": 26.023,
+   "end": 26.522,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "Picture",
+   "start": 27.109,
+   "end": 27.611,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "a",
+   "start": 27.611,
+   "end": 27.809,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "dimmer",
+   "start": 27.809,
+   "end": 28.159,
+   "key": true,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "switch",
+   "start": 28.159,
+   "end": 28.357,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "on",
+   "start": 28.357,
+   "end": 28.554,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "each",
+   "start": 28.554,
+   "end": 28.752,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "oil",
+   "start": 28.752,
+   "end": 28.95,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "gland.",
+   "start": 28.95,
+   "end": 29.148,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "These",
+   "start": 29.572,
+   "end": 29.883,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "signals",
+   "start": 29.883,
+   "end": 30.194,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "may",
+   "start": 30.194,
+   "end": 30.37,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "turn",
+   "start": 30.37,
+   "end": 30.545,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "it",
+   "start": 30.545,
+   "end": 30.721,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "up",
+   "start": 30.721,
+   "end": 30.897,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "a",
+   "start": 30.897,
+   "end": 31.072,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "notch,",
+   "start": 31.072,
+   "end": 31.248,
+   "key": true,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "not",
+   "start": 31.477,
+   "end": 31.729,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "to",
+   "start": 31.729,
+   "end": 31.981,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "full",
+   "start": 31.981,
+   "end": 32.232,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "blast.",
+   "start": 32.232,
+   "end": 32.484,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "But",
+   "start": 33.07,
+   "end": 33.242,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "every",
+   "start": 33.242,
+   "end": 33.679,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "study",
+   "start": 33.679,
+   "end": 33.984,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "only",
+   "start": 33.984,
+   "end": 34.289,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "watched",
+   "start": 34.289,
+   "end": 34.593,
+   "key": true,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "people.",
+   "start": 34.593,
+   "end": 34.898,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "None",
+   "start": 35.292,
+   "end": 35.646,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "proved",
+   "start": 35.646,
+   "end": 35.999,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "that",
+   "start": 35.999,
+   "end": 36.199,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "milk",
+   "start": 36.199,
+   "end": 36.399,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "causes",
+   "start": 36.399,
+   "end": 36.753,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "acne,",
+   "start": 36.753,
+   "end": 37.107,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "and",
+   "start": 37.454,
+   "end": 37.617,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "some",
+   "start": 37.617,
+   "end": 37.905,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "skin",
+   "start": 37.905,
+   "end": 38.068,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "may",
+   "start": 38.068,
+   "end": 38.231,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "simply",
+   "start": 38.231,
+   "end": 38.52,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "be",
+   "start": 38.52,
+   "end": 38.683,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "more",
+   "start": 38.683,
+   "end": 38.971,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "sensitive.",
+   "start": 38.971,
+   "end": 39.51,
+   "key": true,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "So",
+   "start": 40.118,
+   "end": 40.289,
+   "key": false,
+   "s": 6,
+   "line": 25
+  },
+  {
+   "text": "don't",
+   "start": 40.289,
+   "end": 40.461,
+   "key": false,
+   "s": 6,
+   "line": 25
+  },
+  {
+   "text": "cut",
+   "start": 40.461,
+   "end": 40.632,
+   "key": false,
+   "s": 6,
+   "line": 25
+  },
+  {
+   "text": "every",
+   "start": 40.632,
+   "end": 41.067,
+   "key": false,
+   "s": 6,
+   "line": 25
+  },
+  {
+   "text": "food",
+   "start": 41.067,
+   "end": 41.238,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "at",
+   "start": 41.238,
+   "end": 41.409,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "once.",
+   "start": 41.409,
+   "end": 41.712,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "If",
+   "start": 42.112,
+   "end": 42.318,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "you",
+   "start": 42.318,
+   "end": 42.524,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "suspect",
+   "start": 42.524,
+   "end": 42.889,
+   "key": true,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "milk,",
+   "start": 42.889,
+   "end": 43.095,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "have",
+   "start": 43.095,
+   "end": 43.46,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "less",
+   "start": 43.46,
+   "end": 43.667,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "of",
+   "start": 43.667,
+   "end": 43.873,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "it",
+   "start": 43.873,
+   "end": 44.079,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "for",
+   "start": 44.079,
+   "end": 44.285,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "a",
+   "start": 44.285,
+   "end": 44.492,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "few",
+   "start": 44.492,
+   "end": 44.698,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "weeks,",
+   "start": 44.698,
+   "end": 44.904,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "keep",
+   "start": 44.904,
+   "end": 45.11,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "your",
+   "start": 45.11,
+   "end": 45.317,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "routine",
+   "start": 45.317,
+   "end": 45.84,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "the",
+   "start": 45.84,
+   "end": 46.047,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "same,",
+   "start": 46.047,
+   "end": 46.411,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "and",
+   "start": 46.411,
+   "end": 46.618,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "track",
+   "start": 46.618,
+   "end": 46.824,
+   "key": true,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "your",
+   "start": 46.824,
+   "end": 47.03,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "skin.",
+   "start": 47.03,
+   "end": 47.236,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "Your",
+   "start": 47.815,
+   "end": 48.043,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "skin",
+   "start": 48.043,
+   "end": 48.27,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "keeps",
+   "start": 48.27,
+   "end": 48.497,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "its",
+   "start": 48.497,
+   "end": 48.725,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "own",
+   "start": 48.725,
+   "end": 48.952,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "food",
+   "start": 48.952,
+   "end": 49.18,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "diary.",
+   "start": 49.18,
+   "end": 49.582,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "Glowi",
+   "start": 49.995,
+   "end": 50.343,
+   "key": true,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "helps",
+   "start": 50.343,
+   "end": 50.54,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "you",
+   "start": 50.54,
+   "end": 50.737,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "read",
+   "start": 50.737,
+   "end": 50.935,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "it.",
+   "start": 50.935,
+   "end": 51.132,
+   "key": false,
+   "s": 7,
+   "line": 34
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.017,
+   "end": 1.713
+  },
+  {
+   "start": 2.292,
+   "end": 13.875
+  },
+  {
+   "start": 14.465,
+   "end": 18.124
+  },
+  {
+   "start": 18.716,
+   "end": 26.522
+  },
+  {
+   "start": 27.109,
+   "end": 32.484
+  },
+  {
+   "start": 33.07,
+   "end": 39.51
+  },
+  {
+   "start": 40.118,
+   "end": 47.236
+  },
+  {
+   "start": 47.815,
+   "end": 51.132
+  }
+ ],
+ "voEnd": 51.132
+}
