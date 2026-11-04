@@ -1,0 +1,1167 @@
+{
+ "words": [
+  {
+   "text": "Can",
+   "start": 0.017,
+   "end": 0.208,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "face",
+   "start": 0.208,
+   "end": 0.545,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "exercises",
+   "start": 0.545,
+   "end": 1.177,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "make",
+   "start": 1.177,
+   "end": 1.514,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "you",
+   "start": 1.514,
+   "end": 1.705,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "look",
+   "start": 1.705,
+   "end": 1.896,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "younger?",
+   "start": 1.896,
+   "end": 2.234,
+   "key": true,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "It",
+   "start": 2.809,
+   "end": 2.973,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "sounds",
+   "start": 2.973,
+   "end": 3.137,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "like",
+   "start": 3.137,
+   "end": 3.427,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "a",
+   "start": 3.427,
+   "end": 3.59,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "gimmick.",
+   "start": 3.59,
+   "end": 3.88,
+   "key": true,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "But",
+   "start": 4.297,
+   "end": 4.482,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "one",
+   "start": 4.482,
+   "end": 4.81,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "small",
+   "start": 4.81,
+   "end": 4.995,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "study",
+   "start": 4.995,
+   "end": 5.323,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "actually",
+   "start": 5.323,
+   "end": 5.794,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "put",
+   "start": 5.794,
+   "end": 5.979,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "it",
+   "start": 5.979,
+   "end": 6.165,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "to",
+   "start": 6.165,
+   "end": 6.35,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "the",
+   "start": 6.35,
+   "end": 6.536,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "test.",
+   "start": 6.536,
+   "end": 6.721,
+   "key": true,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "16",
+   "start": 7.304,
+   "end": 7.782,
+   "key": true,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "women",
+   "start": 7.782,
+   "end": 8.149,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "aged",
+   "start": 8.149,
+   "end": 8.516,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "40",
+   "start": 8.516,
+   "end": 8.995,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "to",
+   "start": 8.995,
+   "end": 9.202,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "65",
+   "start": 9.202,
+   "end": 9.68,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "did",
+   "start": 9.68,
+   "end": 9.888,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "30",
+   "start": 9.888,
+   "end": 10.366,
+   "key": true,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "minutes",
+   "start": 10.366,
+   "end": 10.893,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "of",
+   "start": 10.893,
+   "end": 11.1,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "face",
+   "start": 11.1,
+   "end": 11.467,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "exercises",
+   "start": 11.467,
+   "end": 12.153,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "a",
+   "start": 12.153,
+   "end": 12.36,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "day",
+   "start": 12.36,
+   "end": 12.568,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "for",
+   "start": 12.568,
+   "end": 12.775,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "8",
+   "start": 12.775,
+   "end": 13.253,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "weeks,",
+   "start": 13.253,
+   "end": 13.461,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "then",
+   "start": 13.461,
+   "end": 13.668,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "every",
+   "start": 13.668,
+   "end": 14.195,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "other",
+   "start": 14.195,
+   "end": 14.561,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "day",
+   "start": 14.561,
+   "end": 14.769,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "until",
+   "start": 14.769,
+   "end": 15.136,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "week",
+   "start": 15.136,
+   "end": 15.343,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "20.",
+   "start": 15.343,
+   "end": 15.822,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "Doctors",
+   "start": 16.398,
+   "end": 16.771,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "who",
+   "start": 16.771,
+   "end": 16.982,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "didn't",
+   "start": 16.982,
+   "end": 17.192,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "know",
+   "start": 17.192,
+   "end": 17.403,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "which",
+   "start": 17.403,
+   "end": 17.614,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "photo",
+   "start": 17.614,
+   "end": 17.986,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "came",
+   "start": 17.986,
+   "end": 18.359,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "first",
+   "start": 18.359,
+   "end": 18.57,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "guessed",
+   "start": 18.57,
+   "end": 18.943,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "their",
+   "start": 18.943,
+   "end": 19.153,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "ages.",
+   "start": 19.153,
+   "end": 19.526,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "The",
+   "start": 19.927,
+   "end": 20.195,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "average",
+   "start": 20.195,
+   "end": 21.079,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "guess",
+   "start": 21.079,
+   "end": 21.347,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "dropped",
+   "start": 21.347,
+   "end": 21.82,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "from",
+   "start": 21.82,
+   "end": 22.087,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "50.8",
+   "start": 22.087,
+   "end": 22.704,
+   "key": true,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "to",
+   "start": 22.704,
+   "end": 22.972,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "48.1.",
+   "start": 22.972,
+   "end": 23.589,
+   "key": true,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "The",
+   "start": 24.161,
+   "end": 24.363,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "researchers",
+   "start": 24.363,
+   "end": 24.875,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "think",
+   "start": 24.875,
+   "end": 25.076,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "it's",
+   "start": 25.076,
+   "end": 25.278,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "muscle.",
+   "start": 25.278,
+   "end": 25.634,
+   "key": true,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "Under",
+   "start": 26.041,
+   "end": 26.443,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "your",
+   "start": 26.443,
+   "end": 26.67,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "skin,",
+   "start": 26.67,
+   "end": 26.897,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "cheek",
+   "start": 27.207,
+   "end": 27.397,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "muscles",
+   "start": 27.397,
+   "end": 27.734,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "work",
+   "start": 27.734,
+   "end": 27.924,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "like",
+   "start": 27.924,
+   "end": 28.261,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "cushions",
+   "start": 28.261,
+   "end": 28.598,
+   "key": true,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "under",
+   "start": 28.598,
+   "end": 28.934,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "a",
+   "start": 28.934,
+   "end": 29.125,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "sheet.",
+   "start": 29.125,
+   "end": 29.315,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "Train",
+   "start": 29.725,
+   "end": 29.925,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "them,",
+   "start": 29.925,
+   "end": 30.126,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "and",
+   "start": 30.126,
+   "end": 30.327,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "they",
+   "start": 30.327,
+   "end": 30.528,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "get",
+   "start": 30.528,
+   "end": 30.729,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "fuller,",
+   "start": 30.729,
+   "end": 31.084,
+   "key": true,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "lifting",
+   "start": 31.084,
+   "end": 31.44,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "the",
+   "start": 31.44,
+   "end": 31.641,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "fabric",
+   "start": 31.641,
+   "end": 31.996,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "above.",
+   "start": 31.996,
+   "end": 32.506,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "But",
+   "start": 33.09,
+   "end": 33.254,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "it",
+   "start": 33.254,
+   "end": 33.418,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "was",
+   "start": 33.418,
+   "end": 33.582,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "only",
+   "start": 33.582,
+   "end": 33.872,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "16",
+   "start": 33.872,
+   "end": 34.25,
+   "key": true,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "women,",
+   "start": 34.25,
+   "end": 34.54,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "with",
+   "start": 34.832,
+   "end": 35.034,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "no",
+   "start": 35.034,
+   "end": 35.236,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "comparison",
+   "start": 35.236,
+   "end": 35.905,
+   "key": true,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "group.",
+   "start": 35.905,
+   "end": 36.107,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "So",
+   "start": 36.532,
+   "end": 36.703,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "it's",
+   "start": 36.703,
+   "end": 36.874,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "a",
+   "start": 36.874,
+   "end": 37.045,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "promising",
+   "start": 37.045,
+   "end": 37.479,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "hint,",
+   "start": 37.479,
+   "end": 37.65,
+   "key": true,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "not",
+   "start": 37.787,
+   "end": 38.068,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "proof.",
+   "start": 38.068,
+   "end": 38.349,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "If",
+   "start": 38.953,
+   "end": 39.164,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "you",
+   "start": 39.164,
+   "end": 39.374,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "try",
+   "start": 39.374,
+   "end": 39.585,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "it,",
+   "start": 39.585,
+   "end": 39.796,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "be",
+   "start": 39.796,
+   "end": 40.006,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "consistent,",
+   "start": 40.006,
+   "end": 40.541,
+   "key": true,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "and",
+   "start": 40.541,
+   "end": 40.752,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "keep",
+   "start": 40.752,
+   "end": 40.963,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "the",
+   "start": 40.963,
+   "end": 41.173,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "basics.",
+   "start": 41.173,
+   "end": 41.546,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "Daily",
+   "start": 41.95,
+   "end": 42.401,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "sunscreen",
+   "start": 42.401,
+   "end": 42.852,
+   "key": true,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "has",
+   "start": 42.852,
+   "end": 43.106,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "far",
+   "start": 43.106,
+   "end": 43.361,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "stronger",
+   "start": 43.361,
+   "end": 43.812,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "proof",
+   "start": 43.812,
+   "end": 44.066,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "against",
+   "start": 44.066,
+   "end": 44.517,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "skin",
+   "start": 44.517,
+   "end": 44.772,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "aging.",
+   "start": 44.772,
+   "end": 45.222,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "Your",
+   "start": 45.798,
+   "end": 46.004,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "face",
+   "start": 46.004,
+   "end": 46.368,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "is",
+   "start": 46.368,
+   "end": 46.574,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "held",
+   "start": 46.574,
+   "end": 46.78,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "up",
+   "start": 46.78,
+   "end": 46.986,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "from",
+   "start": 46.986,
+   "end": 47.192,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "below.",
+   "start": 47.192,
+   "end": 47.556,
+   "key": true,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "Glowi",
+   "start": 47.965,
+   "end": 48.336,
+   "key": true,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "helps",
+   "start": 48.336,
+   "end": 48.546,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "you",
+   "start": 48.546,
+   "end": 48.756,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "see",
+   "start": 48.756,
+   "end": 48.966,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "how",
+   "start": 48.966,
+   "end": 49.176,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "it",
+   "start": 49.176,
+   "end": 49.386,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "changes.",
+   "start": 49.386,
+   "end": 49.757,
+   "key": false,
+   "s": 7,
+   "line": 35
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.017,
+   "end": 2.234
+  },
+  {
+   "start": 2.809,
+   "end": 6.721
+  },
+  {
+   "start": 7.304,
+   "end": 15.822
+  },
+  {
+   "start": 16.398,
+   "end": 23.589
+  },
+  {
+   "start": 24.161,
+   "end": 32.506
+  },
+  {
+   "start": 33.09,
+   "end": 38.349
+  },
+  {
+   "start": 38.953,
+   "end": 45.222
+  },
+  {
+   "start": 45.798,
+   "end": 49.757
+  }
+ ],
+ "voEnd": 49.757
+}
