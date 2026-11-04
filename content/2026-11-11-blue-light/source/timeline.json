@@ -1,0 +1,1351 @@
+{
+ "words": [
+  {
+   "text": "Is",
+   "start": 0.017,
+   "end": 0.201,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "start": 0.201,
+   "end": 0.386,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "phone",
+   "start": 0.386,
+   "end": 0.712,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "aging",
+   "start": 0.712,
+   "end": 1.038,
+   "key": true,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "start": 1.038,
+   "end": 1.222,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "skin?",
+   "start": 1.222,
+   "end": 1.407,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "Blue",
+   "start": 1.995,
+   "end": 2.223,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "light",
+   "start": 2.223,
+   "end": 2.452,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "serums",
+   "start": 2.452,
+   "end": 2.855,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "say",
+   "start": 2.855,
+   "end": 3.083,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "yes.",
+   "start": 3.083,
+   "end": 3.312,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "But",
+   "start": 3.716,
+   "end": 3.975,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "a",
+   "start": 3.975,
+   "end": 4.234,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "2022",
+   "start": 4.234,
+   "end": 4.831,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "review",
+   "start": 4.831,
+   "end": 5.289,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "found",
+   "start": 5.289,
+   "end": 5.548,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "that",
+   "start": 5.548,
+   "end": 5.807,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "blue",
+   "start": 5.807,
+   "end": 6.065,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "light",
+   "start": 6.065,
+   "end": 6.324,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "from",
+   "start": 6.324,
+   "end": 6.583,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "screens",
+   "start": 6.583,
+   "end": 6.842,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "is",
+   "start": 6.842,
+   "end": 7.101,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "up",
+   "start": 7.101,
+   "end": 7.36,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "to",
+   "start": 7.36,
+   "end": 7.619,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "1,000",
+   "start": 7.619,
+   "end": 8.216,
+   "key": true,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "times",
+   "start": 8.216,
+   "end": 8.674,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "weaker",
+   "start": 8.674,
+   "end": 9.132,
+   "key": true,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "than",
+   "start": 9.132,
+   "end": 9.391,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "the",
+   "start": 9.391,
+   "end": 9.649,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "blue",
+   "start": 9.649,
+   "end": 9.908,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "light",
+   "start": 9.908,
+   "end": 10.167,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "in",
+   "start": 10.167,
+   "end": 10.426,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "sunlight.",
+   "start": 10.426,
+   "end": 10.884,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "Picture",
+   "start": 11.464,
+   "end": 11.977,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "two",
+   "start": 11.977,
+   "end": 12.179,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "buckets.",
+   "start": 12.179,
+   "end": 12.536,
+   "key": true,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "The",
+   "start": 12.94,
+   "end": 13.139,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "sun",
+   "start": 13.139,
+   "end": 13.337,
+   "key": true,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "fills",
+   "start": 13.337,
+   "end": 13.536,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "one",
+   "start": 13.536,
+   "end": 13.887,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "in",
+   "start": 13.887,
+   "end": 14.085,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "seconds.",
+   "start": 14.085,
+   "end": 14.436,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "Your",
+   "start": 14.846,
+   "end": 15.008,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "phone",
+   "start": 15.008,
+   "end": 15.294,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "drips",
+   "start": 15.294,
+   "end": 15.456,
+   "key": true,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "into",
+   "start": 15.456,
+   "end": 15.743,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "the",
+   "start": 15.743,
+   "end": 15.905,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "other,",
+   "start": 15.905,
+   "end": 16.192,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "up",
+   "start": 16.504,
+   "end": 16.71,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "to",
+   "start": 16.71,
+   "end": 16.916,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "1,000",
+   "start": 16.916,
+   "end": 17.392,
+   "key": true,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "times",
+   "start": 17.392,
+   "end": 17.757,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "slower.",
+   "start": 17.757,
+   "end": 18.121,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "In",
+   "start": 18.708,
+   "end": 18.87,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "one",
+   "start": 18.87,
+   "end": 19.156,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "study,",
+   "start": 19.156,
+   "end": 19.442,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "people",
+   "start": 19.8,
+   "end": 20.162,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "with",
+   "start": 20.162,
+   "end": 20.367,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "melasma",
+   "start": 20.367,
+   "end": 20.886,
+   "key": true,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "held",
+   "start": 20.886,
+   "end": 21.091,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "a",
+   "start": 21.091,
+   "end": 21.295,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "bright",
+   "start": 21.295,
+   "end": 21.5,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "screen",
+   "start": 21.5,
+   "end": 21.705,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "20",
+   "start": 21.705,
+   "end": 22.177,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "centimeters",
+   "start": 22.177,
+   "end": 22.853,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "from",
+   "start": 22.853,
+   "end": 23.058,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "their",
+   "start": 23.058,
+   "end": 23.263,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "dark",
+   "start": 23.263,
+   "end": 23.467,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "patches,",
+   "start": 23.467,
+   "end": 23.829,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "8",
+   "start": 24.283,
+   "end": 24.684,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "hours",
+   "start": 24.684,
+   "end": 24.857,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "a",
+   "start": 24.857,
+   "end": 25.031,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "day",
+   "start": 25.031,
+   "end": 25.205,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "for",
+   "start": 25.205,
+   "end": 25.378,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "5",
+   "start": 25.378,
+   "end": 25.779,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "days.",
+   "start": 25.779,
+   "end": 25.953,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "The",
+   "start": 26.35,
+   "end": 26.545,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "patches",
+   "start": 26.545,
+   "end": 26.891,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "did",
+   "start": 26.891,
+   "end": 27.086,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "not",
+   "start": 27.086,
+   "end": 27.281,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "get",
+   "start": 27.281,
+   "end": 27.476,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "worse.",
+   "start": 27.476,
+   "end": 27.821,
+   "key": true,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "A",
+   "start": 28.402,
+   "end": 28.63,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "review",
+   "start": 28.63,
+   "end": 29.035,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "of",
+   "start": 29.035,
+   "end": 29.263,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "device",
+   "start": 29.263,
+   "end": 29.843,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "studies",
+   "start": 29.843,
+   "end": 30.247,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "found",
+   "start": 30.247,
+   "end": 30.476,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "no",
+   "start": 30.476,
+   "end": 30.704,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "clear",
+   "start": 30.704,
+   "end": 30.933,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "evidence",
+   "start": 30.933,
+   "end": 31.688,
+   "key": true,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "that",
+   "start": 31.688,
+   "end": 31.917,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "screen",
+   "start": 31.917,
+   "end": 32.145,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "light",
+   "start": 32.145,
+   "end": 32.374,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "harms",
+   "start": 32.374,
+   "end": 32.602,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "skin.",
+   "start": 32.602,
+   "end": 32.831,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "The",
+   "start": 33.411,
+   "end": 33.615,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "real",
+   "start": 33.615,
+   "end": 33.819,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "source",
+   "start": 33.819,
+   "end": 34.179,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "is",
+   "start": 34.179,
+   "end": 34.383,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "the",
+   "start": 34.383,
+   "end": 34.587,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "sky.",
+   "start": 34.587,
+   "end": 34.791,
+   "key": true,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "Visible",
+   "start": 35.218,
+   "end": 35.833,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "light",
+   "start": 35.833,
+   "end": 36.075,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "can",
+   "start": 36.075,
+   "end": 36.316,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "darken",
+   "start": 36.316,
+   "end": 36.745,
+   "key": true,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "skin,",
+   "start": 36.745,
+   "end": 36.986,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "and",
+   "start": 36.986,
+   "end": 37.228,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "in",
+   "start": 37.228,
+   "end": 37.47,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "deeper",
+   "start": 37.47,
+   "end": 37.898,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "skin",
+   "start": 37.898,
+   "end": 38.14,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "tones",
+   "start": 38.14,
+   "end": 38.568,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "those",
+   "start": 38.568,
+   "end": 38.996,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "marks",
+   "start": 38.996,
+   "end": 39.238,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "lasted",
+   "start": 39.238,
+   "end": 39.666,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "longer",
+   "start": 39.666,
+   "end": 40.094,
+   "key": true,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "than",
+   "start": 40.094,
+   "end": 40.336,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "a",
+   "start": 40.336,
+   "end": 40.578,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "UVA",
+   "start": 40.578,
+   "end": 41.006,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "tan.",
+   "start": 41.006,
+   "end": 41.248,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "So",
+   "start": 41.831,
+   "end": 42.06,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "skip",
+   "start": 42.06,
+   "end": 42.289,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "the",
+   "start": 42.289,
+   "end": 42.518,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "screen",
+   "start": 42.518,
+   "end": 42.748,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "panic",
+   "start": 42.748,
+   "end": 43.153,
+   "key": true,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "and",
+   "start": 43.153,
+   "end": 43.383,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "protect",
+   "start": 43.383,
+   "end": 43.788,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "against",
+   "start": 43.788,
+   "end": 44.194,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "the",
+   "start": 44.194,
+   "end": 44.423,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "sun.",
+   "start": 44.423,
+   "end": 44.653,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "If",
+   "start": 45.063,
+   "end": 45.256,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "dark",
+   "start": 45.256,
+   "end": 45.448,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "spots",
+   "start": 45.448,
+   "end": 45.641,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "are",
+   "start": 45.641,
+   "end": 45.982,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "your",
+   "start": 45.982,
+   "end": 46.175,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "worry,",
+   "start": 46.175,
+   "end": 46.515,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "look",
+   "start": 46.868,
+   "end": 47.093,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "for",
+   "start": 47.093,
+   "end": 47.317,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "a",
+   "start": 47.317,
+   "end": 47.542,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "tinted",
+   "start": 47.542,
+   "end": 47.939,
+   "key": true,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "sunscreen,",
+   "start": 47.939,
+   "end": 48.337,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "because",
+   "start": 48.613,
+   "end": 49.083,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "its",
+   "start": 49.083,
+   "end": 49.268,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "pigments",
+   "start": 49.268,
+   "end": 49.595,
+   "key": true,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "can",
+   "start": 49.595,
+   "end": 49.78,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "block",
+   "start": 49.78,
+   "end": 49.965,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "visible",
+   "start": 49.965,
+   "end": 50.435,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "light.",
+   "start": 50.435,
+   "end": 50.62,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "Your",
+   "start": 51.226,
+   "end": 51.45,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "phone",
+   "start": 51.45,
+   "end": 51.847,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "isn't",
+   "start": 51.847,
+   "end": 52.071,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "aging",
+   "start": 52.071,
+   "end": 52.468,
+   "key": true,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "you.",
+   "start": 52.468,
+   "end": 52.693,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "The",
+   "start": 53.103,
+   "end": 53.333,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "sun",
+   "start": 53.333,
+   "end": 53.562,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "still",
+   "start": 53.562,
+   "end": 53.791,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "is.",
+   "start": 53.791,
+   "end": 54.021,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "Glowi",
+   "start": 54.428,
+   "end": 54.779,
+   "key": true,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "helps",
+   "start": 54.779,
+   "end": 54.978,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "you",
+   "start": 54.978,
+   "end": 55.176,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "track",
+   "start": 55.176,
+   "end": 55.375,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "your",
+   "start": 55.375,
+   "end": 55.574,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "daily",
+   "start": 55.574,
+   "end": 55.925,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "sun.",
+   "start": 55.925,
+   "end": 56.123,
+   "key": false,
+   "s": 7,
+   "line": 35
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.017,
+   "end": 1.407
+  },
+  {
+   "start": 1.995,
+   "end": 10.884
+  },
+  {
+   "start": 11.464,
+   "end": 18.121
+  },
+  {
+   "start": 18.708,
+   "end": 27.821
+  },
+  {
+   "start": 28.402,
+   "end": 32.831
+  },
+  {
+   "start": 33.411,
+   "end": 41.248
+  },
+  {
+   "start": 41.831,
+   "end": 50.62
+  },
+  {
+   "start": 51.226,
+   "end": 56.123
+  }
+ ],
+ "voEnd": 56.123
+}
