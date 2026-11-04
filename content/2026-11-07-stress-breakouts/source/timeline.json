@@ -1,0 +1,1111 @@
+{
+ "words": [
+  {
+   "text": "Why",
+   "start": 0.02,
+   "end": 0.224,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "does",
+   "start": 0.224,
+   "end": 0.428,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "stress",
+   "start": 0.428,
+   "end": 0.633,
+   "key": true,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "make",
+   "start": 0.633,
+   "end": 0.994,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "you",
+   "start": 0.994,
+   "end": 1.199,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "break",
+   "start": 1.199,
+   "end": 1.403,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "out?",
+   "start": 1.403,
+   "end": 1.607,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "The",
+   "start": 2.207,
+   "end": 2.39,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "popular",
+   "start": 2.39,
+   "end": 2.855,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "answer:",
+   "start": 2.855,
+   "end": 3.179,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "stress",
+   "start": 3.452,
+   "end": 3.68,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "floods",
+   "start": 3.68,
+   "end": 3.909,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "your",
+   "start": 3.909,
+   "end": 4.138,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "face",
+   "start": 4.138,
+   "end": 4.543,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "with",
+   "start": 4.543,
+   "end": 4.772,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "oil.",
+   "start": 4.772,
+   "end": 5.001,
+   "key": true,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "But",
+   "start": 5.4,
+   "end": 5.606,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "when",
+   "start": 5.606,
+   "end": 5.813,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "researchers",
+   "start": 5.813,
+   "end": 6.337,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "followed",
+   "start": 6.337,
+   "end": 6.861,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "94",
+   "start": 6.861,
+   "end": 7.338,
+   "key": true,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "students",
+   "start": 7.338,
+   "end": 7.703,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "into",
+   "start": 7.703,
+   "end": 8.069,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "exam",
+   "start": 8.069,
+   "end": 8.434,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "season,",
+   "start": 8.434,
+   "end": 8.8,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "their",
+   "start": 9.212,
+   "end": 9.4,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "oil",
+   "start": 9.4,
+   "end": 9.588,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "levels",
+   "start": 9.588,
+   "end": 9.92,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "stayed",
+   "start": 9.92,
+   "end": 10.107,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "about",
+   "start": 10.107,
+   "end": 10.439,
+   "key": false,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "the",
+   "start": 10.439,
+   "end": 10.627,
+   "key": false,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "same.",
+   "start": 10.627,
+   "end": 10.959,
+   "key": true,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "Their",
+   "start": 11.55,
+   "end": 11.753,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "acne",
+   "start": 11.753,
+   "end": 12.113,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "still",
+   "start": 12.113,
+   "end": 12.316,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "got",
+   "start": 12.316,
+   "end": 12.519,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "worse.",
+   "start": 12.519,
+   "end": 12.879,
+   "key": true,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "So",
+   "start": 13.288,
+   "end": 13.506,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "the",
+   "start": 13.506,
+   "end": 13.723,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "trigger",
+   "start": 13.723,
+   "end": 14.108,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "isn't",
+   "start": 14.108,
+   "end": 14.325,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "just",
+   "start": 14.325,
+   "end": 14.543,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "oil.",
+   "start": 14.543,
+   "end": 14.76,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "Stress",
+   "start": 15.347,
+   "end": 15.553,
+   "key": false,
+   "s": 3,
+   "line": 10
+  },
+  {
+   "text": "hormones",
+   "start": 15.553,
+   "end": 16.075,
+   "key": false,
+   "s": 3,
+   "line": 10
+  },
+  {
+   "text": "can",
+   "start": 16.075,
+   "end": 16.281,
+   "key": false,
+   "s": 3,
+   "line": 10
+  },
+  {
+   "text": "put",
+   "start": 16.281,
+   "end": 16.486,
+   "key": false,
+   "s": 3,
+   "line": 10
+  },
+  {
+   "text": "your",
+   "start": 16.486,
+   "end": 16.692,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "skin",
+   "start": 16.692,
+   "end": 16.898,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "on",
+   "start": 16.898,
+   "end": 17.103,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "alert.",
+   "start": 17.103,
+   "end": 17.467,
+   "key": true,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "Inside",
+   "start": 17.868,
+   "end": 18.448,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "a",
+   "start": 18.448,
+   "end": 18.676,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "clogged",
+   "start": 18.676,
+   "end": 19.08,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "pore,",
+   "start": 19.08,
+   "end": 19.484,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "a",
+   "start": 19.484,
+   "end": 19.712,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "small",
+   "start": 19.712,
+   "end": 19.941,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "spark",
+   "start": 19.941,
+   "end": 20.169,
+   "key": true,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "turns",
+   "start": 20.169,
+   "end": 20.398,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "into",
+   "start": 20.398,
+   "end": 20.802,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "a",
+   "start": 20.802,
+   "end": 21.03,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "red,",
+   "start": 21.03,
+   "end": 21.258,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "swollen",
+   "start": 21.258,
+   "end": 21.662,
+   "key": true,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "bump.",
+   "start": 21.662,
+   "end": 21.891,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "Stress",
+   "start": 22.476,
+   "end": 22.758,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "also",
+   "start": 22.758,
+   "end": 23.258,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "slows",
+   "start": 23.258,
+   "end": 23.541,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "repair.",
+   "start": 23.541,
+   "end": 24.04,
+   "key": true,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "In",
+   "start": 24.453,
+   "end": 24.589,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "another",
+   "start": 24.589,
+   "end": 24.934,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "study,",
+   "start": 24.934,
+   "end": 25.174,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "students'",
+   "start": 25.511,
+   "end": 25.908,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "skin",
+   "start": 25.908,
+   "end": 26.132,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "barrier",
+   "start": 26.132,
+   "end": 26.528,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "healed",
+   "start": 26.528,
+   "end": 26.925,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "more",
+   "start": 26.925,
+   "end": 27.321,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "slowly",
+   "start": 27.321,
+   "end": 27.718,
+   "key": true,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "during",
+   "start": 27.718,
+   "end": 28.114,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "final",
+   "start": 28.114,
+   "end": 28.51,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "exams.",
+   "start": 28.51,
+   "end": 28.907,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "And",
+   "start": 29.487,
+   "end": 29.685,
+   "key": false,
+   "s": 5,
+   "line": 20
+  },
+  {
+   "text": "stressed",
+   "start": 29.685,
+   "end": 30.035,
+   "key": false,
+   "s": 5,
+   "line": 20
+  },
+  {
+   "text": "hands",
+   "start": 30.035,
+   "end": 30.234,
+   "key": true,
+   "s": 5,
+   "line": 20
+  },
+  {
+   "text": "find",
+   "start": 30.234,
+   "end": 30.432,
+   "key": false,
+   "s": 5,
+   "line": 20
+  },
+  {
+   "text": "your",
+   "start": 30.432,
+   "end": 30.63,
+   "key": false,
+   "s": 5,
+   "line": 20
+  },
+  {
+   "text": "face.",
+   "start": 30.63,
+   "end": 30.98,
+   "key": false,
+   "s": 5,
+   "line": 20
+  },
+  {
+   "text": "Picking",
+   "start": 31.38,
+   "end": 31.736,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "leaves",
+   "start": 31.736,
+   "end": 32.092,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "spots",
+   "start": 32.092,
+   "end": 32.293,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "redder,",
+   "start": 32.293,
+   "end": 32.648,
+   "key": false,
+   "s": 5,
+   "line": 21
+  },
+  {
+   "text": "and",
+   "start": 32.893,
+   "end": 33.085,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "slower",
+   "start": 33.085,
+   "end": 33.423,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "to",
+   "start": 33.423,
+   "end": 33.615,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "heal.",
+   "start": 33.615,
+   "end": 33.806,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "So",
+   "start": 34.397,
+   "end": 34.636,
+   "key": false,
+   "s": 6,
+   "line": 23
+  },
+  {
+   "text": "calm",
+   "start": 34.636,
+   "end": 34.875,
+   "key": false,
+   "s": 6,
+   "line": 23
+  },
+  {
+   "text": "your",
+   "start": 34.875,
+   "end": 35.113,
+   "key": false,
+   "s": 6,
+   "line": 23
+  },
+  {
+   "text": "skin,",
+   "start": 35.113,
+   "end": 35.352,
+   "key": false,
+   "s": 6,
+   "line": 23
+  },
+  {
+   "text": "not",
+   "start": 35.535,
+   "end": 35.759,
+   "key": false,
+   "s": 6,
+   "line": 24
+  },
+  {
+   "text": "just",
+   "start": 35.759,
+   "end": 35.983,
+   "key": false,
+   "s": 6,
+   "line": 24
+  },
+  {
+   "text": "your",
+   "start": 35.983,
+   "end": 36.207,
+   "key": false,
+   "s": 6,
+   "line": 24
+  },
+  {
+   "text": "mind.",
+   "start": 36.207,
+   "end": 36.431,
+   "key": false,
+   "s": 6,
+   "line": 24
+  },
+  {
+   "text": "Keep",
+   "start": 36.837,
+   "end": 37.031,
+   "key": false,
+   "s": 6,
+   "line": 25
+  },
+  {
+   "text": "your",
+   "start": 37.031,
+   "end": 37.224,
+   "key": false,
+   "s": 6,
+   "line": 25
+  },
+  {
+   "text": "routine",
+   "start": 37.224,
+   "end": 37.716,
+   "key": false,
+   "s": 6,
+   "line": 25
+  },
+  {
+   "text": "gentle,",
+   "start": 37.716,
+   "end": 38.058,
+   "key": true,
+   "s": 6,
+   "line": 25
+  },
+  {
+   "text": "keep",
+   "start": 38.312,
+   "end": 38.574,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "your",
+   "start": 38.574,
+   "end": 38.836,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "hands",
+   "start": 38.836,
+   "end": 39.098,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "off",
+   "start": 39.098,
+   "end": 39.36,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "spots,",
+   "start": 39.36,
+   "end": 39.622,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "protect",
+   "start": 39.742,
+   "end": 40.078,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "your",
+   "start": 40.078,
+   "end": 40.268,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "sleep,",
+   "start": 40.268,
+   "end": 40.459,
+   "key": true,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "and",
+   "start": 40.755,
+   "end": 40.947,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "give",
+   "start": 40.947,
+   "end": 41.286,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "breakouts",
+   "start": 41.286,
+   "end": 41.626,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "time.",
+   "start": 41.626,
+   "end": 41.966,
+   "key": true,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "A",
+   "start": 42.548,
+   "end": 42.793,
+   "key": false,
+   "s": 7,
+   "line": 29
+  },
+  {
+   "text": "stress",
+   "start": 42.793,
+   "end": 43.038,
+   "key": false,
+   "s": 7,
+   "line": 29
+  },
+  {
+   "text": "breakout",
+   "start": 43.038,
+   "end": 43.472,
+   "key": false,
+   "s": 7,
+   "line": 29
+  },
+  {
+   "text": "isn't",
+   "start": 43.472,
+   "end": 43.717,
+   "key": false,
+   "s": 7,
+   "line": 29
+  },
+  {
+   "text": "dirty",
+   "start": 43.717,
+   "end": 44.15,
+   "key": false,
+   "s": 7,
+   "line": 29
+  },
+  {
+   "text": "skin.",
+   "start": 44.15,
+   "end": 44.395,
+   "key": false,
+   "s": 7,
+   "line": 29
+  },
+  {
+   "text": "It's",
+   "start": 44.808,
+   "end": 44.993,
+   "key": false,
+   "s": 7,
+   "line": 30
+  },
+  {
+   "text": "skin",
+   "start": 44.993,
+   "end": 45.177,
+   "key": false,
+   "s": 7,
+   "line": 30
+  },
+  {
+   "text": "under",
+   "start": 45.177,
+   "end": 45.504,
+   "key": false,
+   "s": 7,
+   "line": 30
+  },
+  {
+   "text": "pressure.",
+   "start": 45.504,
+   "end": 45.972,
+   "key": true,
+   "s": 7,
+   "line": 30
+  },
+  {
+   "text": "Glowi",
+   "start": 46.381,
+   "end": 46.729,
+   "key": true,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "helps",
+   "start": 46.729,
+   "end": 46.926,
+   "key": false,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "you",
+   "start": 46.926,
+   "end": 47.123,
+   "key": false,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "spot",
+   "start": 47.123,
+   "end": 47.32,
+   "key": false,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "the",
+   "start": 47.32,
+   "end": 47.517,
+   "key": false,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "pattern.",
+   "start": 47.517,
+   "end": 47.866,
+   "key": false,
+   "s": 7,
+   "line": 31
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.02,
+   "end": 1.607
+  },
+  {
+   "start": 2.207,
+   "end": 10.959
+  },
+  {
+   "start": 11.55,
+   "end": 14.76
+  },
+  {
+   "start": 15.347,
+   "end": 21.891
+  },
+  {
+   "start": 22.476,
+   "end": 28.907
+  },
+  {
+   "start": 29.487,
+   "end": 33.806
+  },
+  {
+   "start": 34.397,
+   "end": 41.966
+  },
+  {
+   "start": 42.548,
+   "end": 47.866
+  }
+ ],
+ "voEnd": 47.866
+}
