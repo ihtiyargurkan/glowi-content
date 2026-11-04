@@ -1,0 +1,9 @@
+# Sources — pores and age (opened 2026-11-04)
+1. Flament F, Francois G, Qiu H, et al. Facial skin pores: a multiethnic study. Clin Cosmet Investig Dermatol. 2015;8:85-93. https://www.dovepress.com/facial-skin-pores-a-multiethnic-study-peer-reviewed-fulltext-article-CCID
+   - 2,585 women aged 18-80 from Brazil, China, France, India, Japan. "Pore sizes vary much more with ethnicity than with age." In Chinese/French/Japanese groups size rose slightly 18→40 then plateaued; Indian/Brazilian showed a clearer age trend. Authors: "a sebum-induced shine could make SP more visible and ostensibly enlarged"; confocal showed dermal fiber changes beneath pores. On screen: pore circles labelled "illustrative scale".
+2. Lee et al. Identifying patterns behind the changes in skin pores using 3-dimensional measurements and K-means clustering. Skin Res Technol. 2021 (epub). https://www.pubmed.gov/34411370/
+   - 101 Korean women, 3D cheek profiles: "Skin pores become larger and longer over time"; adjacent pores tend to connect in older participants.
+3. Dong J, Lanoue J, Goldenberg G. Enlarged facial pores: an update on treatments. Cutis. 2016;98(1):33-36. https://mdedge.com/content/enlarged-facial-pores-update-treatments
+   - "Skin elasticity and tensile strength ... has shown a negative correlation with facial pore size and density"; "cutaneous aging and chronic photodamage cause perturbation in the collagen and elastin framework". Topical retinoids discussed as first-line for photoaging (tazarotene trial: pore improvement 42% vs 20% placebo). Supports the support-ring metaphor, "faster with sun", "ask about a retinoid".
+4. Vegalab pore-size myth review (summarising Roh 2006 Br J Dermatol and a 2023 J Cosmet Dermatol review). https://www.vegalab.com/beauty-science/knowledge/myths/pore-size
+   - Toners/cooling give only transient tightening; no lasting change. Supports "Toners only tighten them for a moment."

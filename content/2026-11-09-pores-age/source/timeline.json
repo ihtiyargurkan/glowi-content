@@ -1,0 +1,1231 @@
+{
+ "words": [
+  {
+   "text": "Why",
+   "start": 0.021,
+   "end": 0.186,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "do",
+   "start": 0.186,
+   "end": 0.351,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "start": 0.351,
+   "end": 0.516,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "pores",
+   "start": 0.516,
+   "end": 0.807,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "look",
+   "start": 0.807,
+   "end": 0.972,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "bigger",
+   "start": 0.972,
+   "end": 1.264,
+   "key": true,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "as",
+   "start": 1.264,
+   "end": 1.429,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "you",
+   "start": 1.429,
+   "end": 1.594,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "get",
+   "start": 1.594,
+   "end": 1.759,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "older?",
+   "start": 1.759,
+   "end": 2.05,
+   "key": true,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "Part",
+   "start": 2.636,
+   "end": 2.832,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "of",
+   "start": 2.832,
+   "end": 3.027,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "it",
+   "start": 3.027,
+   "end": 3.222,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "is",
+   "start": 3.222,
+   "end": 3.418,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "real.",
+   "start": 3.418,
+   "end": 3.613,
+   "key": true,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "A",
+   "start": 4.028,
+   "end": 4.269,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "3D",
+   "start": 4.269,
+   "end": 4.509,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "study",
+   "start": 4.509,
+   "end": 4.934,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "of",
+   "start": 4.934,
+   "end": 5.174,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "cheek",
+   "start": 5.174,
+   "end": 5.414,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "skin",
+   "start": 5.414,
+   "end": 5.654,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "found",
+   "start": 5.654,
+   "end": 5.894,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "that",
+   "start": 5.894,
+   "end": 6.134,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "pores",
+   "start": 6.134,
+   "end": 6.559,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "grow",
+   "start": 6.559,
+   "end": 6.799,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "larger",
+   "start": 6.799,
+   "end": 7.224,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "and",
+   "start": 7.224,
+   "end": 7.464,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "longer",
+   "start": 7.464,
+   "end": 7.889,
+   "key": true,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "with",
+   "start": 7.889,
+   "end": 8.129,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "age.",
+   "start": 8.129,
+   "end": 8.554,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "Think",
+   "start": 9.136,
+   "end": 9.344,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "of",
+   "start": 9.344,
+   "end": 9.552,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "skin",
+   "start": 9.552,
+   "end": 9.76,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "as",
+   "start": 9.76,
+   "end": 9.968,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "a",
+   "start": 9.968,
+   "end": 10.176,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "stretchy",
+   "start": 10.176,
+   "end": 10.544,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "net.",
+   "start": 10.544,
+   "end": 10.753,
+   "key": true,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "Each",
+   "start": 11.152,
+   "end": 11.364,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "pore",
+   "start": 11.364,
+   "end": 11.737,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "is",
+   "start": 11.737,
+   "end": 11.948,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "a",
+   "start": 11.948,
+   "end": 12.159,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "hole,",
+   "start": 12.159,
+   "end": 12.533,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "held",
+   "start": 12.533,
+   "end": 12.744,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "in",
+   "start": 12.744,
+   "end": 12.955,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "shape",
+   "start": 12.955,
+   "end": 13.329,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "by",
+   "start": 13.329,
+   "end": 13.54,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "a",
+   "start": 13.54,
+   "end": 13.751,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "ring",
+   "start": 13.751,
+   "end": 13.962,
+   "key": true,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "of",
+   "start": 13.962,
+   "end": 14.173,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "springy",
+   "start": 14.173,
+   "end": 14.547,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "collagen",
+   "start": 14.547,
+   "end": 15.083,
+   "key": false,
+   "s": 2,
+   "line": 12
+  },
+  {
+   "text": "and",
+   "start": 15.083,
+   "end": 15.294,
+   "key": false,
+   "s": 2,
+   "line": 12
+  },
+  {
+   "text": "elastic",
+   "start": 15.294,
+   "end": 15.83,
+   "key": false,
+   "s": 2,
+   "line": 12
+  },
+  {
+   "text": "fibers.",
+   "start": 15.83,
+   "end": 16.203,
+   "key": false,
+   "s": 2,
+   "line": 12
+  },
+  {
+   "text": "Over",
+   "start": 16.784,
+   "end": 17.186,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "the",
+   "start": 17.186,
+   "end": 17.414,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "years,",
+   "start": 17.414,
+   "end": 17.641,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "and",
+   "start": 17.641,
+   "end": 17.868,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "faster",
+   "start": 17.868,
+   "end": 18.27,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "with",
+   "start": 18.27,
+   "end": 18.498,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "sun,",
+   "start": 18.498,
+   "end": 18.725,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "that",
+   "start": 18.725,
+   "end": 18.952,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "ring",
+   "start": 18.952,
+   "end": 19.179,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "loosens.",
+   "start": 19.179,
+   "end": 19.582,
+   "key": true,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "With",
+   "start": 19.98,
+   "end": 20.182,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "less",
+   "start": 20.182,
+   "end": 20.384,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "support,",
+   "start": 20.384,
+   "end": 20.741,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "the",
+   "start": 21.11,
+   "end": 21.307,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "round",
+   "start": 21.307,
+   "end": 21.503,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "opening",
+   "start": 21.503,
+   "end": 22.003,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "sags",
+   "start": 22.003,
+   "end": 22.2,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "into",
+   "start": 22.2,
+   "end": 22.548,
+   "key": false,
+   "s": 3,
+   "line": 18
+  },
+  {
+   "text": "a",
+   "start": 22.548,
+   "end": 22.744,
+   "key": false,
+   "s": 3,
+   "line": 18
+  },
+  {
+   "text": "longer",
+   "start": 22.744,
+   "end": 23.092,
+   "key": false,
+   "s": 3,
+   "line": 18
+  },
+  {
+   "text": "oval.",
+   "start": 23.092,
+   "end": 23.441,
+   "key": true,
+   "s": 3,
+   "line": 18
+  },
+  {
+   "text": "But",
+   "start": 24.033,
+   "end": 24.214,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "age",
+   "start": 24.214,
+   "end": 24.534,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "isn't",
+   "start": 24.534,
+   "end": 24.715,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "the",
+   "start": 24.715,
+   "end": 24.897,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "whole",
+   "start": 24.897,
+   "end": 25.217,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "story.",
+   "start": 25.217,
+   "end": 25.538,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "In",
+   "start": 25.949,
+   "end": 26.225,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "2,585",
+   "start": 26.225,
+   "end": 26.862,
+   "key": true,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "women",
+   "start": 26.862,
+   "end": 27.35,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "from",
+   "start": 27.35,
+   "end": 27.626,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "five",
+   "start": 27.626,
+   "end": 28.114,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "countries,",
+   "start": 28.114,
+   "end": 28.602,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "pore",
+   "start": 28.602,
+   "end": 29.09,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "size",
+   "start": 29.09,
+   "end": 29.578,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "varied",
+   "start": 29.578,
+   "end": 30.066,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "much",
+   "start": 30.066,
+   "end": 30.342,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "more",
+   "start": 30.342,
+   "end": 30.83,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "with",
+   "start": 30.83,
+   "end": 31.106,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "ethnicity",
+   "start": 31.106,
+   "end": 32.019,
+   "key": true,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "than",
+   "start": 32.019,
+   "end": 32.295,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "with",
+   "start": 32.295,
+   "end": 32.571,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "age.",
+   "start": 32.571,
+   "end": 33.059,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "And",
+   "start": 33.635,
+   "end": 33.874,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "shine",
+   "start": 33.874,
+   "end": 34.296,
+   "key": true,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "plays",
+   "start": 34.296,
+   "end": 34.534,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "tricks.",
+   "start": 34.534,
+   "end": 34.773,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "Oil",
+   "start": 35.186,
+   "end": 35.355,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "on",
+   "start": 35.355,
+   "end": 35.524,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "the",
+   "start": 35.524,
+   "end": 35.693,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "surface",
+   "start": 35.693,
+   "end": 36.122,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "can",
+   "start": 36.122,
+   "end": 36.292,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "make",
+   "start": 36.292,
+   "end": 36.591,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "pores",
+   "start": 36.591,
+   "end": 36.89,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "look",
+   "start": 36.89,
+   "end": 37.059,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "bigger",
+   "start": 37.059,
+   "end": 37.358,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "than",
+   "start": 37.358,
+   "end": 37.527,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "they",
+   "start": 37.527,
+   "end": 37.696,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "are.",
+   "start": 37.696,
+   "end": 37.995,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "So",
+   "start": 38.587,
+   "end": 38.802,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "support",
+   "start": 38.802,
+   "end": 39.184,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "the",
+   "start": 39.184,
+   "end": 39.4,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "net.",
+   "start": 39.4,
+   "end": 39.616,
+   "key": true,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "Wear",
+   "start": 40.035,
+   "end": 40.257,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "sunscreen",
+   "start": 40.257,
+   "end": 40.651,
+   "key": true,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "every",
+   "start": 40.651,
+   "end": 41.216,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "day,",
+   "start": 41.216,
+   "end": 41.438,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "ask",
+   "start": 41.438,
+   "end": 41.661,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "about",
+   "start": 41.661,
+   "end": 42.054,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "a",
+   "start": 42.054,
+   "end": 42.277,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "retinoid,",
+   "start": 42.277,
+   "end": 42.842,
+   "key": true,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "and",
+   "start": 42.842,
+   "end": 43.064,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "blot",
+   "start": 43.064,
+   "end": 43.287,
+   "key": true,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "shine.",
+   "start": 43.287,
+   "end": 43.68,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "Toners",
+   "start": 44.079,
+   "end": 44.396,
+   "key": true,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "only",
+   "start": 44.396,
+   "end": 44.713,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "tighten",
+   "start": 44.713,
+   "end": 45.03,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "them",
+   "start": 45.03,
+   "end": 45.21,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "for",
+   "start": 45.21,
+   "end": 45.389,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "a",
+   "start": 45.389,
+   "end": 45.568,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "moment.",
+   "start": 45.568,
+   "end": 45.886,
+   "key": true,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "With",
+   "start": 46.475,
+   "end": 46.665,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "age,",
+   "start": 46.665,
+   "end": 47.001,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "pores",
+   "start": 47.144,
+   "end": 47.486,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "can",
+   "start": 47.486,
+   "end": 47.68,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "lose",
+   "start": 47.68,
+   "end": 48.022,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "their",
+   "start": 48.022,
+   "end": 48.216,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "support.",
+   "start": 48.216,
+   "end": 48.558,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "Glowi",
+   "start": 48.974,
+   "end": 49.371,
+   "key": true,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "helps",
+   "start": 49.371,
+   "end": 49.595,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "you",
+   "start": 49.595,
+   "end": 49.818,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "track",
+   "start": 49.818,
+   "end": 50.042,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "how",
+   "start": 50.042,
+   "end": 50.266,
+   "key": false,
+   "s": 7,
+   "line": 36
+  },
+  {
+   "text": "yours",
+   "start": 50.266,
+   "end": 50.49,
+   "key": false,
+   "s": 7,
+   "line": 36
+  },
+  {
+   "text": "change.",
+   "start": 50.49,
+   "end": 50.886,
+   "key": false,
+   "s": 7,
+   "line": 36
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.021,
+   "end": 2.05
+  },
+  {
+   "start": 2.636,
+   "end": 8.554
+  },
+  {
+   "start": 9.136,
+   "end": 16.203
+  },
+  {
+   "start": 16.784,
+   "end": 23.441
+  },
+  {
+   "start": 24.033,
+   "end": 33.059
+  },
+  {
+   "start": 33.635,
+   "end": 37.995
+  },
+  {
+   "start": 38.587,
+   "end": 45.886
+  },
+  {
+   "start": 46.475,
+   "end": 50.886
+  }
+ ],
+ "voEnd": 50.886
+}
