@@ -1,0 +1,8 @@
+# Sources — skin across seasons (opened 2026-11-04)
+1. Löffler H, Happle R. Influence of climatic conditions on the irritant patch test with sodium lauryl sulphate. Acta Derm Venereol. 2003;83:338-341. https://medicaljournals.se/acta/download/10.1080/00015550310012584
+   - 487 volunteers (Marburg, Germany, 2000-2001). Basal TEWL was about the same all year, but the TEWL increase after 0.5% SLS (a mild irritant) was markedly higher in winter: monthly medians January 33.3 vs August 11.2 g/m²h — about threefold. On screen: bars drawn to these medians (33.3 : 11.2), "≈3×".
+2. Seasonal variations of epidermal biophysical properties in Kunming, China: a self-controlled cohort study. Skin Res Technol. 2020;26(5):702-707. https://www.pubmed.gov/32196767/
+   - 72 women measured each season: TEWL highest in winter / lowest in summer; stratum corneum hydration and sebum highest in summer, lowest in winter. Supports "humid summer keeps the layer plump, oil flows more easily, skin can look shinier" and "winter: water pulled out, barrier weaker".
+3. Engebretsen KA, Johansen JD, Kezic S, Linneberg A, Thyssen JP. The effect of environmental humidity and temperature on skin barrier function and dermatitis. JEADV. 2016;30(2):223-249. https://research.regionh.dk/da/publications/the-effect-of-environmental-humidity-and-temperature-on-skin-barr/
+   - Review: low humidity and low temperature reduce skin barrier function and make skin more reactive to irritants; cold, dry weather increases eczema flares. Supports "cold air holds little water", "more reactive".
+Note: "indoor heating dries the air further" is general physics (warming air lowers its relative humidity), not a study claim.

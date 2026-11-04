@@ -1,0 +1,1123 @@
+{
+ "words": [
+  {
+   "text": "Why",
+   "start": 0.018,
+   "end": 0.2,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "does",
+   "start": 0.2,
+   "end": 0.381,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "start": 0.381,
+   "end": 0.563,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "skin",
+   "start": 0.563,
+   "end": 0.744,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "act",
+   "start": 0.744,
+   "end": 0.926,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "differently",
+   "start": 0.926,
+   "end": 1.527,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "every",
+   "start": 1.527,
+   "end": 1.988,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "season?",
+   "start": 1.988,
+   "end": 2.309,
+   "key": true,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "It",
+   "start": 2.898,
+   "end": 3.124,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "isn't",
+   "start": 3.124,
+   "end": 3.35,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "random.",
+   "start": 3.35,
+   "end": 3.75,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "Your",
+   "start": 4.159,
+   "end": 4.357,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "skin's",
+   "start": 4.357,
+   "end": 4.555,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "outer",
+   "start": 4.555,
+   "end": 4.905,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "layer",
+   "start": 4.905,
+   "end": 5.102,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "is",
+   "start": 5.102,
+   "end": 5.3,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "always",
+   "start": 5.3,
+   "end": 5.65,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "trading",
+   "start": 5.65,
+   "end": 6.0,
+   "key": true,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "water",
+   "start": 6.0,
+   "end": 6.35,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "with",
+   "start": 6.35,
+   "end": 6.547,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "the",
+   "start": 6.547,
+   "end": 6.745,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "air",
+   "start": 6.745,
+   "end": 6.943,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "around",
+   "start": 6.943,
+   "end": 7.293,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "it.",
+   "start": 7.293,
+   "end": 7.491,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "In",
+   "start": 8.067,
+   "end": 8.344,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "summer,",
+   "start": 8.344,
+   "end": 8.833,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "warm,",
+   "start": 8.833,
+   "end": 9.109,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "humid",
+   "start": 9.109,
+   "end": 9.598,
+   "key": true,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "air",
+   "start": 9.598,
+   "end": 9.875,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "keeps",
+   "start": 9.875,
+   "end": 10.151,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "that",
+   "start": 10.151,
+   "end": 10.427,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "layer",
+   "start": 10.427,
+   "end": 10.704,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "plump.",
+   "start": 10.704,
+   "end": 10.98,
+   "key": true,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "Oil",
+   "start": 11.41,
+   "end": 11.599,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "flows",
+   "start": 11.599,
+   "end": 11.788,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "more",
+   "start": 11.788,
+   "end": 12.123,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "easily,",
+   "start": 12.123,
+   "end": 12.603,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "so",
+   "start": 12.855,
+   "end": 13.085,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "skin",
+   "start": 13.085,
+   "end": 13.315,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "can",
+   "start": 13.315,
+   "end": 13.545,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "look",
+   "start": 13.545,
+   "end": 13.775,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "shinier.",
+   "start": 13.775,
+   "end": 14.183,
+   "key": true,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "In",
+   "start": 14.776,
+   "end": 14.967,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "winter,",
+   "start": 14.967,
+   "end": 15.304,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "cold",
+   "start": 15.516,
+   "end": 15.732,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "air",
+   "start": 15.732,
+   "end": 15.947,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "holds",
+   "start": 15.947,
+   "end": 16.163,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "little",
+   "start": 16.163,
+   "end": 16.545,
+   "key": true,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "water,",
+   "start": 16.545,
+   "end": 16.927,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "and",
+   "start": 17.276,
+   "end": 17.452,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "indoor",
+   "start": 17.452,
+   "end": 17.763,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "heating",
+   "start": 17.763,
+   "end": 18.074,
+   "key": true,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "dries",
+   "start": 18.074,
+   "end": 18.25,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "it",
+   "start": 18.25,
+   "end": 18.425,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "even",
+   "start": 18.425,
+   "end": 18.737,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "more.",
+   "start": 18.737,
+   "end": 19.048,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "The",
+   "start": 19.455,
+   "end": 19.647,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "air",
+   "start": 19.647,
+   "end": 19.839,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "pulls",
+   "start": 19.839,
+   "end": 20.031,
+   "key": true,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "water",
+   "start": 20.031,
+   "end": 20.37,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "out",
+   "start": 20.37,
+   "end": 20.562,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "of",
+   "start": 20.562,
+   "end": 20.754,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "your",
+   "start": 20.754,
+   "end": 20.946,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "skin,",
+   "start": 20.946,
+   "end": 21.137,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "and",
+   "start": 21.429,
+   "end": 21.619,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "the",
+   "start": 21.619,
+   "end": 21.808,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "barrier",
+   "start": 21.808,
+   "end": 22.143,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "turns",
+   "start": 22.143,
+   "end": 22.333,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "brittle.",
+   "start": 22.333,
+   "end": 22.668,
+   "key": true,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "That",
+   "start": 23.27,
+   "end": 23.459,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "makes",
+   "start": 23.459,
+   "end": 23.793,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "winter",
+   "start": 23.793,
+   "end": 24.127,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "skin",
+   "start": 24.127,
+   "end": 24.316,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "more",
+   "start": 24.316,
+   "end": 24.65,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "reactive.",
+   "start": 24.65,
+   "end": 25.13,
+   "key": true,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "In",
+   "start": 25.545,
+   "end": 25.79,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "a",
+   "start": 25.79,
+   "end": 26.034,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "study",
+   "start": 26.034,
+   "end": 26.467,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "of",
+   "start": 26.467,
+   "end": 26.711,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "487",
+   "start": 26.711,
+   "end": 27.275,
+   "key": true,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "people,",
+   "start": 27.275,
+   "end": 27.708,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "the",
+   "start": 27.708,
+   "end": 27.952,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "same",
+   "start": 27.952,
+   "end": 28.385,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "mild",
+   "start": 28.385,
+   "end": 28.629,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "irritant",
+   "start": 28.629,
+   "end": 29.25,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "raised",
+   "start": 29.25,
+   "end": 29.682,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "water",
+   "start": 29.682,
+   "end": 30.115,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "loss",
+   "start": 30.115,
+   "end": 30.359,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "about",
+   "start": 30.359,
+   "end": 30.792,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "3\u00d7",
+   "start": 30.792,
+   "end": 31.356,
+   "key": true,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "more",
+   "start": 31.356,
+   "end": 31.788,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "in",
+   "start": 31.788,
+   "end": 32.033,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "January",
+   "start": 32.033,
+   "end": 32.653,
+   "key": true,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "than",
+   "start": 32.653,
+   "end": 32.898,
+   "key": false,
+   "s": 4,
+   "line": 23
+  },
+  {
+   "text": "in",
+   "start": 32.898,
+   "end": 33.142,
+   "key": false,
+   "s": 4,
+   "line": 23
+  },
+  {
+   "text": "August.",
+   "start": 33.142,
+   "end": 33.575,
+   "key": true,
+   "s": 4,
+   "line": 23
+  },
+  {
+   "text": "So",
+   "start": 34.152,
+   "end": 34.332,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "let",
+   "start": 34.332,
+   "end": 34.512,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "your",
+   "start": 34.512,
+   "end": 34.693,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "routine",
+   "start": 34.693,
+   "end": 35.15,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "follow",
+   "start": 35.15,
+   "end": 35.469,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "the",
+   "start": 35.469,
+   "end": 35.649,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "weather.",
+   "start": 35.649,
+   "end": 35.968,
+   "key": true,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "In",
+   "start": 36.379,
+   "end": 36.618,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "cold,",
+   "start": 36.618,
+   "end": 36.858,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "dry",
+   "start": 36.858,
+   "end": 37.098,
+   "key": false,
+   "s": 5,
+   "line": 27
+  },
+  {
+   "text": "months,",
+   "start": 37.098,
+   "end": 37.337,
+   "key": false,
+   "s": 5,
+   "line": 27
+  },
+  {
+   "text": "use",
+   "start": 37.337,
+   "end": 37.761,
+   "key": false,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "a",
+   "start": 37.761,
+   "end": 38.0,
+   "key": false,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "richer",
+   "start": 38.0,
+   "end": 38.424,
+   "key": true,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "moisturizer",
+   "start": 38.424,
+   "end": 39.217,
+   "key": false,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "and",
+   "start": 39.217,
+   "end": 39.456,
+   "key": false,
+   "s": 5,
+   "line": 29
+  },
+  {
+   "text": "a",
+   "start": 39.456,
+   "end": 39.696,
+   "key": false,
+   "s": 5,
+   "line": 29
+  },
+  {
+   "text": "gentler",
+   "start": 39.696,
+   "end": 40.119,
+   "key": true,
+   "s": 5,
+   "line": 29
+  },
+  {
+   "text": "cleanser.",
+   "start": 40.119,
+   "end": 40.543,
+   "key": false,
+   "s": 5,
+   "line": 29
+  },
+  {
+   "text": "In",
+   "start": 40.957,
+   "end": 41.207,
+   "key": false,
+   "s": 5,
+   "line": 30
+  },
+  {
+   "text": "humid",
+   "start": 41.207,
+   "end": 41.649,
+   "key": true,
+   "s": 5,
+   "line": 30
+  },
+  {
+   "text": "months,",
+   "start": 41.649,
+   "end": 41.899,
+   "key": false,
+   "s": 5,
+   "line": 30
+  },
+  {
+   "text": "go",
+   "start": 41.899,
+   "end": 42.149,
+   "key": false,
+   "s": 5,
+   "line": 31
+  },
+  {
+   "text": "lighter,",
+   "start": 42.149,
+   "end": 42.591,
+   "key": true,
+   "s": 5,
+   "line": 31
+  },
+  {
+   "text": "and",
+   "start": 42.591,
+   "end": 42.841,
+   "key": false,
+   "s": 5,
+   "line": 32
+  },
+  {
+   "text": "keep",
+   "start": 42.841,
+   "end": 43.091,
+   "key": false,
+   "s": 5,
+   "line": 32
+  },
+  {
+   "text": "sunscreen",
+   "start": 43.091,
+   "end": 43.534,
+   "key": true,
+   "s": 5,
+   "line": 32
+  },
+  {
+   "text": "all",
+   "start": 43.534,
+   "end": 43.784,
+   "key": false,
+   "s": 5,
+   "line": 32
+  },
+  {
+   "text": "year.",
+   "start": 43.784,
+   "end": 44.034,
+   "key": false,
+   "s": 5,
+   "line": 32
+  },
+  {
+   "text": "Same",
+   "start": 44.62,
+   "end": 45.0,
+   "key": false,
+   "s": 6,
+   "line": 33
+  },
+  {
+   "text": "skin,",
+   "start": 45.0,
+   "end": 45.215,
+   "key": false,
+   "s": 6,
+   "line": 33
+  },
+  {
+   "text": "different",
+   "start": 45.215,
+   "end": 45.762,
+   "key": false,
+   "s": 6,
+   "line": 34
+  },
+  {
+   "text": "air.",
+   "start": 45.762,
+   "end": 45.977,
+   "key": false,
+   "s": 6,
+   "line": 34
+  },
+  {
+   "text": "Glowi",
+   "start": 46.388,
+   "end": 46.76,
+   "key": true,
+   "s": 6,
+   "line": 35
+  },
+  {
+   "text": "helps",
+   "start": 46.76,
+   "end": 46.969,
+   "key": false,
+   "s": 6,
+   "line": 35
+  },
+  {
+   "text": "you",
+   "start": 46.969,
+   "end": 47.179,
+   "key": false,
+   "s": 6,
+   "line": 35
+  },
+  {
+   "text": "read",
+   "start": 47.179,
+   "end": 47.389,
+   "key": false,
+   "s": 6,
+   "line": 35
+  },
+  {
+   "text": "your",
+   "start": 47.389,
+   "end": 47.599,
+   "key": false,
+   "s": 6,
+   "line": 36
+  },
+  {
+   "text": "skin's",
+   "start": 47.599,
+   "end": 47.809,
+   "key": false,
+   "s": 6,
+   "line": 36
+  },
+  {
+   "text": "environment.",
+   "start": 47.809,
+   "end": 48.503,
+   "key": false,
+   "s": 6,
+   "line": 36
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.018,
+   "end": 2.309
+  },
+  {
+   "start": 2.898,
+   "end": 7.491
+  },
+  {
+   "start": 8.067,
+   "end": 14.183
+  },
+  {
+   "start": 14.776,
+   "end": 22.668
+  },
+  {
+   "start": 23.27,
+   "end": 33.575
+  },
+  {
+   "start": 34.152,
+   "end": 44.034
+  },
+  {
+   "start": 44.62,
+   "end": 48.503
+  }
+ ],
+ "voEnd": 48.503
+}
