@@ -1,0 +1,1199 @@
+{
+ "words": [
+  {
+   "text": "Does",
+   "start": 0.018,
+   "end": 0.219,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "shaving",
+   "start": 0.219,
+   "end": 0.574,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "make",
+   "start": 0.574,
+   "end": 0.93,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "start": 0.93,
+   "end": 1.131,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "hair",
+   "start": 1.131,
+   "end": 1.331,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "grow",
+   "start": 1.331,
+   "end": 1.532,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "back",
+   "start": 1.532,
+   "end": 1.733,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "thicker?",
+   "start": 1.733,
+   "end": 2.089,
+   "key": true,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "It's",
+   "start": 2.671,
+   "end": 2.854,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "one",
+   "start": 2.854,
+   "end": 3.176,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "of",
+   "start": 3.176,
+   "end": 3.359,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "the",
+   "start": 3.359,
+   "end": 3.541,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "oldest",
+   "start": 3.541,
+   "end": 3.864,
+   "key": true,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "beauty",
+   "start": 3.864,
+   "end": 4.187,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "myths.",
+   "start": 4.187,
+   "end": 4.369,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "Scientists",
+   "start": 4.779,
+   "end": 5.279,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "tested",
+   "start": 5.279,
+   "end": 5.78,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "it",
+   "start": 5.78,
+   "end": 6.063,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "in",
+   "start": 6.063,
+   "end": 6.346,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "1928,",
+   "start": 6.346,
+   "end": 6.999,
+   "key": true,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "and",
+   "start": 7.386,
+   "end": 7.627,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "again",
+   "start": 7.627,
+   "end": 8.055,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "in",
+   "start": 8.055,
+   "end": 8.296,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "1970.",
+   "start": 8.296,
+   "end": 8.853,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "In",
+   "start": 9.442,
+   "end": 9.652,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "the",
+   "start": 9.652,
+   "end": 9.863,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "1970",
+   "start": 9.863,
+   "end": 10.349,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "study,",
+   "start": 10.349,
+   "end": 10.721,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "five",
+   "start": 10.721,
+   "end": 11.094,
+   "key": true,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "men",
+   "start": 11.094,
+   "end": 11.304,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "shaved",
+   "start": 11.304,
+   "end": 11.677,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "one",
+   "start": 11.677,
+   "end": 12.049,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "leg",
+   "start": 12.049,
+   "end": 12.26,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "every",
+   "start": 12.26,
+   "end": 12.794,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "week",
+   "start": 12.794,
+   "end": 13.005,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "and",
+   "start": 13.005,
+   "end": 13.215,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "left",
+   "start": 13.215,
+   "end": 13.426,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "the",
+   "start": 13.426,
+   "end": 13.636,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "other",
+   "start": 13.636,
+   "end": 14.009,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "leg",
+   "start": 14.009,
+   "end": 14.219,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "alone.",
+   "start": 14.219,
+   "end": 14.754,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "Hair",
+   "start": 15.161,
+   "end": 15.387,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "weight,",
+   "start": 15.387,
+   "end": 15.614,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "width",
+   "start": 15.838,
+   "end": 16.091,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "and",
+   "start": 16.091,
+   "end": 16.343,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "growth",
+   "start": 16.343,
+   "end": 16.595,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "speed",
+   "start": 16.595,
+   "end": 16.848,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "didn't",
+   "start": 16.848,
+   "end": 17.1,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "change.",
+   "start": 17.1,
+   "end": 17.546,
+   "key": true,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "So",
+   "start": 18.129,
+   "end": 18.335,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "why",
+   "start": 18.335,
+   "end": 18.54,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "does",
+   "start": 18.54,
+   "end": 18.746,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "stubble",
+   "start": 18.746,
+   "end": 19.11,
+   "key": true,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "feel",
+   "start": 19.11,
+   "end": 19.316,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "thicker?",
+   "start": 19.316,
+   "end": 19.68,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "A",
+   "start": 20.091,
+   "end": 20.283,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "natural",
+   "start": 20.283,
+   "end": 20.769,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "hair",
+   "start": 20.769,
+   "end": 20.961,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "narrows",
+   "start": 20.961,
+   "end": 21.299,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "to",
+   "start": 21.299,
+   "end": 21.491,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "a",
+   "start": 21.491,
+   "end": 21.682,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "fine,",
+   "start": 21.682,
+   "end": 22.021,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "soft",
+   "start": 22.021,
+   "end": 22.213,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "tip.",
+   "start": 22.213,
+   "end": 22.404,
+   "key": true,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "A",
+   "start": 22.803,
+   "end": 23.012,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "razor",
+   "start": 23.012,
+   "end": 23.381,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "slices",
+   "start": 23.381,
+   "end": 23.75,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "through",
+   "start": 23.75,
+   "end": 23.958,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "the",
+   "start": 23.958,
+   "end": 24.167,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "thicker",
+   "start": 24.167,
+   "end": 24.536,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "middle",
+   "start": 24.536,
+   "end": 24.905,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "and",
+   "start": 24.905,
+   "end": 25.114,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "leaves",
+   "start": 25.114,
+   "end": 25.483,
+   "key": false,
+   "s": 3,
+   "line": 18
+  },
+  {
+   "text": "a",
+   "start": 25.483,
+   "end": 25.691,
+   "key": false,
+   "s": 3,
+   "line": 18
+  },
+  {
+   "text": "blunt",
+   "start": 25.691,
+   "end": 25.9,
+   "key": true,
+   "s": 3,
+   "line": 18
+  },
+  {
+   "text": "end.",
+   "start": 25.9,
+   "end": 26.108,
+   "key": false,
+   "s": 3,
+   "line": 18
+  },
+  {
+   "text": "That",
+   "start": 26.692,
+   "end": 26.928,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "blunt",
+   "start": 26.928,
+   "end": 27.164,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "end",
+   "start": 27.164,
+   "end": 27.4,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "feels",
+   "start": 27.4,
+   "end": 27.636,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "coarse.",
+   "start": 27.636,
+   "end": 28.054,
+   "key": true,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "And",
+   "start": 28.46,
+   "end": 28.687,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "short",
+   "start": 28.687,
+   "end": 28.915,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "regrowth",
+   "start": 28.915,
+   "end": 29.317,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "stands",
+   "start": 29.317,
+   "end": 29.544,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "out",
+   "start": 29.544,
+   "end": 29.772,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "darker",
+   "start": 29.772,
+   "end": 30.174,
+   "key": true,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "against",
+   "start": 30.174,
+   "end": 30.576,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "your",
+   "start": 30.576,
+   "end": 30.803,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "skin.",
+   "start": 30.803,
+   "end": 31.03,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "The",
+   "start": 31.61,
+   "end": 31.824,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "hair",
+   "start": 31.824,
+   "end": 32.039,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "itself",
+   "start": 32.039,
+   "end": 32.419,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "grows",
+   "start": 32.419,
+   "end": 32.634,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "from",
+   "start": 32.634,
+   "end": 32.849,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "a",
+   "start": 32.849,
+   "end": 33.063,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "root",
+   "start": 33.063,
+   "end": 33.278,
+   "key": true,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "deep",
+   "start": 33.278,
+   "end": 33.493,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "under",
+   "start": 33.493,
+   "end": 33.873,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "your",
+   "start": 33.873,
+   "end": 34.088,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "skin.",
+   "start": 34.088,
+   "end": 34.302,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "A",
+   "start": 34.716,
+   "end": 34.912,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "razor",
+   "start": 34.912,
+   "end": 35.259,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "never",
+   "start": 35.259,
+   "end": 35.606,
+   "key": true,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "reaches",
+   "start": 35.606,
+   "end": 35.954,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "it.",
+   "start": 35.954,
+   "end": 36.15,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "So",
+   "start": 36.746,
+   "end": 36.958,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "shave",
+   "start": 36.958,
+   "end": 37.333,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "for",
+   "start": 37.333,
+   "end": 37.545,
+   "key": false,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "comfort.",
+   "start": 37.545,
+   "end": 37.92,
+   "key": true,
+   "s": 6,
+   "line": 26
+  },
+  {
+   "text": "Wet",
+   "start": 38.329,
+   "end": 38.545,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "your",
+   "start": 38.545,
+   "end": 38.76,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "skin",
+   "start": 38.76,
+   "end": 38.975,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "first,",
+   "start": 38.975,
+   "end": 39.19,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "use",
+   "start": 39.19,
+   "end": 39.571,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "a",
+   "start": 39.571,
+   "end": 39.787,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "gel,",
+   "start": 39.787,
+   "end": 40.002,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "shave",
+   "start": 40.002,
+   "end": 40.383,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "with",
+   "start": 40.383,
+   "end": 40.598,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "the",
+   "start": 40.598,
+   "end": 40.813,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "grain,",
+   "start": 40.813,
+   "end": 41.029,
+   "key": true,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "and",
+   "start": 41.029,
+   "end": 41.244,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "swap",
+   "start": 41.244,
+   "end": 41.459,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "blades",
+   "start": 41.459,
+   "end": 41.84,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "every",
+   "start": 41.84,
+   "end": 42.387,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "5",
+   "start": 42.387,
+   "end": 42.883,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "to",
+   "start": 42.883,
+   "end": 43.099,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "7",
+   "start": 43.099,
+   "end": 43.595,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "shaves.",
+   "start": 43.595,
+   "end": 43.976,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "Your",
+   "start": 44.559,
+   "end": 44.793,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "hair",
+   "start": 44.793,
+   "end": 45.026,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "didn't",
+   "start": 45.026,
+   "end": 45.26,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "change.",
+   "start": 45.26,
+   "end": 45.673,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "Only",
+   "start": 46.085,
+   "end": 46.457,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "its",
+   "start": 46.457,
+   "end": 46.668,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "tip",
+   "start": 46.668,
+   "end": 46.879,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "did.",
+   "start": 46.879,
+   "end": 47.089,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "Glowi",
+   "start": 47.501,
+   "end": 47.815,
+   "key": true,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "helps",
+   "start": 47.815,
+   "end": 47.993,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "you",
+   "start": 47.993,
+   "end": 48.17,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "care",
+   "start": 48.17,
+   "end": 48.484,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "for",
+   "start": 48.484,
+   "end": 48.661,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "the",
+   "start": 48.661,
+   "end": 48.839,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "skin",
+   "start": 48.839,
+   "end": 49.016,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "underneath.",
+   "start": 49.016,
+   "end": 49.467,
+   "key": false,
+   "s": 7,
+   "line": 35
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.018,
+   "end": 2.089
+  },
+  {
+   "start": 2.671,
+   "end": 8.853
+  },
+  {
+   "start": 9.442,
+   "end": 17.546
+  },
+  {
+   "start": 18.129,
+   "end": 26.108
+  },
+  {
+   "start": 26.692,
+   "end": 31.03
+  },
+  {
+   "start": 31.61,
+   "end": 36.15
+  },
+  {
+   "start": 36.746,
+   "end": 43.976
+  },
+  {
+   "start": 44.559,
+   "end": 49.467
+  }
+ ],
+ "voEnd": 49.467
+}
