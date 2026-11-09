@@ -22,7 +22,7 @@ pip install -q --break-system-packages kokoro-onnx soundfile numpy    # first ti
 #    tools/bed.json           : {"brightSentence": n, "boundSentences": [...scene-change paragraphs...], "chimes": ["<number word>"], "ticks": []}
 # 2. voiceover + word timing (each sentence synthesised separately → guaranteed pauses)
 python3 tools/tts_cloud.py tools/script_tts.txt tools/script_display.txt tools/vo_raw.wav tools/aligned.json
-python3 tools/hook_boost.py tools/vo_raw.wav tools/aligned.json 1.0 6.0 1.15   # Gurkan (2026-11-09): hook line louder (+6 dB), brighter (+1 st), ~15% faster
+python3 tools/hook_boost.py tools/vo_raw.wav tools/aligned.json 1.0 6.0 1.0   # Gurkan (2026-11-09): hook line louder (+6 dB), brighter (+1 st); NOT faster (normal speed)
 python3 tools/build_timeline2.py tools/aligned.json src/timeline.json tools/keys.json   # prints caption lines
 ffmpeg -loglevel error -y -i tools/vo_raw.wav -af "loudnorm=I=-16:TP=-1.5:LRA=11" -ar 48000 public/vo.wav
 python3 tools/make_bed.py                       # ambient bed + whooshes + chimes → public/bed.wav

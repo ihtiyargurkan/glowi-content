@@ -22,7 +22,7 @@ Bu rehber References klasöründeki 4 videonun analizinden çıkarıldı. Refera
 - Kısaltmalar seslendirme metninde tireyle yazılır (U-V-A, S-P-F); marka adı "Glowee" olarak okutulur.
 - Caption metni senaryodan gelir, Whisper yalnızca zamanlama için kullanılır (align.py). Böylece Whisper'ın yazım hataları ekrana yansımaz.
 
-- Hook cümlesi (ilk paragraf) daha yüksek, parlak ve biraz hızlı okunur: tools/hook_boost.py (+6 dB, +1 yarım ton, ~%15 hızlı). (Gurkan, 9 Kasım 2026)
+- Hook cümlesi (ilk paragraf) daha yüksek ve parlak okunur, hız normal kalır: tools/hook_boost.py (+6 dB, +1 yarım ton, tempo 1.0). (Gurkan, 9 Kasım 2026)
 
 ## Caption
 - Ekranın üst bölümünde (y ≈ 270 px), ortalı, satır başına 2–5 kelime, en fazla 2 satır

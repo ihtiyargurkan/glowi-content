@@ -2,1224 +2,1224 @@
  "words": [
   {
    "text": "Can",
-   "start": 0.014,
-   "end": 0.191,
+   "start": 0.016,
+   "end": 0.22,
    "key": false,
    "s": 0,
    "line": 0
   },
   {
    "text": "tomato",
-   "start": 0.191,
-   "end": 0.641,
+   "start": 0.22,
+   "end": 0.737,
    "key": true,
    "s": 0,
    "line": 0
   },
   {
    "text": "paste",
-   "start": 0.641,
-   "end": 0.954,
+   "start": 0.737,
+   "end": 1.097,
    "key": false,
    "s": 0,
    "line": 0
   },
   {
    "text": "replace",
-   "start": 0.954,
-   "end": 1.403,
+   "start": 1.097,
+   "end": 1.614,
    "key": false,
    "s": 0,
    "line": 0
   },
   {
    "text": "your",
-   "start": 1.403,
-   "end": 1.581,
+   "start": 1.614,
+   "end": 1.818,
    "key": false,
    "s": 0,
    "line": 0
   },
   {
    "text": "sunscreen?",
-   "start": 1.581,
-   "end": 1.894,
+   "start": 1.818,
+   "end": 2.178,
    "key": true,
    "s": 0,
    "line": 0
   },
   {
    "text": "It",
-   "start": 2.437,
-   "end": 2.612,
+   "start": 2.759,
+   "end": 2.934,
    "key": false,
    "s": 1,
    "line": 1
   },
   {
    "text": "sounds",
-   "start": 2.612,
-   "end": 2.787,
+   "start": 2.934,
+   "end": 3.109,
    "key": false,
    "s": 1,
    "line": 1
   },
   {
    "text": "like",
-   "start": 2.787,
-   "end": 3.097,
+   "start": 3.109,
+   "end": 3.419,
    "key": false,
    "s": 1,
    "line": 1
   },
   {
    "text": "a",
-   "start": 3.097,
-   "end": 3.271,
+   "start": 3.419,
+   "end": 3.593,
    "key": false,
    "s": 1,
    "line": 1
   },
   {
    "text": "joke.",
-   "start": 3.271,
-   "end": 3.581,
+   "start": 3.593,
+   "end": 3.903,
    "key": true,
    "s": 1,
    "line": 1
   },
   {
    "text": "But",
-   "start": 3.986,
-   "end": 4.193,
+   "start": 4.308,
+   "end": 4.515,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "scientists",
-   "start": 4.193,
-   "end": 4.558,
+   "start": 4.515,
+   "end": 4.88,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "actually",
-   "start": 4.558,
-   "end": 5.082,
+   "start": 4.88,
+   "end": 5.404,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "tested",
-   "start": 5.082,
-   "end": 5.447,
+   "start": 5.404,
+   "end": 5.769,
    "key": true,
    "s": 1,
    "line": 2
   },
   {
    "text": "it.",
-   "start": 5.447,
-   "end": 5.654,
+   "start": 5.769,
+   "end": 5.976,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "Its",
-   "start": 6.234,
-   "end": 6.464,
+   "start": 6.556,
+   "end": 6.786,
    "key": false,
    "s": 2,
    "line": 3
   },
   {
    "text": "red",
-   "start": 6.464,
-   "end": 6.695,
+   "start": 6.786,
+   "end": 7.017,
    "key": false,
    "s": 2,
    "line": 3
   },
   {
    "text": "pigment,",
-   "start": 6.695,
-   "end": 7.103,
+   "start": 7.017,
+   "end": 7.425,
    "key": false,
    "s": 2,
    "line": 3
   },
   {
    "text": "lycopene,",
-   "start": 7.27,
-   "end": 7.973,
+   "start": 7.592,
+   "end": 8.295,
    "key": true,
    "s": 2,
    "line": 4
   },
   {
    "text": "travels",
-   "start": 8.191,
-   "end": 8.572,
+   "start": 8.513,
+   "end": 8.894,
    "key": false,
    "s": 2,
    "line": 4
   },
   {
    "text": "through",
-   "start": 8.572,
-   "end": 8.787,
+   "start": 8.894,
+   "end": 9.109,
    "key": false,
    "s": 2,
    "line": 4
   },
   {
    "text": "your",
-   "start": 8.787,
-   "end": 9.002,
+   "start": 9.109,
+   "end": 9.324,
    "key": false,
    "s": 2,
    "line": 4
   },
   {
    "text": "blood.",
-   "start": 9.002,
-   "end": 9.218,
+   "start": 9.324,
+   "end": 9.54,
    "key": true,
    "s": 2,
    "line": 4
   },
   {
    "text": "When",
-   "start": 9.632,
-   "end": 9.879,
+   "start": 9.954,
+   "end": 10.201,
    "key": false,
    "s": 2,
    "line": 5
   },
   {
    "text": "UV",
-   "start": 9.879,
-   "end": 10.126,
+   "start": 10.201,
+   "end": 10.448,
    "key": false,
    "s": 2,
    "line": 5
   },
   {
    "text": "hits",
-   "start": 10.126,
-   "end": 10.373,
+   "start": 10.448,
+   "end": 10.695,
    "key": false,
    "s": 2,
    "line": 5
   },
   {
    "text": "your",
-   "start": 10.373,
-   "end": 10.619,
+   "start": 10.695,
+   "end": 10.941,
    "key": false,
    "s": 2,
    "line": 5
   },
   {
    "text": "skin,",
-   "start": 10.619,
-   "end": 10.866,
+   "start": 10.941,
+   "end": 11.188,
    "key": false,
    "s": 2,
    "line": 5
   },
   {
    "text": "it",
-   "start": 11.188,
-   "end": 11.394,
+   "start": 11.51,
+   "end": 11.716,
    "key": false,
    "s": 2,
    "line": 6
   },
   {
    "text": "sets",
-   "start": 11.394,
-   "end": 11.601,
+   "start": 11.716,
+   "end": 11.923,
    "key": false,
    "s": 2,
    "line": 6
   },
   {
    "text": "off",
-   "start": 11.601,
-   "end": 11.807,
+   "start": 11.923,
+   "end": 12.129,
    "key": false,
    "s": 2,
    "line": 6
   },
   {
    "text": "tiny",
-   "start": 11.807,
-   "end": 12.172,
+   "start": 12.129,
+   "end": 12.494,
    "key": false,
    "s": 2,
    "line": 6
   },
   {
    "text": "sparks",
-   "start": 12.172,
-   "end": 12.378,
+   "start": 12.494,
+   "end": 12.7,
    "key": true,
    "s": 2,
    "line": 7
   },
   {
    "text": "of",
-   "start": 12.378,
-   "end": 12.585,
+   "start": 12.7,
+   "end": 12.907,
    "key": false,
    "s": 2,
    "line": 7
   },
   {
    "text": "damage.",
-   "start": 12.585,
-   "end": 13.108,
+   "start": 12.907,
+   "end": 13.43,
    "key": false,
    "s": 2,
    "line": 7
   },
   {
    "text": "Lycopene",
-   "start": 13.505,
-   "end": 14.187,
+   "start": 13.827,
+   "end": 14.509,
    "key": false,
    "s": 2,
    "line": 8
   },
   {
    "text": "acts",
-   "start": 14.187,
-   "end": 14.393,
+   "start": 14.509,
+   "end": 14.715,
    "key": false,
    "s": 2,
    "line": 8
   },
   {
    "text": "like",
-   "start": 14.393,
-   "end": 14.757,
+   "start": 14.715,
+   "end": 15.079,
    "key": false,
    "s": 2,
    "line": 8
   },
   {
    "text": "a",
-   "start": 14.757,
-   "end": 14.963,
+   "start": 15.079,
+   "end": 15.285,
    "key": false,
    "s": 2,
    "line": 8
   },
   {
    "text": "sponge",
-   "start": 14.963,
-   "end": 15.328,
+   "start": 15.285,
+   "end": 15.65,
    "key": true,
    "s": 2,
    "line": 9
   },
   {
    "text": "for",
-   "start": 15.328,
-   "end": 15.534,
+   "start": 15.65,
+   "end": 15.856,
    "key": false,
    "s": 2,
    "line": 9
   },
   {
    "text": "those",
-   "start": 15.534,
-   "end": 15.898,
+   "start": 15.856,
+   "end": 16.22,
    "key": false,
    "s": 2,
    "line": 9
   },
   {
    "text": "sparks.",
-   "start": 15.898,
-   "end": 16.104,
+   "start": 16.22,
+   "end": 16.426,
    "key": false,
    "s": 2,
    "line": 9
   },
   {
    "text": "In",
-   "start": 16.684,
-   "end": 16.917,
+   "start": 17.006,
+   "end": 17.239,
    "key": false,
    "s": 3,
    "line": 10
   },
   {
    "text": "a",
-   "start": 16.917,
-   "end": 17.149,
+   "start": 17.239,
+   "end": 17.471,
    "key": false,
    "s": 3,
    "line": 10
   },
   {
    "text": "small",
-   "start": 17.149,
-   "end": 17.382,
+   "start": 17.471,
+   "end": 17.704,
    "key": false,
    "s": 3,
    "line": 10
   },
   {
    "text": "2001",
-   "start": 17.382,
-   "end": 17.919,
+   "start": 17.704,
+   "end": 18.241,
    "key": false,
    "s": 3,
    "line": 10
   },
   {
    "text": "study,",
-   "start": 17.919,
-   "end": 18.331,
+   "start": 18.241,
+   "end": 18.653,
    "key": false,
    "s": 3,
    "line": 10
   },
   {
    "text": "people",
-   "start": 18.697,
-   "end": 19.03,
+   "start": 19.019,
+   "end": 19.352,
    "key": false,
    "s": 3,
    "line": 11
   },
   {
    "text": "ate",
-   "start": 19.03,
-   "end": 19.362,
+   "start": 19.352,
+   "end": 19.684,
    "key": false,
    "s": 3,
    "line": 11
   },
   {
    "text": "40",
-   "start": 19.362,
-   "end": 19.796,
+   "start": 19.684,
+   "end": 20.118,
    "key": true,
    "s": 3,
    "line": 11
   },
   {
    "text": "grams",
-   "start": 19.796,
-   "end": 19.984,
+   "start": 20.118,
+   "end": 20.306,
    "key": false,
    "s": 3,
    "line": 11
   },
   {
    "text": "of",
-   "start": 19.984,
-   "end": 20.172,
+   "start": 20.306,
+   "end": 20.494,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
    "text": "tomato",
-   "start": 20.172,
-   "end": 20.649,
+   "start": 20.494,
+   "end": 20.971,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
    "text": "paste",
-   "start": 20.649,
-   "end": 20.982,
+   "start": 20.971,
+   "end": 21.304,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
    "text": "a",
-   "start": 20.982,
-   "end": 21.17,
+   "start": 21.304,
+   "end": 21.492,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
    "text": "day,",
-   "start": 21.17,
-   "end": 21.358,
+   "start": 21.492,
+   "end": 21.68,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
    "text": "with",
-   "start": 21.686,
-   "end": 21.873,
+   "start": 22.008,
+   "end": 22.195,
    "key": false,
    "s": 3,
    "line": 13
   },
   {
    "text": "olive",
-   "start": 21.873,
-   "end": 22.348,
+   "start": 22.195,
+   "end": 22.67,
    "key": false,
    "s": 3,
    "line": 13
   },
   {
    "text": "oil.",
-   "start": 22.348,
-   "end": 22.535,
+   "start": 22.67,
+   "end": 22.857,
    "key": false,
    "s": 3,
    "line": 13
   },
   {
    "text": "After",
-   "start": 22.935,
-   "end": 23.37,
+   "start": 23.257,
+   "end": 23.692,
    "key": false,
    "s": 3,
    "line": 14
   },
   {
    "text": "10",
-   "start": 23.37,
-   "end": 23.937,
+   "start": 23.692,
+   "end": 24.259,
    "key": true,
    "s": 3,
    "line": 14
   },
   {
    "text": "weeks,",
-   "start": 23.937,
-   "end": 24.183,
+   "start": 24.259,
+   "end": 24.505,
    "key": false,
    "s": 3,
    "line": 14
   },
   {
    "text": "a",
-   "start": 24.183,
-   "end": 24.429,
+   "start": 24.505,
+   "end": 24.751,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "UV",
-   "start": 24.429,
-   "end": 24.675,
+   "start": 24.751,
+   "end": 24.997,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "lamp",
-   "start": 24.675,
-   "end": 24.921,
+   "start": 24.997,
+   "end": 25.243,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "left",
-   "start": 24.921,
-   "end": 25.167,
+   "start": 25.243,
+   "end": 25.489,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "40%",
-   "start": 25.167,
-   "end": 25.734,
+   "start": 25.489,
+   "end": 26.056,
    "key": true,
    "s": 3,
    "line": 16
   },
   {
    "text": "less",
-   "start": 25.734,
-   "end": 25.98,
+   "start": 26.056,
+   "end": 26.302,
    "key": false,
    "s": 3,
    "line": 16
   },
   {
    "text": "redness",
-   "start": 25.98,
-   "end": 26.415,
+   "start": 26.302,
+   "end": 26.737,
    "key": false,
    "s": 3,
    "line": 16
   },
   {
    "text": "than",
-   "start": 26.415,
-   "end": 26.661,
+   "start": 26.737,
+   "end": 26.983,
    "key": false,
    "s": 3,
    "line": 16
   },
   {
    "text": "in",
-   "start": 26.661,
-   "end": 26.907,
+   "start": 26.983,
+   "end": 27.229,
    "key": false,
    "s": 3,
    "line": 17
   },
   {
    "text": "people",
-   "start": 26.907,
-   "end": 27.342,
+   "start": 27.229,
+   "end": 27.664,
    "key": false,
    "s": 3,
    "line": 17
   },
   {
    "text": "who",
-   "start": 27.342,
-   "end": 27.588,
+   "start": 27.664,
+   "end": 27.91,
    "key": false,
    "s": 3,
    "line": 17
   },
   {
    "text": "only",
-   "start": 27.588,
-   "end": 28.023,
+   "start": 27.91,
+   "end": 28.345,
    "key": false,
    "s": 3,
    "line": 17
   },
   {
    "text": "had",
-   "start": 28.023,
-   "end": 28.269,
+   "start": 28.345,
+   "end": 28.591,
    "key": false,
    "s": 3,
    "line": 18
   },
   {
    "text": "the",
-   "start": 28.269,
-   "end": 28.515,
+   "start": 28.591,
+   "end": 28.837,
    "key": false,
    "s": 3,
    "line": 18
   },
   {
    "text": "oil.",
-   "start": 28.515,
-   "end": 28.761,
+   "start": 28.837,
+   "end": 29.083,
    "key": false,
    "s": 3,
    "line": 18
   },
   {
    "text": "Sounds",
-   "start": 29.344,
-   "end": 29.702,
+   "start": 29.666,
+   "end": 30.024,
    "key": false,
    "s": 4,
    "line": 19
   },
   {
    "text": "big.",
-   "start": 29.702,
-   "end": 30.06,
+   "start": 30.024,
+   "end": 30.382,
    "key": false,
    "s": 4,
    "line": 19
   },
   {
    "text": "But",
-   "start": 30.477,
-   "end": 30.68,
+   "start": 30.799,
+   "end": 31.002,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "the",
-   "start": 30.68,
-   "end": 30.883,
+   "start": 31.002,
+   "end": 31.205,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "lead",
-   "start": 30.883,
-   "end": 31.086,
+   "start": 31.205,
+   "end": 31.408,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "researcher",
-   "start": 31.086,
-   "end": 31.602,
+   "start": 31.408,
+   "end": 31.924,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "compared",
-   "start": 31.602,
-   "end": 32.117,
+   "start": 31.924,
+   "end": 32.439,
    "key": false,
    "s": 4,
    "line": 21
   },
   {
    "text": "it",
-   "start": 32.117,
-   "end": 32.32,
+   "start": 32.439,
+   "end": 32.642,
    "key": false,
    "s": 4,
    "line": 21
   },
   {
    "text": "to",
-   "start": 32.32,
-   "end": 32.523,
+   "start": 32.642,
+   "end": 32.845,
    "key": false,
    "s": 4,
    "line": 21
   },
   {
    "text": "sunscreen",
-   "start": 32.523,
-   "end": 32.883,
+   "start": 32.845,
+   "end": 33.205,
    "key": false,
    "s": 4,
    "line": 21
   },
   {
    "text": "with",
-   "start": 32.883,
-   "end": 33.086,
+   "start": 33.205,
+   "end": 33.408,
    "key": false,
    "s": 4,
    "line": 22
   },
   {
    "text": "an",
-   "start": 33.086,
-   "end": 33.289,
+   "start": 33.408,
+   "end": 33.611,
    "key": false,
    "s": 4,
    "line": 22
   },
   {
    "text": "SPF",
-   "start": 33.289,
-   "end": 33.492,
+   "start": 33.611,
+   "end": 33.814,
    "key": false,
    "s": 4,
    "line": 22
   },
   {
    "text": "of",
-   "start": 33.492,
-   "end": 33.695,
+   "start": 33.814,
+   "end": 34.017,
    "key": false,
    "s": 4,
    "line": 22
   },
   {
    "text": "just",
-   "start": 33.695,
-   "end": 33.898,
+   "start": 34.017,
+   "end": 34.22,
    "key": false,
    "s": 4,
    "line": 23
   },
   {
    "text": "2",
-   "start": 33.898,
-   "end": 34.367,
+   "start": 34.22,
+   "end": 34.689,
    "key": true,
    "s": 4,
    "line": 23
   },
   {
    "text": "or",
-   "start": 34.367,
-   "end": 34.57,
+   "start": 34.689,
+   "end": 34.892,
    "key": false,
    "s": 4,
    "line": 23
   },
   {
    "text": "3.",
-   "start": 34.57,
-   "end": 35.038,
+   "start": 34.892,
+   "end": 35.36,
    "key": true,
    "s": 4,
    "line": 23
   },
   {
    "text": "And",
-   "start": 35.439,
-   "end": 35.586,
+   "start": 35.761,
+   "end": 35.908,
    "key": false,
    "s": 4,
    "line": 24
   },
   {
    "text": "at",
-   "start": 35.586,
-   "end": 35.733,
+   "start": 35.908,
+   "end": 36.055,
    "key": false,
    "s": 4,
    "line": 24
   },
   {
    "text": "week",
-   "start": 35.733,
-   "end": 35.88,
+   "start": 36.055,
+   "end": 36.202,
    "key": false,
    "s": 4,
    "line": 24
   },
   {
    "text": "4,",
-   "start": 35.88,
-   "end": 36.22,
+   "start": 36.202,
+   "end": 36.542,
    "key": true,
    "s": 4,
    "line": 24
   },
   {
    "text": "there",
-   "start": 36.393,
-   "end": 36.642,
+   "start": 36.715,
+   "end": 36.964,
    "key": false,
    "s": 4,
    "line": 25
   },
   {
    "text": "was",
-   "start": 36.642,
-   "end": 36.783,
+   "start": 36.964,
+   "end": 37.105,
    "key": false,
    "s": 4,
    "line": 25
   },
   {
    "text": "no",
-   "start": 36.783,
-   "end": 36.924,
+   "start": 37.105,
+   "end": 37.246,
    "key": false,
    "s": 4,
    "line": 25
   },
   {
    "text": "difference",
-   "start": 36.924,
-   "end": 37.39,
+   "start": 37.246,
+   "end": 37.712,
    "key": false,
    "s": 4,
    "line": 25
   },
   {
    "text": "yet.",
-   "start": 37.39,
-   "end": 37.53,
+   "start": 37.712,
+   "end": 37.852,
    "key": false,
    "s": 4,
    "line": 25
   },
   {
    "text": "Sunscreen",
-   "start": 38.121,
-   "end": 38.573,
+   "start": 38.443,
+   "end": 38.895,
    "key": false,
    "s": 5,
    "line": 26
   },
   {
    "text": "doesn't",
-   "start": 38.573,
-   "end": 38.828,
+   "start": 38.895,
+   "end": 39.15,
    "key": false,
    "s": 5,
    "line": 26
   },
   {
    "text": "need",
-   "start": 38.828,
-   "end": 39.084,
+   "start": 39.15,
+   "end": 39.406,
    "key": false,
    "s": 5,
    "line": 26
   },
   {
    "text": "weeks",
-   "start": 39.084,
-   "end": 39.339,
+   "start": 39.406,
+   "end": 39.661,
    "key": false,
    "s": 5,
    "line": 26
   },
   {
    "text": "to",
-   "start": 39.339,
-   "end": 39.595,
+   "start": 39.661,
+   "end": 39.917,
    "key": false,
    "s": 5,
    "line": 26
   },
   {
    "text": "work.",
-   "start": 39.595,
-   "end": 39.85,
+   "start": 39.917,
+   "end": 40.172,
    "key": false,
    "s": 5,
    "line": 26
   },
   {
    "text": "A",
-   "start": 40.273,
-   "end": 40.478,
+   "start": 40.595,
+   "end": 40.8,
    "key": false,
    "s": 5,
    "line": 27
   },
   {
    "text": "daily",
-   "start": 40.478,
-   "end": 40.841,
+   "start": 40.8,
+   "end": 41.163,
    "key": false,
    "s": 5,
    "line": 27
   },
   {
    "text": "SPF",
-   "start": 40.841,
-   "end": 41.046,
+   "start": 41.163,
+   "end": 41.368,
    "key": false,
    "s": 5,
    "line": 27
   },
   {
    "text": "30",
-   "start": 41.046,
-   "end": 41.519,
+   "start": 41.368,
+   "end": 41.841,
    "key": true,
    "s": 5,
    "line": 27
   },
   {
    "text": "protects",
-   "start": 41.519,
-   "end": 41.882,
+   "start": 41.841,
+   "end": 42.204,
    "key": false,
    "s": 5,
    "line": 28
   },
   {
    "text": "far",
-   "start": 41.882,
-   "end": 42.087,
+   "start": 42.204,
+   "end": 42.409,
    "key": false,
    "s": 5,
    "line": 28
   },
   {
    "text": "more.",
-   "start": 42.087,
-   "end": 42.45,
+   "start": 42.409,
+   "end": 42.772,
    "key": false,
    "s": 5,
    "line": 28
   },
   {
    "text": "So",
-   "start": 43.034,
-   "end": 43.22,
+   "start": 43.356,
+   "end": 43.542,
    "key": false,
    "s": 6,
    "line": 29
   },
   {
    "text": "enjoy",
-   "start": 43.22,
-   "end": 43.549,
+   "start": 43.542,
+   "end": 43.871,
    "key": false,
    "s": 6,
    "line": 29
   },
   {
    "text": "tomatoes",
-   "start": 43.549,
-   "end": 44.021,
+   "start": 43.871,
+   "end": 44.343,
    "key": false,
    "s": 6,
    "line": 29
   },
   {
    "text": "with",
-   "start": 44.021,
-   "end": 44.207,
+   "start": 44.343,
+   "end": 44.529,
    "key": false,
    "s": 6,
    "line": 29
   },
   {
    "text": "a",
-   "start": 44.207,
-   "end": 44.392,
+   "start": 44.529,
+   "end": 44.714,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
    "text": "little",
-   "start": 44.392,
-   "end": 44.721,
+   "start": 44.714,
+   "end": 45.043,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
    "text": "oil,",
-   "start": 44.721,
-   "end": 44.907,
+   "start": 45.043,
+   "end": 45.229,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
    "text": "as",
-   "start": 45.156,
-   "end": 45.335,
+   "start": 45.478,
+   "end": 45.657,
    "key": false,
    "s": 6,
    "line": 31
   },
   {
    "text": "a",
-   "start": 45.335,
-   "end": 45.514,
+   "start": 45.657,
+   "end": 45.836,
    "key": false,
    "s": 6,
    "line": 31
   },
   {
    "text": "bonus.",
-   "start": 45.514,
-   "end": 45.831,
+   "start": 45.836,
+   "end": 46.153,
    "key": true,
    "s": 6,
    "line": 31
   },
   {
    "text": "But",
-   "start": 46.228,
-   "end": 46.468,
+   "start": 46.55,
+   "end": 46.79,
    "key": false,
    "s": 6,
    "line": 32
   },
   {
    "text": "keep",
-   "start": 46.468,
-   "end": 46.708,
+   "start": 46.79,
+   "end": 47.03,
    "key": false,
    "s": 6,
    "line": 32
   },
   {
    "text": "sunscreen",
-   "start": 46.708,
-   "end": 47.132,
+   "start": 47.03,
+   "end": 47.454,
    "key": false,
    "s": 6,
    "line": 32
   },
   {
    "text": "as",
-   "start": 47.132,
-   "end": 47.372,
+   "start": 47.454,
+   "end": 47.694,
    "key": false,
    "s": 6,
    "line": 32
   },
   {
    "text": "your",
-   "start": 47.372,
-   "end": 47.612,
+   "start": 47.694,
+   "end": 47.934,
    "key": false,
    "s": 6,
    "line": 32
   },
   {
    "text": "shield.",
-   "start": 47.612,
-   "end": 47.851,
+   "start": 47.934,
+   "end": 48.173,
    "key": true,
    "s": 6,
    "line": 32
   },
   {
    "text": "Feed",
-   "start": 48.485,
-   "end": 48.666,
+   "start": 48.807,
+   "end": 48.988,
    "key": false,
    "s": 7,
    "line": 33
   },
   {
    "text": "your",
-   "start": 48.666,
-   "end": 48.847,
+   "start": 48.988,
+   "end": 49.169,
    "key": false,
    "s": 7,
    "line": 33
   },
   {
    "text": "skin",
-   "start": 48.847,
-   "end": 49.029,
+   "start": 49.169,
+   "end": 49.351,
    "key": false,
    "s": 7,
    "line": 33
   },
   {
    "text": "from",
-   "start": 49.029,
-   "end": 49.21,
+   "start": 49.351,
+   "end": 49.532,
    "key": false,
    "s": 7,
    "line": 33
   },
   {
    "text": "the",
-   "start": 49.21,
-   "end": 49.392,
+   "start": 49.532,
+   "end": 49.714,
    "key": false,
    "s": 7,
    "line": 33
   },
   {
    "text": "inside,",
-   "start": 49.392,
-   "end": 49.852,
+   "start": 49.714,
+   "end": 50.174,
    "key": true,
    "s": 7,
    "line": 33
   },
   {
    "text": "and",
-   "start": 50.162,
-   "end": 50.342,
+   "start": 50.484,
+   "end": 50.664,
    "key": false,
    "s": 7,
    "line": 34
   },
   {
    "text": "shield",
-   "start": 50.342,
-   "end": 50.523,
+   "start": 50.664,
+   "end": 50.845,
    "key": true,
    "s": 7,
    "line": 34
   },
   {
    "text": "it",
-   "start": 50.523,
-   "end": 50.703,
+   "start": 50.845,
+   "end": 51.025,
    "key": false,
    "s": 7,
    "line": 34
   },
   {
    "text": "from",
-   "start": 50.703,
-   "end": 50.884,
+   "start": 51.025,
+   "end": 51.206,
    "key": false,
    "s": 7,
    "line": 34
   },
   {
    "text": "the",
-   "start": 50.884,
-   "end": 51.064,
+   "start": 51.206,
+   "end": 51.386,
    "key": false,
    "s": 7,
    "line": 34
   },
   {
    "text": "outside.",
-   "start": 51.064,
-   "end": 51.522,
+   "start": 51.386,
+   "end": 51.844,
    "key": true,
    "s": 7,
    "line": 34
   },
   {
    "text": "Glowi",
-   "start": 51.937,
-   "end": 52.317,
+   "start": 52.259,
+   "end": 52.639,
    "key": true,
    "s": 7,
    "line": 35
   },
   {
    "text": "helps",
-   "start": 52.317,
-   "end": 52.531,
+   "start": 52.639,
+   "end": 52.853,
    "key": false,
    "s": 7,
    "line": 35
   },
   {
    "text": "you",
-   "start": 52.531,
-   "end": 52.745,
+   "start": 52.853,
+   "end": 53.067,
    "key": false,
    "s": 7,
    "line": 35
   },
   {
    "text": "keep",
-   "start": 52.745,
-   "end": 52.96,
+   "start": 53.067,
+   "end": 53.282,
    "key": false,
    "s": 7,
    "line": 35
   },
   {
    "text": "both",
-   "start": 52.96,
-   "end": 53.174,
+   "start": 53.282,
+   "end": 53.496,
    "key": false,
    "s": 7,
    "line": 35
   },
   {
    "text": "habits.",
-   "start": 53.174,
-   "end": 53.554,
+   "start": 53.496,
+   "end": 53.876,
    "key": false,
    "s": 7,
    "line": 35
@@ -1227,37 +1227,37 @@
  ],
  "sentences": [
   {
-   "start": 0.014,
-   "end": 1.894
+   "start": 0.016,
+   "end": 2.178
   },
   {
-   "start": 2.437,
-   "end": 5.654
+   "start": 2.759,
+   "end": 5.976
   },
   {
-   "start": 6.234,
-   "end": 16.104
+   "start": 6.556,
+   "end": 16.426
   },
   {
-   "start": 16.684,
-   "end": 28.761
+   "start": 17.006,
+   "end": 29.083
   },
   {
-   "start": 29.344,
-   "end": 37.53
+   "start": 29.666,
+   "end": 37.852
   },
   {
-   "start": 38.121,
-   "end": 42.45
+   "start": 38.443,
+   "end": 42.772
   },
   {
-   "start": 43.034,
-   "end": 47.851
+   "start": 43.356,
+   "end": 48.173
   },
   {
-   "start": 48.485,
-   "end": 53.554
+   "start": 48.807,
+   "end": 53.876
   }
  ],
- "voEnd": 53.554
+ "voEnd": 53.876
 }
