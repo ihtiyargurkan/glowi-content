@@ -1,0 +1,1199 @@
+{
+ "words": [
+  {
+   "text": "Does",
+   "start": 0.018,
+   "end": 0.188,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "chocolate",
+   "start": 0.188,
+   "end": 0.749,
+   "key": true,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "really",
+   "start": 0.749,
+   "end": 1.05,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "make",
+   "start": 1.05,
+   "end": 1.35,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "you",
+   "start": 1.35,
+   "end": 1.52,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "break",
+   "start": 1.52,
+   "end": 1.689,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "out?",
+   "start": 1.689,
+   "end": 1.859,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "For",
+   "start": 2.472,
+   "end": 2.67,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "decades,",
+   "start": 2.67,
+   "end": 3.173,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "the",
+   "start": 3.173,
+   "end": 3.371,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "answer",
+   "start": 3.371,
+   "end": 3.722,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "was",
+   "start": 3.722,
+   "end": 3.92,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "no.",
+   "start": 3.92,
+   "end": 4.118,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "A",
+   "start": 4.533,
+   "end": 4.816,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "1969",
+   "start": 4.816,
+   "end": 5.47,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "study",
+   "start": 5.47,
+   "end": 5.972,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "found",
+   "start": 5.972,
+   "end": 6.255,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "no",
+   "start": 6.255,
+   "end": 6.539,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "link.",
+   "start": 6.539,
+   "end": 6.822,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "But",
+   "start": 7.239,
+   "end": 7.434,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "its",
+   "start": 7.434,
+   "end": 7.628,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "fake",
+   "start": 7.628,
+   "end": 7.972,
+   "key": true,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "chocolate",
+   "start": 7.972,
+   "end": 8.616,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "bar",
+   "start": 8.616,
+   "end": 8.81,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "was",
+   "start": 8.81,
+   "end": 9.005,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "loaded",
+   "start": 9.005,
+   "end": 9.349,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "with",
+   "start": 9.349,
+   "end": 9.543,
+   "key": false,
+   "s": 1,
+   "line": 6
+  },
+  {
+   "text": "fat",
+   "start": 9.543,
+   "end": 9.738,
+   "key": false,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "and",
+   "start": 9.738,
+   "end": 9.932,
+   "key": false,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "sugar",
+   "start": 9.932,
+   "end": 10.277,
+   "key": true,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "too.",
+   "start": 10.277,
+   "end": 10.471,
+   "key": false,
+   "s": 1,
+   "line": 7
+  },
+  {
+   "text": "So",
+   "start": 11.06,
+   "end": 11.289,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "newer",
+   "start": 11.289,
+   "end": 11.695,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "studies",
+   "start": 11.695,
+   "end": 12.102,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "used",
+   "start": 12.102,
+   "end": 12.508,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "real",
+   "start": 12.508,
+   "end": 12.737,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "cocoa.",
+   "start": 12.737,
+   "end": 13.143,
+   "key": true,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "In",
+   "start": 13.557,
+   "end": 13.827,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "2016,",
+   "start": 13.827,
+   "end": 14.448,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "25",
+   "start": 14.448,
+   "end": 15.07,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "acne-prone",
+   "start": 15.07,
+   "end": 15.962,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "young",
+   "start": 15.962,
+   "end": 16.231,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "men",
+   "start": 16.231,
+   "end": 16.501,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "ate",
+   "start": 16.501,
+   "end": 16.977,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "25",
+   "start": 16.977,
+   "end": 17.599,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "grams",
+   "start": 17.599,
+   "end": 17.869,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "of",
+   "start": 17.869,
+   "end": 18.138,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "99%",
+   "start": 18.138,
+   "end": 18.76,
+   "key": true,
+   "s": 2,
+   "line": 12
+  },
+  {
+   "text": "dark",
+   "start": 18.76,
+   "end": 19.03,
+   "key": false,
+   "s": 2,
+   "line": 12
+  },
+  {
+   "text": "chocolate",
+   "start": 19.03,
+   "end": 19.921,
+   "key": false,
+   "s": 2,
+   "line": 12
+  },
+  {
+   "text": "every",
+   "start": 19.921,
+   "end": 20.605,
+   "key": false,
+   "s": 2,
+   "line": 12
+  },
+  {
+   "text": "day",
+   "start": 20.605,
+   "end": 20.875,
+   "key": false,
+   "s": 2,
+   "line": 13
+  },
+  {
+   "text": "for",
+   "start": 20.875,
+   "end": 21.144,
+   "key": false,
+   "s": 2,
+   "line": 13
+  },
+  {
+   "text": "4",
+   "start": 21.144,
+   "end": 21.766,
+   "key": false,
+   "s": 2,
+   "line": 13
+  },
+  {
+   "text": "weeks.",
+   "start": 21.766,
+   "end": 22.035,
+   "key": false,
+   "s": 2,
+   "line": 13
+  },
+  {
+   "text": "Within",
+   "start": 22.616,
+   "end": 22.885,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "2",
+   "start": 22.885,
+   "end": 23.236,
+   "key": true,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "weeks,",
+   "start": 23.236,
+   "end": 23.388,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "they",
+   "start": 23.55,
+   "end": 23.756,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "had",
+   "start": 23.756,
+   "end": 23.961,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "more",
+   "start": 23.961,
+   "end": 24.325,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "blackheads",
+   "start": 24.325,
+   "end": 24.689,
+   "key": true,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "and",
+   "start": 24.689,
+   "end": 24.895,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "more",
+   "start": 24.895,
+   "end": 25.259,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "red",
+   "start": 25.259,
+   "end": 25.464,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "bumps.",
+   "start": 25.464,
+   "end": 25.67,
+   "key": true,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "Why?",
+   "start": 26.255,
+   "end": 26.651,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "A",
+   "start": 27.058,
+   "end": 27.25,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "lab",
+   "start": 27.25,
+   "end": 27.442,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "study",
+   "start": 27.442,
+   "end": 27.782,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "offers",
+   "start": 27.782,
+   "end": 28.122,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "a",
+   "start": 28.122,
+   "end": 28.314,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "clue.",
+   "start": 28.314,
+   "end": 28.506,
+   "key": true,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "After",
+   "start": 28.918,
+   "end": 29.199,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "people",
+   "start": 29.199,
+   "end": 29.48,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "ate",
+   "start": 29.48,
+   "end": 29.76,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "chocolate,",
+   "start": 29.76,
+   "end": 30.286,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "their",
+   "start": 30.705,
+   "end": 30.924,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "immune",
+   "start": 30.924,
+   "end": 31.481,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "cells",
+   "start": 31.481,
+   "end": 31.701,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "reacted",
+   "start": 31.701,
+   "end": 32.089,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "more",
+   "start": 32.089,
+   "end": 32.477,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "strongly",
+   "start": 32.477,
+   "end": 32.865,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "to",
+   "start": 32.865,
+   "end": 33.084,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "acne",
+   "start": 33.084,
+   "end": 33.472,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "bacteria,",
+   "start": 33.472,
+   "end": 34.029,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "like",
+   "start": 34.468,
+   "end": 34.798,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "a",
+   "start": 34.798,
+   "end": 34.985,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "smoke",
+   "start": 34.985,
+   "end": 35.316,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "alarm",
+   "start": 35.316,
+   "end": 35.647,
+   "key": true,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "set",
+   "start": 35.647,
+   "end": 35.834,
+   "key": false,
+   "s": 4,
+   "line": 23
+  },
+  {
+   "text": "too",
+   "start": 35.834,
+   "end": 36.021,
+   "key": false,
+   "s": 4,
+   "line": 23
+  },
+  {
+   "text": "sensitive.",
+   "start": 36.021,
+   "end": 36.64,
+   "key": false,
+   "s": 4,
+   "line": 23
+  },
+  {
+   "text": "But",
+   "start": 37.279,
+   "end": 37.456,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "these",
+   "start": 37.456,
+   "end": 37.769,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "studies",
+   "start": 37.769,
+   "end": 38.082,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "were",
+   "start": 38.082,
+   "end": 38.395,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "small,",
+   "start": 38.395,
+   "end": 38.572,
+   "key": true,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "mostly",
+   "start": 38.798,
+   "end": 39.281,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "men,",
+   "start": 39.281,
+   "end": 39.554,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "and",
+   "start": 39.97,
+   "end": 40.173,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "the",
+   "start": 40.173,
+   "end": 40.376,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "2016",
+   "start": 40.376,
+   "end": 40.845,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "one",
+   "start": 40.845,
+   "end": 41.204,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "had",
+   "start": 41.204,
+   "end": 41.408,
+   "key": false,
+   "s": 5,
+   "line": 27
+  },
+  {
+   "text": "no",
+   "start": 41.408,
+   "end": 41.611,
+   "key": false,
+   "s": 5,
+   "line": 27
+  },
+  {
+   "text": "comparison",
+   "start": 41.611,
+   "end": 42.283,
+   "key": false,
+   "s": 5,
+   "line": 27
+  },
+  {
+   "text": "group.",
+   "start": 42.283,
+   "end": 42.486,
+   "key": false,
+   "s": 5,
+   "line": 27
+  },
+  {
+   "text": "So",
+   "start": 42.883,
+   "end": 43.045,
+   "key": false,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "chocolate",
+   "start": 43.045,
+   "end": 43.584,
+   "key": false,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "is",
+   "start": 43.584,
+   "end": 43.747,
+   "key": false,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "a",
+   "start": 43.747,
+   "end": 43.91,
+   "key": false,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "possible",
+   "start": 43.91,
+   "end": 44.323,
+   "key": false,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "trigger,",
+   "start": 44.323,
+   "end": 44.612,
+   "key": true,
+   "s": 5,
+   "line": 28
+  },
+  {
+   "text": "not",
+   "start": 44.895,
+   "end": 45.085,
+   "key": false,
+   "s": 5,
+   "line": 29
+  },
+  {
+   "text": "a",
+   "start": 45.085,
+   "end": 45.276,
+   "key": false,
+   "s": 5,
+   "line": 29
+  },
+  {
+   "text": "proven",
+   "start": 45.276,
+   "end": 45.613,
+   "key": false,
+   "s": 5,
+   "line": 29
+  },
+  {
+   "text": "cause.",
+   "start": 45.613,
+   "end": 45.949,
+   "key": false,
+   "s": 5,
+   "line": 29
+  },
+  {
+   "text": "So",
+   "start": 46.535,
+   "end": 46.758,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "test",
+   "start": 46.758,
+   "end": 46.982,
+   "key": true,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "it",
+   "start": 46.982,
+   "end": 47.206,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "yourself.",
+   "start": 47.206,
+   "end": 47.601,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "Skip",
+   "start": 48.078,
+   "end": 48.295,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "it",
+   "start": 48.295,
+   "end": 48.511,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "for",
+   "start": 48.511,
+   "end": 48.727,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "a",
+   "start": 48.727,
+   "end": 48.944,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "few",
+   "start": 48.944,
+   "end": 49.16,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "weeks,",
+   "start": 49.16,
+   "end": 49.376,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "then",
+   "start": 49.376,
+   "end": 49.592,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "bring",
+   "start": 49.592,
+   "end": 49.809,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "it",
+   "start": 49.809,
+   "end": 50.025,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "back,",
+   "start": 50.025,
+   "end": 50.241,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "and",
+   "start": 50.241,
+   "end": 50.458,
+   "key": false,
+   "s": 6,
+   "line": 33
+  },
+  {
+   "text": "watch",
+   "start": 50.458,
+   "end": 50.674,
+   "key": true,
+   "s": 6,
+   "line": 33
+  },
+  {
+   "text": "your",
+   "start": 50.674,
+   "end": 50.89,
+   "key": false,
+   "s": 6,
+   "line": 33
+  },
+  {
+   "text": "skin.",
+   "start": 50.89,
+   "end": 51.107,
+   "key": false,
+   "s": 6,
+   "line": 33
+  },
+  {
+   "text": "Your",
+   "start": 51.693,
+   "end": 51.924,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "skin",
+   "start": 51.924,
+   "end": 52.155,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "keeps",
+   "start": 52.155,
+   "end": 52.385,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "score.",
+   "start": 52.385,
+   "end": 52.793,
+   "key": true,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "Glowi",
+   "start": 53.199,
+   "end": 53.548,
+   "key": true,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "helps",
+   "start": 53.548,
+   "end": 53.745,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "you",
+   "start": 53.745,
+   "end": 53.942,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "read",
+   "start": 53.942,
+   "end": 54.139,
+   "key": false,
+   "s": 7,
+   "line": 35
+  },
+  {
+   "text": "it.",
+   "start": 54.139,
+   "end": 54.336,
+   "key": false,
+   "s": 7,
+   "line": 35
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.018,
+   "end": 1.859
+  },
+  {
+   "start": 2.472,
+   "end": 10.471
+  },
+  {
+   "start": 11.06,
+   "end": 22.035
+  },
+  {
+   "start": 22.616,
+   "end": 25.67
+  },
+  {
+   "start": 26.255,
+   "end": 36.64
+  },
+  {
+   "start": 37.279,
+   "end": 45.949
+  },
+  {
+   "start": 46.535,
+   "end": 51.107
+  },
+  {
+   "start": 51.693,
+   "end": 54.336
+  }
+ ],
+ "voEnd": 54.336
+}
