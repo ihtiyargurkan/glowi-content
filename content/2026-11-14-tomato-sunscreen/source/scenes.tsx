@@ -3,6 +3,7 @@ import {Img, staticFile} from 'remotion';
 import {C, W, H, clamp, ease, easeOut, prog, rand} from './theme';
 import {Defs, Bokeh, SkinPlane, Beam, wavePath, Sun, HORIZON} from './parts';
 import {cue, S} from './timeline';
+import {SkinSection, SkinMacro, RealPlane} from './realskin';
 
 // accent for this topic: tomato red
 const TOM = '#E8473A';
@@ -38,6 +39,12 @@ const Svg: React.FC<{children: React.ReactNode; cam?: string}> = ({children, cam
         <stop offset="0.45" stopColor="#D9CBD3" />
         <stop offset="1" stopColor="#8E7C86" />
       </linearGradient>
+      <linearGradient id="tubeG" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stopColor={TOM_DEEP} />
+        <stop offset="0.35" stopColor={TOM_HI} />
+        <stop offset="0.7" stopColor={TOM} />
+        <stop offset="1" stopColor={TOM_DEEP} />
+      </linearGradient>
       <radialGradient id="patchSkin" cx="0.5" cy="0.45">
         <stop offset="0" stopColor="#F6D7D3" />
         <stop offset="1" stopColor="#D99AA2" />
@@ -67,6 +74,34 @@ const Tomato: React.FC<{x: number; y: number; r: number; rot?: number; o?: numbe
       ))}
       <rect x={-r * 0.035} y={-r * 0.2} width={r * 0.07} height={r * 0.2} rx={r * 0.03} fill="#3C7A40" />
     </g>
+  </g>
+);
+
+// squeeze tube of tomato paste (sunscreen-style), nozzle at local (0, 230)
+const Tube: React.FC<{x: number; y: number; rot: number; squeeze?: number; glow?: number}> = ({x, y, rot, squeeze = 0, glow = 0}) => (
+  <g transform={`translate(${x} ${y}) rotate(${rot})`}>
+    {glow > 0 && <ellipse rx={260} ry={330} fill="url(#redGlow)" opacity={glow} />}
+    <ellipse cx={30} cy={40} rx={130} ry={260} fill="#170A10" opacity={0.3} filter="url(#blur30)" />
+    <g transform={`scale(${1 - 0.06 * squeeze} 1)`}>
+      <path d="M-100 -230 L 100 -230 L 104 120 Q 104 170 40 196 L 26 206 L -26 206 L -40 196 Q -104 170 -104 120 Z" fill="url(#tubeG)" />
+      <path d="M-70 -215 L -66 120" stroke="#fff" strokeWidth={16} opacity={0.35} strokeLinecap="round" />
+      <rect x={-102} y={-60} width={204} height={150} fill="#FFF6EE" />
+      <rect x={-102} y={-60} width={204} height={14} fill={C.goldHot} opacity={0.9} />
+      <text y={-2} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={30} fill={TOM_DEEP} letterSpacing={1}>
+        TOMATO
+      </text>
+      <text y={38} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={30} fill={TOM_DEEP} letterSpacing={1}>
+        PASTE
+      </text>
+      <Tomato x={0} y={-130} r={42} />
+    </g>
+    {/* crimped end */}
+    <rect x={-108} y={-262} width={216} height={36} rx={6} fill="#D9D0D4" />
+    {Array.from({length: 10}).map((_, i) => (
+      <line key={i} x1={-96 + i * 21} y1={-258} x2={-96 + i * 21} y2={-230} stroke="#A99AA2" strokeWidth={4} />
+    ))}
+    {/* nozzle */}
+    <rect x={-26} y={200} width={52} height={34} rx={8} fill="#E9E0E4" />
   </g>
 );
 
@@ -115,32 +150,40 @@ const Rays: React.FC<{s: number; sx: number; sy: number; k: number; stopY?: numb
   </g>
 );
 
-// =============== A: hook — can a food protect you from the sun? ===============
+// =============== A: hook — a tube of tomato paste squeezed onto skin like sunscreen ===============
+const NOZ = {x: 518, y: 1188};
+const DOL = {x: 420, y: 1440};
 export const SceneA: React.FC<{s: number}> = ({s}) => {
-  const tProt = cue('protection');
-  const push = 1 + 0.07 * ease(prog(s, 0, S(1)));
-  const bob = Math.sin(s * 2.2) * 10;
-  const dome = ease(prog(s, tProt - 0.4, tProt + 0.4));
-  const flick = 0.55 + 0.25 * Math.sin(s * 11);
+  const tSun = cue('replace');
+  const push = 1 + 0.08 * ease(prog(s, 0, S(1)));
+  const flow = 0.75 + 0.25 * ease(prog(s, 0, 1.0));
+  const dol = 0.75 + 0.25 * ease(prog(s, 0, 1.6));
+  const tag = ease(prog(s, tSun - 0.3, tSun + 0.2));
+  const sq = 0.5 + 0.5 * Math.sin(s * 5);
+  const ribbon = `M${NOZ.x} ${NOZ.y} C ${NOZ.x - 30} ${NOZ.y + 90}, ${DOL.x + 40} ${DOL.y - 150}, ${DOL.x} ${DOL.y - 30}`;
   return (
-    <Svg cam={camZoom(push, W / 2, 1150)}>
+    <Svg cam={camZoom(push, 540, 1250)}>
       <rect x={-200} y={-200} width={W + 400} height={H + 400} fill="url(#sky)" />
       <Bokeh s={s} top={200} bottom={HORIZON} seed={5} color={C.goldHot} o={0.6} />
-      <Sun x={W / 2} y={800} s={s} k={0.95} />
-      <SkinPlane s={s} fx={{flush: 0.55 + 0.15 * Math.sin(s * 2)}} />
-      <Rays s={s} sx={W / 2} sy={800} k={1} />
-      {dome > 0 && (
-        <g opacity={dome * flick}>
-          <path d={`M60 1580 Q ${W / 2} ${1580 - 640 * dome} ${W - 60} 1580`} stroke={C.blush} strokeWidth={6} fill="none" strokeDasharray="22 18" />
-          <path d={`M60 1580 Q ${W / 2} ${1580 - 640 * dome} ${W - 60} 1580 Z`} fill={C.blush} opacity={0.08} />
-        </g>
-      )}
-      <Tomato x={W / 2} y={1180 + bob} r={200} rot={Math.sin(s * 1.3) * 5} glow={0.5 + 0.2 * Math.sin(s * 2)} />
-      {dome > 0 && (
-        <g transform={`translate(${W / 2 + 230} ${900 + bob})`} opacity={dome}>
-          <circle r={58} fill="rgba(23,10,16,0.7)" stroke={C.blush} strokeWidth={4} />
-          <text y={26} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={72} fill={C.blush}>
-            ?
+      <Sun x={W / 2 - 160} y={800} s={s} k={0.9} />
+      <RealPlane s={s} seed={2} fx={{flush: 0.45 + 0.12 * Math.sin(s * 2)}} />
+      <Rays s={s} sx={W / 2 - 160} sy={800} k={1} />
+      {/* paste ribbon + dollop on the skin */}
+      <path d={ribbon} stroke={TOM_DEEP} strokeWidth={46} fill="none" strokeLinecap="round" pathLength={1} strokeDasharray={`${flow} 1`} />
+      <path d={ribbon} stroke={TOM} strokeWidth={36} fill="none" strokeLinecap="round" pathLength={1} strokeDasharray={`${flow} 1`} />
+      <path d={ribbon} stroke={TOM_HI} strokeWidth={9} fill="none" strokeLinecap="round" pathLength={1} strokeDasharray={`${flow} 1`} transform="translate(-8 -2)" opacity={0.8} />
+      <g transform={`translate(${DOL.x} ${DOL.y}) scale(${dol})`}>
+        <ellipse cx={0} cy={18} rx={150} ry={36} fill="#170A10" opacity={0.25} filter="url(#blur12)" />
+        <path d="M-140 10 C -150 -40, -80 -70, -20 -60 C 20 -110, 90 -80, 100 -40 C 160 -40, 170 20, 120 30 C 40 50, -100 50, -140 10 Z" fill={TOM} />
+        <path d="M-90 -20 C -60 -50, -20 -50, 0 -40" stroke={TOM_HI} strokeWidth={12} fill="none" strokeLinecap="round" />
+        <ellipse cx={30} cy={-66} rx={22} ry={9} fill="#fff" opacity={0.55} />
+      </g>
+      <Tube x={650} y={1000} rot={35} squeeze={sq} />
+      {tag > 0 && (
+        <g transform={`translate(860 720) scale(${0.8 + 0.2 * tag}) rotate(-8)`} opacity={tag}>
+          <rect x={-120} y={-52} width={240} height={96} rx={48} fill={C.blush} />
+          <text y={18} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={46} fill={C.plum}>
+            SPF ?
           </text>
         </g>
       )}
@@ -151,8 +194,8 @@ export const SceneA: React.FC<{s: number}> = ({s}) => {
 // =============== B: a surprising food — tomato paste under a cloche ===============
 export const SceneB: React.FC<{s: number}> = ({s}) => {
   const t0 = S(1);
-  const tTom = cue('Tomato');
-  const tPaste = cue('paste', 1);
+  const tTom = cue('tested');
+  const tPaste = tTom + 0.45;
   const push = 1.06 - 0.06 * ease(prog(s, t0 - 0.2, S(2)));
   const lift = ease(prog(s, tTom - 0.35, tTom + 0.45));
   const tag = ease(prog(s, tPaste - 0.1, tPaste + 0.4));
@@ -207,6 +250,7 @@ export const SceneB: React.FC<{s: number}> = ({s}) => {
 // =============== C: lycopene in blood → skin; UV sparks; lycopene soaks them ===============
 const SURF = 760;
 const EPI = 230;
+const VES = SURF + EPI + 330;
 export const SceneC: React.FC<{s: number}> = ({s}) => {
   const t0 = S(2);
   const tLyc = cue('lycopene', 2);
@@ -219,33 +263,29 @@ export const SceneC: React.FC<{s: number}> = ({s}) => {
   const flow = ease(prog(s, tBlood - 0.5, tBlood + 1.2));
   const uvK = ease(prog(s, tUV - 0.3, tUV + 0.3));
   const sparkK = ease(prog(s, tSparks - 0.4, tSparks + 0.3));
-  const soak = ease(prog(s, tSponge - 0.3, tSponge + 1.4));
+  const soak = ease(prog(s, tSponge - 0.9, tSponge + 0.8));
   const tagK = ease(prog(s, tLyc - 0.3, tLyc + 0.3));
-  const drops = Array.from({length: 16}).map((_, i) => ({x: 90 + rand(i * 5 + 2) * 900, y: SURF + 60 + rand(i * 7 + 3) * 420, ph: rand(i * 11)}));
+  const drops = Array.from({length: 16}).map((_, i) => ({x: 90 + rand(i * 5 + 2) * 900, y: SURF + 50 + rand(i * 7 + 3) * 300, ph: rand(i * 11)}));
   const sparks = Array.from({length: 14}).map((_, i) => ({x: 120 + rand(i * 13 + 1) * 840, y: SURF + 30 + rand(i * 17 + 4) * 200}));
   return (
     <Svg cam={camZoom(push, W / 2, 1150)}>
       <rect x={-200} y={-200} width={W + 400} height={SURF + 200} fill="url(#sky)" />
       <Bokeh s={s} n={14} top={420} bottom={SURF} seed={9} color={C.goldHot} o={0.5} />
-      <rect x={-50} y={SURF} width={W + 100} height={EPI} fill="url(#epi)" />
-      <rect x={-50} y={SURF + EPI} width={W + 100} height={H} fill="url(#derm)" />
-      <path d={`M-50 ${SURF} Q 270 ${SURF - 10} 540 ${SURF} T ${W + 50} ${SURF}`} stroke="#fff" strokeWidth={3} fill="none" opacity={0.6} />
-      <text x={56} y={SURF + 50} fontFamily="Poppins" fontWeight={600} fontSize={24} fill={C.plum} letterSpacing={5} opacity={0.8}>
+      <SkinSection s={s} top={SURF} epi={EPI} seed={4} flush={0.6 * sparkK * (1 - soak)} />
+      <text x={56} y={SURF + 60} fontFamily="Poppins" fontWeight={700} fontSize={26} fill={C.plum} letterSpacing={5} opacity={0.85}>
         SKIN
       </text>
-      <path d={`M-50 1640 C 300 1590, 700 1700, ${W + 50} 1630`} stroke="#E0384E" strokeWidth={70} fill="none" opacity={0.9} />
-      <path d={`M-50 1626 C 300 1576, 700 1686, ${W + 50} 1616`} stroke="#FF8A96" strokeWidth={10} fill="none" opacity={0.5} />
-      <text x={56} y={1760} fontFamily="Poppins" fontWeight={600} fontSize={24} fill={C.white} letterSpacing={5} opacity={0.75}>
+      <text x={56} y={VES + 100} fontFamily="Poppins" fontWeight={700} fontSize={26} fill={C.white} letterSpacing={5} opacity={0.85}>
         BLOOD
       </text>
       {Array.from({length: 14}).map((_, i) => {
         const x = ((rand(i * 3) * (W + 200) + s * 180) % (W + 200)) - 100;
-        const y = 1640 + Math.sin(x / 120) * 30 - 20 + rand(i) * 30;
+        const y = VES + (rand(i) - 0.5) * 40;
         return <circle key={i} cx={x} cy={y} r={14} fill="url(#lycoG)" opacity={lycK} />;
       })}
       {drops.map((d, i) => {
         const k = clamp(flow * 1.5 - d.ph * 0.5);
-        const y0 = 1630;
+        const y0 = VES;
         const yy = y0 + (d.y - y0) * easeOut(k);
         const hold = soak > 0 ? 1 + 0.35 * Math.sin(s * 5 + i) * soak : 1;
         return (
@@ -342,9 +382,7 @@ export const SceneD: React.FC<{s: number}> = ({s}) => {
               {lamp > 0 &&
                 [-50, 0, 50].map((dx, j) => <line key={j} x1={dx} y1={18} x2={dx * 1.5} y2={110} stroke="#C7B2FF" strokeWidth={6} strokeLinecap="round" opacity={lamp * (0.5 + 0.5 * Math.sin(s * 12 + j))} />)}
             </g>
-            <circle cx={0} cy={170} r={110} fill="url(#patchSkin)" />
-            <circle cx={0} cy={170} r={95} fill="#FF4F5E" opacity={0.6 * red * c.redK} filter="url(#blur4)" />
-            <circle cx={0} cy={170} r={110} fill="none" stroke="rgba(255,255,255,0.4)" strokeWidth={3} />
+            <SkinMacro cx={0} cy={170} r={115} seed={11 + i} redness={red * c.redK} />
             <text y={330} textAnchor="middle" fontFamily="Poppins" fontWeight={600} fontSize={26} fill={C.blush} letterSpacing={3} opacity={0.85}>
               REDNESS AFTER UV
             </text>
@@ -416,9 +454,8 @@ const UVPanel: React.FC<{s: number; x: number; k: number; pass: (i: number) => b
           <rect x={x - w / 2} y={sh - 30} width={w} height={70} rx={20} fill={C.gold} opacity={0.35} filter="url(#blur12)" />
         </g>
       )}
-      <rect x={x - w / 2} y={skin} width={w} height={150} rx={24} fill="url(#patchSkin)" />
-      <rect x={x - w / 2 + 20} y={skin + 16} width={w - 40} height={118} rx={20} fill="#FF4F5E" opacity={0.75 * red} filter="url(#blur4)" />
-      <text x={x} y={skin + 92} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={44} fill={C.white}>
+      <SkinMacro cx={x} cy={skin + 75} r={0} shape="rect" w={w} h={150} seed={shield === 'tomato' ? 21 : 22} redness={Math.min(1, red * 1.6)} />
+      <text x={x} y={skin + 92} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={44} fill={C.white} stroke="rgba(60,20,30,0.45)" strokeWidth={6} paintOrder="stroke">
         {big}
       </text>
       <text x={x} y={1500} textAnchor="middle" fontFamily="Poppins" fontWeight={600} fontSize={24} fill={C.blush} letterSpacing={3} opacity={0.85}>
@@ -506,7 +543,7 @@ export const SceneF: React.FC<{s: number}> = ({s}) => {
       <rect x={-200} y={-200} width={W + 400} height={H + 400} fill="url(#sky)" />
       <Bokeh s={s} top={200} bottom={HORIZON} seed={61} o={0.6} color={C.goldHot} />
       <g transform="translate(0 320)">
-        <SkinPlane s={s} fx={{film, filmSheen: prog(s, tSun, tSun + 2.2)}} />
+        <RealPlane s={s} seed={3} fx={{film, filmSheen: prog(s, tSun, tSun + 2.2)}} />
       </g>
       {item(
         300,
@@ -559,15 +596,15 @@ export const SceneH: React.FC<{s: number}> = ({s}) => {
       <Svg cam={camZoom(push, W / 2, 1300)}>
         <rect x={-200} y={-200} width={W + 400} height={H + 400} fill="url(#sky)" />
         <Bokeh s={s} top={200} bottom={HORIZON} seed={5} color={C.goldHot} o={0.6} />
-        <Sun x={W / 2} y={800} s={s} k={0.95} />
-        <SkinPlane s={s} fx={{flush: 0.55 * (1 - film), film, filmSheen: prog(s, tOut, tOut + 2.4), scan}} />
-        <Rays s={s} sx={W / 2} sy={800} k={1} stopY={film > 0.02 ? stopY : undefined} />
+        <Sun x={W / 2 - 160} y={800} s={s} k={0.9} />
+        <RealPlane s={s} seed={2} fx={{flush: 0.45 * (1 - film), film, filmSheen: prog(s, tOut, tOut + 2.4), scan}} />
+        <Rays s={s} sx={W / 2 - 160} sy={800} k={1} stopY={film > 0.02 ? stopY : undefined} />
         {film > 0.2 &&
           RAYS.map(([dx, ey], i) => {
             const t = (stopY - 800) / (ey - 800);
-            return <circle key={i} cx={W / 2 + dx * t} cy={stopY} r={34 + 8 * Math.sin(s * 10 + i)} fill="url(#sparkG)" opacity={film} />;
+            return <circle key={i} cx={W / 2 - 160 + dx * t} cy={stopY} r={34 + 8 * Math.sin(s * 10 + i)} fill="url(#sparkG)" opacity={film} />;
           })}
-        <Tomato x={W / 2} y={1180 + bob} r={200} rot={Math.sin(s * 1.3) * 5} glow={0.4 + 0.6 * glow} />
+        <Tube x={650} y={1000 + bob * 0.5} rot={35} glow={0.3 + 0.7 * glow} />
         <g opacity={mesh}>
           {nodes.map((a, i) => {
             const b = nodes[(i * 5 + 3) % nodes.length];

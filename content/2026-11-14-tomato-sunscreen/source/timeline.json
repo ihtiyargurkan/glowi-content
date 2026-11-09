@@ -2,1254 +2,1262 @@
  "words": [
   {
    "text": "Can",
-   "start": 0.016,
-   "end": 0.202,
+   "start": 0.014,
+   "end": 0.191,
    "key": false,
    "s": 0,
    "line": 0
   },
   {
-   "text": "you",
-   "start": 0.202,
-   "end": 0.387,
-   "key": false,
-   "s": 0,
-   "line": 0
-  },
-  {
-   "text": "eat",
-   "start": 0.387,
-   "end": 0.573,
+   "text": "tomato",
+   "start": 0.191,
+   "end": 0.641,
    "key": true,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "paste",
+   "start": 0.641,
+   "end": 0.954,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "replace",
+   "start": 0.954,
+   "end": 1.403,
+   "key": false,
    "s": 0,
    "line": 0
   },
   {
    "text": "your",
-   "start": 0.573,
-   "end": 0.759,
+   "start": 1.403,
+   "end": 1.581,
    "key": false,
    "s": 0,
    "line": 0
   },
   {
-   "text": "way",
-   "start": 0.759,
-   "end": 0.945,
-   "key": false,
-   "s": 0,
-   "line": 1
-  },
-  {
-   "text": "to",
-   "start": 0.945,
-   "end": 1.13,
-   "key": false,
-   "s": 0,
-   "line": 1
-  },
-  {
-   "text": "sun",
-   "start": 1.13,
-   "end": 1.316,
+   "text": "sunscreen?",
+   "start": 1.581,
+   "end": 1.894,
    "key": true,
    "s": 0,
-   "line": 1
+   "line": 0
   },
   {
-   "text": "protection?",
-   "start": 1.316,
-   "end": 1.788,
+   "text": "It",
+   "start": 2.437,
+   "end": 2.612,
    "key": false,
-   "s": 0,
+   "s": 1,
    "line": 1
   },
   {
-   "text": "Scientists",
-   "start": 2.374,
-   "end": 2.811,
+   "text": "sounds",
+   "start": 2.612,
+   "end": 2.787,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "like",
+   "start": 2.787,
+   "end": 3.097,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "a",
+   "start": 3.097,
+   "end": 3.271,
+   "key": false,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "joke.",
+   "start": 3.271,
+   "end": 3.581,
+   "key": true,
+   "s": 1,
+   "line": 1
+  },
+  {
+   "text": "But",
+   "start": 3.986,
+   "end": 4.193,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "scientists",
+   "start": 4.193,
+   "end": 4.558,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "actually",
+   "start": 4.558,
+   "end": 5.082,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "tested",
-   "start": 2.811,
-   "end": 3.249,
-   "key": false,
-   "s": 1,
-   "line": 2
-  },
-  {
-   "text": "a",
-   "start": 3.249,
-   "end": 3.496,
-   "key": false,
-   "s": 1,
-   "line": 2
-  },
-  {
-   "text": "surprising",
-   "start": 3.496,
-   "end": 4.124,
-   "key": false,
-   "s": 1,
-   "line": 2
-  },
-  {
-   "text": "food.",
-   "start": 4.124,
-   "end": 4.371,
-   "key": false,
-   "s": 1,
-   "line": 2
-  },
-  {
-   "text": "Tomato",
-   "start": 4.77,
-   "end": 5.317,
+   "start": 5.082,
+   "end": 5.447,
    "key": true,
    "s": 1,
-   "line": 3
+   "line": 2
   },
   {
-   "text": "paste.",
-   "start": 5.317,
-   "end": 5.698,
+   "text": "it.",
+   "start": 5.447,
+   "end": 5.654,
    "key": false,
    "s": 1,
-   "line": 3
+   "line": 2
   },
   {
    "text": "Its",
-   "start": 6.284,
-   "end": 6.515,
+   "start": 6.234,
+   "end": 6.464,
    "key": false,
    "s": 2,
-   "line": 4
+   "line": 3
   },
   {
    "text": "red",
-   "start": 6.515,
-   "end": 6.746,
+   "start": 6.464,
+   "end": 6.695,
    "key": false,
    "s": 2,
-   "line": 4
+   "line": 3
   },
   {
    "text": "pigment,",
-   "start": 6.746,
-   "end": 7.154,
+   "start": 6.695,
+   "end": 7.103,
+   "key": false,
+   "s": 2,
+   "line": 3
+  },
+  {
+   "text": "lycopene,",
+   "start": 7.27,
+   "end": 7.973,
+   "key": true,
+   "s": 2,
+   "line": 4
+  },
+  {
+   "text": "travels",
+   "start": 8.191,
+   "end": 8.572,
    "key": false,
    "s": 2,
    "line": 4
   },
   {
-   "text": "lycopene,",
-   "start": 7.32,
-   "end": 8.024,
-   "key": true,
-   "s": 2,
-   "line": 5
-  },
-  {
-   "text": "travels",
-   "start": 8.242,
-   "end": 8.622,
-   "key": false,
-   "s": 2,
-   "line": 5
-  },
-  {
    "text": "through",
-   "start": 8.622,
-   "end": 8.838,
+   "start": 8.572,
+   "end": 8.787,
    "key": false,
    "s": 2,
-   "line": 5
+   "line": 4
   },
   {
    "text": "your",
-   "start": 8.838,
-   "end": 9.053,
+   "start": 8.787,
+   "end": 9.002,
    "key": false,
    "s": 2,
-   "line": 5
+   "line": 4
   },
   {
    "text": "blood.",
-   "start": 9.053,
-   "end": 9.268,
+   "start": 9.002,
+   "end": 9.218,
    "key": true,
+   "s": 2,
+   "line": 4
+  },
+  {
+   "text": "When",
+   "start": 9.632,
+   "end": 9.879,
+   "key": false,
    "s": 2,
    "line": 5
   },
   {
-   "text": "When",
-   "start": 9.683,
-   "end": 9.93,
-   "key": false,
-   "s": 2,
-   "line": 6
-  },
-  {
    "text": "UV",
-   "start": 9.93,
-   "end": 10.176,
+   "start": 9.879,
+   "end": 10.126,
    "key": false,
    "s": 2,
-   "line": 6
+   "line": 5
   },
   {
    "text": "hits",
-   "start": 10.176,
-   "end": 10.423,
+   "start": 10.126,
+   "end": 10.373,
    "key": false,
    "s": 2,
-   "line": 6
+   "line": 5
   },
   {
    "text": "your",
-   "start": 10.423,
-   "end": 10.67,
+   "start": 10.373,
+   "end": 10.619,
    "key": false,
    "s": 2,
-   "line": 6
+   "line": 5
   },
   {
    "text": "skin,",
-   "start": 10.67,
-   "end": 10.917,
+   "start": 10.619,
+   "end": 10.866,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "it",
+   "start": 11.188,
+   "end": 11.394,
    "key": false,
    "s": 2,
    "line": 6
   },
   {
-   "text": "it",
-   "start": 11.239,
-   "end": 11.445,
-   "key": false,
-   "s": 2,
-   "line": 7
-  },
-  {
    "text": "sets",
-   "start": 11.445,
-   "end": 11.651,
+   "start": 11.394,
+   "end": 11.601,
    "key": false,
    "s": 2,
-   "line": 7
+   "line": 6
   },
   {
    "text": "off",
-   "start": 11.651,
-   "end": 11.857,
+   "start": 11.601,
+   "end": 11.807,
    "key": false,
    "s": 2,
-   "line": 7
+   "line": 6
   },
   {
    "text": "tiny",
-   "start": 11.857,
-   "end": 12.222,
+   "start": 11.807,
+   "end": 12.172,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "sparks",
+   "start": 12.172,
+   "end": 12.378,
+   "key": true,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "of",
+   "start": 12.378,
+   "end": 12.585,
    "key": false,
    "s": 2,
    "line": 7
   },
   {
-   "text": "sparks",
-   "start": 12.222,
-   "end": 12.429,
-   "key": true,
-   "s": 2,
-   "line": 8
-  },
-  {
-   "text": "of",
-   "start": 12.429,
-   "end": 12.635,
-   "key": false,
-   "s": 2,
-   "line": 8
-  },
-  {
    "text": "damage.",
-   "start": 12.635,
-   "end": 13.159,
+   "start": 12.585,
+   "end": 13.108,
    "key": false,
    "s": 2,
-   "line": 8
+   "line": 7
   },
   {
    "text": "Lycopene",
-   "start": 13.556,
-   "end": 14.237,
+   "start": 13.505,
+   "end": 14.187,
    "key": false,
    "s": 2,
-   "line": 9
+   "line": 8
   },
   {
    "text": "acts",
-   "start": 14.237,
-   "end": 14.443,
+   "start": 14.187,
+   "end": 14.393,
    "key": false,
    "s": 2,
-   "line": 9
+   "line": 8
   },
   {
    "text": "like",
-   "start": 14.443,
-   "end": 14.808,
+   "start": 14.393,
+   "end": 14.757,
    "key": false,
    "s": 2,
-   "line": 9
+   "line": 8
   },
   {
    "text": "a",
-   "start": 14.808,
-   "end": 15.014,
+   "start": 14.757,
+   "end": 14.963,
    "key": false,
    "s": 2,
-   "line": 9
+   "line": 8
   },
   {
    "text": "sponge",
-   "start": 15.014,
-   "end": 15.378,
+   "start": 14.963,
+   "end": 15.328,
    "key": true,
    "s": 2,
-   "line": 10
+   "line": 9
   },
   {
    "text": "for",
-   "start": 15.378,
-   "end": 15.584,
+   "start": 15.328,
+   "end": 15.534,
    "key": false,
    "s": 2,
-   "line": 10
+   "line": 9
   },
   {
    "text": "those",
-   "start": 15.584,
-   "end": 15.949,
+   "start": 15.534,
+   "end": 15.898,
    "key": false,
    "s": 2,
-   "line": 10
+   "line": 9
   },
   {
    "text": "sparks.",
-   "start": 15.949,
-   "end": 16.155,
+   "start": 15.898,
+   "end": 16.104,
    "key": false,
    "s": 2,
-   "line": 10
+   "line": 9
   },
   {
    "text": "In",
-   "start": 16.735,
-   "end": 16.967,
+   "start": 16.684,
+   "end": 16.917,
    "key": false,
    "s": 3,
-   "line": 11
+   "line": 10
   },
   {
    "text": "a",
-   "start": 16.967,
-   "end": 17.2,
+   "start": 16.917,
+   "end": 17.149,
    "key": false,
    "s": 3,
-   "line": 11
+   "line": 10
   },
   {
    "text": "small",
-   "start": 17.2,
-   "end": 17.433,
+   "start": 17.149,
+   "end": 17.382,
    "key": false,
    "s": 3,
-   "line": 11
+   "line": 10
   },
   {
    "text": "2001",
-   "start": 17.433,
-   "end": 17.969,
+   "start": 17.382,
+   "end": 17.919,
    "key": false,
    "s": 3,
-   "line": 11
+   "line": 10
   },
   {
    "text": "study,",
-   "start": 17.969,
-   "end": 18.381,
+   "start": 17.919,
+   "end": 18.331,
+   "key": false,
+   "s": 3,
+   "line": 10
+  },
+  {
+   "text": "people",
+   "start": 18.697,
+   "end": 19.03,
    "key": false,
    "s": 3,
    "line": 11
   },
   {
-   "text": "people",
-   "start": 18.748,
-   "end": 19.08,
-   "key": false,
-   "s": 3,
-   "line": 12
-  },
-  {
    "text": "ate",
-   "start": 19.08,
-   "end": 19.413,
+   "start": 19.03,
+   "end": 19.362,
    "key": false,
    "s": 3,
-   "line": 12
+   "line": 11
   },
   {
    "text": "40",
-   "start": 19.413,
-   "end": 19.847,
+   "start": 19.362,
+   "end": 19.796,
    "key": true,
    "s": 3,
-   "line": 12
+   "line": 11
   },
   {
    "text": "grams",
-   "start": 19.847,
-   "end": 20.035,
+   "start": 19.796,
+   "end": 19.984,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "of",
+   "start": 19.984,
+   "end": 20.172,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
-   "text": "of",
-   "start": 20.035,
-   "end": 20.223,
-   "key": false,
-   "s": 3,
-   "line": 13
-  },
-  {
    "text": "tomato",
-   "start": 20.223,
-   "end": 20.7,
+   "start": 20.172,
+   "end": 20.649,
    "key": false,
    "s": 3,
-   "line": 13
+   "line": 12
   },
   {
    "text": "paste",
-   "start": 20.7,
-   "end": 21.032,
+   "start": 20.649,
+   "end": 20.982,
    "key": false,
    "s": 3,
-   "line": 13
+   "line": 12
   },
   {
    "text": "a",
-   "start": 21.032,
-   "end": 21.22,
+   "start": 20.982,
+   "end": 21.17,
    "key": false,
    "s": 3,
-   "line": 13
+   "line": 12
   },
   {
    "text": "day,",
-   "start": 21.22,
-   "end": 21.408,
+   "start": 21.17,
+   "end": 21.358,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "with",
+   "start": 21.686,
+   "end": 21.873,
    "key": false,
    "s": 3,
    "line": 13
   },
   {
-   "text": "with",
-   "start": 21.736,
-   "end": 21.923,
-   "key": false,
-   "s": 3,
-   "line": 14
-  },
-  {
    "text": "olive",
-   "start": 21.923,
-   "end": 22.398,
+   "start": 21.873,
+   "end": 22.348,
    "key": false,
    "s": 3,
-   "line": 14
+   "line": 13
   },
   {
    "text": "oil.",
-   "start": 22.398,
-   "end": 22.585,
+   "start": 22.348,
+   "end": 22.535,
    "key": false,
    "s": 3,
-   "line": 14
+   "line": 13
   },
   {
    "text": "After",
-   "start": 22.985,
-   "end": 23.42,
+   "start": 22.935,
+   "end": 23.37,
    "key": false,
    "s": 3,
-   "line": 15
+   "line": 14
   },
   {
    "text": "10",
-   "start": 23.42,
-   "end": 23.988,
+   "start": 23.37,
+   "end": 23.937,
    "key": true,
    "s": 3,
-   "line": 15
+   "line": 14
   },
   {
    "text": "weeks,",
-   "start": 23.988,
-   "end": 24.234,
+   "start": 23.937,
+   "end": 24.183,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "a",
+   "start": 24.183,
+   "end": 24.429,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
-   "text": "a",
-   "start": 24.234,
-   "end": 24.479,
-   "key": false,
-   "s": 3,
-   "line": 16
-  },
-  {
    "text": "UV",
-   "start": 24.479,
-   "end": 24.725,
+   "start": 24.429,
+   "end": 24.675,
    "key": false,
    "s": 3,
-   "line": 16
+   "line": 15
   },
   {
    "text": "lamp",
-   "start": 24.725,
-   "end": 24.971,
+   "start": 24.675,
+   "end": 24.921,
    "key": false,
    "s": 3,
-   "line": 16
+   "line": 15
   },
   {
    "text": "left",
-   "start": 24.971,
-   "end": 25.217,
+   "start": 24.921,
+   "end": 25.167,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "40%",
+   "start": 25.167,
+   "end": 25.734,
+   "key": true,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "less",
+   "start": 25.734,
+   "end": 25.98,
    "key": false,
    "s": 3,
    "line": 16
   },
   {
-   "text": "40%",
-   "start": 25.217,
-   "end": 25.785,
-   "key": true,
-   "s": 3,
-   "line": 17
-  },
-  {
-   "text": "less",
-   "start": 25.785,
-   "end": 26.031,
-   "key": false,
-   "s": 3,
-   "line": 17
-  },
-  {
    "text": "redness",
-   "start": 26.031,
-   "end": 26.466,
+   "start": 25.98,
+   "end": 26.415,
    "key": false,
    "s": 3,
-   "line": 17
+   "line": 16
   },
   {
    "text": "than",
-   "start": 26.466,
-   "end": 26.712,
+   "start": 26.415,
+   "end": 26.661,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "in",
+   "start": 26.661,
+   "end": 26.907,
    "key": false,
    "s": 3,
    "line": 17
   },
   {
-   "text": "in",
-   "start": 26.712,
-   "end": 26.957,
-   "key": false,
-   "s": 3,
-   "line": 18
-  },
-  {
    "text": "people",
-   "start": 26.957,
-   "end": 27.393,
+   "start": 26.907,
+   "end": 27.342,
    "key": false,
    "s": 3,
-   "line": 18
+   "line": 17
   },
   {
    "text": "who",
-   "start": 27.393,
-   "end": 27.638,
+   "start": 27.342,
+   "end": 27.588,
    "key": false,
    "s": 3,
-   "line": 18
+   "line": 17
   },
   {
    "text": "only",
-   "start": 27.638,
-   "end": 28.074,
+   "start": 27.588,
+   "end": 28.023,
+   "key": false,
+   "s": 3,
+   "line": 17
+  },
+  {
+   "text": "had",
+   "start": 28.023,
+   "end": 28.269,
    "key": false,
    "s": 3,
    "line": 18
   },
   {
-   "text": "had",
-   "start": 28.074,
-   "end": 28.319,
-   "key": false,
-   "s": 3,
-   "line": 19
-  },
-  {
    "text": "the",
-   "start": 28.319,
-   "end": 28.565,
+   "start": 28.269,
+   "end": 28.515,
    "key": false,
    "s": 3,
-   "line": 19
+   "line": 18
   },
   {
    "text": "oil.",
-   "start": 28.565,
-   "end": 28.811,
+   "start": 28.515,
+   "end": 28.761,
    "key": false,
    "s": 3,
-   "line": 19
+   "line": 18
   },
   {
    "text": "Sounds",
-   "start": 29.394,
-   "end": 29.752,
+   "start": 29.344,
+   "end": 29.702,
    "key": false,
    "s": 4,
-   "line": 20
+   "line": 19
   },
   {
    "text": "big.",
-   "start": 29.752,
-   "end": 30.11,
+   "start": 29.702,
+   "end": 30.06,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "But",
+   "start": 30.477,
+   "end": 30.68,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
-   "text": "But",
-   "start": 30.528,
-   "end": 30.731,
-   "key": false,
-   "s": 4,
-   "line": 21
-  },
-  {
    "text": "the",
-   "start": 30.731,
-   "end": 30.934,
+   "start": 30.68,
+   "end": 30.883,
    "key": false,
    "s": 4,
-   "line": 21
+   "line": 20
   },
   {
    "text": "lead",
-   "start": 30.934,
-   "end": 31.137,
+   "start": 30.883,
+   "end": 31.086,
    "key": false,
    "s": 4,
-   "line": 21
+   "line": 20
   },
   {
    "text": "researcher",
-   "start": 31.137,
-   "end": 31.652,
+   "start": 31.086,
+   "end": 31.602,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "compared",
+   "start": 31.602,
+   "end": 32.117,
    "key": false,
    "s": 4,
    "line": 21
   },
   {
-   "text": "compared",
-   "start": 31.652,
-   "end": 32.168,
-   "key": false,
-   "s": 4,
-   "line": 22
-  },
-  {
    "text": "it",
-   "start": 32.168,
-   "end": 32.371,
+   "start": 32.117,
+   "end": 32.32,
    "key": false,
    "s": 4,
-   "line": 22
+   "line": 21
   },
   {
    "text": "to",
-   "start": 32.371,
-   "end": 32.574,
+   "start": 32.32,
+   "end": 32.523,
    "key": false,
    "s": 4,
-   "line": 22
+   "line": 21
   },
   {
    "text": "sunscreen",
-   "start": 32.574,
-   "end": 32.933,
+   "start": 32.523,
+   "end": 32.883,
    "key": false,
    "s": 4,
-   "line": 22
+   "line": 21
   },
   {
    "text": "with",
-   "start": 32.933,
-   "end": 33.136,
+   "start": 32.883,
+   "end": 33.086,
    "key": false,
    "s": 4,
-   "line": 23
+   "line": 22
   },
   {
    "text": "an",
-   "start": 33.136,
-   "end": 33.339,
+   "start": 33.086,
+   "end": 33.289,
    "key": false,
    "s": 4,
-   "line": 23
+   "line": 22
   },
   {
    "text": "SPF",
-   "start": 33.339,
-   "end": 33.542,
+   "start": 33.289,
+   "end": 33.492,
    "key": false,
    "s": 4,
-   "line": 23
+   "line": 22
   },
   {
    "text": "of",
-   "start": 33.542,
-   "end": 33.745,
+   "start": 33.492,
+   "end": 33.695,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "just",
+   "start": 33.695,
+   "end": 33.898,
    "key": false,
    "s": 4,
    "line": 23
   },
   {
-   "text": "just",
-   "start": 33.745,
-   "end": 33.949,
-   "key": false,
-   "s": 4,
-   "line": 24
-  },
-  {
    "text": "2",
-   "start": 33.949,
-   "end": 34.417,
+   "start": 33.898,
+   "end": 34.367,
    "key": true,
    "s": 4,
-   "line": 24
+   "line": 23
   },
   {
    "text": "or",
-   "start": 34.417,
-   "end": 34.62,
+   "start": 34.367,
+   "end": 34.57,
    "key": false,
    "s": 4,
-   "line": 24
+   "line": 23
   },
   {
    "text": "3.",
-   "start": 34.62,
-   "end": 35.089,
+   "start": 34.57,
+   "end": 35.038,
+   "key": true,
+   "s": 4,
+   "line": 23
+  },
+  {
+   "text": "And",
+   "start": 35.439,
+   "end": 35.586,
+   "key": false,
+   "s": 4,
+   "line": 24
+  },
+  {
+   "text": "at",
+   "start": 35.586,
+   "end": 35.733,
+   "key": false,
+   "s": 4,
+   "line": 24
+  },
+  {
+   "text": "week",
+   "start": 35.733,
+   "end": 35.88,
+   "key": false,
+   "s": 4,
+   "line": 24
+  },
+  {
+   "text": "4,",
+   "start": 35.88,
+   "end": 36.22,
    "key": true,
    "s": 4,
    "line": 24
   },
   {
-   "text": "And",
-   "start": 35.489,
-   "end": 35.637,
-   "key": false,
-   "s": 4,
-   "line": 25
-  },
-  {
-   "text": "at",
-   "start": 35.637,
-   "end": 35.784,
-   "key": false,
-   "s": 4,
-   "line": 25
-  },
-  {
-   "text": "week",
-   "start": 35.784,
-   "end": 35.931,
-   "key": false,
-   "s": 4,
-   "line": 25
-  },
-  {
-   "text": "4,",
-   "start": 35.931,
-   "end": 36.27,
-   "key": true,
-   "s": 4,
-   "line": 25
-  },
-  {
    "text": "there",
-   "start": 36.443,
-   "end": 36.692,
+   "start": 36.393,
+   "end": 36.642,
    "key": false,
    "s": 4,
-   "line": 26
+   "line": 25
   },
   {
    "text": "was",
-   "start": 36.692,
-   "end": 36.833,
+   "start": 36.642,
+   "end": 36.783,
    "key": false,
    "s": 4,
-   "line": 26
+   "line": 25
   },
   {
    "text": "no",
-   "start": 36.833,
-   "end": 36.974,
+   "start": 36.783,
+   "end": 36.924,
    "key": false,
    "s": 4,
-   "line": 26
+   "line": 25
   },
   {
    "text": "difference",
-   "start": 36.974,
-   "end": 37.44,
+   "start": 36.924,
+   "end": 37.39,
    "key": false,
    "s": 4,
-   "line": 26
+   "line": 25
   },
   {
    "text": "yet.",
-   "start": 37.44,
-   "end": 37.581,
+   "start": 37.39,
+   "end": 37.53,
    "key": false,
    "s": 4,
-   "line": 26
+   "line": 25
   },
   {
    "text": "Sunscreen",
-   "start": 38.171,
-   "end": 38.623,
+   "start": 38.121,
+   "end": 38.573,
    "key": false,
    "s": 5,
-   "line": 27
+   "line": 26
   },
   {
    "text": "doesn't",
-   "start": 38.623,
-   "end": 38.879,
+   "start": 38.573,
+   "end": 38.828,
    "key": false,
    "s": 5,
-   "line": 27
+   "line": 26
   },
   {
    "text": "need",
-   "start": 38.879,
-   "end": 39.134,
+   "start": 38.828,
+   "end": 39.084,
    "key": false,
    "s": 5,
-   "line": 27
+   "line": 26
   },
   {
    "text": "weeks",
-   "start": 39.134,
-   "end": 39.39,
+   "start": 39.084,
+   "end": 39.339,
    "key": false,
    "s": 5,
-   "line": 27
+   "line": 26
   },
   {
    "text": "to",
-   "start": 39.39,
-   "end": 39.645,
+   "start": 39.339,
+   "end": 39.595,
    "key": false,
    "s": 5,
-   "line": 27
+   "line": 26
   },
   {
    "text": "work.",
-   "start": 39.645,
-   "end": 39.901,
+   "start": 39.595,
+   "end": 39.85,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "A",
+   "start": 40.273,
+   "end": 40.478,
    "key": false,
    "s": 5,
    "line": 27
   },
   {
-   "text": "A",
-   "start": 40.323,
-   "end": 40.528,
-   "key": false,
-   "s": 5,
-   "line": 28
-  },
-  {
    "text": "daily",
-   "start": 40.528,
-   "end": 40.891,
+   "start": 40.478,
+   "end": 40.841,
    "key": false,
    "s": 5,
-   "line": 28
+   "line": 27
   },
   {
    "text": "SPF",
-   "start": 40.891,
-   "end": 41.096,
+   "start": 40.841,
+   "end": 41.046,
    "key": false,
    "s": 5,
-   "line": 28
+   "line": 27
   },
   {
    "text": "30",
-   "start": 41.096,
-   "end": 41.57,
+   "start": 41.046,
+   "end": 41.519,
    "key": true,
+   "s": 5,
+   "line": 27
+  },
+  {
+   "text": "protects",
+   "start": 41.519,
+   "end": 41.882,
+   "key": false,
    "s": 5,
    "line": 28
   },
   {
-   "text": "protects",
-   "start": 41.57,
-   "end": 41.932,
-   "key": false,
-   "s": 5,
-   "line": 29
-  },
-  {
    "text": "far",
-   "start": 41.932,
-   "end": 42.137,
+   "start": 41.882,
+   "end": 42.087,
    "key": false,
    "s": 5,
-   "line": 29
+   "line": 28
   },
   {
    "text": "more.",
-   "start": 42.137,
-   "end": 42.5,
+   "start": 42.087,
+   "end": 42.45,
    "key": false,
    "s": 5,
-   "line": 29
+   "line": 28
   },
   {
    "text": "So",
-   "start": 43.085,
-   "end": 43.271,
+   "start": 43.034,
+   "end": 43.22,
    "key": false,
    "s": 6,
-   "line": 30
+   "line": 29
   },
   {
    "text": "enjoy",
-   "start": 43.271,
-   "end": 43.599,
+   "start": 43.22,
+   "end": 43.549,
    "key": false,
    "s": 6,
-   "line": 30
+   "line": 29
   },
   {
    "text": "tomatoes",
-   "start": 43.599,
-   "end": 44.071,
+   "start": 43.549,
+   "end": 44.021,
    "key": false,
    "s": 6,
-   "line": 30
+   "line": 29
   },
   {
    "text": "with",
-   "start": 44.071,
-   "end": 44.257,
+   "start": 44.021,
+   "end": 44.207,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "a",
+   "start": 44.207,
+   "end": 44.392,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
-   "text": "a",
-   "start": 44.257,
-   "end": 44.443,
-   "key": false,
-   "s": 6,
-   "line": 31
-  },
-  {
    "text": "little",
-   "start": 44.443,
-   "end": 44.772,
+   "start": 44.392,
+   "end": 44.721,
    "key": false,
    "s": 6,
-   "line": 31
+   "line": 30
   },
   {
    "text": "oil,",
-   "start": 44.772,
-   "end": 44.958,
+   "start": 44.721,
+   "end": 44.907,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "as",
+   "start": 45.156,
+   "end": 45.335,
    "key": false,
    "s": 6,
    "line": 31
   },
   {
-   "text": "as",
-   "start": 45.207,
-   "end": 45.386,
-   "key": false,
-   "s": 6,
-   "line": 32
-  },
-  {
    "text": "a",
-   "start": 45.386,
-   "end": 45.565,
+   "start": 45.335,
+   "end": 45.514,
    "key": false,
    "s": 6,
-   "line": 32
+   "line": 31
   },
   {
    "text": "bonus.",
-   "start": 45.565,
-   "end": 45.882,
+   "start": 45.514,
+   "end": 45.831,
+   "key": true,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "But",
+   "start": 46.228,
+   "end": 46.468,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "keep",
+   "start": 46.468,
+   "end": 46.708,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "sunscreen",
+   "start": 46.708,
+   "end": 47.132,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "as",
+   "start": 47.132,
+   "end": 47.372,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "your",
+   "start": 47.372,
+   "end": 47.612,
+   "key": false,
+   "s": 6,
+   "line": 32
+  },
+  {
+   "text": "shield.",
+   "start": 47.612,
+   "end": 47.851,
    "key": true,
    "s": 6,
    "line": 32
   },
   {
-   "text": "But",
-   "start": 46.279,
-   "end": 46.519,
-   "key": false,
-   "s": 6,
-   "line": 33
-  },
-  {
-   "text": "keep",
-   "start": 46.519,
-   "end": 46.758,
-   "key": false,
-   "s": 6,
-   "line": 33
-  },
-  {
-   "text": "sunscreen",
-   "start": 46.758,
-   "end": 47.183,
-   "key": false,
-   "s": 6,
-   "line": 33
-  },
-  {
-   "text": "as",
-   "start": 47.183,
-   "end": 47.422,
-   "key": false,
-   "s": 6,
-   "line": 33
-  },
-  {
-   "text": "your",
-   "start": 47.422,
-   "end": 47.662,
-   "key": false,
-   "s": 6,
-   "line": 33
-  },
-  {
-   "text": "shield.",
-   "start": 47.662,
-   "end": 47.902,
-   "key": true,
-   "s": 6,
-   "line": 33
-  },
-  {
    "text": "Feed",
-   "start": 48.535,
-   "end": 48.717,
+   "start": 48.485,
+   "end": 48.666,
    "key": false,
    "s": 7,
-   "line": 34
+   "line": 33
   },
   {
    "text": "your",
-   "start": 48.717,
-   "end": 48.898,
+   "start": 48.666,
+   "end": 48.847,
    "key": false,
    "s": 7,
-   "line": 34
+   "line": 33
   },
   {
    "text": "skin",
-   "start": 48.898,
-   "end": 49.079,
+   "start": 48.847,
+   "end": 49.029,
    "key": false,
    "s": 7,
-   "line": 34
+   "line": 33
   },
   {
    "text": "from",
-   "start": 49.079,
-   "end": 49.261,
+   "start": 49.029,
+   "end": 49.21,
    "key": false,
    "s": 7,
-   "line": 34
+   "line": 33
   },
   {
    "text": "the",
-   "start": 49.261,
-   "end": 49.442,
+   "start": 49.21,
+   "end": 49.392,
    "key": false,
    "s": 7,
-   "line": 34
+   "line": 33
   },
   {
    "text": "inside,",
-   "start": 49.442,
-   "end": 49.903,
+   "start": 49.392,
+   "end": 49.852,
+   "key": true,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "and",
+   "start": 50.162,
+   "end": 50.342,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "shield",
+   "start": 50.342,
+   "end": 50.523,
    "key": true,
    "s": 7,
    "line": 34
   },
   {
-   "text": "and",
-   "start": 50.212,
-   "end": 50.393,
-   "key": false,
-   "s": 7,
-   "line": 35
-  },
-  {
-   "text": "shield",
-   "start": 50.393,
-   "end": 50.573,
-   "key": true,
-   "s": 7,
-   "line": 35
-  },
-  {
    "text": "it",
-   "start": 50.573,
-   "end": 50.754,
+   "start": 50.523,
+   "end": 50.703,
    "key": false,
    "s": 7,
-   "line": 35
+   "line": 34
   },
   {
    "text": "from",
-   "start": 50.754,
-   "end": 50.934,
+   "start": 50.703,
+   "end": 50.884,
    "key": false,
    "s": 7,
-   "line": 35
+   "line": 34
   },
   {
    "text": "the",
-   "start": 50.934,
-   "end": 51.115,
+   "start": 50.884,
+   "end": 51.064,
    "key": false,
    "s": 7,
-   "line": 35
+   "line": 34
   },
   {
    "text": "outside.",
-   "start": 51.115,
-   "end": 51.573,
+   "start": 51.064,
+   "end": 51.522,
+   "key": true,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "Glowi",
+   "start": 51.937,
+   "end": 52.317,
    "key": true,
    "s": 7,
    "line": 35
   },
   {
-   "text": "Glowi",
-   "start": 51.988,
-   "end": 52.367,
-   "key": true,
-   "s": 7,
-   "line": 36
-  },
-  {
    "text": "helps",
-   "start": 52.367,
-   "end": 52.582,
+   "start": 52.317,
+   "end": 52.531,
    "key": false,
    "s": 7,
-   "line": 36
+   "line": 35
   },
   {
    "text": "you",
-   "start": 52.582,
-   "end": 52.796,
+   "start": 52.531,
+   "end": 52.745,
    "key": false,
    "s": 7,
-   "line": 36
+   "line": 35
   },
   {
    "text": "keep",
-   "start": 52.796,
-   "end": 53.01,
+   "start": 52.745,
+   "end": 52.96,
    "key": false,
    "s": 7,
-   "line": 36
+   "line": 35
   },
   {
    "text": "both",
-   "start": 53.01,
-   "end": 53.225,
+   "start": 52.96,
+   "end": 53.174,
    "key": false,
    "s": 7,
-   "line": 36
+   "line": 35
   },
   {
    "text": "habits.",
-   "start": 53.225,
-   "end": 53.604,
+   "start": 53.174,
+   "end": 53.554,
    "key": false,
    "s": 7,
-   "line": 36
+   "line": 35
   }
  ],
  "sentences": [
   {
-   "start": 0.016,
-   "end": 1.788
+   "start": 0.014,
+   "end": 1.894
   },
   {
-   "start": 2.374,
-   "end": 5.698
+   "start": 2.437,
+   "end": 5.654
   },
   {
-   "start": 6.284,
-   "end": 16.155
+   "start": 6.234,
+   "end": 16.104
   },
   {
-   "start": 16.735,
-   "end": 28.811
+   "start": 16.684,
+   "end": 28.761
   },
   {
-   "start": 29.394,
-   "end": 37.581
+   "start": 29.344,
+   "end": 37.53
   },
   {
-   "start": 38.171,
-   "end": 42.5
+   "start": 38.121,
+   "end": 42.45
   },
   {
-   "start": 43.085,
-   "end": 47.902
+   "start": 43.034,
+   "end": 47.851
   },
   {
-   "start": 48.535,
-   "end": 53.604
+   "start": 48.485,
+   "end": 53.554
   }
  ],
- "voEnd": 53.604
+ "voEnd": 53.554
 }

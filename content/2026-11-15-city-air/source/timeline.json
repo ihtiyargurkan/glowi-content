@@ -2,1128 +2,1128 @@
  "words": [
   {
    "text": "Why",
-   "start": 0.018,
-   "end": 0.18,
+   "start": 0.016,
+   "end": 0.161,
    "key": false,
    "s": 0,
    "line": 0
   },
   {
    "text": "does",
-   "start": 0.18,
-   "end": 0.342,
+   "start": 0.161,
+   "end": 0.305,
    "key": false,
    "s": 0,
    "line": 0
   },
   {
    "text": "city",
-   "start": 0.342,
-   "end": 0.629,
+   "start": 0.305,
+   "end": 0.562,
    "key": true,
    "s": 0,
    "line": 0
   },
   {
    "text": "air",
-   "start": 0.629,
-   "end": 0.791,
+   "start": 0.562,
+   "end": 0.706,
    "key": false,
    "s": 0,
    "line": 0
   },
   {
    "text": "show",
-   "start": 0.791,
-   "end": 0.953,
+   "start": 0.706,
+   "end": 0.851,
    "key": false,
    "s": 0,
    "line": 1
   },
   {
    "text": "up",
-   "start": 0.953,
-   "end": 1.115,
+   "start": 0.851,
+   "end": 0.996,
    "key": false,
    "s": 0,
    "line": 1
   },
   {
    "text": "on",
-   "start": 1.115,
-   "end": 1.277,
+   "start": 0.996,
+   "end": 1.14,
    "key": false,
    "s": 0,
    "line": 1
   },
   {
    "text": "your",
-   "start": 1.277,
-   "end": 1.439,
+   "start": 1.14,
+   "end": 1.285,
    "key": false,
    "s": 0,
    "line": 1
   },
   {
    "text": "skin?",
-   "start": 1.439,
-   "end": 1.601,
+   "start": 1.285,
+   "end": 1.429,
    "key": false,
    "s": 0,
    "line": 1
   },
   {
    "text": "Not",
-   "start": 2.21,
-   "end": 2.401,
+   "start": 2.006,
+   "end": 2.197,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "as",
-   "start": 2.401,
-   "end": 2.593,
+   "start": 2.197,
+   "end": 2.389,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "dirt",
-   "start": 2.593,
-   "end": 2.784,
+   "start": 2.389,
+   "end": 2.58,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "you",
-   "start": 2.784,
-   "end": 2.976,
+   "start": 2.58,
+   "end": 2.772,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "can",
-   "start": 2.976,
-   "end": 3.167,
+   "start": 2.772,
+   "end": 2.963,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "see.",
-   "start": 3.167,
-   "end": 3.358,
+   "start": 2.963,
+   "end": 3.154,
    "key": false,
    "s": 1,
    "line": 2
   },
   {
    "text": "Traffic",
-   "start": 3.782,
-   "end": 4.153,
+   "start": 3.578,
+   "end": 3.949,
    "key": false,
    "s": 1,
    "line": 3
   },
   {
    "text": "and",
-   "start": 4.153,
-   "end": 4.362,
+   "start": 3.949,
+   "end": 4.158,
    "key": false,
    "s": 1,
    "line": 3
   },
   {
    "text": "smoke",
-   "start": 4.362,
-   "end": 4.733,
+   "start": 4.158,
+   "end": 4.529,
    "key": false,
    "s": 1,
    "line": 3
   },
   {
    "text": "fill",
-   "start": 4.733,
-   "end": 4.943,
+   "start": 4.529,
+   "end": 4.739,
    "key": false,
    "s": 1,
    "line": 3
   },
   {
    "text": "the",
-   "start": 4.943,
-   "end": 5.152,
+   "start": 4.739,
+   "end": 4.948,
    "key": false,
    "s": 1,
    "line": 4
   },
   {
    "text": "air",
-   "start": 5.152,
-   "end": 5.362,
+   "start": 4.948,
+   "end": 5.158,
    "key": false,
    "s": 1,
    "line": 4
   },
   {
    "text": "with",
-   "start": 5.362,
-   "end": 5.571,
+   "start": 5.158,
+   "end": 5.367,
    "key": false,
    "s": 1,
    "line": 4
   },
   {
    "text": "particles",
-   "start": 5.571,
-   "end": 6.103,
+   "start": 5.367,
+   "end": 5.899,
    "key": true,
    "s": 1,
    "line": 4
   },
   {
    "text": "much",
-   "start": 6.103,
-   "end": 6.313,
+   "start": 5.899,
+   "end": 6.109,
    "key": false,
    "s": 1,
    "line": 5
   },
   {
    "text": "finer",
-   "start": 6.313,
-   "end": 6.684,
+   "start": 6.109,
+   "end": 6.48,
    "key": false,
    "s": 1,
    "line": 5
   },
   {
    "text": "than",
-   "start": 6.684,
-   "end": 6.893,
+   "start": 6.48,
+   "end": 6.689,
    "key": false,
    "s": 1,
    "line": 5
   },
   {
    "text": "a",
-   "start": 6.893,
-   "end": 7.103,
+   "start": 6.689,
+   "end": 6.899,
    "key": false,
    "s": 1,
    "line": 5
   },
   {
    "text": "hair.",
-   "start": 7.103,
-   "end": 7.313,
+   "start": 6.899,
+   "end": 7.109,
    "key": true,
    "s": 1,
    "line": 5
   },
   {
    "text": "They",
-   "start": 7.903,
-   "end": 8.099,
+   "start": 7.699,
+   "end": 7.895,
    "key": false,
    "s": 2,
    "line": 6
   },
   {
    "text": "settle",
-   "start": 8.099,
-   "end": 8.446,
+   "start": 7.895,
+   "end": 8.242,
    "key": false,
    "s": 2,
    "line": 6
   },
   {
    "text": "on",
-   "start": 8.446,
-   "end": 8.642,
+   "start": 8.242,
+   "end": 8.438,
    "key": false,
    "s": 2,
    "line": 6
   },
   {
    "text": "your",
-   "start": 8.642,
-   "end": 8.839,
+   "start": 8.438,
+   "end": 8.635,
    "key": false,
    "s": 2,
    "line": 6
   },
   {
    "text": "face",
-   "start": 8.839,
-   "end": 9.186,
+   "start": 8.635,
+   "end": 8.982,
    "key": false,
    "s": 2,
    "line": 7
   },
   {
    "text": "all",
-   "start": 9.186,
-   "end": 9.382,
+   "start": 8.982,
+   "end": 9.178,
    "key": false,
    "s": 2,
    "line": 7
   },
   {
    "text": "day",
-   "start": 9.382,
-   "end": 9.578,
+   "start": 9.178,
+   "end": 9.374,
    "key": false,
    "s": 2,
    "line": 7
   },
   {
    "text": "and",
-   "start": 9.578,
-   "end": 9.775,
+   "start": 9.374,
+   "end": 9.571,
    "key": false,
    "s": 2,
    "line": 7
   },
   {
    "text": "can",
-   "start": 9.775,
-   "end": 9.971,
+   "start": 9.571,
+   "end": 9.767,
    "key": false,
    "s": 2,
    "line": 8
   },
   {
    "text": "slip",
-   "start": 9.971,
-   "end": 10.167,
+   "start": 9.767,
+   "end": 9.963,
    "key": false,
    "s": 2,
    "line": 8
   },
   {
    "text": "into",
-   "start": 10.167,
-   "end": 10.514,
+   "start": 9.963,
+   "end": 10.31,
    "key": false,
    "s": 2,
    "line": 8
   },
   {
    "text": "your",
-   "start": 10.514,
-   "end": 10.711,
+   "start": 10.31,
+   "end": 10.507,
    "key": false,
    "s": 2,
    "line": 8
   },
   {
    "text": "pores.",
-   "start": 10.711,
-   "end": 11.058,
+   "start": 10.507,
+   "end": 10.854,
    "key": true,
    "s": 2,
    "line": 8
   },
   {
    "text": "There,",
-   "start": 11.466,
-   "end": 11.832,
+   "start": 11.262,
+   "end": 11.628,
    "key": false,
    "s": 2,
    "line": 9
   },
   {
    "text": "they",
-   "start": 11.832,
-   "end": 12.039,
+   "start": 11.628,
+   "end": 11.835,
    "key": false,
    "s": 2,
    "line": 9
   },
   {
    "text": "spark",
-   "start": 12.039,
-   "end": 12.246,
+   "start": 11.835,
+   "end": 12.042,
    "key": false,
    "s": 2,
    "line": 9
   },
   {
    "text": "a",
-   "start": 12.246,
-   "end": 12.453,
+   "start": 12.042,
+   "end": 12.249,
    "key": false,
    "s": 2,
    "line": 9
   },
   {
    "text": "slow",
-   "start": 12.453,
-   "end": 12.66,
+   "start": 12.249,
+   "end": 12.456,
    "key": false,
    "s": 2,
    "line": 10
   },
   {
    "text": "chemical",
-   "start": 12.66,
-   "end": 13.185,
+   "start": 12.456,
+   "end": 12.981,
    "key": false,
    "s": 2,
    "line": 10
   },
   {
    "text": "stress,",
-   "start": 13.185,
-   "end": 13.392,
+   "start": 12.981,
+   "end": 13.188,
    "key": false,
    "s": 2,
    "line": 10
   },
   {
    "text": "a",
-   "start": 13.392,
-   "end": 13.599,
+   "start": 13.188,
+   "end": 13.395,
    "key": false,
    "s": 2,
    "line": 11
   },
   {
    "text": "bit",
-   "start": 13.599,
-   "end": 13.806,
+   "start": 13.395,
+   "end": 13.602,
    "key": false,
    "s": 2,
    "line": 11
   },
   {
    "text": "like",
-   "start": 13.806,
-   "end": 14.172,
+   "start": 13.602,
+   "end": 13.968,
    "key": false,
    "s": 2,
    "line": 11
   },
   {
    "text": "rust.",
-   "start": 14.172,
-   "end": 14.378,
+   "start": 13.968,
+   "end": 14.174,
    "key": true,
    "s": 2,
    "line": 11
   },
   {
    "text": "That",
-   "start": 14.973,
-   "end": 15.169,
+   "start": 14.769,
+   "end": 14.965,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
    "text": "stress",
-   "start": 15.169,
-   "end": 15.366,
+   "start": 14.965,
+   "end": 15.162,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
    "text": "can",
-   "start": 15.366,
-   "end": 15.562,
+   "start": 15.162,
+   "end": 15.358,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
    "text": "wake",
-   "start": 15.562,
-   "end": 15.909,
+   "start": 15.358,
+   "end": 15.705,
    "key": false,
    "s": 3,
    "line": 12
   },
   {
    "text": "up",
-   "start": 15.909,
-   "end": 16.105,
+   "start": 15.705,
+   "end": 15.901,
    "key": false,
    "s": 3,
    "line": 13
   },
   {
    "text": "your",
-   "start": 16.105,
-   "end": 16.301,
+   "start": 15.901,
+   "end": 16.097,
    "key": false,
    "s": 3,
    "line": 13
   },
   {
    "text": "pigment",
-   "start": 16.301,
-   "end": 16.649,
+   "start": 16.097,
+   "end": 16.445,
    "key": true,
    "s": 3,
    "line": 13
   },
   {
    "text": "cells.",
-   "start": 16.649,
-   "end": 16.845,
+   "start": 16.445,
+   "end": 16.641,
    "key": false,
    "s": 3,
    "line": 13
   },
   {
    "text": "They",
-   "start": 17.246,
-   "end": 17.415,
+   "start": 17.042,
+   "end": 17.211,
    "key": false,
    "s": 3,
    "line": 14
   },
   {
    "text": "make",
-   "start": 17.415,
-   "end": 17.713,
+   "start": 17.211,
+   "end": 17.509,
    "key": false,
    "s": 3,
    "line": 14
   },
   {
    "text": "extra",
-   "start": 17.713,
-   "end": 18.011,
+   "start": 17.509,
+   "end": 17.807,
    "key": false,
    "s": 3,
    "line": 14
   },
   {
    "text": "color,",
-   "start": 18.011,
-   "end": 18.309,
+   "start": 17.807,
+   "end": 18.105,
    "key": false,
    "s": 3,
    "line": 14
   },
   {
    "text": "and",
-   "start": 18.577,
-   "end": 18.786,
+   "start": 18.373,
+   "end": 18.582,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "it",
-   "start": 18.786,
-   "end": 18.994,
+   "start": 18.582,
+   "end": 18.79,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "gathers",
-   "start": 18.994,
-   "end": 19.363,
+   "start": 18.79,
+   "end": 19.159,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "into",
-   "start": 19.363,
-   "end": 19.732,
+   "start": 19.159,
+   "end": 19.528,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "dark",
-   "start": 19.732,
-   "end": 19.941,
+   "start": 19.528,
+   "end": 19.737,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "spots.",
-   "start": 19.941,
-   "end": 20.149,
+   "start": 19.737,
+   "end": 19.945,
    "key": false,
    "s": 3,
    "line": 15
   },
   {
    "text": "In",
-   "start": 20.727,
-   "end": 20.95,
+   "start": 20.523,
+   "end": 20.746,
    "key": false,
    "s": 4,
    "line": 16
   },
   {
    "text": "a",
-   "start": 20.95,
-   "end": 21.173,
+   "start": 20.746,
+   "end": 20.969,
    "key": false,
    "s": 4,
    "line": 16
   },
   {
    "text": "German",
-   "start": 21.173,
-   "end": 21.567,
+   "start": 20.969,
+   "end": 21.363,
    "key": false,
    "s": 4,
    "line": 16
   },
   {
    "text": "study",
-   "start": 21.567,
-   "end": 21.962,
+   "start": 21.363,
+   "end": 21.758,
    "key": false,
    "s": 4,
    "line": 16
   },
   {
    "text": "of",
-   "start": 21.962,
-   "end": 22.185,
+   "start": 21.758,
+   "end": 21.981,
    "key": false,
    "s": 4,
    "line": 17
   },
   {
    "text": "400",
-   "start": 22.185,
-   "end": 22.699,
+   "start": 21.981,
+   "end": 22.495,
    "key": true,
    "s": 4,
    "line": 17
   },
   {
    "text": "women,",
-   "start": 22.699,
-   "end": 23.094,
+   "start": 22.495,
+   "end": 22.89,
    "key": false,
    "s": 4,
    "line": 17
   },
   {
    "text": "every",
-   "start": 23.094,
-   "end": 23.66,
+   "start": 22.89,
+   "end": 23.456,
    "key": false,
    "s": 4,
    "line": 18
   },
   {
    "text": "step",
-   "start": 23.66,
-   "end": 23.883,
+   "start": 23.456,
+   "end": 23.679,
    "key": false,
    "s": 4,
    "line": 18
   },
   {
    "text": "up",
-   "start": 23.883,
-   "end": 24.106,
+   "start": 23.679,
+   "end": 23.902,
    "key": false,
    "s": 4,
    "line": 18
   },
   {
    "text": "in",
-   "start": 24.106,
-   "end": 24.328,
+   "start": 23.902,
+   "end": 24.124,
    "key": false,
    "s": 4,
    "line": 18
   },
   {
    "text": "soot",
-   "start": 24.328,
-   "end": 24.551,
+   "start": 24.124,
+   "end": 24.347,
    "key": true,
    "s": 4,
    "line": 19
   },
   {
    "text": "came",
-   "start": 24.551,
-   "end": 24.946,
+   "start": 24.347,
+   "end": 24.742,
    "key": false,
    "s": 4,
    "line": 19
   },
   {
    "text": "with",
-   "start": 24.946,
-   "end": 25.169,
+   "start": 24.742,
+   "end": 24.965,
    "key": false,
    "s": 4,
    "line": 19
   },
   {
    "text": "20%",
-   "start": 25.169,
-   "end": 25.683,
+   "start": 24.965,
+   "end": 25.479,
    "key": true,
    "s": 4,
    "line": 19
   },
   {
    "text": "more",
-   "start": 25.683,
-   "end": 26.078,
+   "start": 25.479,
+   "end": 25.874,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "dark",
-   "start": 26.078,
-   "end": 26.301,
+   "start": 25.874,
+   "end": 26.097,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "spots",
-   "start": 26.301,
-   "end": 26.524,
+   "start": 26.097,
+   "end": 26.32,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "on",
-   "start": 26.524,
-   "end": 26.747,
+   "start": 26.32,
+   "end": 26.543,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "the",
-   "start": 26.747,
-   "end": 26.97,
+   "start": 26.543,
+   "end": 26.766,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "cheeks.",
-   "start": 26.97,
-   "end": 27.192,
+   "start": 26.766,
+   "end": 26.988,
    "key": false,
    "s": 4,
    "line": 20
   },
   {
    "text": "It's",
-   "start": 27.771,
-   "end": 27.955,
+   "start": 27.567,
+   "end": 27.751,
    "key": false,
    "s": 5,
    "line": 21
   },
   {
    "text": "a",
-   "start": 27.955,
-   "end": 28.138,
+   "start": 27.751,
+   "end": 27.934,
    "key": false,
    "s": 5,
    "line": 21
   },
   {
    "text": "link,",
-   "start": 28.138,
-   "end": 28.321,
+   "start": 27.934,
+   "end": 28.117,
    "key": true,
    "s": 5,
    "line": 21
   },
   {
    "text": "not",
-   "start": 28.321,
-   "end": 28.504,
+   "start": 28.117,
+   "end": 28.3,
    "key": false,
    "s": 5,
    "line": 22
   },
   {
    "text": "proof,",
-   "start": 28.504,
-   "end": 28.687,
+   "start": 28.3,
+   "end": 28.483,
    "key": true,
    "s": 5,
    "line": 22
   },
   {
    "text": "and",
-   "start": 28.687,
-   "end": 28.87,
+   "start": 28.483,
+   "end": 28.666,
    "key": false,
    "s": 5,
    "line": 23
   },
   {
    "text": "the",
-   "start": 28.87,
-   "end": 29.054,
+   "start": 28.666,
+   "end": 28.85,
    "key": false,
    "s": 5,
    "line": 23
   },
   {
    "text": "women",
-   "start": 29.054,
-   "end": 29.378,
+   "start": 28.85,
+   "end": 29.174,
    "key": false,
    "s": 5,
    "line": 23
   },
   {
    "text": "were",
-   "start": 29.378,
-   "end": 29.702,
+   "start": 29.174,
+   "end": 29.498,
    "key": false,
    "s": 5,
    "line": 23
   },
   {
    "text": "70",
-   "start": 29.702,
-   "end": 30.125,
+   "start": 29.498,
+   "end": 29.921,
    "key": false,
    "s": 5,
    "line": 24
   },
   {
    "text": "to",
-   "start": 30.125,
-   "end": 30.308,
+   "start": 29.921,
+   "end": 30.104,
    "key": false,
    "s": 5,
    "line": 24
   },
   {
    "text": "80.",
-   "start": 30.308,
-   "end": 30.73,
+   "start": 30.104,
+   "end": 30.526,
    "key": false,
    "s": 5,
    "line": 24
   },
   {
    "text": "But",
-   "start": 31.138,
-   "end": 31.332,
+   "start": 30.934,
+   "end": 31.128,
    "key": false,
    "s": 5,
    "line": 25
   },
   {
    "text": "dark",
-   "start": 31.332,
-   "end": 31.527,
+   "start": 31.128,
+   "end": 31.323,
    "key": false,
    "s": 5,
    "line": 25
   },
   {
    "text": "spots",
-   "start": 31.527,
-   "end": 31.721,
+   "start": 31.323,
+   "end": 31.517,
    "key": false,
    "s": 5,
    "line": 25
   },
   {
    "text": "showed",
-   "start": 31.721,
-   "end": 32.066,
+   "start": 31.517,
+   "end": 31.862,
    "key": false,
    "s": 5,
    "line": 25
   },
   {
    "text": "the",
-   "start": 32.066,
-   "end": 32.26,
+   "start": 31.862,
+   "end": 32.056,
    "key": false,
    "s": 5,
    "line": 26
   },
   {
    "text": "clearest",
-   "start": 32.26,
-   "end": 32.604,
+   "start": 32.056,
+   "end": 32.4,
    "key": true,
    "s": 5,
    "line": 26
   },
   {
    "text": "signal.",
-   "start": 32.604,
-   "end": 32.948,
+   "start": 32.4,
+   "end": 32.744,
    "key": false,
    "s": 5,
    "line": 26
   },
   {
    "text": "So",
-   "start": 33.538,
-   "end": 33.719,
+   "start": 33.334,
+   "end": 33.515,
    "key": false,
    "s": 6,
    "line": 27
   },
   {
    "text": "wash",
-   "start": 33.719,
-   "end": 33.901,
+   "start": 33.515,
+   "end": 33.697,
    "key": false,
    "s": 6,
    "line": 27
   },
   {
    "text": "the",
-   "start": 33.901,
-   "end": 34.083,
+   "start": 33.697,
+   "end": 33.879,
    "key": false,
    "s": 6,
    "line": 27
   },
   {
    "text": "day",
-   "start": 34.083,
-   "end": 34.265,
+   "start": 33.879,
+   "end": 34.061,
    "key": false,
    "s": 6,
    "line": 27
   },
   {
    "text": "off",
-   "start": 34.265,
-   "end": 34.447,
+   "start": 34.061,
+   "end": 34.243,
    "key": false,
    "s": 6,
    "line": 28
   },
   {
    "text": "every",
-   "start": 34.447,
-   "end": 34.908,
+   "start": 34.243,
+   "end": 34.704,
    "key": false,
    "s": 6,
    "line": 28
   },
   {
    "text": "night.",
-   "start": 34.908,
-   "end": 35.09,
+   "start": 34.704,
+   "end": 34.886,
    "key": true,
    "s": 6,
    "line": 28
   },
   {
    "text": "And",
-   "start": 35.501,
-   "end": 35.702,
+   "start": 35.297,
+   "end": 35.498,
    "key": false,
    "s": 6,
    "line": 29
   },
   {
    "text": "wear",
-   "start": 35.702,
-   "end": 35.904,
+   "start": 35.498,
+   "end": 35.7,
    "key": false,
    "s": 6,
    "line": 29
   },
   {
    "text": "sunscreen",
-   "start": 35.904,
-   "end": 36.26,
+   "start": 35.7,
+   "end": 36.056,
    "key": true,
    "s": 6,
    "line": 29
   },
   {
    "text": "every",
-   "start": 36.26,
-   "end": 36.771,
+   "start": 36.056,
+   "end": 36.567,
    "key": false,
    "s": 6,
    "line": 29
   },
   {
    "text": "morning,",
-   "start": 36.771,
-   "end": 37.128,
+   "start": 36.567,
+   "end": 36.924,
    "key": false,
    "s": 6,
    "line": 29
   },
   {
    "text": "because",
-   "start": 37.436,
-   "end": 38.007,
+   "start": 37.232,
+   "end": 37.803,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
    "text": "sunlight",
-   "start": 38.007,
-   "end": 38.405,
+   "start": 37.803,
+   "end": 38.201,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
    "text": "drives",
-   "start": 38.405,
-   "end": 38.803,
+   "start": 38.201,
+   "end": 38.599,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
    "text": "dark",
-   "start": 38.803,
-   "end": 39.028,
+   "start": 38.599,
+   "end": 38.824,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
    "text": "spots",
-   "start": 39.028,
-   "end": 39.253,
+   "start": 38.824,
+   "end": 39.049,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
    "text": "too.",
-   "start": 39.253,
-   "end": 39.478,
+   "start": 39.049,
+   "end": 39.274,
    "key": false,
    "s": 6,
    "line": 30
   },
   {
    "text": "City",
-   "start": 40.075,
-   "end": 40.379,
+   "start": 39.871,
+   "end": 40.175,
    "key": false,
    "s": 7,
    "line": 31
   },
   {
    "text": "air",
-   "start": 40.379,
-   "end": 40.551,
+   "start": 40.175,
+   "end": 40.347,
    "key": false,
    "s": 7,
    "line": 31
   },
   {
    "text": "leaves",
-   "start": 40.551,
-   "end": 40.854,
+   "start": 40.347,
+   "end": 40.65,
    "key": false,
    "s": 7,
    "line": 31
   },
   {
    "text": "a",
-   "start": 40.854,
-   "end": 41.026,
+   "start": 40.65,
+   "end": 40.822,
    "key": false,
    "s": 7,
    "line": 31
   },
   {
    "text": "trace.",
-   "start": 41.026,
-   "end": 41.329,
+   "start": 40.822,
+   "end": 41.125,
    "key": true,
    "s": 7,
    "line": 31
   },
   {
    "text": "Glowi",
-   "start": 41.733,
-   "end": 42.11,
+   "start": 41.529,
+   "end": 41.906,
    "key": true,
    "s": 7,
    "line": 32
   },
   {
    "text": "helps",
-   "start": 42.11,
-   "end": 42.324,
+   "start": 41.906,
+   "end": 42.12,
    "key": false,
    "s": 7,
    "line": 32
   },
   {
    "text": "you",
-   "start": 42.324,
-   "end": 42.537,
+   "start": 42.12,
+   "end": 42.333,
    "key": false,
    "s": 7,
    "line": 32
   },
   {
    "text": "keep",
-   "start": 42.537,
-   "end": 42.75,
+   "start": 42.333,
+   "end": 42.546,
    "key": false,
    "s": 7,
    "line": 32
   },
   {
    "text": "an",
-   "start": 42.75,
-   "end": 42.964,
+   "start": 42.546,
+   "end": 42.76,
    "key": false,
    "s": 7,
    "line": 33
   },
   {
    "text": "eye",
-   "start": 42.964,
-   "end": 43.177,
+   "start": 42.76,
+   "end": 42.973,
    "key": false,
    "s": 7,
    "line": 33
   },
   {
    "text": "on",
-   "start": 43.177,
-   "end": 43.39,
+   "start": 42.973,
+   "end": 43.186,
    "key": false,
    "s": 7,
    "line": 33
   },
   {
    "text": "yours.",
-   "start": 43.39,
-   "end": 43.603,
+   "start": 43.186,
+   "end": 43.399,
    "key": false,
    "s": 7,
    "line": 33
@@ -1131,37 +1131,37 @@
  ],
  "sentences": [
   {
-   "start": 0.018,
-   "end": 1.601
+   "start": 0.016,
+   "end": 1.429
   },
   {
-   "start": 2.21,
-   "end": 7.313
+   "start": 2.006,
+   "end": 7.109
   },
   {
-   "start": 7.903,
-   "end": 14.378
+   "start": 7.699,
+   "end": 14.174
   },
   {
-   "start": 14.973,
-   "end": 20.149
+   "start": 14.769,
+   "end": 19.945
   },
   {
-   "start": 20.727,
-   "end": 27.192
+   "start": 20.523,
+   "end": 26.988
   },
   {
-   "start": 27.771,
-   "end": 32.948
+   "start": 27.567,
+   "end": 32.744
   },
   {
-   "start": 33.538,
-   "end": 39.478
+   "start": 33.334,
+   "end": 39.274
   },
   {
-   "start": 40.075,
-   "end": 43.603
+   "start": 39.871,
+   "end": 43.399
   }
  ],
- "voEnd": 43.603
+ "voEnd": 43.399
 }

@@ -3,6 +3,7 @@ import {Img, staticFile} from 'remotion';
 import {C, W, H, clamp, ease, easeOut, prog, rand} from './theme';
 import {Defs, Bokeh, SkinPlane, HORIZON} from './parts';
 import {cue, S} from './timeline';
+import {SkinSection, SkinMacro, RealPlane, surfY, dejY} from './realskin';
 
 // accent for this topic: smog blue-grey + soot
 const SMOG = '#A9B8D6';
@@ -124,7 +125,7 @@ export const SceneA: React.FC<{s: number}> = ({s}) => {
       <rect x={-200} y={-200} width={W + 400} height={H + 400} fill="url(#sky)" />
       <Bokeh s={s} top={200} bottom={HORIZON} seed={5} color={C.goldHot} o={0.5} />
       <Skyline s={s} base={HORIZON + 10} />
-      <SkinPlane s={s} fx={{dull: 0.35}} />
+      <RealPlane s={s} seed={2} fx={{dull: 0.25}} />
       {/* soot settling on the skin plane */}
       {Array.from({length: 26}).map((_, i) => {
         const x = 120 + rand(i * 13) * 840;
@@ -226,8 +227,8 @@ export const SceneC: React.FC<{s: number}> = ({s}) => {
   const pores = [270, 810];
   const parts = Array.from({length: 20}).map((_, i) => {
     const p = pores[i % 2];
-    const tx = p + (rand(i * 3) - 0.5) * 60;
-    const ty = SURF + 60 + rand(i * 5) * 300;
+    const tx = p + (rand(i * 3) - 0.5) * 18;
+    const ty = SURF + 70 + rand(i * 5) * 380;
     const sx = 80 + rand(i * 7) * 920;
     return {sx, tx, ty, inPore: i % 3 !== 0};
   });
@@ -235,29 +236,24 @@ export const SceneC: React.FC<{s: number}> = ({s}) => {
     <Svg cam={camZoom(push, W / 2, 1100)}>
       <rect x={-200} y={-200} width={W + 400} height={SURF + 200} fill="url(#sky)" />
       <Skyline s={s} base={SURF - 10} lights={0.6} />
-      <rect x={-50} y={SURF} width={W + 100} height={260} fill="url(#epi)" />
-      <rect x={-50} y={SURF + 260} width={W + 100} height={H} fill="url(#derm)" />
-      <text x={W / 2} y={SURF + 200} textAnchor="middle" fontFamily="Poppins" fontWeight={600} fontSize={26} fill={C.plum} letterSpacing={5} opacity={0.75}>
+      <SkinSection s={s} top={SURF} epi={260} seed={5} follicles={pores} />
+      <text x={56} y={SURF + 64} fontFamily="Poppins" fontWeight={700} fontSize={26} fill={C.plum} letterSpacing={5} opacity={0.85}>
         SKIN
       </text>
-      {/* dermis depth: fibers, capillary, bokeh */}
-      {Array.from({length: 5}).map((_, i) => (
-        <path key={i} d={`M-40 ${SURF + 520 + i * 90} q 135 -40 270 0 t 270 0 t 270 0 t 270 0`} stroke="#F2D7BE" strokeWidth={14} fill="none" opacity={0.35} />
-      ))}
-      <path d={`M-50 1760 C 300 1720, 700 1800, ${W + 50} 1740`} stroke="#E0384E" strokeWidth={40} fill="none" opacity={0.8} />
-      <Bokeh s={s} n={14} top={SURF + 450} bottom={1800} seed={19} color={C.blush} o={0.4} />
-      {/* pores (follicle openings) */}
-      {pores.map((x, i) => (
-        <g key={i}>
-          <path d={`M${x - 70} ${SURF} Q ${x - 40} ${SURF + 40} ${x - 34} ${SURF + 420} L ${x + 34} ${SURF + 420} Q ${x + 40} ${SURF + 40} ${x + 70} ${SURF} Z`} fill="#7A3346" opacity={0.85} />
-          <path d={`M${x - 70} ${SURF} Q ${x - 40} ${SURF + 40} ${x - 34} ${SURF + 420} L ${x + 34} ${SURF + 420} Q ${x + 40} ${SURF + 40} ${x + 70} ${SURF} Z`} fill={RUST} opacity={0.75 * rust} />
-          <path d={`M${x - 70} ${SURF} Q ${x - 40} ${SURF + 40} ${x - 34} ${SURF + 420} L ${x + 34} ${SURF + 420} Q ${x + 40} ${SURF + 40} ${x + 70} ${SURF} Z`} fill="none" stroke="#FFB070" strokeWidth={6} opacity={rust} strokeDasharray="10 8" />
-          <path d={`M${x} ${SURF + 430} L ${x + 10} ${SURF - 160}`} stroke="#4B2030" strokeWidth={8} />
-          <text x={x} y={SURF + 480} textAnchor="middle" fontFamily="Poppins" fontWeight={600} fontSize={24} fill={C.white} letterSpacing={5} opacity={0.75 * slip}>
-            PORE
-          </text>
-        </g>
-      ))}
+      {/* rust stress spreading inside the pore canals */}
+      {pores.map((x, i) => {
+        const y0 = surfY(x, SURF);
+        const yb = SURF + 260 + 420;
+        return (
+          <g key={i}>
+            <path d={`M${x - 40} ${y0 + 4} C ${x - 22} ${y0 + 40}, ${x - 16} ${y0 + 90}, ${x - 16} ${yb - 10} L ${x + 16} ${yb - 10} C ${x + 16} ${y0 + 90}, ${x + 22} ${y0 + 40}, ${x + 40} ${y0 + 4} Z`} fill={RUST} opacity={0.7 * rust} />
+            <path d={`M${x - 62} ${y0 - 2} C ${x - 40} ${y0 + 30}, ${x - 30} ${y0 + 80}, ${x - 30} ${yb} M${x + 30} ${yb} C ${x + 30} ${y0 + 80}, ${x + 40} ${y0 + 30}, ${x + 62} ${y0 - 2}`} fill="none" stroke="#FFB070" strokeWidth={8} opacity={0.9 * rust} strokeDasharray="12 9" />
+            <text x={x} y={yb + 110} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={26} fill={C.white} letterSpacing={5} opacity={0.85 * slip}>
+              PORE
+            </text>
+          </g>
+        );
+      })}
       {/* rust stress halos */}
       {parts.map((p, i) => {
         const m = p.inPore ? slip : 0;
@@ -300,48 +296,21 @@ export const SceneD: React.FC<{s: number}> = ({s}) => {
   const wake = ease(prog(s, tPig - 0.4, tPig + 0.5));
   const mel = prog(s, tColor - 0.3, tSpots + 0.3);
   const spot = ease(prog(s, tSpots - 0.5, tSpots + 0.6));
-  const base = 1280;
   const surf = 760;
+  const base = surf + 480;
   return (
     <Svg cam={camZoom(push, W / 2, 1050)}>
       <rect x={-200} y={-200} width={W + 400} height={surf + 200} fill="url(#sky)" />
       <Bokeh s={s} n={14} top={430} bottom={surf} seed={41} color={C.goldHot} o={0.45} />
-      <rect x={-50} y={surf} width={W + 100} height={base - surf + 30} fill="url(#epi)" />
-      <rect x={-50} y={base + 30} width={W + 100} height={H} fill="url(#derm)" />
-      {/* skin cells (keratinocytes) */}
-      {Array.from({length: 6}).map((_, r) =>
-        Array.from({length: 8}).map((__, c) => {
-          const x = -40 + c * 160 + (r % 2) * 80;
-          const y = surf + 30 + r * 82;
-          return <rect key={`${r}-${c}`} x={x} y={y} width={146} height={70} rx={30} fill="#F6D9D7" stroke="#D9A3AA" strokeWidth={2} opacity={0.85} />;
-        }),
-      )}
+      <SkinSection s={s} top={surf} epi={480} seed={6} melanocytes={MELS} wake={wake} melanin={mel} spotX={540} spotK={spot} />
       {/* rust stress lingering on top */}
       {Array.from({length: 8}).map((_, i) => (
         <circle key={i} cx={100 + i * 130} cy={surf - 6} r={36 + 8 * Math.sin(s * 3 + i)} fill="url(#rustG)" opacity={0.45 * (1 - spot)} />
       ))}
-      {Array.from({length: 4}).map((_, i) => (
-        <path key={i} d={`M-40 ${base + 200 + i * 100} q 135 -40 270 0 t 270 0 t 270 0 t 270 0`} stroke="#F2D7BE" strokeWidth={14} fill="none" opacity={0.3} />
-      ))}
-      <path d={`M-50 1720 C 300 1680, 700 1760, ${W + 50} 1700`} stroke="#E0384E" strokeWidth={40} fill="none" opacity={0.8} />
       <circle cx={W / 2} cy={base} r={500} fill={C.goldHot} opacity={0.08 * wake} filter="url(#blur30)" />
       <text x={W / 2} y={1800} textAnchor="middle" fontFamily="Poppins" fontWeight={500} fontSize={22} fill={C.white} opacity={0.65}>
         Bouchard & Costin, Front Toxicol, 2023 · lab studies · illustrative
       </text>
-      {/* melanocytes at the base */}
-      {MELS.map((x, i) => {
-        const g = wake * (0.6 + 0.4 * Math.sin(s * 5 + i));
-        return (
-          <g key={i} transform={`translate(${x} ${base})`}>
-            <circle r={110} fill={C.goldHot} opacity={0.18 * g} filter="url(#blur12)" />
-            {[-150, -110, -70, -30, 20].map((a, j) => (
-              <path key={j} d={`M0 0 Q ${Math.cos((a * Math.PI) / 180) * 50} ${Math.sin((a * Math.PI) / 180) * 50 - 20} ${Math.cos((a * Math.PI) / 180) * 110} ${Math.sin((a * Math.PI) / 180) * 110}`} stroke={MEL} strokeWidth={14} strokeLinecap="round" fill="none" />
-            ))}
-            <ellipse rx={56} ry={40} fill="url(#melG)" />
-            <circle r={16} fill="#4A2A1C" />
-          </g>
-        );
-      })}
       <text x={W / 2} y={base + 110} textAnchor="middle" fontFamily="Poppins" fontWeight={700} fontSize={28} fill={C.white} letterSpacing={5} opacity={0.85 * wake}>
         PIGMENT CELLS
       </text>
@@ -350,14 +319,15 @@ export const SceneD: React.FC<{s: number}> = ({s}) => {
         const src = MELS[i % 4];
         const k = clamp(mel * 1.6 - rand(i * 3) * 0.6);
         if (k <= 0) return null;
-        const tx = 540 + (rand(i * 7) - 0.5) * 220 * (1 - spot * 0.4);
-        const ty = surf + 40 + rand(i * 5) * 120;
+        const tx = 540 + (rand(i * 7) - 0.5) * 260 * (1 - spot * 0.3);
+        const ty = dejY(tx, surf, 480) - 30 - rand(i * 5) * 150;
         const x = src + (tx - src) * easeOut(k);
-        const y = base - 40 + (ty - base + 40) * easeOut(k);
-        return <circle key={i} cx={x} cy={y} r={9 + rand(i) * 5} fill={MEL} opacity={0.9} />;
+        const sy = dejY(src, surf, 480) - 12;
+        const y = sy + (ty - sy) * easeOut(k);
+        return <circle key={i} cx={x} cy={y} r={3 + rand(i) * 6} fill={MEL} opacity={0.85 * (1 - 0.5 * spot)} />;
       })}
       {/* the visible dark spot at the surface */}
-      <ellipse cx={540} cy={surf + 4} rx={170 * spot} ry={22 * spot} fill="#5A3020" opacity={0.75 * spot} filter="url(#blur4)" />
+      <ellipse cx={540} cy={surf + 10} rx={170 * spot} ry={18 * spot} fill="#5A3020" opacity={0.6 * spot} filter="url(#blur12)" />
       <Pill x={540} y={surf - 120} k={spot} text="DARK SPOT" color={C.blush} size={34} />
     </Svg>
   );
@@ -397,14 +367,9 @@ export const SceneE: React.FC<{s: number}> = ({s}) => {
         </text>
       </g>
       {/* cheek */}
-      <ellipse cx={0} cy={60} rx={170} ry={150} fill="url(#patchSkin)" />
-      <ellipse cx={-40} cy={20} rx={60} ry={30} fill="#fff" opacity={0.2} />
-      {base.map((p, i) => (
-        <ellipse key={i} cx={p.x * 0.6} cy={60 + p.y * 0.55} rx={10} ry={8} fill={MEL} opacity={0.75} />
-      ))}
+      <SkinMacro cx={0} cy={60} r={165} seed={cx > 500 ? 32 : 31} spots={[...base.map((p) => ({x: p.x * 0.6, y: p.y * 0.55, r: 10, k: 1})), ...more.map((p) => ({x: p.x, y: p.y, r: 13, k: extraK}))]} />
       {more.map((p, i) => (
         <g key={i}>
-          <ellipse cx={p.x} cy={60 + p.y} rx={13 * extraK} ry={10 * extraK} fill={MEL} opacity={0.9} />
           {extraK > 0.05 && <circle cx={p.x} cy={60 + p.y} r={30} fill="none" stroke={C.goldHot} strokeWidth={4} opacity={extraK * (0.6 + 0.4 * Math.sin(s * 6))} />}
         </g>
       ))}
@@ -467,14 +432,7 @@ export const SceneF: React.FC<{s: number}> = ({s}) => {
         </g>
         <g transform={`translate(840 ${iconY})`}>
           <circle r={105} fill="rgba(23,10,16,0.6)" stroke="rgba(238,221,226,0.35)" strokeWidth={3} />
-          <circle r={70} fill="url(#patchSkin2)" />
-          {[
-            [-20, -10],
-            [24, 18],
-            [6, -30],
-          ].map(([x, y], i) => (
-            <ellipse key={i} cx={x} cy={y} rx={11} ry={9} fill={MEL} />
-          ))}
+          <SkinMacro cx={0} cy={0} r={72} seed={41} spots={[{x: -20, y: -10, r: 11, k: 1}, {x: 24, y: 18, r: 11, k: 1}, {x: 6, y: -30, r: 9, k: 1}]} />
           <text y={150} textAnchor="middle" fontFamily="Poppins" fontWeight={600} fontSize={24} fill={C.blush} letterSpacing={4}>
             SPOTS
           </text>
@@ -553,7 +511,7 @@ export const SceneG: React.FC<{s: number}> = ({s}) => {
       <rect x={-200} y={-200} width={W + 400} height={H + 400} fill="url(#sky)" />
       <Bokeh s={s} top={200} bottom={HORIZON} seed={71} o={0.6} color={C.goldHot} />
       <g transform="translate(0 320)">
-        <SkinPlane s={s} fx={{film, filmSheen: prog(s, tSun, tSun + 2.5), dull: 0.35 * (1 - wash)}} />
+        <RealPlane s={s} seed={3} fx={{film, filmSheen: prog(s, tSun, tSun + 2.5), dull: 0.25 * (1 - wash)}} />
       </g>
       {/* sunlight beam on "sunlight" */}
       {sunK > 0 && (
@@ -627,7 +585,7 @@ export const SceneH: React.FC<{s: number}> = ({s}) => {
         <rect x={-200} y={-200} width={W + 400} height={H + 400} fill="url(#sky)" />
         <Bokeh s={s} top={200} bottom={HORIZON} seed={5} color={C.goldHot} o={0.5} />
         <Skyline s={s} base={HORIZON + 10} />
-        <SkinPlane s={s} fx={{scan, dull: 0.2}} />
+        <RealPlane s={s} seed={2} fx={{scan, dull: 0.15}} />
         {Array.from({length: 26}).map((_, i) => {
           const x = 120 + rand(i * 13) * 840;
           const y = 1150 + rand(i * 17) * 650;

@@ -22,6 +22,8 @@ Bu rehber References klasöründeki 4 videonun analizinden çıkarıldı. Refera
 - Kısaltmalar seslendirme metninde tireyle yazılır (U-V-A, S-P-F); marka adı "Glowee" olarak okutulur.
 - Caption metni senaryodan gelir, Whisper yalnızca zamanlama için kullanılır (align.py). Böylece Whisper'ın yazım hataları ekrana yansımaz.
 
+- Hook cümlesi (ilk paragraf) daha yüksek, parlak ve biraz hızlı okunur: tools/hook_boost.py (+6 dB, +1 yarım ton, ~%15 hızlı). (Gurkan, 9 Kasım 2026)
+
 ## Caption
 - Ekranın üst bölümünde (y ≈ 270 px), ortalı, satır başına 2–5 kelime, en fazla 2 satır
 - Kelimeler konuşmayla birlikte tek tek belirir: aktif kelime beyaz, önceki kelimeler %60 beyaz
@@ -41,6 +43,8 @@ Bu rehber References klasöründeki 4 videonun analizinden çıkarıldı. Refera
 - Kesit (cross-section) anatomi sahneleri: epidermis / dermis / yağ katmanları
 - Sayısal veriler pill rozetinde, sayaç animasyonuyla (0 → 80%) ve chime sesiyle verilir
 - Kaynak gösterilen bir veri varsa sahnenin altında küçük puntoyla yazılır
+
+- Cilt gösterilen her sahnede gerçekçi cilt kullanılır (src/realskin.tsx): hücreli kesit, dokulu yüzey yakın çekimi, karo ızgarasız cilt zemini. Düz pembe bloklar kullanılmaz. (Gurkan, 9 Kasım 2026)
 
 ## Marka
 - Sağ üst köşede filigran: Glowi logosu + Lora yazısı, %60 opaklık, videonun tamamında

@@ -6,3 +6,9 @@ Fixes: AAD source opened (SPF ≥30 blocks 97% UVB), line changed to "Sunscreen 
 
 Round 2 (final): PASS — Hook 5 · Visual richness 4 · Metaphor clarity 4 · Continuity/motion 4 · Legibility/layout 4 · Brand 4 · Accuracy/honesty 4 · Audio (script/number check) 4. Hard fails: none.
 Post-pass polish: AAD citation dated, loop camera centre lowered so rays stay out of the caption band.
+
+## Revision 2026-11-09 (Gurkan: stronger hook, louder/brighter hook voice, more realistic skin)
+- Hook rewritten: "Can tomato paste replace your sunscreen?" + a tomato-paste tube squeezed onto skin like sunscreen, "SPF ?" tag; P1 "It sounds like a joke. But scientists actually tested it."
+- Hook voice: +6 dB, +1 semitone, 15% faster (tools in studio/tools/hook_boost.py).
+- Realistic skin (studio/src/realskin.tsx): cellular cross-section with rete ridges, capillary loops, collagen, vessel with red blood cells; textured skin close-ups for the redness patches; perspective skin floor with micro-relief instead of the tile grid.
+Fresh independent reviewer (round 1 of revision): PASS — Hook 4 · Visual richness 4 · Metaphor clarity 4 · Continuity/motion 4 · Legibility/layout 4 · Brand 4 · Accuracy/honesty 5 · Audio (script/number check) 4. "Hook: improved. Skin realism: clearly improved." Post-pass polish: SPF tag on "replace", earlier lycopene soak, seam removed.

@@ -22,6 +22,7 @@ pip install -q --break-system-packages kokoro-onnx soundfile numpy    # first ti
 #    tools/bed.json           : {"brightSentence": n, "boundSentences": [...scene-change paragraphs...], "chimes": ["<number word>"], "ticks": []}
 # 2. voiceover + word timing (each sentence synthesised separately → guaranteed pauses)
 python3 tools/tts_cloud.py tools/script_tts.txt tools/script_display.txt tools/vo_raw.wav tools/aligned.json
+python3 tools/hook_boost.py tools/vo_raw.wav tools/aligned.json 1.0 6.0 1.15   # Gurkan (2026-11-09): hook line louder (+6 dB), brighter (+1 st), ~15% faster
 python3 tools/build_timeline2.py tools/aligned.json src/timeline.json tools/keys.json   # prints caption lines
 ffmpeg -loglevel error -y -i tools/vo_raw.wav -af "loudnorm=I=-16:TP=-1.5:LRA=11" -ar 48000 public/vo.wav
 python3 tools/make_bed.py                       # ambient bed + whooshes + chimes → public/bed.wav
@@ -39,6 +40,13 @@ ffmpeg -loglevel error -y -i out/raw.mp4 -c:v copy -af "loudnorm=I=-14:TP=-1.0:L
 Then copy `out/reel.mp4` → `content/<id>/reel.mp4`, extract `cover.jpg` at `cover_ms`, and keep the sources in
 `content/<id>/source/` (scenes.tsx, script_display.txt, script_tts.txt, keys.json, bed.json, timeline.json).
 Never commit node_modules, out/ or wav files.
+
+## Realistic skin (Gurkan, 2026-11-09)
+Whenever the skin itself is shown, use `src/realskin.tsx` instead of flat blocks: `SkinSection` (cellular cross-section with
+rete ridges, capillary loops, collagen, vessel with red blood cells, optional follicles + oil glands, melanocytes/melanin),
+`SkinMacro` (textured close-up of the surface: mottling, pores, fine lines, blotchy redness, irregular spots) and
+`RealPlane` (perspective skin floor with micro-relief instead of the tile grid of `SkinPlane`). Save realskin.tsx in
+`content/<id>/source/` with scenes.tsx.
 
 ## Gotchas learned the hard way
 - Never let two sentences run together (Gurkan noticed "UV. UVB" glued). tts_cloud.py synthesises each sentence alone.
