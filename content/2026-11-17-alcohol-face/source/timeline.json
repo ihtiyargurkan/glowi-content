@@ -1,0 +1,1207 @@
+{
+ "words": [
+  {
+   "text": "Why",
+   "start": 0.018,
+   "end": 0.19,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "does",
+   "start": 0.19,
+   "end": 0.361,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "start": 0.361,
+   "end": 0.533,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "night",
+   "start": 0.533,
+   "end": 0.705,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "of",
+   "start": 0.705,
+   "end": 0.876,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "drinking",
+   "start": 0.876,
+   "end": 1.18,
+   "key": true,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "show",
+   "start": 1.18,
+   "end": 1.351,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "up",
+   "start": 1.351,
+   "end": 1.523,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "on",
+   "start": 1.523,
+   "end": 1.695,
+   "key": false,
+   "s": 0,
+   "line": 2
+  },
+  {
+   "text": "your",
+   "start": 1.695,
+   "end": 1.866,
+   "key": false,
+   "s": 0,
+   "line": 2
+  },
+  {
+   "text": "face?",
+   "start": 1.866,
+   "end": 2.17,
+   "key": true,
+   "s": 0,
+   "line": 2
+  },
+  {
+   "text": "Most",
+   "start": 2.75,
+   "end": 2.959,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "people",
+   "start": 2.959,
+   "end": 3.328,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "blame",
+   "start": 3.328,
+   "end": 3.696,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "dehydration.",
+   "start": 3.696,
+   "end": 4.386,
+   "key": true,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "That's",
+   "start": 4.801,
+   "end": 4.981,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "only",
+   "start": 4.981,
+   "end": 5.299,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "part",
+   "start": 5.299,
+   "end": 5.478,
+   "key": true,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "of",
+   "start": 5.478,
+   "end": 5.658,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "the",
+   "start": 5.658,
+   "end": 5.838,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "story.",
+   "start": 5.838,
+   "end": 6.156,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "When",
+   "start": 6.749,
+   "end": 6.95,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "your",
+   "start": 6.95,
+   "end": 7.152,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "body",
+   "start": 7.152,
+   "end": 7.509,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "breaks",
+   "start": 7.509,
+   "end": 7.711,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "alcohol",
+   "start": 7.711,
+   "end": 8.224,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "down,",
+   "start": 8.224,
+   "end": 8.426,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "it",
+   "start": 8.716,
+   "end": 8.906,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "makes",
+   "start": 8.906,
+   "end": 9.242,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "a",
+   "start": 9.242,
+   "end": 9.432,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "harsh",
+   "start": 9.432,
+   "end": 9.622,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "byproduct.",
+   "start": 9.622,
+   "end": 10.104,
+   "key": true,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "It",
+   "start": 10.513,
+   "end": 10.703,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "opens",
+   "start": 10.703,
+   "end": 11.041,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "up",
+   "start": 11.041,
+   "end": 11.232,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "the",
+   "start": 11.232,
+   "end": 11.422,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "tiny",
+   "start": 11.422,
+   "end": 11.76,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "blood",
+   "start": 11.76,
+   "end": 11.951,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "vessels",
+   "start": 11.951,
+   "end": 12.288,
+   "key": true,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "in",
+   "start": 12.288,
+   "end": 12.479,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "your",
+   "start": 12.479,
+   "end": 12.67,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "skin,",
+   "start": 12.67,
+   "end": 12.861,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "so",
+   "start": 13.179,
+   "end": 13.396,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "your",
+   "start": 13.396,
+   "end": 13.613,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "face",
+   "start": 13.613,
+   "end": 13.996,
+   "key": true,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "flushes",
+   "start": 13.996,
+   "end": 14.38,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "red.",
+   "start": 14.38,
+   "end": 14.597,
+   "key": true,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "Alcohol",
+   "start": 15.172,
+   "end": 15.729,
+   "key": false,
+   "s": 3,
+   "line": 10
+  },
+  {
+   "text": "also",
+   "start": 15.729,
+   "end": 16.118,
+   "key": false,
+   "s": 3,
+   "line": 10
+  },
+  {
+   "text": "mutes",
+   "start": 16.118,
+   "end": 16.507,
+   "key": false,
+   "s": 3,
+   "line": 10
+  },
+  {
+   "text": "the",
+   "start": 16.507,
+   "end": 16.726,
+   "key": false,
+   "s": 3,
+   "line": 10
+  },
+  {
+   "text": "signal",
+   "start": 16.726,
+   "end": 17.115,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "that",
+   "start": 17.115,
+   "end": 17.335,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "tells",
+   "start": 17.335,
+   "end": 17.554,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "your",
+   "start": 17.554,
+   "end": 17.774,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "kidneys",
+   "start": 17.774,
+   "end": 18.163,
+   "key": true,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "to",
+   "start": 18.163,
+   "end": 18.382,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "hold",
+   "start": 18.382,
+   "end": 18.602,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "water.",
+   "start": 18.602,
+   "end": 18.99,
+   "key": true,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "You",
+   "start": 19.382,
+   "end": 19.588,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "lose",
+   "start": 19.588,
+   "end": 19.953,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "fluid,",
+   "start": 19.953,
+   "end": 20.159,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "and",
+   "start": 20.422,
+   "end": 20.639,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "your",
+   "start": 20.639,
+   "end": 20.855,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "sleep",
+   "start": 20.855,
+   "end": 21.071,
+   "key": true,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "turns",
+   "start": 21.071,
+   "end": 21.287,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "light",
+   "start": 21.287,
+   "end": 21.503,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "and",
+   "start": 21.503,
+   "end": 21.719,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "broken.",
+   "start": 21.719,
+   "end": 22.101,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "In",
+   "start": 22.686,
+   "end": 22.934,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "a",
+   "start": 22.934,
+   "end": 23.182,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "survey",
+   "start": 23.182,
+   "end": 23.62,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "of",
+   "start": 23.62,
+   "end": 23.867,
+   "key": false,
+   "s": 4,
+   "line": 16
+  },
+  {
+   "text": "3,267",
+   "start": 23.867,
+   "end": 24.439,
+   "key": true,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "women",
+   "start": 24.439,
+   "end": 24.877,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "in",
+   "start": 24.877,
+   "end": 25.125,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "four",
+   "start": 25.125,
+   "end": 25.372,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "countries,",
+   "start": 25.372,
+   "end": 25.81,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "those",
+   "start": 25.81,
+   "end": 26.248,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "who",
+   "start": 26.248,
+   "end": 26.496,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "had",
+   "start": 26.496,
+   "end": 26.744,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "8",
+   "start": 26.744,
+   "end": 27.315,
+   "key": true,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "or",
+   "start": 27.315,
+   "end": 27.563,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "more",
+   "start": 27.563,
+   "end": 28.001,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "drinks",
+   "start": 28.001,
+   "end": 28.248,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "a",
+   "start": 28.248,
+   "end": 28.496,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "week",
+   "start": 28.496,
+   "end": 28.744,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "showed",
+   "start": 28.744,
+   "end": 29.182,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "more",
+   "start": 29.182,
+   "end": 29.62,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "under-eye",
+   "start": 29.62,
+   "end": 30.248,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "puffiness",
+   "start": 30.248,
+   "end": 30.877,
+   "key": true,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "and",
+   "start": 30.877,
+   "end": 31.125,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "more",
+   "start": 31.125,
+   "end": 31.563,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "visible",
+   "start": 31.563,
+   "end": 32.191,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "blood",
+   "start": 32.191,
+   "end": 32.439,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "vessels.",
+   "start": 32.439,
+   "end": 32.877,
+   "key": true,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "It's",
+   "start": 33.458,
+   "end": 33.689,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "a",
+   "start": 33.689,
+   "end": 33.92,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "link,",
+   "start": 33.92,
+   "end": 34.151,
+   "key": true,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "not",
+   "start": 34.151,
+   "end": 34.382,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "proof.",
+   "start": 34.382,
+   "end": 34.612,
+   "key": true,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "But",
+   "start": 35.019,
+   "end": 35.225,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "it",
+   "start": 35.225,
+   "end": 35.432,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "fits",
+   "start": 35.432,
+   "end": 35.639,
+   "key": true,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "what",
+   "start": 35.639,
+   "end": 35.845,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "alcohol",
+   "start": 35.845,
+   "end": 36.37,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "does",
+   "start": 36.37,
+   "end": 36.576,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "to",
+   "start": 36.576,
+   "end": 36.783,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "your",
+   "start": 36.783,
+   "end": 36.99,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "vessels",
+   "start": 36.99,
+   "end": 37.355,
+   "key": true,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "and",
+   "start": 37.355,
+   "end": 37.562,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "your",
+   "start": 37.562,
+   "end": 37.768,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "sleep.",
+   "start": 37.768,
+   "end": 37.975,
+   "key": true,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "You",
+   "start": 38.552,
+   "end": 38.725,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "don't",
+   "start": 38.725,
+   "end": 38.899,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "have",
+   "start": 38.899,
+   "end": 39.206,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "to",
+   "start": 39.206,
+   "end": 39.379,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "quit.",
+   "start": 39.379,
+   "end": 39.553,
+   "key": true,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "Drink",
+   "start": 39.963,
+   "end": 40.2,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "less,",
+   "start": 40.2,
+   "end": 40.438,
+   "key": true,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "sip",
+   "start": 40.438,
+   "end": 40.676,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "water",
+   "start": 40.676,
+   "end": 41.096,
+   "key": true,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "between",
+   "start": 41.096,
+   "end": 41.517,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "glasses,",
+   "start": 41.517,
+   "end": 41.937,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "and",
+   "start": 41.937,
+   "end": 42.175,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "finish",
+   "start": 42.175,
+   "end": 42.595,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "your",
+   "start": 42.595,
+   "end": 42.833,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "last",
+   "start": 42.833,
+   "end": 43.071,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "drink",
+   "start": 43.071,
+   "end": 43.308,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "well",
+   "start": 43.308,
+   "end": 43.546,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "before",
+   "start": 43.546,
+   "end": 44.149,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "bed.",
+   "start": 44.149,
+   "end": 44.387,
+   "key": true,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "Your",
+   "start": 44.985,
+   "end": 45.17,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "face",
+   "start": 45.17,
+   "end": 45.499,
+   "key": true,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "keeps",
+   "start": 45.499,
+   "end": 45.685,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "a",
+   "start": 45.685,
+   "end": 45.871,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "record",
+   "start": 45.871,
+   "end": 46.199,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "of",
+   "start": 46.199,
+   "end": 46.385,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "the",
+   "start": 46.385,
+   "end": 46.571,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "weekend.",
+   "start": 46.571,
+   "end": 46.9,
+   "key": true,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "Glowi",
+   "start": 47.305,
+   "end": 47.633,
+   "key": true,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "helps",
+   "start": 47.633,
+   "end": 47.819,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "you",
+   "start": 47.819,
+   "end": 48.005,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "see",
+   "start": 48.005,
+   "end": 48.191,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "the",
+   "start": 48.191,
+   "end": 48.376,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "pattern.",
+   "start": 48.376,
+   "end": 48.705,
+   "key": false,
+   "s": 7,
+   "line": 34
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.018,
+   "end": 2.17
+  },
+  {
+   "start": 2.75,
+   "end": 6.156
+  },
+  {
+   "start": 6.749,
+   "end": 14.597
+  },
+  {
+   "start": 15.172,
+   "end": 22.101
+  },
+  {
+   "start": 22.686,
+   "end": 32.877
+  },
+  {
+   "start": 33.458,
+   "end": 37.975
+  },
+  {
+   "start": 38.552,
+   "end": 44.387
+  },
+  {
+   "start": 44.985,
+   "end": 48.705
+  }
+ ],
+ "voEnd": 48.705
+}
