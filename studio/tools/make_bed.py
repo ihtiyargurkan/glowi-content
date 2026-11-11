@@ -29,21 +29,21 @@ for k in np.arange(0.5, end-1, 0.857):
         tt = np.arange(L)/sr
         pulse[i0:i0+L] += np.sin(2*np.pi*55*tt) * np.exp(-tt*18)
 pad += pulse * 0.05
-# --- whooshes at scene changes
-def whoosh(at, dur=0.55, gain=0.16):
-    L = int(dur*sr); i0 = int((at - dur*0.6)*sr)
-    if i0 < 0: return
-    n = rng.standard_normal(L)
-    # crude band sweep: moving average with shrinking window
-    out = np.zeros(L); acc = 0
-    win = np.linspace(40, 6, L).astype(int)
-    cs = np.cumsum(np.concatenate([[0], n]))
-    for j in range(L):
-        a = max(0, j - win[j]); out[j] = (cs[j+1] - cs[a]) / (j + 1 - a)
-    e = np.sin(np.pi*np.linspace(0,1,L))**2
-    pad[i0:i0+L] += out * e * gain * 4
+# --- scene-change transition sound (Gurkan, 2026-11-11): public/sfx/transition.mp3
+#     "cinematic flashback transition" sample, its loudest moment (~0.85 s in) placed on the
+#     visual zoom-through midpoint (scene bound - 0.18 s). Stereo, added on top of the mono bed.
+import subprocess
+_raw = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', 'public/sfx/transition.mp3', '-ac', '2', '-ar', str(sr), '-f', 'f32le', '-'], capture_output=True, check=True).stdout
+TR = np.frombuffer(_raw, dtype=np.float32).reshape(-1, 2).astype(np.float64)
+TR_PEAK = int(np.argmax(np.abs(TR).max(1)))          # sample index of the hit
+TR = TR / np.abs(TR).max() * cfg.get('transitionGain', 0.24)
+trans = np.zeros((N, 2))
+def transition(at):
+    i0 = int(at * sr) - TR_PEAK
+    a = max(0, i0); b = min(N, i0 + len(TR))
+    if b > a: trans[a:b] += TR[a - i0:b - i0]
 bounds = [S[i] for i in cfg['boundSentences']]
-for b in bounds: whoosh(b - 0.18)
+for b in bounds: transition(b - 0.18)
 # --- chimes on data moments
 def chime(at, f0=880, gain=0.10):
     L = int(1.4*sr); i0 = int(at*sr); tt = np.arange(L)/sr
@@ -54,8 +54,7 @@ chime(cue('Glowi'), 1318, 0.12); chime(cue('Glowi')+0.12, 1760, 0.07)
 for c in cfg.get('ticks', []):
     L = int(0.08*sr); i0 = int(cue(c)*sr)
     pad[i0:i0+L] += rng.standard_normal(L) * np.exp(-np.arange(L)/sr*60) * 0.12
-pad = np.clip(pad, -1, 1)
-st = np.stack([pad, pad], 1)
+st = np.clip(np.stack([pad, pad], 1) + trans, -1, 1)
 with wave.open('public/bed.wav', 'wb') as w:
     w.setnchannels(2); w.setsampwidth(2); w.setframerate(sr)
     w.writeframes((st*32767).astype(np.int16).tobytes())

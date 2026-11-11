@@ -11,7 +11,7 @@ Bu rehber References klasöründeki 4 videonun analizinden çıkarıldı. Refera
 - Konuşma hızı yaklaşık 2,6–2,8 kelime/sn
 - Her cümlede yeni bir görsel fikir gelir; sahneler 3–7 sn sürer
 - Sahne içinde kamera hep yavaşça hareket eder (push-in ya da pull-out); ekran hiç durmaz
-- Sahne geçişleri sert kesme değil, "zoom-through" (ölçek + blur + crossfade, yaklaşık 0,4 sn) ve whoosh sesiyle yapılır
+- Sahne geçişleri sert kesme değil, "zoom-through" (ölçek + blur + crossfade, yaklaşık 0,4 sn) ve geçiş sesiyle yapılır: public/sfx/transition.mp3 (cinematic flashback transition), sesin en güçlü anı geçişin ortasına denk gelir (Gurkan, 11 Kasım 2026)
 - Kurgu: hook sorusu → yanlış inanışı çürütme ("not just time") → mekanizma (2–3 sahne) → sayısal kanıt → uygulanabilir çözüm → açılış görseline dönen döngü → marka
 
 ## Seslendirme

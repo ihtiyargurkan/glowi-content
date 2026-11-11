@@ -25,7 +25,7 @@ python3 tools/tts_cloud.py tools/script_tts.txt tools/script_display.txt tools/v
 python3 tools/hook_boost.py tools/vo_raw.wav tools/aligned.json 1.0 6.0 1.0   # Gurkan (2026-11-09): hook line louder (+6 dB), brighter (+1 st); NOT faster (normal speed)
 python3 tools/build_timeline2.py tools/aligned.json src/timeline.json tools/keys.json   # prints caption lines
 ffmpeg -loglevel error -y -i tools/vo_raw.wav -af "loudnorm=I=-16:TP=-1.5:LRA=11" -ar 48000 public/vo.wav
-python3 tools/make_bed.py                       # ambient bed + whooshes + chimes → public/bed.wav
+python3 tools/make_bed.py                       # ambient bed + transition sfx + chimes → public/bed.wav
 # 3. write src/scenes.tsx (export SCENES and bounds, see the bottom of the current file), then
 npx tsc -p .
 COMP=GlowiReel node tools/stills.mjs 30 120 300 ...     # half-res stills into out/stills/
@@ -47,6 +47,11 @@ rete ridges, capillary loops, collagen, vessel with red blood cells, optional fo
 `SkinMacro` (textured close-up of the surface: mottling, pores, fine lines, blotchy redness, irregular spots) and
 `RealPlane` (perspective skin floor with micro-relief instead of the tile grid of `SkinPlane`). Save realskin.tsx in
 `content/<id>/source/` with scenes.tsx.
+
+## Scene-transition sound (Gurkan, 2026-11-11)
+Every scene change uses `public/sfx/transition.mp3` (cinematic flashback transition), not a synthesized whoosh.
+`tools/make_bed.py` places its loudest moment on the zoom-through midpoint (scene bound − 0.18 s), about 2 dB
+under the voice (`transitionGain` 0.24 in bed.json overrides). Use it in every new video.
 
 ## Gotchas learned the hard way
 - Never let two sentences run together (Gurkan noticed "UV. UVB" glued). tts_cloud.py synthesises each sentence alone.
