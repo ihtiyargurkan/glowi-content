@@ -1,0 +1,1143 @@
+{
+ "words": [
+  {
+   "text": "Why",
+   "start": 0.018,
+   "end": 0.194,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "do",
+   "start": 0.194,
+   "end": 0.369,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "start": 0.369,
+   "end": 0.545,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "fingers",
+   "start": 0.545,
+   "end": 0.855,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "wrinkle",
+   "start": 0.855,
+   "end": 1.165,
+   "key": true,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "in",
+   "start": 1.165,
+   "end": 1.341,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "the",
+   "start": 1.341,
+   "end": 1.516,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "bath?",
+   "start": 1.516,
+   "end": 1.691,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "For",
+   "start": 2.284,
+   "end": 2.542,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "years,",
+   "start": 2.542,
+   "end": 2.8,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "people",
+   "start": 2.982,
+   "end": 3.354,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "thought",
+   "start": 3.354,
+   "end": 3.564,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "your",
+   "start": 3.564,
+   "end": 3.775,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "skin",
+   "start": 3.775,
+   "end": 3.985,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "just",
+   "start": 3.985,
+   "end": 4.195,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "soaks",
+   "start": 4.195,
+   "end": 4.406,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "up",
+   "start": 4.406,
+   "end": 4.616,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "water",
+   "start": 4.616,
+   "end": 4.988,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "and",
+   "start": 4.988,
+   "end": 5.199,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "swells.",
+   "start": 5.199,
+   "end": 5.409,
+   "key": true,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "That's",
+   "start": 5.813,
+   "end": 6.022,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "only",
+   "start": 6.022,
+   "end": 6.392,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "the",
+   "start": 6.392,
+   "end": 6.601,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "first",
+   "start": 6.601,
+   "end": 6.81,
+   "key": true,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "step.",
+   "start": 6.81,
+   "end": 7.019,
+   "key": false,
+   "s": 1,
+   "line": 5
+  },
+  {
+   "text": "The",
+   "start": 7.612,
+   "end": 7.767,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "wrinkles",
+   "start": 7.767,
+   "end": 8.04,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "are",
+   "start": 8.04,
+   "end": 8.314,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "made",
+   "start": 8.314,
+   "end": 8.588,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "by",
+   "start": 8.588,
+   "end": 8.742,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "your",
+   "start": 8.742,
+   "end": 8.897,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "nerves.",
+   "start": 8.897,
+   "end": 9.17,
+   "key": true,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "They",
+   "start": 9.568,
+   "end": 9.764,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "tell",
+   "start": 9.764,
+   "end": 9.959,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "the",
+   "start": 9.959,
+   "end": 10.154,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "blood",
+   "start": 10.154,
+   "end": 10.35,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "vessels",
+   "start": 10.35,
+   "end": 10.695,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "under",
+   "start": 10.695,
+   "end": 11.041,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "your",
+   "start": 11.041,
+   "end": 11.236,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "fingertips",
+   "start": 11.236,
+   "end": 11.732,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "to",
+   "start": 11.732,
+   "end": 11.927,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "tighten,",
+   "start": 11.927,
+   "end": 12.273,
+   "key": true,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "and",
+   "start": 12.732,
+   "end": 12.937,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "the",
+   "start": 12.937,
+   "end": 13.141,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "skin",
+   "start": 13.141,
+   "end": 13.345,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "above",
+   "start": 13.345,
+   "end": 13.864,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "them",
+   "start": 13.864,
+   "end": 14.068,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "folds",
+   "start": 14.068,
+   "end": 14.272,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "into",
+   "start": 14.272,
+   "end": 14.633,
+   "key": false,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "ridges.",
+   "start": 14.633,
+   "end": 14.995,
+   "key": true,
+   "s": 2,
+   "line": 11
+  },
+  {
+   "text": "Researchers",
+   "start": 15.581,
+   "end": 16.174,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "have",
+   "start": 16.174,
+   "end": 16.588,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "known",
+   "start": 16.588,
+   "end": 16.822,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "since",
+   "start": 16.822,
+   "end": 17.236,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "the",
+   "start": 17.236,
+   "end": 17.47,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "1930s",
+   "start": 17.47,
+   "end": 17.704,
+   "key": true,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "that",
+   "start": 17.704,
+   "end": 17.937,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "a",
+   "start": 17.937,
+   "end": 18.171,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "finger",
+   "start": 18.171,
+   "end": 18.585,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "with",
+   "start": 18.585,
+   "end": 18.819,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "damaged",
+   "start": 18.819,
+   "end": 19.413,
+   "key": true,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "nerves",
+   "start": 19.413,
+   "end": 19.827,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "doesn't",
+   "start": 19.827,
+   "end": 20.06,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "wrinkle",
+   "start": 20.06,
+   "end": 20.474,
+   "key": true,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "at",
+   "start": 20.474,
+   "end": 20.708,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "all.",
+   "start": 20.708,
+   "end": 20.942,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "Swelling",
+   "start": 21.342,
+   "end": 21.683,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "alone",
+   "start": 21.683,
+   "end": 22.172,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "can't",
+   "start": 22.172,
+   "end": 22.365,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "explain",
+   "start": 22.365,
+   "end": 22.706,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "that.",
+   "start": 22.706,
+   "end": 22.898,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "So",
+   "start": 23.488,
+   "end": 23.719,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "why",
+   "start": 23.719,
+   "end": 23.951,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "bother?",
+   "start": 23.951,
+   "end": 24.361,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "The",
+   "start": 24.778,
+   "end": 24.97,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "ridges",
+   "start": 24.97,
+   "end": 25.308,
+   "key": true,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "may",
+   "start": 25.308,
+   "end": 25.499,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "work",
+   "start": 25.499,
+   "end": 25.691,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "like",
+   "start": 25.691,
+   "end": 26.029,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "tire",
+   "start": 26.029,
+   "end": 26.367,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "treads,",
+   "start": 26.367,
+   "end": 26.559,
+   "key": true,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "channeling",
+   "start": 26.87,
+   "end": 27.342,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "water",
+   "start": 27.342,
+   "end": 27.671,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "away",
+   "start": 27.671,
+   "end": 27.999,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "so",
+   "start": 27.999,
+   "end": 28.185,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "you",
+   "start": 28.185,
+   "end": 28.371,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "can",
+   "start": 28.371,
+   "end": 28.557,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "grip.",
+   "start": 28.557,
+   "end": 28.742,
+   "key": true,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "In",
+   "start": 29.318,
+   "end": 29.513,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "one",
+   "start": 29.513,
+   "end": 29.857,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "test,",
+   "start": 29.857,
+   "end": 30.052,
+   "key": false,
+   "s": 5,
+   "line": 22
+  },
+  {
+   "text": "20",
+   "start": 30.325,
+   "end": 30.73,
+   "key": true,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "volunteers",
+   "start": 30.73,
+   "end": 31.176,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "soaked",
+   "start": 31.176,
+   "end": 31.486,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "their",
+   "start": 31.486,
+   "end": 31.662,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "hands",
+   "start": 31.662,
+   "end": 31.838,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "for",
+   "start": 31.838,
+   "end": 32.013,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "30",
+   "start": 32.013,
+   "end": 32.418,
+   "key": true,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "minutes.",
+   "start": 32.418,
+   "end": 32.864,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "With",
+   "start": 33.264,
+   "end": 33.488,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "wrinkled",
+   "start": 33.488,
+   "end": 33.885,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "fingers,",
+   "start": 33.885,
+   "end": 34.282,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "they",
+   "start": 34.599,
+   "end": 34.833,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "moved",
+   "start": 34.833,
+   "end": 35.247,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "wet",
+   "start": 35.247,
+   "end": 35.481,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "marbles",
+   "start": 35.481,
+   "end": 35.895,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "12%",
+   "start": 35.895,
+   "end": 36.436,
+   "key": true,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "faster.",
+   "start": 36.436,
+   "end": 36.85,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "So",
+   "start": 37.442,
+   "end": 37.626,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "pruney",
+   "start": 37.626,
+   "end": 37.952,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "fingers",
+   "start": 37.952,
+   "end": 38.277,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "aren't",
+   "start": 38.277,
+   "end": 38.603,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "damage.",
+   "start": 38.603,
+   "end": 39.069,
+   "key": true,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "They're",
+   "start": 39.473,
+   "end": 39.799,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "your",
+   "start": 39.799,
+   "end": 39.983,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "nerves",
+   "start": 39.983,
+   "end": 40.309,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "doing",
+   "start": 40.309,
+   "end": 40.493,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "their",
+   "start": 40.493,
+   "end": 40.677,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "job.",
+   "start": 40.677,
+   "end": 40.861,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "After",
+   "start": 41.284,
+   "end": 41.639,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "a",
+   "start": 41.639,
+   "end": 41.839,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "long",
+   "start": 41.839,
+   "end": 42.04,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "soak,",
+   "start": 42.04,
+   "end": 42.24,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "pat",
+   "start": 42.468,
+   "end": 42.706,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "dry",
+   "start": 42.706,
+   "end": 42.944,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "and",
+   "start": 42.944,
+   "end": 43.182,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "moisturize.",
+   "start": 43.182,
+   "end": 43.968,
+   "key": true,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "Your",
+   "start": 44.548,
+   "end": 44.794,
+   "key": false,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "skin",
+   "start": 44.794,
+   "end": 45.041,
+   "key": false,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "is",
+   "start": 45.041,
+   "end": 45.287,
+   "key": false,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "always",
+   "start": 45.287,
+   "end": 45.723,
+   "key": false,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "reacting.",
+   "start": 45.723,
+   "end": 46.159,
+   "key": false,
+   "s": 7,
+   "line": 31
+  },
+  {
+   "text": "Glowi",
+   "start": 46.569,
+   "end": 46.961,
+   "key": true,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "helps",
+   "start": 46.961,
+   "end": 47.183,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "you",
+   "start": 47.183,
+   "end": 47.404,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "read",
+   "start": 47.404,
+   "end": 47.626,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "the",
+   "start": 47.626,
+   "end": 47.847,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "signs.",
+   "start": 47.847,
+   "end": 48.069,
+   "key": true,
+   "s": 7,
+   "line": 32
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.018,
+   "end": 1.691
+  },
+  {
+   "start": 2.284,
+   "end": 7.019
+  },
+  {
+   "start": 7.612,
+   "end": 14.995
+  },
+  {
+   "start": 15.581,
+   "end": 22.898
+  },
+  {
+   "start": 23.488,
+   "end": 28.742
+  },
+  {
+   "start": 29.318,
+   "end": 36.85
+  },
+  {
+   "start": 37.442,
+   "end": 43.968
+  },
+  {
+   "start": 44.548,
+   "end": 48.069
+  }
+ ],
+ "voEnd": 48.069
+}

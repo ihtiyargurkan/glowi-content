@@ -1,0 +1,1255 @@
+{
+ "words": [
+  {
+   "text": "Does",
+   "start": 0.017,
+   "end": 0.215,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "start": 0.215,
+   "end": 0.413,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "morning",
+   "start": 0.413,
+   "end": 0.764,
+   "key": false,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "coffee",
+   "start": 0.764,
+   "end": 1.114,
+   "key": true,
+   "s": 0,
+   "line": 0
+  },
+  {
+   "text": "dry",
+   "start": 1.114,
+   "end": 1.312,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "out",
+   "start": 1.312,
+   "end": 1.51,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "your",
+   "start": 1.51,
+   "end": 1.708,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "skin?",
+   "start": 1.708,
+   "end": 1.906,
+   "key": false,
+   "s": 0,
+   "line": 1
+  },
+  {
+   "text": "Coffee",
+   "start": 2.485,
+   "end": 2.842,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "is",
+   "start": 2.842,
+   "end": 3.043,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "famous",
+   "start": 3.043,
+   "end": 3.399,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "for",
+   "start": 3.399,
+   "end": 3.6,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "dehydrating",
+   "start": 3.6,
+   "end": 4.267,
+   "key": true,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "you.",
+   "start": 4.267,
+   "end": 4.468,
+   "key": false,
+   "s": 1,
+   "line": 2
+  },
+  {
+   "text": "For",
+   "start": 4.875,
+   "end": 5.072,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "regular",
+   "start": 5.072,
+   "end": 5.57,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "drinkers,",
+   "start": 5.57,
+   "end": 5.918,
+   "key": false,
+   "s": 1,
+   "line": 3
+  },
+  {
+   "text": "that's",
+   "start": 6.103,
+   "end": 6.284,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "mostly",
+   "start": 6.284,
+   "end": 6.606,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "a",
+   "start": 6.606,
+   "end": 6.787,
+   "key": false,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "myth.",
+   "start": 6.787,
+   "end": 6.969,
+   "key": true,
+   "s": 1,
+   "line": 4
+  },
+  {
+   "text": "Only",
+   "start": 7.638,
+   "end": 8.019,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "big",
+   "start": 8.019,
+   "end": 8.235,
+   "key": true,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "doses",
+   "start": 8.235,
+   "end": 8.617,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "of",
+   "start": 8.617,
+   "end": 8.832,
+   "key": false,
+   "s": 2,
+   "line": 5
+  },
+  {
+   "text": "caffeine",
+   "start": 8.832,
+   "end": 9.38,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "make",
+   "start": 9.38,
+   "end": 9.761,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "your",
+   "start": 9.761,
+   "end": 9.977,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "kidneys",
+   "start": 9.977,
+   "end": 10.359,
+   "key": false,
+   "s": 2,
+   "line": 6
+  },
+  {
+   "text": "flush",
+   "start": 10.359,
+   "end": 10.574,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "out",
+   "start": 10.574,
+   "end": 10.79,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "extra",
+   "start": 10.79,
+   "end": 11.172,
+   "key": false,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "water.",
+   "start": 11.172,
+   "end": 11.553,
+   "key": true,
+   "s": 2,
+   "line": 7
+  },
+  {
+   "text": "Daily",
+   "start": 11.96,
+   "end": 12.324,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "drinkers",
+   "start": 12.324,
+   "end": 12.687,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "build",
+   "start": 12.687,
+   "end": 12.893,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "a",
+   "start": 12.893,
+   "end": 13.098,
+   "key": false,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "tolerance,",
+   "start": 13.098,
+   "end": 13.778,
+   "key": true,
+   "s": 2,
+   "line": 8
+  },
+  {
+   "text": "and",
+   "start": 14.113,
+   "end": 14.289,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "a",
+   "start": 14.289,
+   "end": 14.465,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "mug",
+   "start": 14.465,
+   "end": 14.641,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "of",
+   "start": 14.641,
+   "end": 14.817,
+   "key": false,
+   "s": 2,
+   "line": 9
+  },
+  {
+   "text": "coffee",
+   "start": 14.817,
+   "end": 15.129,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "is",
+   "start": 15.129,
+   "end": 15.305,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "mostly",
+   "start": 15.305,
+   "end": 15.616,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "water",
+   "start": 15.616,
+   "end": 15.928,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "anyway.",
+   "start": 15.928,
+   "end": 16.375,
+   "key": false,
+   "s": 2,
+   "line": 10
+  },
+  {
+   "text": "In",
+   "start": 16.968,
+   "end": 17.176,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "a",
+   "start": 17.176,
+   "end": 17.383,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "study",
+   "start": 17.383,
+   "end": 17.751,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "of",
+   "start": 17.751,
+   "end": 17.959,
+   "key": false,
+   "s": 3,
+   "line": 11
+  },
+  {
+   "text": "50",
+   "start": 17.959,
+   "end": 18.438,
+   "key": true,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "men",
+   "start": 18.438,
+   "end": 18.646,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "who",
+   "start": 18.646,
+   "end": 18.854,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "drink",
+   "start": 18.854,
+   "end": 19.061,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "coffee",
+   "start": 19.061,
+   "end": 19.429,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "daily,",
+   "start": 19.429,
+   "end": 19.796,
+   "key": false,
+   "s": 3,
+   "line": 12
+  },
+  {
+   "text": "4",
+   "start": 19.796,
+   "end": 20.276,
+   "key": true,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "mugs",
+   "start": 20.276,
+   "end": 20.484,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "a",
+   "start": 20.484,
+   "end": 20.691,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "day",
+   "start": 20.691,
+   "end": 20.899,
+   "key": false,
+   "s": 3,
+   "line": 13
+  },
+  {
+   "text": "kept",
+   "start": 20.899,
+   "end": 21.107,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "them",
+   "start": 21.107,
+   "end": 21.315,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "just",
+   "start": 21.315,
+   "end": 21.522,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "as",
+   "start": 21.522,
+   "end": 21.73,
+   "key": false,
+   "s": 3,
+   "line": 14
+  },
+  {
+   "text": "hydrated",
+   "start": 21.73,
+   "end": 22.258,
+   "key": true,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "as",
+   "start": 22.258,
+   "end": 22.465,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "the",
+   "start": 22.465,
+   "end": 22.673,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "same",
+   "start": 22.673,
+   "end": 23.041,
+   "key": false,
+   "s": 3,
+   "line": 15
+  },
+  {
+   "text": "amount",
+   "start": 23.041,
+   "end": 23.408,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "of",
+   "start": 23.408,
+   "end": 23.616,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "water.",
+   "start": 23.616,
+   "end": 23.984,
+   "key": false,
+   "s": 3,
+   "line": 16
+  },
+  {
+   "text": "The",
+   "start": 24.568,
+   "end": 24.788,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "real",
+   "start": 24.788,
+   "end": 25.008,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "catch",
+   "start": 25.008,
+   "end": 25.228,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "is",
+   "start": 25.228,
+   "end": 25.448,
+   "key": false,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "timing.",
+   "start": 25.448,
+   "end": 25.837,
+   "key": true,
+   "s": 4,
+   "line": 17
+  },
+  {
+   "text": "In",
+   "start": 26.242,
+   "end": 26.443,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "another",
+   "start": 26.443,
+   "end": 26.953,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "study,",
+   "start": 26.953,
+   "end": 27.309,
+   "key": false,
+   "s": 4,
+   "line": 18
+  },
+  {
+   "text": "a",
+   "start": 27.309,
+   "end": 27.51,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "big",
+   "start": 27.51,
+   "end": 27.711,
+   "key": true,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "dose",
+   "start": 27.711,
+   "end": 28.067,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "of",
+   "start": 28.067,
+   "end": 28.269,
+   "key": false,
+   "s": 4,
+   "line": 19
+  },
+  {
+   "text": "caffeine",
+   "start": 28.269,
+   "end": 28.779,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "taken",
+   "start": 28.779,
+   "end": 29.135,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "6",
+   "start": 29.135,
+   "end": 29.599,
+   "key": true,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "hours",
+   "start": 29.599,
+   "end": 29.8,
+   "key": false,
+   "s": 4,
+   "line": 20
+  },
+  {
+   "text": "before",
+   "start": 29.8,
+   "end": 30.311,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "bed",
+   "start": 30.311,
+   "end": 30.512,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "cut",
+   "start": 30.512,
+   "end": 30.713,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "sleep",
+   "start": 30.713,
+   "end": 30.914,
+   "key": false,
+   "s": 4,
+   "line": 21
+  },
+  {
+   "text": "by",
+   "start": 30.914,
+   "end": 31.116,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "more",
+   "start": 31.116,
+   "end": 31.471,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "than",
+   "start": 31.471,
+   "end": 31.673,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "an",
+   "start": 31.673,
+   "end": 31.874,
+   "key": false,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "hour.",
+   "start": 31.874,
+   "end": 32.075,
+   "key": true,
+   "s": 4,
+   "line": 22
+  },
+  {
+   "text": "And",
+   "start": 32.669,
+   "end": 32.856,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "a",
+   "start": 32.856,
+   "end": 33.043,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "sleepless",
+   "start": 33.043,
+   "end": 33.374,
+   "key": true,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "night",
+   "start": 33.374,
+   "end": 33.561,
+   "key": false,
+   "s": 5,
+   "line": 23
+  },
+  {
+   "text": "shows",
+   "start": 33.561,
+   "end": 33.748,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "on",
+   "start": 33.748,
+   "end": 33.935,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "your",
+   "start": 33.935,
+   "end": 34.122,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "face:",
+   "start": 34.122,
+   "end": 34.453,
+   "key": false,
+   "s": 5,
+   "line": 24
+  },
+  {
+   "text": "paler",
+   "start": 34.896,
+   "end": 35.407,
+   "key": true,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "skin,",
+   "start": 35.407,
+   "end": 35.695,
+   "key": false,
+   "s": 5,
+   "line": 25
+  },
+  {
+   "text": "darker",
+   "start": 35.925,
+   "end": 36.345,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "circles",
+   "start": 36.345,
+   "end": 36.765,
+   "key": true,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "and",
+   "start": 36.765,
+   "end": 37.002,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "puffier",
+   "start": 37.002,
+   "end": 37.423,
+   "key": true,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "eyes.",
+   "start": 37.423,
+   "end": 37.66,
+   "key": false,
+   "s": 5,
+   "line": 26
+  },
+  {
+   "text": "So",
+   "start": 38.243,
+   "end": 38.453,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "keep",
+   "start": 38.453,
+   "end": 38.663,
+   "key": true,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "your",
+   "start": 38.663,
+   "end": 38.873,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "coffee.",
+   "start": 38.873,
+   "end": 39.244,
+   "key": false,
+   "s": 6,
+   "line": 27
+  },
+  {
+   "text": "Have",
+   "start": 39.662,
+   "end": 39.981,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "your",
+   "start": 39.981,
+   "end": 40.162,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "last",
+   "start": 40.162,
+   "end": 40.342,
+   "key": true,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "cup",
+   "start": 40.342,
+   "end": 40.523,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "early,",
+   "start": 40.523,
+   "end": 40.842,
+   "key": false,
+   "s": 6,
+   "line": 28
+  },
+  {
+   "text": "at",
+   "start": 41.012,
+   "end": 41.173,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "least",
+   "start": 41.173,
+   "end": 41.335,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "6",
+   "start": 41.335,
+   "end": 41.707,
+   "key": true,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "hours",
+   "start": 41.707,
+   "end": 41.868,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "before",
+   "start": 41.868,
+   "end": 42.278,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "bed,",
+   "start": 42.278,
+   "end": 42.439,
+   "key": false,
+   "s": 6,
+   "line": 29
+  },
+  {
+   "text": "add",
+   "start": 42.889,
+   "end": 43.066,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "a",
+   "start": 43.066,
+   "end": 43.242,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "glass",
+   "start": 43.242,
+   "end": 43.418,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "of",
+   "start": 43.418,
+   "end": 43.594,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "water,",
+   "start": 43.594,
+   "end": 43.906,
+   "key": false,
+   "s": 6,
+   "line": 30
+  },
+  {
+   "text": "and",
+   "start": 44.033,
+   "end": 44.255,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "moisturize",
+   "start": 44.255,
+   "end": 44.989,
+   "key": true,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "after",
+   "start": 44.989,
+   "end": 45.382,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "you",
+   "start": 45.382,
+   "end": 45.604,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "wash.",
+   "start": 45.604,
+   "end": 45.826,
+   "key": false,
+   "s": 6,
+   "line": 31
+  },
+  {
+   "text": "Your",
+   "start": 46.402,
+   "end": 46.623,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "skin",
+   "start": 46.623,
+   "end": 46.844,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "isn't",
+   "start": 46.844,
+   "end": 47.065,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "afraid",
+   "start": 47.065,
+   "end": 47.456,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "of",
+   "start": 47.456,
+   "end": 47.677,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "coffee.",
+   "start": 47.677,
+   "end": 48.068,
+   "key": false,
+   "s": 7,
+   "line": 32
+  },
+  {
+   "text": "Glowi",
+   "start": 48.485,
+   "end": 48.854,
+   "key": true,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "helps",
+   "start": 48.854,
+   "end": 49.062,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "you",
+   "start": 49.062,
+   "end": 49.271,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "find",
+   "start": 49.271,
+   "end": 49.479,
+   "key": false,
+   "s": 7,
+   "line": 33
+  },
+  {
+   "text": "what",
+   "start": 49.479,
+   "end": 49.688,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "really",
+   "start": 49.688,
+   "end": 50.056,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "dries",
+   "start": 50.056,
+   "end": 50.265,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "it",
+   "start": 50.265,
+   "end": 50.473,
+   "key": false,
+   "s": 7,
+   "line": 34
+  },
+  {
+   "text": "out.",
+   "start": 50.473,
+   "end": 50.682,
+   "key": false,
+   "s": 7,
+   "line": 34
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.017,
+   "end": 1.906
+  },
+  {
+   "start": 2.485,
+   "end": 6.969
+  },
+  {
+   "start": 7.638,
+   "end": 16.375
+  },
+  {
+   "start": 16.968,
+   "end": 23.984
+  },
+  {
+   "start": 24.568,
+   "end": 32.075
+  },
+  {
+   "start": 32.669,
+   "end": 37.66
+  },
+  {
+   "start": 38.243,
+   "end": 45.826
+  },
+  {
+   "start": 46.402,
+   "end": 50.682
+  }
+ ],
+ "voEnd": 50.682
+}
